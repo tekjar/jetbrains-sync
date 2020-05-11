@@ -1,0 +1,29 @@
+<templateSet group="Rust">
+  <template name="devdeps" value="[dev-dependencies]&#10;argh = &quot;0.1&quot;&#10;prost = &quot;0.6&quot;&#10;pprof = { version = &quot;0.3&quot;, features = [&quot;flamegraph&quot;, &quot;protobuf&quot;] }&#10;tempfile = &quot;3&quot;&#10;pretty_assertions = &quot;0.6&quot;&#10;rand = &quot;0.7&quot;" description="cargo dev dependencies" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CMAKE" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="RUST_FILE" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+    </context>
+  </template>
+  <template name="argh" value="#[derive(FromArgs)]&#10;/// Reach new heights.&#10;struct CommandLine {&#10;    /// size of payload&#10;    #[argh(option, short = 'p', default = &quot;1024&quot;)]&#10;    payload_size: usize,&#10;    /// number of messages&#10;    #[argh(option, short = 'n', default = &quot;10*1024*1024&quot;)]&#10;    count: usize,&#10;}" description="argh structure" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
+</templateSet>

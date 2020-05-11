@@ -1,0 +1,381 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>connect(</entry>
+        <entry>remove</entry>
+        <entry>panic</entry>
+        <entry>h.</entry>
+        <entry>h\.</entry>
+        <entry>Error</entry>
+        <entry>thiserror</entry>
+        <entry>LinkError</entry>
+        <entry>IO</entry>
+        <entry>*</entry>
+        <entry>bridge</entry>
+        <entry>error!</entry>
+        <entry>received line</entry>
+        <entry>received</entry>
+        <entry>debug!</entry>
+        <entry>debug</entry>
+        <entry>Received</entry>
+        <entry>nee</entry>
+        <entry>need</entry>
+        <entry>Need</entry>
+      </history-search>
+      <history-cmd>
+        <entry>240</entry>
+        <entry>44</entry>
+        <entry>28</entry>
+        <entry>92</entry>
+        <entry>258</entry>
+        <entry>16</entry>
+        <entry>27</entry>
+        <entry>31</entry>
+        <entry>164</entry>
+        <entry>13</entry>
+        <entry>132</entry>
+        <entry>194</entry>
+        <entry>199</entry>
+        <entry>155</entry>
+        <entry>204</entry>
+        <entry>79</entry>
+        <entry>%s/LinkError/Error/gc</entry>
+        <entry>39</entry>
+        <entry>84</entry>
+        <entry>70</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed H</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/inmemoryread.rs" timestamp="1589016687938">
+        <mark key="[" line="1" column="3" />
+        <mark key="]" line="1" column="11" />
+        <mark key="." line="1" column="10" />
+        <mark key="^" line="1" column="11" />
+      </file>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/inmemorywrite.rs" timestamp="1589017087778">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="^" line="1" column="11" />
+        <mark key="." line="19" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/lib.rs" timestamp="1589052632720">
+        <mark key="'" line="199" column="14" />
+        <mark key="[" line="104" column="12" />
+        <mark key="]" line="104" column="15" />
+        <mark key="^" line="104" column="15" />
+        <mark key="." line="104" column="14" />
+      </file>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/benchmarks/logsbench.rs" timestamp="1589014877588">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/uplink/config/uplink.toml" timestamp="1589107468263">
+        <mark key="[" line="34" column="12" />
+        <mark key="]" line="34" column="12" />
+        <mark key="." line="34" column="12" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" timestamp="1589019429636">
+        <mark key="'" line="19" column="0" />
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="28" column="0" />
+        <mark key="." line="28" column="0" />
+        <mark key="^" line="6" column="30" />
+      </file>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/logsthroughput.rs" timestamp="1589014938849">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="21" column="47" />
+        <mark key="." line="5" column="0" />
+        <mark key="^" line="5" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/benchmarks/mod.rs" timestamp="1589014931048">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="31" column="47" />
+      </file>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/logs.rs" timestamp="1589018204866">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="32" column="1" />
+        <mark key="." line="32" column="0" />
+        <mark key="^" line="32" column="1" />
+      </file>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/src/volatile/mod.rs" timestamp="1589017847810">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/Cargo.toml" timestamp="1589017938116">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/benchmarks/logbench.rs" timestamp="1589018244025">
+        <mark key="[" line="1" column="3" />
+        <mark key="]" line="1" column="4" />
+        <mark key="." line="1" column="3" />
+        <mark key="^" line="1" column="4" />
+      </file>
+      <file name="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" timestamp="1589116617834">
+        <mark key="'" line="33" column="11" />
+        <mark key="[" line="25" column="55" />
+        <mark key="]" line="25" column="54" />
+        <mark key="." line="25" column="53" />
+        <mark key="^" line="25" column="54" />
+      </file>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/segmentthroughput.rs" timestamp="1589016739163">
+        <mark key="[" line="8" column="3" />
+        <mark key="]" line="8" column="11" />
+        <mark key="^" line="8" column="11" />
+        <mark key="." line="8" column="10" />
+      </file>
+      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/log.rs" timestamp="1589016838496">
+        <mark key="[" line="7" column="3" />
+        <mark key="]" line="7" column="11" />
+        <mark key="." line="7" column="10" />
+        <mark key="^" line="7" column="11" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1589220035843" />
+      <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/mqtt.rs" timestamp="1589105816959">
+        <mark key="[" line="93" column="39" />
+        <mark key="]" line="93" column="40" />
+        <mark key="^" line="93" column="40" />
+        <mark key="." line="93" column="39" />
+      </file>
+      <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/actions/mod.rs" timestamp="1589116691708">
+        <mark key="[" line="50" column="104" />
+        <mark key="]" line="50" column="103" />
+        <mark key="." line="50" column="102" />
+        <mark key="^" line="50" column="103" />
+      </file>
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/smol.rs" timestamp="1589091529422">
+        <mark key="[" line="62" column="74" />
+        <mark key="]" line="62" column="50" />
+        <mark key="^" line="62" column="50" />
+        <mark key="." line="62" column="49" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="235" column="44" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="252" column="71" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="43" column="16" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="92" column="36" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="14" column="17" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="25" column="27" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="116" column="50" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="76" column="39" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="78" column="29" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="79" column="26" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="90" column="77" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="91" column="23" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="92" column="36" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="93" column="14" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="75" column="49" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="101" column="67" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="131" column="26" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="132" column="4" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="147" column="12" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="41" column="42" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="121" column="18" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
+      <jump line="193" column="20" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="204" column="38" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="201" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="109" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="155" column="53" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="189" column="7" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="228" column="12" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="293" column="11" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="222" column="12" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="294" column="17" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="150" column="59" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="151" column="80" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="303" column="42" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="250" column="14" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="53" column="13" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="251" column="24" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="304" column="24" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="113" column="30" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="125" column="8" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="224" column="16" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="230" column="16" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="252" column="12" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="324" column="11" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="250" column="31" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="154" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="194" column="8" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="226" column="46" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="52" column="27" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="168" column="8" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="299" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="77" column="8" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="221" column="12" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="262" column="29" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="101" column="13" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="14" column="31" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="203" column="32" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
+      <jump line="220" column="41" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="223" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="94" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="142" column="15" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="199" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
+      <jump line="36" column="20" filename="$USER_HOME$/Workspace/venom/timestone/src/router/linker/mod.rs" />
+      <jump line="203" column="8" filename="$USER_HOME$/Workspace/venom/timestone/src/router/linker/mod.rs" />
+      <jump line="85" column="35" filename="$USER_HOME$/Workspace/venom/timestone/src/router/linker/mod.rs" />
+      <jump line="184" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/linker/mod.rs" />
+      <jump line="144" column="21" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/tracker.rs" />
+      <jump line="122" column="27" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/link.rs" />
+      <jump line="164" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
+      <jump line="166" column="33" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
+      <jump line="243" column="16" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
+      <jump line="10" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
+      <jump line="15" column="9" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
+      <jump line="17" column="9" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
+      <jump line="18" column="19" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
+      <jump line="19" column="30" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
+      <jump line="153" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
+      <jump line="312" column="27" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/link.rs" />
+      <jump line="129" column="10" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
+      <jump line="150" column="27" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
+      <jump line="154" column="34" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
+      <jump line="16" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/link.rs" />
+      <jump line="89" column="60" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
+      <jump line="35" column="54" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
+      <jump line="104" column="0" filename="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" />
+      <jump line="97" column="0" filename="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" />
+      <jump line="66" column="20" filename="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" />
+      <jump line="162" column="0" filename="$USER_HOME$/Workspace/uplink/uplink/src/base/actions/mod.rs" />
+      <jump line="14" column="0" filename="$USER_HOME$/Workspace/venom/venom/src/link.rs" />
+      <jump line="19" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" />
+      <jump line="38" column="11" filename="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" />
+      <jump line="40" column="19" filename="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" />
+      <jump line="65" column="24" filename="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" />
+      <jump line="89" column="16" filename="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" />
+      <jump line="30" column="11" filename="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" />
+      <jump line="135" column="7" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/lib.rs" />
+      <jump line="199" column="14" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/lib.rs" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
+      </register>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>0</text>
+      </register>
+      <register name="/" type="4">
+        <text>Need</text>
+      </register>
+      <register name="0" type="4">
+        <text encoding="base64">I1tkZXJpdmUoRGVidWcsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQpwdWIgc3RydWN0IEFjdGlvblJlc3BvbnNlIHsKICAgIGlkOiAgICAgICBTdHJpbmcsCiAgICAvLyB0aW1lc3RhbXAKICAgIHRpbWVzdGFtcDogdTEyOCwKICAgIC8vIHJ1bm5pbmcsIGZhaWxlZAogICAgc3RhdGU6ICAgIFN0cmluZywKICAgIC8vIHByb2dyZXNzIHBlcmNlbnRhZ2UgZm9yIHByb2Nlc3NlcwogICAgcHJvZ3Jlc3M6IFN0cmluZywKICAgIC8vIGxpc3Qgb2YgZXJyb3IKICAgIGVycm9yczogICBWZWM8U3RyaW5nPiwKfQo=</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5leHRfc2VuZCA9IFNvbWUocGFja2V0KTsK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH07Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZGJnISgiZG9uZSB3aXRoIHRoZSBzdHJlYW0iKTsK</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZG9uZSA9IHRydWU7Cg==</text>
+      </register>
+      <register name=":" type="4">
+        <text>70</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search>Need</last-search>
+      <last-offset />
+      <last-pattern>Need</last-pattern>
+      <last-replace>Error</last-replace>
+      <last-substitute>LinkError</last-substitute>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
+    <notifications>
+      <idea-join enabled="false" />
+      <idea-put enabled="false" />
+    </notifications>
+  </component>
+</application>
