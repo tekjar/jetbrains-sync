@@ -159,6 +159,11 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/docs/journal.md" timestamp="1589223660235">
+        <mark key="[" line="196" column="0" />
+        <mark key="]" line="196" column="0" />
+        <mark key="." line="196" column="0" />
+      </file>
       <file name="$USER_HOME$/Workspace/venom/mqttlog/Cargo.toml" timestamp="1589017938116">
         <mark key="[" line="20" column="0" />
         <mark key="]" line="20" column="0" />
@@ -183,12 +188,6 @@
         <mark key="." line="8" column="10" />
         <mark key="^" line="8" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/log.rs" timestamp="1589016838496">
-        <mark key="[" line="7" column="3" />
-        <mark key="]" line="7" column="11" />
-        <mark key="." line="7" column="10" />
-        <mark key="^" line="7" column="11" />
-      </file>
       <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/mqtt.rs" timestamp="1589105816959">
         <mark key="[" line="93" column="39" />
         <mark key="]" line="93" column="40" />
@@ -200,12 +199,6 @@
         <mark key="]" line="50" column="103" />
         <mark key="." line="50" column="102" />
         <mark key="^" line="50" column="103" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589223471576">
-        <mark key="[" line="31" column="32" />
-        <mark key="]" line="31" column="33" />
-        <mark key="." line="31" column="32" />
-        <mark key="^" line="31" column="33" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/smol.rs" timestamp="1589091529422">
         <mark key="[" line="62" column="74" />
@@ -323,10 +316,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIGxldCBwdWJsaXNoID0gUHVibAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>log</text>
+        <text encoding="base64">Pg==</text>
       </register>
       <register name="/" type="4">
         <text>Commit</text>
@@ -335,31 +328,31 @@
         <text encoding="base64">I1tkZXJpdmUoRGVidWcsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQpwdWIgc3RydWN0IEFjdGlvblJlc3BvbnNlIHsKICAgIGlkOiAgICAgICBTdHJpbmcsCiAgICAvLyB0aW1lc3RhbXAKICAgIHRpbWVzdGFtcDogdTEyOCwKICAgIC8vIHJ1bm5pbmcsIGZhaWxlZAogICAgc3RhdGU6ICAgIFN0cmluZywKICAgIC8vIHByb2dyZXNzIHBlcmNlbnRhZ2UgZm9yIHByb2Nlc3NlcwogICAgcHJvZ3Jlc3M6IFN0cmluZywKICAgIC8vIGxpc3Qgb2YgZXJyb3IKICAgIGVycm9yczogICBWZWM8U3RyaW5nPiwKfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGxldCBwdWJsaXNoID0gUHVibAo=</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIGxldCAK</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6c3luYzo6bXBzYzo6U2VuZGVyOwo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBtYXhfcmVjb3JkX2NvdW50OiAxMDAwMDAsCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWF4X3JlY29yZF9jb3VudDogMTAwMF8wMDAsCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHB1YiBtYXhfcmVjb3JkX2NvdW50OiB1NjQsCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGxldCBjdXJyZW50X3NpemUgPSBiZW5jaG1hcmtzOjp3cml0ZV8xMGtfdG9waWNzKGxvZywgdG9waWNzKTsK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICB0aAo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHRoCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">I1t0b2tpbzo6bWFpbihjb3JlX3RocmVhZHMgPSAxKV0K</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGxldCBzdGFydCA9IEluc3RhbnQ6Om5vdygpOwo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">dXNlIGZ1dHVyZXNfdXRpbDo6U2lua0V4dDsK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">LSBUbyBrZWVwIHRoZSByb3V0ZXIgY2xlYW4sIAo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGxldCBwdWJsaXNoID0gUHVibAo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">cHViIHVzZSBjb21taXRsb2c6OkNvbW1pdExvZzsK</text>
+        <text encoding="base64">ICAgIGxldCAK</text>
       </register>
       <register name=":" type="4">
         <text>70</text>
