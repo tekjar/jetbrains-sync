@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>panic</entry>
-        <entry>h.</entry>
         <entry>h\.</entry>
         <entry>Error</entry>
         <entry>thiserror</entry>
@@ -25,9 +23,10 @@
         <entry>Need</entry>
         <entry>CommitLog</entry>
         <entry>Commit</entry>
+        <entry>try_send</entry>
+        <entry>dbg</entry>
       </history-search>
       <history-cmd>
-        <entry>240</entry>
         <entry>44</entry>
         <entry>28</entry>
         <entry>92</entry>
@@ -47,6 +46,7 @@
         <entry>39</entry>
         <entry>84</entry>
         <entry>70</entry>
+        <entry>233</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -188,12 +188,11 @@
         <mark key="." line="8" column="10" />
         <mark key="^" line="8" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1589276637639">
-        <mark key="'" line="232" column="42" />
-        <mark key="[" line="282" column="14" />
-        <mark key="]" line="282" column="15" />
-        <mark key="^" line="282" column="15" />
-        <mark key="." line="282" column="14" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1589278171144">
+        <mark key="'" line="281" column="0" />
+        <mark key="[" line="136" column="0" />
+        <mark key="]" line="136" column="0" />
+        <mark key="." line="136" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/mqtt.rs" timestamp="1589105816959">
         <mark key="[" line="93" column="39" />
@@ -207,6 +206,12 @@
         <mark key="." line="50" column="102" />
         <mark key="^" line="50" column="103" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589278608911">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="^" line="19" column="45" />
+        <mark key="." line="19" column="0" />
+      </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/smol.rs" timestamp="1589091529422">
         <mark key="[" line="62" column="74" />
         <mark key="]" line="62" column="50" />
@@ -215,7 +220,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="27" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
       <jump line="116" column="50" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
       <jump line="76" column="39" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
       <jump line="78" column="29" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
@@ -314,7 +318,8 @@
       <jump line="4" column="26" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="233" column="42" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="284" column="42" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="232" column="42" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="232" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="282" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -329,48 +334,48 @@
         <text encoding="base64">Pg==</text>
       </register>
       <register name="/" type="4">
-        <text>try_send</text>
+        <text>dbg</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">I1tkZXJpdmUoRGVidWcsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQpwdWIgc3RydWN0IEFjdGlvblJlc3BvbnNlIHsKICAgIGlkOiAgICAgICBTdHJpbmcsCiAgICAvLyB0aW1lc3RhbXAKICAgIHRpbWVzdGFtcDogdTEyOCwKICAgIC8vIHJ1bm5pbmcsIGZhaWxlZAogICAgc3RhdGU6ICAgIFN0cmluZywKICAgIC8vIHByb2dyZXNzIHBlcmNlbnRhZ2UgZm9yIHByb2Nlc3NlcwogICAgcHJvZ3Jlc3M6IFN0cmluZywKICAgIC8vIGxpc3Qgb2YgZXJyb3IKICAgIGVycm9yczogICBWZWM8U3RyaW5nPiwKfQo=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBkYmchKCk7Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0aAo=</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHRoCg==</text>
+        <text encoding="base64">ICAgIGFyZ2g6OmZyb21fZW52KCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">I1t0b2tpbzo6bWFpbihjb3JlX3RocmVhZHMgPSAxKV0K</text>
+        <text encoding="base64">Y29uc3QgZm4gY29uZmlnKCkgLT4gQ29tbWFuZExpbmUgewo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxldCBzdGFydCA9IEluc3RhbnQ6Om5vdygpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">dXNlIGZ1dHVyZXNfdXRpbDo6U2lua0V4dDsK</text>
+        <text encoding="base64">ICAgICAgICBkYmchKCk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">LSBUbyBrZWVwIHRoZSByb3V0ZXIgY2xlYW4sIAo=</text>
+        <text encoding="base64">ICAgICAgICBpZiBsZXQgRXJyKGUpID0gY29ubmVjdGlvbi5oYW5kbGUudHJ5X3NlbmQocmVwbHkpIHsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGxldCBwdWJsaXNoID0gUHVibAo=</text>
+        <text encoding="base64">ICAgICAgICBkYmchKCk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGxldCAK</text>
+        <text encoding="base64">ICAgICAgICBkYmchKCk7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>70</text>
+        <text>233</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>try_send</last-search>
+      <last-search>dbg</last-search>
       <last-offset />
-      <last-pattern>try_send</last-pattern>
+      <last-pattern>dbg</last-pattern>
       <last-replace>Error</last-replace>
       <last-substitute>LinkError</last-substitute>
       <last-dir>1</last-dir>
