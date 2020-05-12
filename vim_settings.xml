@@ -119,11 +119,12 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/lib.rs" timestamp="1589223027494">
-        <mark key="[" line="11" column="45" />
-        <mark key="]" line="11" column="46" />
-        <mark key="." line="11" column="45" />
-        <mark key="^" line="11" column="46" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/lib.rs" timestamp="1589300103461">
+        <mark key="'" line="11" column="45" />
+        <mark key="[" line="11" column="28" />
+        <mark key="]" line="11" column="37" />
+        <mark key="." line="11" column="36" />
+        <mark key="^" line="11" column="37" />
       </file>
       <file name="$USER_HOME$/Workspace/uplink/config/uplink.toml" timestamp="1589107468263">
         <mark key="[" line="34" column="12" />
@@ -148,11 +149,11 @@
         <mark key="." line="32" column="0" />
         <mark key="^" line="32" column="1" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1589222215469">
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="^" line="78" column="0" />
-        <mark key="." line="7" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1589299848809">
+        <mark key="[" line="87" column="1" />
+        <mark key="]" line="88" column="0" />
+        <mark key="^" line="88" column="0" />
+        <mark key="." line="88" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/venom/mqttlog/src/volatile/mod.rs" timestamp="1589017847810">
         <mark key="[" line="14" column="0" />
@@ -206,11 +207,12 @@
         <mark key="." line="50" column="102" />
         <mark key="^" line="50" column="103" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589279202616">
-        <mark key="[" line="59" column="8" />
-        <mark key="]" line="59" column="18" />
-        <mark key="." line="59" column="17" />
-        <mark key="^" line="59" column="18" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589300494277">
+        <mark key="'" line="74" column="0" />
+        <mark key="[" line="74" column="60" />
+        <mark key="]" line="74" column="69" />
+        <mark key="." line="74" column="68" />
+        <mark key="^" line="74" column="69" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/smol.rs" timestamp="1589091529422">
         <mark key="[" line="62" column="74" />
@@ -220,12 +222,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="116" column="50" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
-      <jump line="76" column="39" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
-      <jump line="78" column="29" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
-      <jump line="79" column="26" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
-      <jump line="90" column="77" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
-      <jump line="91" column="23" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
       <jump line="92" column="36" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
       <jump line="93" column="14" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
       <jump line="75" column="49" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
@@ -320,6 +316,12 @@
       <jump line="284" column="42" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="232" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="282" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="62" column="36" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
+      <jump line="11" column="45" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/lib.rs" />
+      <jump line="61" column="41" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
+      <jump line="1" column="24" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
+      <jump line="60" column="17" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
+      <jump line="67" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -328,10 +330,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIGxldCBtdXQgcm91dGVyID0gcm91dGVyOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcmVxdWVzdCA9IERhdGFSZXF1ZXN0KERhdCkK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Pg==</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
@@ -340,31 +342,31 @@
         <text encoding="base64">ICAgICAgICBsZXQgbXV0IHJvdXRlciA9IHJvdXRlcjsKICAgICAgICByb3V0ZXIuc3RhcnQoKS5hd2FpdDsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGxldCBtdXQgcm91dGVyID0gcm91dGVyOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcmVxdWVzdCA9IERhdGFSZXF1ZXN0KERhdCkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dXNlIHRva2lvOjp0YXNrOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIH0pOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByb3V0ZXIuc3RhcnQoKS5hd2FpdDsK</text>
+        <text encoding="base64">Y29uc3QgQ09ORklHOiBDb21tYW5kTGluZSA9IGFyZ2g6OmZyb21fZW52KCk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbXV0IHJvdXRlciA9IHJvdXRlcjsK</text>
+        <text encoding="base64">dXNlIHN0ZDo6c3luYzo6bXBzYzo6Y2hhbm5lbDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHRhc2s6OnNwYXduKGFzeW5jIG1vdmUgewo=</text>
+        <text encoding="base64">ICAgIGxldCBtdXQgcm91dGVyID0gcm91dGVyOwo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0pOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICAgICAgICByb3V0ZXIuc3RhcnQoKS5hd2FpdDsK</text>
       </register>
       <register name=":" type="4">
         <text>233</text>
