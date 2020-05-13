@@ -101,12 +101,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/venom/mqttlog/examples/inmemorywrite.rs" timestamp="1589017087778">
-        <mark key="[" line="19" column="0" />
-        <mark key="]" line="19" column="0" />
-        <mark key="^" line="1" column="11" />
-        <mark key="." line="19" column="0" />
-      </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/lib.rs" timestamp="1589052632720">
         <mark key="'" line="199" column="14" />
         <mark key="[" line="104" column="12" />
@@ -118,6 +112,12 @@
         <mark key="[" line="10" column="0" />
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/actions/controller.rs" timestamp="1589374358546">
+        <mark key="[" line="104" column="75" />
+        <mark key="]" line="104" column="75" />
+        <mark key="." line="104" column="75" />
+        <mark key="^" line="95" column="80" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/lib.rs" timestamp="1589300103461">
         <mark key="'" line="11" column="45" />
@@ -176,12 +176,12 @@
         <mark key="." line="1" column="3" />
         <mark key="^" line="1" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" timestamp="1589370309128">
-        <mark key="'" line="34" column="11" />
-        <mark key="[" line="91" column="48" />
-        <mark key="]" line="91" column="52" />
-        <mark key="." line="91" column="51" />
-        <mark key="^" line="91" column="52" />
+      <file name="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" timestamp="1589374121476">
+        <mark key="'" line="35" column="11" />
+        <mark key="[" line="100" column="50" />
+        <mark key="]" line="100" column="45" />
+        <mark key="^" line="100" column="45" />
+        <mark key="." line="100" column="44" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/commitlog.rs" timestamp="1589222239764">
         <mark key="[" line="8" column="0" />
@@ -202,11 +202,11 @@
         <mark key="^" line="95" column="66" />
         <mark key="." line="95" column="65" />
       </file>
-      <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/actions/mod.rs" timestamp="1589116691708">
-        <mark key="[" line="50" column="104" />
-        <mark key="]" line="50" column="103" />
-        <mark key="." line="50" column="102" />
-        <mark key="^" line="50" column="103" />
+      <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/actions/mod.rs" timestamp="1589374317343">
+        <mark key="[" line="139" column="25" />
+        <mark key="]" line="139" column="25" />
+        <mark key="^" line="139" column="30" />
+        <mark key="." line="139" column="25" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589303146766">
         <mark key="'" line="88" column="0" />
@@ -331,43 +331,45 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text>action</text>
+        <text>?</text>
       </register>
       <register name="-" type="4">
-        <text>action</text>
+        <text>?</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yISgiRGVzZXJpYWxpemF0aW9uIGVycm9yID0gezo/fSIsIGUpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUK</text>
+      <register name="0" type="4">
+        <text>if let Err(e) = self.collector_tx.send(Box::new(status)).await {
+            error!(&quot;Failed to send status. Error = {:?}&quot;, e);
+        }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
+        <text encoding="base64">ICAgICAgICB9Owo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKGRhdGFfcmVwbHkuc2VnbWVudCwgcmVwbHkub2Zmc2V0KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCZyZXF1ZXN0LCAmcmVwbHkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVycm9yISgiRmFpbGVkIHRvIGNyZWF0ZSBzdGF0dXMuIEVycm9yID0gezo/fSIsIGUpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCZzZWxmLmNvbW1pdGxvZy4pCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgRXJyKGUpID0+IHsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgT2soc3RhdHVzKSA9PiBzdGF0dXMsCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbWVzc2FnZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">dXNlIHJ1bXF0dGxvZzo6cm91dGVyOjpSb3V0ZXJJbk1lc3NhZ2U6OkRhdGFSZXF1ZXN0Owo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzdGF0dXMuZXJyCg==</text>
       </register>
       <register name=":" type="4">
         <text>90</text>
