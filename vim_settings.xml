@@ -27,7 +27,6 @@
         <entry>dbg</entry>
       </history-search>
       <history-cmd>
-        <entry>92</entry>
         <entry>258</entry>
         <entry>16</entry>
         <entry>27</entry>
@@ -47,6 +46,7 @@
         <entry>233</entry>
         <entry>303</entry>
         <entry>282</entry>
+        <entry>90</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -176,12 +176,12 @@
         <mark key="." line="1" column="3" />
         <mark key="^" line="1" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" timestamp="1589116617834">
-        <mark key="'" line="33" column="11" />
-        <mark key="[" line="25" column="55" />
-        <mark key="]" line="25" column="54" />
-        <mark key="." line="25" column="53" />
-        <mark key="^" line="25" column="54" />
+      <file name="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" timestamp="1589370309128">
+        <mark key="'" line="34" column="11" />
+        <mark key="[" line="91" column="48" />
+        <mark key="]" line="91" column="52" />
+        <mark key="." line="91" column="51" />
+        <mark key="^" line="91" column="52" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/commitlog.rs" timestamp="1589222239764">
         <mark key="[" line="8" column="0" />
@@ -196,11 +196,11 @@
         <mark key="." line="281" column="37" />
         <mark key="^" line="281" column="38" />
       </file>
-      <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/mqtt.rs" timestamp="1589105816959">
-        <mark key="[" line="93" column="39" />
-        <mark key="]" line="93" column="40" />
-        <mark key="^" line="93" column="40" />
-        <mark key="." line="93" column="39" />
+      <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/mqtt.rs" timestamp="1589370086224">
+        <mark key="[" line="95" column="75" />
+        <mark key="]" line="95" column="66" />
+        <mark key="^" line="95" column="66" />
+        <mark key="." line="95" column="65" />
       </file>
       <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/actions/mod.rs" timestamp="1589116691708">
         <mark key="[" line="50" column="104" />
@@ -330,47 +330,47 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
+      <register name="*" type="4">
+        <text>action</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>action</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGxldCBtZXNzYWdlID0gKCJkZXZpY2UtMSIudG9fb3duZWQoKSwgUm91dGVySW5NZXNzYWdlOjpDb25uZWN0KGNvbm5lY3Rpb24pKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yISgiRGVzZXJpYWxpemF0aW9uIGVycm9yID0gezo/fSIsIGUpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKGRhdGFfcmVwbHkuc2VnbWVudCwgcmVwbHkub2Zmc2V0KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCZyZXF1ZXN0LCAmcmVwbHkpOwo=</text>
+        <text encoding="base64">ICAgICAgICBkYmchKGRhdGFfcmVwbHkuc2VnbWVudCwgcmVwbHkub2Zmc2V0KTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCZyZXF1ZXN0LCAmcmVwbHkpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCZzZWxmLmNvbW1pdGxvZy4pCg==</text>
+        <text encoding="base64">ICAgIHByZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCZzZWxmLmNvbW1pdGxvZy4pCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbWVzc2FnZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">dXNlIHJ1bXF0dGxvZzo6cm91dGVyOjpSb3V0ZXJJbk1lc3NhZ2U6OkRhdGFSZXF1ZXN0Owo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbWVzc2FnZQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgcmVxdWVzdCA9IERhdGFSZXF1ZXN0KERhdCkK</text>
+        <text encoding="base64">dXNlIHJ1bXF0dGxvZzo6cm91dGVyOjpSb3V0ZXJJbk1lc3NhZ2U6OkRhdGFSZXF1ZXN0Owo=</text>
       </register>
       <register name=":" type="4">
-        <text>282</text>
+        <text>90</text>
       </register>
     </registers>
   </component>
