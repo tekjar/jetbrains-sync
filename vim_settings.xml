@@ -27,7 +27,6 @@
         <entry>dbg</entry>
       </history-search>
       <history-cmd>
-        <entry>31</entry>
         <entry>164</entry>
         <entry>13</entry>
         <entry>132</entry>
@@ -47,6 +46,7 @@
         <entry>53</entry>
         <entry>287</entry>
         <entry>73</entry>
+        <entry>23</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -208,12 +208,12 @@
         <mark key="^" line="139" column="30" />
         <mark key="." line="6" column="39" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589467117474">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589467236371">
         <mark key="'" line="99" column="0" />
-        <mark key="[" line="42" column="22" />
-        <mark key="]" line="42" column="22" />
-        <mark key="." line="42" column="22" />
-        <mark key="^" line="42" column="22" />
+        <mark key="[" line="100" column="22" />
+        <mark key="]" line="100" column="24" />
+        <mark key="." line="100" column="23" />
+        <mark key="^" line="100" column="24" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/smol.rs" timestamp="1589091529422">
         <mark key="[" line="62" column="74" />
@@ -331,10 +331,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IA==</text>
+        <text>ite</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>ite</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
@@ -370,7 +370,7 @@
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
-        <text>73</text>
+        <text>23</text>
       </register>
     </registers>
   </component>
