@@ -27,7 +27,6 @@
         <entry>dbg</entry>
       </history-search>
       <history-cmd>
-        <entry>258</entry>
         <entry>16</entry>
         <entry>27</entry>
         <entry>31</entry>
@@ -47,6 +46,7 @@
         <entry>303</entry>
         <entry>282</entry>
         <entry>90</entry>
+        <entry>53</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -207,11 +207,12 @@
         <mark key="^" line="139" column="30" />
         <mark key="." line="6" column="39" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589445986495">
-        <mark key="'" line="60" column="0" />
-        <mark key="[" line="90" column="0" />
-        <mark key="]" line="90" column="0" />
-        <mark key="." line="90" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589446155643">
+        <mark key="'" line="61" column="0" />
+        <mark key="[" line="92" column="23" />
+        <mark key="]" line="92" column="24" />
+        <mark key="." line="92" column="23" />
+        <mark key="^" line="92" column="24" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/smol.rs" timestamp="1589091529422">
         <mark key="[" line="62" column="74" />
@@ -328,11 +329,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text encoding="base64">UHVibGlzaCA=</text>
       </register>
       <register name="-" type="4">
-        <text>Ok</text>
+        <text encoding="base64">UHVibGlzaCA=</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
@@ -346,32 +347,32 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGxldCBwdWJsaXNoID0gUGFja2V0OjpQdWJsaXNoKFB1Ymxpc2g6Om5ldygiaGVsbG8vd29ybGQiLCBRb1M6OkF0TGVhc3RPbmNlLCB2ZWMhWzE7IDEwMjRdKSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByZXR0eV9lbnZfbG9nZ2VyOjppbml0KCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgIGxldCBwdWJsaXNoID0gUGFja2V0OjpQdWJsaXNoKFB1Ymxpc2g6Om5ldygiaGVsbG8vd29ybGQiLCBRb1M6OkF0TGVhc3RPbmNlLCB2ZWMhWzE7IDEwMjRdKSk7Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHByZXR0eV9lbnZfbG9nZ2VyOjppbml0KCk7Cg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoYnl0ZXMubGVuKCkpOwo=</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>;
                 if</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiBzZWxmLmN1cnJlbnRfYWN0aW9uLmlzX25vbmUoKSB7Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
-      </register>
       <register name=":" type="4">
-        <text>90</text>
+        <text>53</text>
       </register>
     </registers>
   </component>
