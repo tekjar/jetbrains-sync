@@ -27,8 +27,6 @@
         <entry>dbg</entry>
       </history-search>
       <history-cmd>
-        <entry>16</entry>
-        <entry>27</entry>
         <entry>31</entry>
         <entry>164</entry>
         <entry>13</entry>
@@ -47,6 +45,8 @@
         <entry>282</entry>
         <entry>90</entry>
         <entry>53</entry>
+        <entry>287</entry>
+        <entry>73</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -189,11 +189,12 @@
         <mark key="." line="8" column="10" />
         <mark key="^" line="8" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1589445910469">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1589463146358">
         <mark key="'" line="30" column="23" />
-        <mark key="[" line="127" column="0" />
-        <mark key="]" line="127" column="0" />
-        <mark key="." line="127" column="0" />
+        <mark key="[" line="285" column="10" />
+        <mark key="]" line="286" column="8" />
+        <mark key="." line="286" column="7" />
+        <mark key="^" line="286" column="8" />
       </file>
       <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/mqtt.rs" timestamp="1589370086224">
         <mark key="[" line="95" column="75" />
@@ -207,12 +208,12 @@
         <mark key="^" line="139" column="30" />
         <mark key="." line="6" column="39" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589446155643">
-        <mark key="'" line="61" column="0" />
-        <mark key="[" line="92" column="23" />
-        <mark key="]" line="92" column="24" />
-        <mark key="." line="92" column="23" />
-        <mark key="^" line="92" column="24" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589464173894">
+        <mark key="'" line="98" column="0" />
+        <mark key="[" line="23" column="29" />
+        <mark key="]" line="23" column="29" />
+        <mark key="." line="23" column="28" />
+        <mark key="^" line="23" column="29" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/smol.rs" timestamp="1589091529422">
         <mark key="[" line="62" column="74" />
@@ -222,7 +223,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="132" column="4" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
       <jump line="147" column="12" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
       <jump line="41" column="42" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
       <jump line="121" column="18" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/tracker.rs" />
@@ -322,6 +322,7 @@
       <jump line="95" column="34" filename="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" />
       <jump line="32" column="6" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
       <jump line="59" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
+      <jump line="92" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -330,49 +331,46 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">UHVibGlzaCA=</text>
+        <text>segment_size</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">UHVibGlzaCA=</text>
+        <text>segment_size</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
       </register>
-      <register name="0" type="4">
-        <text>if let Err(e) = self.collector_tx.send(Box::new(status)).await {
-            error!(&quot;Failed to send status. Error = {:?}&quot;, e);
-        }</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICNbYXJnaChvcHRpb24sIHNob3J0ID0gJ3MnLCBkZWZhdWx0ID0gIjEwKjEwMjQqMTAyNCIpXQogICAgc2VnbWVudF9zaXplOiB1c2l6ZSwK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCBndWFyZCA9IHBwcm9mOjpQcm9maWxlckd1YXJkOjpuZXcoMTAwKS51bndyYXAoKTsKICAgIGxldCBzdGFydCA9IEluc3RhbnQ6Om5vdygpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCBndWFyZCA9IHBwcm9mOjpQcm9maWxlckd1YXJkOjpuZXcoMTAwKS51bndyYXAoKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCBwdWJsaXNoID0gUGFja2V0OjpQdWJsaXNoKFB1Ymxpc2g6Om5ldygiaGVsbG8vd29ybGQiLCBRb1M6OkF0TGVhc3RPbmNlLCB2ZWMhWzE7IDEwMjRdKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VnbWVudCA9IGRhdGFfcmVwbHkuc2VnbWVudDsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByZXR0eV9lbnZfbG9nZ2VyOjppbml0KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoYnl0ZXMubGVuKCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICBkYmchKHNlbGYuY29ubmVjdGlvbnMua2V5cygpKTsK</text>
       </register>
-      <register name="7" type="4">
-        <text>;
-                if</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>53</text>
+        <text>73</text>
       </register>
     </registers>
   </component>
