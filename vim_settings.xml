@@ -114,11 +114,11 @@
         <mark key="." line="82" column="3" />
         <mark key="^" line="82" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" timestamp="1589737010295">
-        <mark key="[" line="118" column="64" />
-        <mark key="]" line="118" column="64" />
-        <mark key="." line="118" column="63" />
-        <mark key="^" line="118" column="64" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" timestamp="1589737302073">
+        <mark key="[" line="128" column="22" />
+        <mark key="]" line="128" column="23" />
+        <mark key="." line="128" column="22" />
+        <mark key="^" line="128" column="23" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemoryread.rs" timestamp="1589522591050">
         <mark key="'" line="1" column="10" />
@@ -334,10 +334,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">YXN5bmMgZm4gaGFuZGxlX25ld19jb25uZWN0aW9uPFM6IElPPihjb25maWc6IEFyYzxTZXJ2ZXJTZXR0aW5ncz4sIGZyYW1lZDogRnJhbWVkPFMsIE1xdHRDb2RlYz4pIHsKICAgIGxldCBtdXQgZnJhbWVkID0gZnJhbWVkOwogICAgbGV0IHRpbWVvdXQgPSBEdXJhdGlvbjo6ZnJvbV9taWxsaXMoY29uZmlnLmNvbm5lY3Rpb25fdGltZW91dF9tcy5pbnRvKCkpOwogICAgbGV0IGNvbm5lY3QgPSB0aW1lOjp0aW1lb3V0KHRpbWVvdXQsIGFzeW5jIHsKICAgICAgICBsZXQgcGFja2V0ID0gc3RyZWFtLm5leHQoKS5hd2FpdC5va19vcihFcnJvcjo6U3RyZWFtRG9uZSk/PzsKICAgICAgICBsZXQgbyA9IGhhbmRsZV9pbmNvbWluZ19jb25uZWN0KHBhY2tldCk/OwogICAgICAgIE9rOjo8XywgRXJyb3I+KG8pCiAgICB9KS5hd2FpdD8/OwoKICAgIGxldCBpZCA9IGNvbm5lY3QuY2xpZW50X2lkLmNsb25lKCk7CiAgICBsZXQga2VlcF9hbGl2ZSA9IER1cmF0aW9uOjpmcm9tX3NlY3MoY29ubmVjdC5rZWVwX2FsaXZlIGFzIHU2NCk7CiAgICBsZXQgbGluayA9IExpbms6Om5ldygpOwp9Cg==</text>
+        <text encoding="base64">IHN0cmVhbQ==</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text encoding="base64">IHN0cmVhbQ==</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
