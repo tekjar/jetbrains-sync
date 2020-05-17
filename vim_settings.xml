@@ -114,11 +114,11 @@
         <mark key="." line="82" column="3" />
         <mark key="^" line="82" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" timestamp="1589738328276">
-        <mark key="[" line="132" column="61" />
-        <mark key="]" line="132" column="14" />
-        <mark key="." line="132" column="13" />
-        <mark key="^" line="132" column="14" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" timestamp="1589740431726">
+        <mark key="[" line="158" column="33" />
+        <mark key="]" line="159" column="12" />
+        <mark key="^" line="159" column="12" />
+        <mark key="." line="159" column="11" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemoryread.rs" timestamp="1589522591050">
         <mark key="'" line="1" column="10" />
@@ -181,10 +181,12 @@
         <mark key="^" line="72" column="77" />
         <mark key="." line="72" column="76" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/link.rs" timestamp="1589736546591">
-        <mark key="[" line="58" column="0" />
-        <mark key="]" line="58" column="0" />
-        <mark key="." line="58" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/link.rs" timestamp="1589739737807">
+        <mark key="'" line="44" column="31" />
+        <mark key="[" line="42" column="99" />
+        <mark key="]" line="43" column="54" />
+        <mark key="." line="43" column="53" />
+        <mark key="^" line="43" column="54" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/commitlog.rs" timestamp="1589222239764">
         <mark key="[" line="8" column="0" />
@@ -226,11 +228,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="250" column="14" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
-      <jump line="53" column="13" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
-      <jump line="251" column="24" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
-      <jump line="304" column="24" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
-      <jump line="113" column="30" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="125" column="8" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="224" column="16" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="230" column="16" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
@@ -326,6 +323,11 @@
       <jump line="63" column="31" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
       <jump line="17" column="56" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
       <jump line="100" column="30" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
+      <jump line="42" column="31" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/link.rs" />
+      <jump line="134" column="61" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
+      <jump line="144" column="38" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
+      <jump line="151" column="60" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
+      <jump line="157" column="25" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -334,43 +336,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHN0cmVhbQ==</text>
+        <text>connect</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIC8vLyBtYXhpbXVtIHN3ZWVwIHJlYWQgc2l6ZQogICAgI1thcmdoKG9wdGlvbiwgc2hvcnQgPSAncicsIGRlZmF1bHQgPSAiMTAwKjEwMjQiKV0KICAgIHN3ZWVwX3NpemU6IHVzaXplLAo=</text>
+        <text encoding="base64">I1tlcnJvcigiLi4uIildCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICNbZXJyb3IoIkRpc2Nvbm5lY3RlZCIpXQo=</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">YXN5bmMgZm4gaGFuZGxlX25ld19jb25uZWN0aW9uPFM6IElPPihjb25maWc6IEFyYzxTZXJ2ZXJTZXR0aW5ncz4sIGZyYW1lZDogRnJhbWVkPFMsIE1xdHRDb2RlYz4pIHsKICAgIGxldCBtdXQgZnJhbWVkID0gZnJhbWVkOwogICAgbGV0IHRpbWVvdXQgPSBEdXJhdGlvbjo6ZnJvbV9taWxsaXMoY29uZmlnLmNvbm5lY3Rpb25fdGltZW91dF9tcy5pbnRvKCkpOwogICAgbGV0IGNvbm5lY3QgPSB0aW1lOjp0aW1lb3V0KHRpbWVvdXQsIGFzeW5jIHsKICAgICAgICBsZXQgcGFja2V0ID0gc3RyZWFtLm5leHQoKS5hd2FpdC5va19vcihFcnJvcjo6U3RyZWFtRG9uZSk/PzsKICAgICAgICBsZXQgbyA9IGhhbmRsZV9pbmNvbWluZ19jb25uZWN0KHBhY2tldCk/OwogICAgICAgIE9rOjo8XywgRXJyb3I+KG8pCiAgICB9KS5hd2FpdD8/OwoKICAgIGxldCBpZCA9IGNvbm5lY3QuY2xpZW50X2lkLmNsb25lKCk7CiAgICBsZXQga2VlcF9hbGl2ZSA9IER1cmF0aW9uOjpmcm9tX3NlY3MoY29ubmVjdC5rZWVwX2FsaXZlIGFzIHU2NCk7CiAgICBsZXQgbGluayA9IExpbms6Om5ldygpOwp9Cg==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBsaW5rX3J4Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCBtdXQgZnJhbWVkID0gZnJhbWVkOwo=</text>
+        <text encoding="base64">ICAgIGFzeW5jIGZuIHJlZ2lzdGVyX3dpdGhfcm91dGVyKCZtdXQgc2VsZiwgY29ubmVjdDogQ29ubmVjdCkgLT4gUmVjZWl2ZXI8Um91dGVyT3V0TWVzc2FnZT4gewo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vLyBBZnRlciBhIHRjcC90bHMgY29ubmVjdGlvbiBpcyBlc3RhYmxpc2hlZCwgbGluayBzaG91bGQgd2FpdCBmb3IgbXF0dCBjb25uZWN0IHBhY2tldAo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbGlua19yeCA9IHNlbGYucmVnaXN0ZXJfd2l0aF9yb3V0ZXIoY29ubmVjdCkuYXdhaXQ7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IGxpbmsgPSBMaW5rOjpuZXcoKTsK</text>
+        <text encoding="base64">ICAgICAgICAvLyBSZWdpc3RlciB0aGlzIGNvbm5lY3Rpb24gd2l0aCByb3V0ZXIgYW5kIHN0YXJ0IHRoZSBsaW5rCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgKGxpbmtfdHgsIGxpbmtfcngpID0gY2hhbm5lbCg0KTsKICAgICAgICBsZXQgY29ubmVjdGlvbiA9IENvbm5lY3Rpb24geyBjb25uZWN0LCBoYW5kbGU6IGxpbmtfdHggfTsKICAgICAgICBsZXQgbWVzc2FnZSA9IFJvdXRlckluTWVzc2FnZTo6Q29ubmVjdChjb25uZWN0aW9uKTsKICAgICAgICBzZWxmLnJvdXRlcl90eC5zZW5kKChjb25uZWN0LmNsaWVudF9pZC50b19zdHJpbmcoKSwgbWVzc2FnZSkpLmF3YWl0LnVud3JhcCgpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGFzeW5jIGZuIGhhbmRsZV9uZXdfY29ubmVjdGlvbigmc2VsZiwgY29uZmlnOiBBKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQga2VlcF9hbGl2ZSA9IER1cmF0aW9uOjpmcm9tX3NlY3MoY29ubmVjdC5rZWVwX2FsaXZlIGFzIHU2NCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>91</text>
