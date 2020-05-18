@@ -101,10 +101,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemorywrite.rs" timestamp="1589522578291">
-        <mark key="[" line="8" column="24" />
-        <mark key="]" line="8" column="31" />
-        <mark key="." line="8" column="30" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemorywrite.rs" timestamp="1589828460919">
+        <mark key="[" line="16" column="19" />
+        <mark key="]" line="16" column="19" />
+        <mark key="." line="16" column="19" />
         <mark key="^" line="8" column="31" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/segment.rs" timestamp="1589522456888">
@@ -121,12 +121,12 @@
         <mark key="." line="176" column="28" />
         <mark key="^" line="176" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemoryread.rs" timestamp="1589522591050">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemoryread.rs" timestamp="1589828452540">
         <mark key="'" line="1" column="10" />
-        <mark key="[" line="1" column="0" />
-        <mark key="]" line="1" column="0" />
-        <mark key="^" line="9" column="29" />
-        <mark key="." line="1" column="0" />
+        <mark key="[" line="13" column="32" />
+        <mark key="]" line="13" column="19" />
+        <mark key="^" line="13" column="19" />
+        <mark key="." line="13" column="18" />
       </file>
       <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/actions/controller.rs" timestamp="1589374358546">
         <mark key="[" line="104" column="75" />
@@ -159,11 +159,11 @@
         <mark key="." line="29" column="21" />
         <mark key="^" line="29" column="22" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1589299848809">
-        <mark key="[" line="87" column="1" />
-        <mark key="]" line="88" column="0" />
-        <mark key="^" line="88" column="0" />
-        <mark key="." line="88" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1589828361889">
+        <mark key="[" line="66" column="18" />
+        <mark key="]" line="66" column="18" />
+        <mark key="^" line="66" column="18" />
+        <mark key="." line="66" column="17" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttd/Cargo.toml" timestamp="1589747231956">
         <mark key="[" line="20" column="18" />
@@ -185,18 +185,18 @@
         <mark key="." line="46" column="8" />
         <mark key="^" line="43" column="54" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1589463146358">
-        <mark key="'" line="30" column="23" />
-        <mark key="[" line="285" column="10" />
-        <mark key="]" line="286" column="8" />
-        <mark key="." line="286" column="7" />
-        <mark key="^" line="286" column="8" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" timestamp="1589828616641">
+        <mark key="'" line="340" column="41" />
+        <mark key="[" line="340" column="40" />
+        <mark key="]" line="340" column="41" />
+        <mark key="^" line="340" column="41" />
+        <mark key="." line="340" column="40" />
       </file>
-      <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/mqtt.rs" timestamp="1589370086224">
-        <mark key="[" line="95" column="75" />
-        <mark key="]" line="95" column="66" />
-        <mark key="^" line="95" column="66" />
-        <mark key="." line="95" column="65" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1589828430941">
+        <mark key="[" line="126" column="0" />
+        <mark key="]" line="126" column="0" />
+        <mark key="." line="126" column="0" />
+        <mark key="^" line="290" column="8" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttd/examples/broker.rs" timestamp="1589747337925">
         <mark key="[" line="8" column="8" />
@@ -231,7 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="230" column="16" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="252" column="12" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="324" column="11" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="250" column="31" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
@@ -331,6 +330,7 @@
       <jump line="157" column="25" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
       <jump line="44" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
       <jump line="186" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
+      <jump line="340" column="41" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -339,56 +339,56 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text>eam</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>eam</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>dbg</text>
+        <text>as u16</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">I1t0b2tpbzo6bWFpbihjb3JlX3RocmVhZHMgPSAxKV0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBvciAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwa2lkLAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBvciAK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJ7Oj99IiwgY29uZmlnKTsK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHByaW50bG4hKCJ7Oj99IiwgY29uZmlnKTsK</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB1bmltcGxlbWVudGVkISgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHB1YiBtYXhfaW5mbGlnaHRfdG9waWNfc2l6ZTogdXNpemUsCg==</text>
+        <text encoding="base64">ICAgICAgICB1bmltcGxlbWVudGVkISgpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHB1YiBhdXRvX3NhdmVfaW50ZXJ2YWxfc2VjOiB1MTYsCg==</text>
+        <text encoding="base64">ICAgIHB1YiBtYXhfaW5mbGlnaHRfdG9waWNfc2l6ZTogdXNpemUsCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHB1YiBkaXNrX3JldGVudGlvbl90aW1lX3NlYzogdXNpemUsCg==</text>
+        <text encoding="base64">ICAgIHB1YiBhdXRvX3NhdmVfaW50ZXJ2YWxfc2VjOiB1MTYsCg==</text>
       </register>
       <register name=":" type="4">
-        <text>91</text>
+        <text>%s/as u16/as u64/gc</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>dbg</last-search>
+      <last-search>as u16</last-search>
       <last-offset />
-      <last-pattern>dbg</last-pattern>
-      <last-replace>Error</last-replace>
-      <last-substitute>LinkError</last-substitute>
+      <last-pattern>as u16</last-pattern>
+      <last-replace>as u64</last-replace>
+      <last-substitute>as u16</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
