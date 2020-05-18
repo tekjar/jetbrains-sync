@@ -114,11 +114,12 @@
         <mark key="." line="82" column="3" />
         <mark key="^" line="82" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" timestamp="1589747735886">
-        <mark key="'" line="186" column="0" />
-        <mark key="[" line="167" column="0" />
-        <mark key="]" line="167" column="0" />
-        <mark key="." line="167" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" timestamp="1589782712705">
+        <mark key="'" line="192" column="0" />
+        <mark key="[" line="176" column="27" />
+        <mark key="]" line="176" column="29" />
+        <mark key="." line="176" column="28" />
+        <mark key="^" line="176" column="29" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemoryread.rs" timestamp="1589522591050">
         <mark key="'" line="1" column="10" />
@@ -337,11 +338,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBvciAK</text>
+      <register name="*" type="4">
+        <text>eam</text>
       </register>
       <register name="-" type="4">
-        <text>error</text>
+        <text>eam</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
