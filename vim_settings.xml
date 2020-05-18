@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>h\.</entry>
-        <entry>Error</entry>
         <entry>thiserror</entry>
         <entry>LinkError</entry>
         <entry>IO</entry>
@@ -25,9 +23,10 @@
         <entry>Commit</entry>
         <entry>try_send</entry>
         <entry>dbg</entry>
+        <entry>as u16</entry>
+        <entry>vectored_read_works_as_exp</entry>
       </history-search>
       <history-cmd>
-        <entry>13</entry>
         <entry>132</entry>
         <entry>194</entry>
         <entry>199</entry>
@@ -47,6 +46,7 @@
         <entry>73</entry>
         <entry>23</entry>
         <entry>91</entry>
+        <entry>%s/as u16/as u64/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -101,10 +101,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemorywrite.rs" timestamp="1589828460919">
-        <mark key="[" line="16" column="19" />
-        <mark key="]" line="16" column="19" />
-        <mark key="." line="16" column="19" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemorywrite.rs" timestamp="1589831730840">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
         <mark key="^" line="8" column="31" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/segment.rs" timestamp="1589522456888">
@@ -121,12 +121,12 @@
         <mark key="." line="176" column="28" />
         <mark key="^" line="176" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemoryread.rs" timestamp="1589828452540">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemoryread.rs" timestamp="1589831745909">
         <mark key="'" line="1" column="10" />
-        <mark key="[" line="13" column="32" />
-        <mark key="]" line="13" column="19" />
-        <mark key="^" line="13" column="19" />
-        <mark key="." line="13" column="18" />
+        <mark key="[" line="11" column="8" />
+        <mark key="]" line="11" column="10" />
+        <mark key="^" line="11" column="10" />
+        <mark key="." line="11" column="9" />
       </file>
       <file name="$USER_HOME$/Workspace/uplink/uplink/src/base/actions/controller.rs" timestamp="1589374358546">
         <mark key="[" line="104" column="75" />
@@ -185,12 +185,12 @@
         <mark key="." line="46" column="8" />
         <mark key="^" line="43" column="54" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" timestamp="1589828616641">
-        <mark key="'" line="340" column="41" />
-        <mark key="[" line="340" column="40" />
-        <mark key="]" line="340" column="41" />
-        <mark key="^" line="340" column="41" />
-        <mark key="." line="340" column="40" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" timestamp="1589831705893">
+        <mark key="'" line="372" column="31" />
+        <mark key="[" line="280" column="35" />
+        <mark key="]" line="280" column="39" />
+        <mark key="^" line="280" column="39" />
+        <mark key="." line="280" column="38" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1589828430941">
         <mark key="[" line="126" column="0" />
@@ -231,7 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="252" column="12" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="324" column="11" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="250" column="31" filename="$USER_HOME$/Workspace/venom/timestone/src/router/replicator/link.rs" />
       <jump line="154" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
@@ -331,6 +330,7 @@
       <jump line="44" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
       <jump line="186" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
       <jump line="340" column="41" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" />
+      <jump line="372" column="31" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -339,43 +339,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">cGtpZCA=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">cGtpZCA=</text>
       </register>
       <register name="/" type="4">
-        <text>as u16</text>
+        <text>vectored_read_works_as_exp</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">I1t0b2tpbzo6bWFpbihjb3JlX3RocmVhZHMgPSAxKV0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwa2lkLAo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcGtpZCA9IHBraWQgJSA2NTAwMDsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBvciAK</text>
+        <text encoding="base64">ICAgIGxldCBwa2lkID0gMDsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludGxuISgiezo/fSIsIGlkcyk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwa2lkLAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJ7Oj99IiwgY29uZmlnKTsK</text>
+        <text encoding="base64">ICAgICAgICAvLyBvciAK</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB1bmltcGxlbWVudGVkISgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHB1YiBtYXhfaW5mbGlnaHRfdG9waWNfc2l6ZTogdXNpemUsCg==</text>
+        <text encoding="base64">ICAgIHByaW50bG4hKCJ7Oj99IiwgY29uZmlnKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHB1YiBhdXRvX3NhdmVfaW50ZXJ2YWxfc2VjOiB1MTYsCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/as u16/as u64/gc</text>
@@ -384,9 +384,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>as u16</last-search>
+      <last-search>vectored_read_works_as_exp</last-search>
       <last-offset />
-      <last-pattern>as u16</last-pattern>
+      <last-pattern>vectored_read_works_as_exp</last-pattern>
       <last-replace>as u64</last-replace>
       <last-substitute>as u16</last-substitute>
       <last-dir>1</last-dir>
