@@ -171,13 +171,6 @@
         <mark key="." line="208" column="23" />
         <mark key="^" line="208" column="24" />
       </file>
-      <file name="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" timestamp="1589375526918">
-        <mark key="'" line="97" column="34" />
-        <mark key="[" line="72" column="77" />
-        <mark key="]" line="72" column="77" />
-        <mark key="^" line="72" column="77" />
-        <mark key="." line="72" column="76" />
-      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/link.rs" timestamp="1589791105229">
         <mark key="'" line="44" column="31" />
         <mark key="[" line="46" column="8" />
@@ -215,18 +208,23 @@
         <mark key="]" line="163" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1589909168871">
+        <mark key="[" line="15" column="3" />
+        <mark key="]" line="15" column="28" />
+        <mark key="." line="15" column="27" />
+        <mark key="^" line="15" column="28" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/log.rs" timestamp="1589522436943">
         <mark key="[" line="44" column="2" />
         <mark key="]" line="47" column="4" />
         <mark key="^" line="47" column="4" />
         <mark key="." line="47" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1589476228057">
-        <mark key="'" line="53" column="85" />
-        <mark key="[" line="63" column="70" />
-        <mark key="]" line="63" column="96" />
-        <mark key="^" line="63" column="96" />
-        <mark key="." line="63" column="95" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/Cargo.toml" timestamp="1589908766769">
+        <mark key="[" line="19" column="24" />
+        <mark key="]" line="19" column="24" />
+        <mark key="." line="19" column="24" />
+        <mark key="^" line="19" column="26" />
       </file>
     </filemarks>
     <jumps>
@@ -338,43 +336,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">IG5vdGlmaWNhdGlvbl9yeA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">IG5vdGlmaWNhdGlvbl9yeA==</text>
       </register>
       <register name="/" type="4">
         <text>vectored_read_works_as_exp</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">I1t0b2tpbzo6bWFpbihjb3JlX3RocmVhZHMgPSAxKV0K</text>
+        <text encoding="base64">ICAgIGxldCAobm90aWZpY2FpdG9uX3R4LCBub3RpZmljYXRpb25fcngpID0gYm91bmRlZChjYXApOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCBlID0gZXZlbnRsb29wKG9wdGlvbnMsIHJlcXVlc3RfcngpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">LSAK</text>
+        <text encoding="base64">Zmx1bWUgPSAiMC43Igo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNhbmNlbDogCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgcGtpZCA9IHBraWQgJSA2NTAwMDsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxldCBwa2lkID0gMDsK</text>
+        <text encoding="base64">LSAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludGxuISgiezo/fSIsIGlkcyk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwa2lkLAo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcGtpZCA9IHBraWQgJSA2NTAwMDsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBvciAK</text>
+        <text encoding="base64">ICAgIGxldCBwa2lkID0gMDsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludGxuISgiezo/fSIsIGlkcyk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/as u16/as u64/gc</text>
