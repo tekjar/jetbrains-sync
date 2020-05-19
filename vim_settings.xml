@@ -209,10 +209,11 @@
         <mark key="]" line="163" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1589909970853">
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="0" />
-        <mark key="." line="14" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1589912293926">
+        <mark key="[" line="36" column="54" />
+        <mark key="]" line="36" column="73" />
+        <mark key="." line="36" column="72" />
+        <mark key="^" line="36" column="73" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/log.rs" timestamp="1589522436943">
         <mark key="[" line="44" column="2" />
@@ -220,11 +221,11 @@
         <mark key="^" line="47" column="4" />
         <mark key="." line="47" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/Cargo.toml" timestamp="1589908766769">
-        <mark key="[" line="19" column="24" />
-        <mark key="]" line="19" column="24" />
-        <mark key="." line="19" column="24" />
-        <mark key="^" line="19" column="26" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/Cargo.toml" timestamp="1589912148262">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="13" />
+        <mark key="." line="20" column="0" />
+        <mark key="^" line="18" column="26" />
       </file>
     </filemarks>
     <jumps>
@@ -335,17 +336,17 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIHJlcXVlc3Rfcng6IE9wdGlvbjxSZWNlaXZlcjxSZXF1ZXN0Pj4sCg==</text>
+      <register name="*" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>vectored_read_works_as_exp</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGxldCAobm90aWZpY2FpdG9uX3R4LCBub3RpZmljYXRpb25fcngpID0gYm91bmRlZChjYXApOwo=</text>
+        <text encoding="base64">Zmx1bWUgPSAiMC43Igo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHJlcXVlc3Rfcng6IE9wdGlvbjxSZWNlaXZlcjxSZXF1ZXN0Pj4sCg==</text>
