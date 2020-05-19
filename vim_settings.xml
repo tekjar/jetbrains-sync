@@ -146,12 +146,12 @@
         <mark key="^" line="0" column="10" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" timestamp="1589474777925">
-        <mark key="'" line="19" column="0" />
-        <mark key="[" line="28" column="25" />
-        <mark key="]" line="29" column="22" />
-        <mark key="." line="29" column="21" />
-        <mark key="^" line="29" column="22" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" timestamp="1589876387905">
+        <mark key="'" line="20" column="0" />
+        <mark key="[" line="14" column="52" />
+        <mark key="]" line="15" column="54" />
+        <mark key="." line="15" column="53" />
+        <mark key="^" line="15" column="54" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1589828361889">
         <mark key="[" line="66" column="18" />
