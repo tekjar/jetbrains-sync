@@ -127,14 +127,14 @@
         <mark key="^" line="126" column="36" />
         <mark key="." line="126" column="35" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/lib.rs" timestamp="1589977075540">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/lib.rs" timestamp="1589999125367">
         <mark key="'" line="47" column="30" />
-        <mark key="[" line="17" column="25" />
-        <mark key="]" line="17" column="39" />
-        <mark key="." line="17" column="38" />
-        <mark key="^" line="17" column="39" />
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="47" />
+        <mark key="." line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1589977138670">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1589998498312">
+        <mark key="'" line="320" column="65" />
         <mark key="[" line="15" column="0" />
         <mark key="]" line="15" column="0" />
         <mark key="." line="15" column="0" />
@@ -190,11 +190,12 @@
         <mark key="^" line="280" column="39" />
         <mark key="." line="280" column="38" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1589828430941">
-        <mark key="[" line="126" column="0" />
-        <mark key="]" line="126" column="0" />
-        <mark key="." line="126" column="0" />
-        <mark key="^" line="290" column="8" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1589999286921">
+        <mark key="'" line="23" column="17" />
+        <mark key="[" line="72" column="22" />
+        <mark key="]" line="73" column="41" />
+        <mark key="." line="73" column="40" />
+        <mark key="^" line="73" column="41" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttd/examples/broker.rs" timestamp="1589747337925">
         <mark key="[" line="8" column="8" />
@@ -202,24 +203,24 @@
         <mark key="." line="8" column="14" />
         <mark key="^" line="8" column="15" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttd/examples/broker.conf" timestamp="1589747051381">
-        <mark key="[" line="0" column="2" />
-        <mark key="]" line="0" column="2" />
-        <mark key="." line="0" column="2" />
-        <mark key="^" line="18" column="26" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1589978646173">
-        <mark key="'" line="135" column="46" />
-        <mark key="[" line="101" column="67" />
-        <mark key="]" line="101" column="65" />
-        <mark key="^" line="101" column="65" />
-        <mark key="." line="101" column="64" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1589999573436">
+        <mark key="'" line="136" column="34" />
+        <mark key="[" line="4" column="12" />
+        <mark key="]" line="5" column="10" />
+        <mark key="^" line="5" column="10" />
+        <mark key="." line="5" column="9" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1589912956777">
         <mark key="[" line="81" column="49" />
         <mark key="]" line="81" column="49" />
         <mark key="^" line="81" column="49" />
         <mark key="." line="81" column="48" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" timestamp="1589999699042">
+        <mark key="[" line="4" column="1" />
+        <mark key="]" line="3" column="27" />
+        <mark key="." line="3" column="26" />
+        <mark key="^" line="3" column="27" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/Cargo.toml" timestamp="1589912148262">
         <mark key="[" line="20" column="0" />
@@ -229,9 +230,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="52" column="27" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
-      <jump line="168" column="8" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
-      <jump line="299" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="77" column="8" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="221" column="12" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
       <jump line="262" column="29" filename="$USER_HOME$/Workspace/venom/timestone/src/router/router.rs" />
@@ -329,6 +327,9 @@
       <jump line="258" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" />
       <jump line="149" column="46" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
       <jump line="52" column="15" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" />
+      <jump line="320" column="65" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
+      <jump line="23" column="17" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="135" column="34" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -337,43 +338,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
+        <text encoding="base64">cHViIHN0cnVjdCBNZXNoQ29kZWMgewo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHJ1bXF0dGxvZw==</text>
+        <text encoding="base64">cHViIA==</text>
       </register>
       <register name="/" type="4">
         <text>vectored_read_works_as_exp</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">cHViIHVzZSBmbHVtZTo6U2VuZGVyOwo=</text>
+        <text encoding="base64">I1tkZXJpdmUoRGVidWcsIENsb25lLCBTZXJpYWxpemUsIERlc2VyaWFsaXplKV0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
+        <text encoding="base64">cHViIHN0cnVjdCBNZXNoQ29kZWMgewo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0K</text>
+        <text>}</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aW1lOjpkZWxheV9mb3IoRHVyYXRpb246OmZyb21fc2VjcygxKSkuYXdhaXQ7Cg==</text>
+        <text encoding="base64">Iwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcnJvciEoIkZhaWxlZCB0byBoYW5kb3ZlciBjb25uZWN0aW9uIHRvIGxpbmsiKTsK</text>
+        <text encoding="base64">ICAgIHBvcnQ6IHUxNiwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIGxldCBFcnIoXykgPSBoYW5kbGUuY29ubmVjdGlvbnNfdHguc2VuZChmcmFtZWQpLmF3YWl0IHsK</text>
+        <text encoding="base64">ICAgIGhvc3Q6IFN0cmluZywK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlkOiB1OCwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aW1lOjpkZWxheV9mb3IoRHVyYXRpb246OmZyb21fc2VjcygxKSkuYXdhaXQ7Cg==</text>
+        <text encoding="base64">cHViIHN0cnVjdCBSb3V0ZXJDb25maWcgewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcnJvciEoIkZhaWxlZCB0byBoYW5kb3ZlciBjb25uZWN0aW9uIHRvIGxpbmsiKTsK</text>
+        <text encoding="base64">I1tkZXJpdmUoRGVidWcsIENsb25lLCBTZXJpYWxpemUsIERlc2VyaWFsaXplKV0K</text>
       </register>
       <register name=":" type="4">
         <text>%s/as u16/as u64/gc</text>
