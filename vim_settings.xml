@@ -35,7 +35,6 @@
         <entry>79</entry>
         <entry>%s/LinkError/Error/gc</entry>
         <entry>39</entry>
-        <entry>84</entry>
         <entry>70</entry>
         <entry>233</entry>
         <entry>303</entry>
@@ -47,6 +46,7 @@
         <entry>23</entry>
         <entry>91</entry>
         <entry>%s/as u16/as u64/gc</entry>
+        <entry>84</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -107,13 +107,6 @@
         <mark key="." line="11" column="0" />
         <mark key="^" line="8" column="31" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" timestamp="1589782712705">
-        <mark key="'" line="192" column="0" />
-        <mark key="[" line="176" column="27" />
-        <mark key="]" line="176" column="29" />
-        <mark key="." line="176" column="28" />
-        <mark key="^" line="176" column="29" />
-      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/inmemoryread.rs" timestamp="1589831745909">
         <mark key="'" line="1" column="10" />
         <mark key="[" line="11" column="8" />
@@ -133,12 +126,17 @@
         <mark key="]" line="19" column="47" />
         <mark key="." line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1590065768702">
-        <mark key="'" line="296" column="12" />
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
-        <mark key="^" line="314" column="33" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1590089080901">
+        <mark key="'" line="285" column="12" />
+        <mark key="[" line="270" column="0" />
+        <mark key="]" line="270" column="0" />
+        <mark key="^" line="303" column="33" />
+        <mark key="." line="270" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.toml" timestamp="1590090717570">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="21" column="11" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" timestamp="1589977286266">
         <mark key="'" line="22" column="0" />
@@ -152,12 +150,6 @@
         <mark key="]" line="43" column="8" />
         <mark key="^" line="43" column="8" />
         <mark key="." line="43" column="7" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttd/Cargo.toml" timestamp="1589747231956">
-        <mark key="[" line="20" column="18" />
-        <mark key="]" line="21" column="25" />
-        <mark key="^" line="21" column="25" />
-        <mark key="." line="21" column="24" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/docs/journal.md" timestamp="1590050507733">
         <mark key="[" line="220" column="0" />
@@ -176,12 +168,9 @@
         <mark key="]" line="38" column="0" />
         <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/link.rs" timestamp="1589791105229">
-        <mark key="'" line="44" column="31" />
-        <mark key="[" line="46" column="8" />
-        <mark key="]" line="46" column="8" />
-        <mark key="." line="46" column="8" />
-        <mark key="^" line="43" column="54" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/timestone.toml" timestamp="1590090713333">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="21" column="10" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" timestamp="1589831705893">
         <mark key="'" line="372" column="31" />
@@ -190,6 +179,13 @@
         <mark key="^" line="280" column="39" />
         <mark key="." line="280" column="38" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590090746908">
+        <mark key="'" line="51" column="24" />
+        <mark key="[" line="15" column="59" />
+        <mark key="]" line="15" column="68" />
+        <mark key="." line="15" column="67" />
+        <mark key="^" line="15" column="68" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590063344987">
         <mark key="'" line="22" column="17" />
         <mark key="[" line="9" column="0" />
@@ -197,18 +193,12 @@
         <mark key="." line="9" column="0" />
         <mark key="^" line="150" column="52" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttd/examples/broker.rs" timestamp="1589747337925">
-        <mark key="[" line="8" column="8" />
-        <mark key="]" line="8" column="15" />
-        <mark key="." line="8" column="14" />
-        <mark key="^" line="8" column="15" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590088426132">
-        <mark key="'" line="97" column="42" />
-        <mark key="[" line="176" column="0" />
-        <mark key="]" line="176" column="0" />
-        <mark key="^" line="175" column="31" />
-        <mark key="." line="176" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590091143005">
+        <mark key="'" line="98" column="42" />
+        <mark key="[" line="90" column="47" />
+        <mark key="]" line="91" column="57" />
+        <mark key="^" line="91" column="57" />
+        <mark key="." line="91" column="56" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1589912956777">
         <mark key="[" line="81" column="49" />
@@ -216,12 +206,12 @@
         <mark key="^" line="81" column="49" />
         <mark key="." line="81" column="48" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" timestamp="1590088098158">
-        <mark key="'" line="1" column="32" />
-        <mark key="[" line="87" column="101" />
-        <mark key="]" line="87" column="102" />
-        <mark key="." line="87" column="101" />
-        <mark key="^" line="87" column="102" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" timestamp="1590091362696">
+        <mark key="'" line="95" column="0" />
+        <mark key="[" line="41" column="13" />
+        <mark key="]" line="41" column="13" />
+        <mark key="." line="41" column="12" />
+        <mark key="^" line="41" column="13" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/Cargo.toml" timestamp="1589912148262">
         <mark key="[" line="20" column="0" />
@@ -229,12 +219,14 @@
         <mark key="." line="20" column="0" />
         <mark key="^" line="18" column="26" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1590090070003">
+        <mark key="[" line="89" column="14" />
+        <mark key="]" line="89" column="26" />
+        <mark key="." line="89" column="25" />
+        <mark key="^" line="89" column="26" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="153" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
-      <jump line="312" column="27" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/link.rs" />
-      <jump line="129" column="10" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
       <jump line="150" column="27" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
       <jump line="154" column="34" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
       <jump line="16" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/link.rs" />
@@ -331,6 +323,10 @@
       <jump line="290" column="12" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
       <jump line="1" column="32" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
       <jump line="96" column="42" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
+      <jump line="21" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" />
+      <jump line="51" column="24" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" />
+      <jump line="41" column="12" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
+      <jump line="95" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -338,47 +334,89 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text># id of the current router
+id = 0
+# commitlog path
+dir = &quot;/tmp/timestone&quot;
+# maximum size of a segment in a partition
+max_segment_size = 104857600
+# maximum number of records in a segment
+max_record_count = 1000000
+# maximum number of segments in a given partition
+max_segment_count = 100
+
+# configuration for distributed router network
+[[routers]]
+topics = [&quot;#&quot;]
+id = 0
+host = &quot;localhost&quot;
+port = 9090
+
+[[routers]]
+id = 1
+host = &quot;localhost&quot;
+port = 9091</text>
       </register>
       <register name="-" type="4">
-        <text>connack</text>
+        <text>router</text>
       </register>
       <register name="/" type="4">
         <text>LinkHandle</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHBheWxvYWQucHV0X3UzMih0b3BpYy5sZW4oKSBhcyB1MzIpOwo=</text>
+      <register name="0" type="4">
+        <text># id of the current router
+id = 0
+# commitlog path
+dir = &quot;/tmp/timestone&quot;
+# maximum size of a segment in a partition
+max_segment_size = 104857600
+# maximum number of records in a segment
+max_record_count = 1000000
+# maximum number of segments in a given partition
+max_segment_count = 100
+
+# configuration for distributed router network
+[[routers]]
+topics = [&quot;#&quot;]
+id = 0
+host = &quot;localhost&quot;
+port = 9090
+
+[[routers]]
+id = 1
+host = &quot;localhost&quot;
+port = 9091</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGxldCBjb25uYWNrID0gUGFja2V0OjpDb25uQWNrYWxzZSkpOwo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCB0b3BpYyA9IEJ5dGVzTXV0Ojpmcm9tKHRvcGljLmFzX2J5dGVzKCkpOwo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBwYXlsb2FkID0gCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuYy5lbmNvZGUodG9waWMuZnJlZXplKCksIGRzdCk/Owo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuYy5lbmNvZGUoaGVhZGVyLCBkc3QpPzsK</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgcGFja2V0ID0gUGFja2V0OjpQdWJsaXNoKHB1Ymxpc2guY2xvbmUoKSk7Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgcGFja2V0ID0gUGFja2V0OjpQdWJsaXNoKHB1Ymxpc2guY2xvbmUoKSk7Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBwdWJsaXNoLmJ5dGVzID0gcGF5bG9hZC5mcmVlemUoKTsK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBtcXR0X3dyaXRlKHBhY2tldCwgJm11dCBwYXlsb2FkKS51bndyYXAoKTsK</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuYy5lbmNvZGUocGF5bG9hZC5mcmVlemUoKSwgZHN0KQo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcGFja2V0ID0gUGFja2V0OjpQdWJsaXNoKHB1Ymxpc2guY2xvbmUoKSk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbXV0IHBheWxvYWQgPSBCeXRlc011dDo6bmV3KCk7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>%s/as u16/as u64/gc</text>
+        <text>84</text>
       </register>
     </registers>
   </component>
