@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>received line</entry>
         <entry>received</entry>
         <entry>debug!</entry>
         <entry>debug</entry>
@@ -25,6 +24,7 @@
         <entry>Packet</entry>
         <entry>connect(</entry>
         <entry>LinkHandle</entry>
+        <entry>Stream error</entry>
       </history-search>
       <history-cmd>
         <entry>132</entry>
@@ -126,8 +126,8 @@
         <mark key="]" line="19" column="47" />
         <mark key="." line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1590089080901">
-        <mark key="'" line="285" column="12" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1590125971157">
+        <mark key="'" line="168" column="36" />
         <mark key="[" line="270" column="0" />
         <mark key="]" line="270" column="0" />
         <mark key="^" line="303" column="33" />
@@ -179,12 +179,12 @@
         <mark key="^" line="280" column="39" />
         <mark key="." line="280" column="38" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590090746908">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590125862074">
         <mark key="'" line="51" column="24" />
-        <mark key="[" line="15" column="59" />
-        <mark key="]" line="15" column="68" />
-        <mark key="." line="15" column="67" />
-        <mark key="^" line="15" column="68" />
+        <mark key="[" line="18" column="44" />
+        <mark key="]" line="18" column="46" />
+        <mark key="." line="18" column="45" />
+        <mark key="^" line="18" column="46" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590063344987">
         <mark key="'" line="22" column="17" />
@@ -206,12 +206,12 @@
         <mark key="^" line="81" column="49" />
         <mark key="." line="81" column="48" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" timestamp="1590091362696">
-        <mark key="'" line="95" column="0" />
-        <mark key="[" line="41" column="13" />
-        <mark key="]" line="41" column="13" />
-        <mark key="." line="41" column="12" />
-        <mark key="^" line="41" column="13" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" timestamp="1590126143942">
+        <mark key="'" line="98" column="0" />
+        <mark key="[" line="24" column="16" />
+        <mark key="]" line="24" column="17" />
+        <mark key="^" line="24" column="17" />
+        <mark key="." line="24" column="16" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/Cargo.toml" timestamp="1589912148262">
         <mark key="[" line="20" column="0" />
@@ -227,8 +227,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="150" column="27" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
-      <jump line="154" column="34" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
       <jump line="16" column="0" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/link.rs" />
       <jump line="89" column="60" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mesh.rs" />
       <jump line="35" column="54" filename="$USER_HOME$/Workspace/venom/timestone/src/linker/mod.rs" />
@@ -327,6 +325,8 @@
       <jump line="51" column="24" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" />
       <jump line="41" column="12" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
       <jump line="95" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
+      <jump line="295" column="17" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
+      <jump line="168" column="36" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -334,35 +334,14 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text># id of the current router
-id = 0
-# commitlog path
-dir = &quot;/tmp/timestone&quot;
-# maximum size of a segment in a partition
-max_segment_size = 104857600
-# maximum number of records in a segment
-max_record_count = 1000000
-# maximum number of segments in a given partition
-max_segment_count = 100
-
-# configuration for distributed router network
-[[routers]]
-topics = [&quot;#&quot;]
-id = 0
-host = &quot;localhost&quot;
-port = 9090
-
-[[routers]]
-id = 1
-host = &quot;localhost&quot;
-port = 9091</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoJmIpOwo=</text>
       </register>
       <register name="-" type="4">
-        <text>router</text>
+        <text>header</text>
       </register>
       <register name="/" type="4">
-        <text>LinkHandle</text>
+        <text>Stream error</text>
       </register>
       <register name="0" type="4">
         <text># id of the current router
@@ -389,31 +368,31 @@ host = &quot;localhost&quot;
 port = 9091</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoJmIpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBkYmchKCZzcmMpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgcGFja2V0ID0gUGFja2V0OjpQdWJsaXNoKHB1Ymxpc2guY2xvbmUoKSk7Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgcGFja2V0ID0gUGFja2V0OjpQdWJsaXNoKHB1Ymxpc2guY2xvbmUoKSk7Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwdWJsaXNoLmJ5dGVzID0gcGF5bG9hZC5mcmVlemUoKTsK</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuYy5lbmNvZGUoaGVhZGVyLCBkc3QpCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBtcXR0X3dyaXRlKHBhY2tldCwgJm11dCBwYXlsb2FkKS51bndyYXAoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuYy5lbmNvZGUoaGVhZGVyLCBkc3QpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgcGFja2V0ID0gUGFja2V0OjpQdWJsaXNoKHB1Ymxpc2guY2xvbmUoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuYy5lbmNvZGUoaGVhZGVyLCBkc3QpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbXV0IHBheWxvYWQgPSBCeXRlc011dDo6bmV3KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuYy5lbmNvZGUob3V0LmZyZWV6ZSgpLCBkc3QpCg==</text>
       </register>
       <register name=":" type="4">
         <text>84</text>
@@ -422,9 +401,9 @@ port = 9091</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>LinkHandle</last-search>
+      <last-search>Stream error</last-search>
       <last-offset />
-      <last-pattern>LinkHandle</last-pattern>
+      <last-pattern>Stream error</last-pattern>
       <last-replace>as u64</last-replace>
       <last-substitute>as u16</last-substitute>
       <last-dir>1</last-dir>
