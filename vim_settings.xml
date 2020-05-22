@@ -108,12 +108,12 @@
         <mark key="^" line="126" column="36" />
         <mark key="." line="126" column="35" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1590128406450">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1590151624246">
         <mark key="'" line="167" column="36" />
-        <mark key="[" line="208" column="49" />
-        <mark key="]" line="208" column="49" />
-        <mark key="^" line="200" column="51" />
-        <mark key="." line="208" column="49" />
+        <mark key="[" line="230" column="88" />
+        <mark key="]" line="230" column="88" />
+        <mark key="^" line="230" column="88" />
+        <mark key="." line="230" column="87" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" timestamp="1589977286266">
         <mark key="'" line="22" column="0" />
@@ -328,7 +328,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoJmIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -340,31 +340,31 @@
         <text encoding="base64">bGV0IHR5cCA9IGIuZ2V0X3U4KCk7CiAgICAgICAgbWF0Y2ggdHlwIHsKICAgICAgICAgICAgMSA9PiB7CiAgICAgICAgICAgICAgICBsZXQgaWQgPSBiLmdldF91OCgpOwogICAgICAgICAgICAgICAgT2soUGFja2V0OjpDb25uZWN0KGlkKSkKICAgICAgICAgICAgfQogICAgICAgICAgICAyID0+IHsKICAgICAgICAgICAgICAgIE9rKFBhY2tldDo6Q29ubkFjaykKICAgICAgICAgICAgfQogICAgICAgICAgICAzID0+IHsKICAgICAgICAgICAgICAgIGxldCBwa2lkID0gYi5nZXRfdTgoKTsKICAgICAgICAgICAgICAgIGxldCB0b3BpY19sZW4gPSBiLmdldF91MzIoKTsKICAgICAgICAgICAgICAgIGxldCB0b3BpYyA9IGIuc3BsaXRfdG8odG9waWNfbGVuIGFzIHVzaXplKTsKICAgICAgICAgICAgICAgIGxldCB0b3BpYyA9IFN0cmluZzo6ZnJvbV91dGY4KHRvcGljLnRvX3ZlYygpKS5tYXBfZXJyKHxffCBpbzo6RXJyb3I6Om5ldyhpbzo6RXJyb3JLaW5kOjpJbnZhbGlkRGF0YSwgIk5vbiBVVEY4IHRvcGljIikpPzsKICAgICAgICAgICAgICAgIGxldCBwYXlsb2FkX2xlbiA9IGIuZ2V0X3UzMigpOwogICAgICAgICAgICAgICAgbGV0IHBheWxvYWQgPSBiLnNwbGl0X3RvKHBheWxvYWRfbGVuIGFzIHVzaXplKTsKICAgICAgICAgICAgICAgIGxldCBkYXRhID0gUGFja2V0OjpEYXRhKHBraWQsIHRvcGljLCBwYXlsb2FkLmZyZWV6ZSgpKTsKICAgICAgICAgICAgICAgIGRiZyEoJmRhdGEpOwogICAgICAgICAgICAgICAgT2soZGF0YSkKICAgICAgICAgICAgfQogICAgICAgICAgICA0ID0+IHsKICAgICAgICAgICAgICAgIGxldCBwa2lkID0gYi5nZXRfdTgoKTsKICAgICAgICAgICAgICAgIE9rKFBhY2tldDo6RGF0YUFjayhwa2lkKSkKICAgICAgICAgICAgfQogICAgICAgICAgICBfID0+IHsKICAgICAgICAgICAgICAgIEVycihpbzo6RXJyb3I6Om5ldyhpbzo6RXJyb3JLaW5kOjpJbnZhbGlkRGF0YSwgIlVuZXhwZWN0ZWQgcGFja2V0IHR5cGUiKSkKICAgICAgICAgICAgfQogICAgICAgIH0=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoJmIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoJmIpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIEVycihpbzo6RXJyb3I6Om5ldyhpbzo6RXJyb3JLaW5kOjpJbnZhbGlkRGF0YSwgIlVuZXhwZWN0ZWQgcGFja2V0IHR5cGUiKSkK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgXyA9PiB7Cg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIEVycihpbzo6RXJyb3I6Om5ldyhpbzo6RXJyb3JLaW5kOjpJbnZhbGlkRGF0YSwgIlVuZXhwZWN0ZWQgcGFja2V0IHR5cGUiKSkK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgXyA9PiB7Cg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIE9rKFBhY2tldDo6RGF0YUFjayhwa2lkKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>84</text>
