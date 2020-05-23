@@ -166,12 +166,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="21" column="10" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590128733587">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590233919859">
         <mark key="'" line="51" column="24" />
-        <mark key="[" line="21" column="45" />
-        <mark key="]" line="21" column="45" />
-        <mark key="." line="21" column="45" />
-        <mark key="^" line="18" column="46" />
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="0" />
+        <mark key="." line="52" column="0" />
+        <mark key="^" line="53" column="27" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" timestamp="1590177205077">
         <mark key="[" line="192" column="51" />
@@ -328,8 +328,8 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>String</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgaWQgPSAidGltZXN0b25lLW1haW4iLnRvX293bmVkKCk7Cg==</text>
       </register>
       <register name="-" type="4">
         <text>String</text>
@@ -341,31 +341,31 @@
         <text encoding="base64">IGxldCBtdXQgY29ubmVjdGlvbiA9IG1hdGNoIHNlbGYuY29ubmVjdGlvbnMuZ2V0X211dChpZCkudW53cmFwKCkgewogICAgICAgICAgICBTb21lKGMpID0+IGMsICAgCiAgICAgICAgICAgIE5vbmUgPT4gewogICAgICAgICAgICAgICAgZXJyb3IhKCJJbnZhbGlkIGlkID0gezo/fSIsIGlkKTsKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgfTsKICAgICAgICA=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbXV0IGNvbm5lY3Rpb24gPSBzZWxmLmNvbm5lY3Rpb25zLmdldF9tdXQoaWQpLnVud3JhcCgpLnVud3JhcCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgaWQgPSAidGltZXN0b25lLW1haW4iLnRvX293bmVkKCk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGxpbmtfcngK</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbXV0IGNvbm5lY3Rpb24gPSBzZWxmLmNvbm5lY3Rpb25zLmdldF9tdXQoaWQpLnVud3JhcCgpLnVud3JhcCgpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHJvdXRlcl90eC5zZW5kKChpZCBhcyB1c2l6ZSwgbWVzc2FnZSkpLmF3YWl0LnVud3JhcCgpOwo=</text>
+        <text encoding="base64">ICAgIGxpbmtfcngK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCBtZXNzYWdlID0gUm91dGVySW5NZXNzYWdlOjpDb25uZWN0KGNvbm5lY3Rpb24pOwo=</text>
+        <text encoding="base64">ICAgIHJvdXRlcl90eC5zZW5kKChpZCBhcyB1c2l6ZSwgbWVzc2FnZSkpLmF3YWl0LnVud3JhcCgpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIH07Cg==</text>
+        <text encoding="base64">ICAgIGxldCBtZXNzYWdlID0gUm91dGVySW5NZXNzYWdlOjpDb25uZWN0KGNvbm5lY3Rpb24pOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBoYW5kbGU6IGxpbmtfdHgsCg==</text>
+        <text encoding="base64">ICAgIH07Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZDogZm9ybWF0ISgie30iLCBpZCksCg==</text>
+        <text encoding="base64">ICAgICAgICBoYW5kbGU6IGxpbmtfdHgsCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgcmVwbGljYXRpb25fZGF0YSA9IGlkLnN0YXJ0c193aXRoKCJyb3V0ZXItIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZDogZm9ybWF0ISgie30iLCBpZCksCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHJlcGxpY2F0aW9uX2RhdGEgPSBpZC5zdGFydHNfd2l0aCgicm91dGVyLSIpOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcmVwbGljYXRpb25fZGF0YSA9IGlkLnN0YXJ0c193aXRoKCJyb3V0ZXItIik7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>84</text>
