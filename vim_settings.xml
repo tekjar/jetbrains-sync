@@ -27,7 +27,6 @@
         <entry>register</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/LinkError/Error/gc</entry>
         <entry>39</entry>
         <entry>70</entry>
         <entry>233</entry>
@@ -47,6 +46,7 @@
         <entry>407</entry>
         <entry>447</entry>
         <entry>445</entry>
+        <entry>419</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -185,12 +185,12 @@
         <mark key="^" line="30" column="25" />
         <mark key="." line="30" column="24" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590326568004">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590330184493">
         <mark key="'" line="339" column="4" />
-        <mark key="[" line="419" column="15" />
-        <mark key="]" line="419" column="16" />
-        <mark key="." line="419" column="15" />
-        <mark key="^" line="419" column="16" />
+        <mark key="[" line="426" column="0" />
+        <mark key="]" line="426" column="45" />
+        <mark key="." line="426" column="0" />
+        <mark key="^" line="425" column="64" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590227676371">
         <mark key="'" line="101" column="42" />
@@ -334,8 +334,8 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>RouterInMessage::TopicsRequest(TopicsRequest {})</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICByb3V0ZXJfdHgudHJ5X3NlbmQobWVzc2FnZSkudW53cmFwKCk7Cg==</text>
       </register>
       <register name="-" type="4">
         <text>RouterInMessage::TopicsRequest(TopicsRequest {})</text>
@@ -344,7 +344,7 @@
         <text>register</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgY29ubiA9IENvbm5lY3Rpb25UeXBlOjpEZXZpY2UoInRlc3QiLnRvX3N0cmluZygpKTsKICAgICAgICBsZXQgKGlkLCBjb25uZWN0aW9uX3J4KSA9IG5ld19saW5rKGNvbm4sICZtdXQgcm91dGVyX3R4KTsK</text>
+        <text encoding="base64">ICAgICAgICByb3V0ZXJfdHgudHJ5X3NlbmQobWVzc2FnZSkudW53cmFwKCk7Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICB0aHJlYWQ6OnNsZWVwKER1cmF0aW9uOjpmcm9tX3NlY3MoMSkpOwo=</text>
@@ -374,7 +374,7 @@
         <text encoding="base64">ICAgICAgICAgICAgfSk7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>445</text>
+        <text>419</text>
       </register>
     </registers>
   </component>
