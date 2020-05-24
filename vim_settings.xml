@@ -185,12 +185,12 @@
         <mark key="^" line="30" column="25" />
         <mark key="." line="30" column="24" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590319630092">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590319736143">
         <mark key="'" line="339" column="4" />
-        <mark key="[" line="427" column="35" />
-        <mark key="]" line="427" column="25" />
-        <mark key="." line="427" column="24" />
-        <mark key="^" line="427" column="25" />
+        <mark key="[" line="407" column="25" />
+        <mark key="]" line="407" column="17" />
+        <mark key="." line="407" column="16" />
+        <mark key="^" line="407" column="17" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590227676371">
         <mark key="'" line="101" column="42" />
@@ -335,10 +335,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text>)</text>
+        <text>,</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
         <text>register</text>
