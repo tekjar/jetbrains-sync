@@ -198,12 +198,12 @@
         <mark key="^" line="41" column="35" />
         <mark key="." line="41" column="34" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1590398306724">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1590398934431">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="14" column="7" />
-        <mark key="]" line="9" column="62" />
-        <mark key="." line="9" column="61" />
-        <mark key="^" line="9" column="62" />
+        <mark key="[" line="14" column="12" />
+        <mark key="]" line="14" column="13" />
+        <mark key="." line="14" column="12" />
+        <mark key="^" line="14" column="13" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" timestamp="1590173786028">
         <mark key="'" line="76" column="47" />
