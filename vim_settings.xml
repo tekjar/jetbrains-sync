@@ -96,6 +96,9 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed E</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
@@ -198,12 +201,12 @@
         <mark key="^" line="41" column="35" />
         <mark key="." line="41" column="34" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1590398934431">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1590405728871">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="14" column="12" />
-        <mark key="]" line="14" column="13" />
-        <mark key="." line="14" column="12" />
-        <mark key="^" line="14" column="13" />
+        <mark key="[" line="54" column="0" />
+        <mark key="]" line="54" column="0" />
+        <mark key="." line="54" column="0" />
+        <mark key="^" line="53" column="44" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" timestamp="1590173786028">
         <mark key="'" line="76" column="47" />
@@ -334,44 +337,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">c3RydWN0IA==</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICBwdWJsaXNoLnFvcyA9IHFvczsK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">c3RydWN0IA==</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>register</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIFN0cmVhbURvbmUsCiAgICAjW2Vycm9yKCJSZXF1ZXN0cyBkb25lIildCg==</text>
+        <text encoding="base64">ICAgICAgICBwdWJsaXNoLnNldF9xb3MocW9zKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwdWJsaXNoLnFvcyA9IHFvczsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIFN0cmVhbURvbmUsCg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcGF5bG9hZCA9IHBheWxvYWQuaW50bygpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Ki8K</text>
+        <text encoding="base64">ICAgICAgICB0Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">LyoK</text>
+        <text encoding="base64">ICAgICAgICB0eC5zZW5kKFJlcXVlc3Q6OlB1Ymxpc2gocHVibGlzaCkpLndhaXQoKT87Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0aW1lb3V0OiBPcHRpb248RHVyYXRpb24+LH0K</text>
+        <text encoding="base64">ICAgICAgICBsZXQgdHggPSAmbXV0IHNlbGYucmVxdWVzdF90eDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ki8K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">LyoK</text>
+        <text encoding="base64">ICAgICAgICB9Owo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcGF5bG9hZDogQXJjOjpuZXcocGF5bG9hZCksCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcGtpZDogTm9uZSwK</text>
       </register>
       <register name=":" type="4">
         <text>419</text>
