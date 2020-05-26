@@ -27,8 +27,6 @@
         <entry>register</entry>
       </history-search>
       <history-cmd>
-        <entry>39</entry>
-        <entry>70</entry>
         <entry>233</entry>
         <entry>303</entry>
         <entry>282</entry>
@@ -47,6 +45,8 @@
         <entry>447</entry>
         <entry>445</entry>
         <entry>419</entry>
+        <entry>520</entry>
+        <entry>428</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -184,10 +184,11 @@
         <mark key="[" line="47" column="0" />
         <mark key="]" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590518939293">
-        <mark key="[" line="444" column="0" />
-        <mark key="]" line="444" column="70" />
-        <mark key="." line="444" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590520208574">
+        <mark key="[" line="513" column="50" />
+        <mark key="]" line="513" column="44" />
+        <mark key="^" line="513" column="44" />
+        <mark key="." line="513" column="43" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590485895334">
         <mark key="'" line="101" column="42" />
@@ -336,46 +337,46 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgT2sodikgPT4gcGFuaWMhKCJFeHBlY3RpbmcgY2hhbm5lbCBlbXB0eSBlcnJvci4gezo/fSIsIHYpLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>await_new_topics</text>
       </register>
       <register name="/" type="4">
         <text>register</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">IHJvdXRlcl9zaG91bGRfcmVwbHlfcmVwbGljYXRvcl9vZl9uZXdfdG9waWNz</text>
+        <text encoding="base64">dG9raW86OnRpbWU6OmRlbGF5X2ZvcihEdXJhdGlvbjo6ZnJvbV9zZWNzKDEpKS5hd2FpdDsKICAgICAgICBtYXRjaCByZXBsaWNhdG9yX3J4LnRyeV9yZWN2KCkgewogICAgICAgICAgICBPayh2KSA9PiBwYW5pYyEoIkV4cGVjdGluZyBjaGFubmVsIGVtcHR5IGVycm9yLiB7Oj99IiwgdiksCiAgICAgICAgICAgIEVycihlKSA9PiBhc3NlcnRfZXEhKGUsIFRyeVJlY3ZFcnJvcjo6RW1wdHkpLAogICAgICAgIH07</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgT2sodikgPT4gcGFuaWMhKCJFeHBlY3RpbmcgY2hhbm5lbCBlbXB0eSBlcnJvci4gezo/fSIsIHYpLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB9IGVsc2Ugewo=</text>
+      <register name="2" type="4">
+        <text encoding="base64">bGV0IG1lc3NhZ2UgPSAoCiAgICAgICAgICAgIGNvbm5lY3Rpb25faWQsCiAgICAgICAgICAgIFJvdXRlckluTWVzc2FnZTo6RGF0YShEYXRhIHsKICAgICAgICAgICAgICAgIHBraWQ6IDAsCiAgICAgICAgICAgICAgICB0b3BpYzogImhlbGxvL3dvcmxkIi50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIHBheWxvYWQ6IEJ5dGVzOjpmcm9tKHZlYyFbMSwgMiwgM10pLAogICAgICAgICAgICB9KSwKICAgICAgICApOwoKICAgICAgICByb3V0ZXJfdHgudHJ5X3NlbmQobWVzc2FnZSkudW53cmFwKCk7CiAgICAgICAg</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKG8pOwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICBsZXQgbWVzc2FnZSA9ICgKICAgICAgICAgICAgcmVwbGljYXRvcl9pZCwKICAgICAgICAgICAgUm91dGVySW5NZXNzYWdlOjpUb3BpY3NSZXF1ZXN0KFRvcGljc1JlcXVlc3QgewogICAgICAgICAgICAgICAgb2Zmc2V0OiAwLAogICAgICAgICAgICAgICAgY291bnQ6IDEwLAogICAgICAgICAgICB9KSwKICAgICAgICApOwogICAgICAgIHJvdXRlcl90eC50cnlfc2VuZChtZXNzYWdlKS51bndyYXAoKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Owo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgRXJyKGUpID0+IGFzc2VydF9lcSEoZSwgVHJ5UmVjdkVycm9yOjpFbXB0eSksCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICNbdGVzdF0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgT2sodikgPT4gcGFuaWMhKCJFeHBlY3RpbmcgY2hhbm5lbCBlbXB0eSBlcnJvci4gezo/fSIsIHYpLAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLnVud3JhcCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBtYXRjaCByZXBsaWNhdG9yX3J4LnRyeV9yZWN2KCkgewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLnRyeV9zZW5kKChjb25uZWN0aW9uX2lkLCBSb3V0ZXJJbk1lc3NhZ2U6OkRhdGEoZGF0YSkpKQo=</text>
+        <text encoding="base64">ICAgICAgICB0b2tpbzo6dGltZTo6ZGVsYXlfZm9yKER1cmF0aW9uOjpmcm9tX3NlY3MoMSkpLmF3YWl0Owo=</text>
       </register>
       <register name=":" type="4">
-        <text>419</text>
+        <text>428</text>
       </register>
     </registers>
   </component>
