@@ -141,9 +141,9 @@
         <mark key="^" line="98" column="11" />
         <mark key="." line="98" column="10" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" timestamp="1590486424822">
-        <mark key="[" line="260" column="7" />
-        <mark key="]" line="260" column="12" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" timestamp="1590487119684">
+        <mark key="[" line="260" column="11" />
+        <mark key="]" line="260" column="11" />
         <mark key="^" line="260" column="12" />
         <mark key="." line="260" column="11" />
       </file>
@@ -338,10 +338,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text>;</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>register</text>
