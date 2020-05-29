@@ -141,17 +141,17 @@
       <file name="/fragment.rs" timestamp="1590750779939">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1590767552177">
-        <mark key="[" line="89" column="27" />
-        <mark key="]" line="89" column="26" />
-        <mark key="." line="89" column="25" />
-        <mark key="^" line="89" column="26" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1590768991785">
+        <mark key="[" line="98" column="13" />
+        <mark key="]" line="98" column="13" />
+        <mark key="." line="98" column="12" />
+        <mark key="^" line="98" column="13" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" timestamp="1590510775089">
-        <mark key="[" line="16" column="111" />
-        <mark key="]" line="17" column="91" />
-        <mark key="^" line="17" column="91" />
-        <mark key="." line="17" column="90" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" timestamp="1590768103770">
+        <mark key="[" line="147" column="29" />
+        <mark key="]" line="148" column="30" />
+        <mark key="^" line="148" column="30" />
+        <mark key="." line="148" column="29" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/syncpubsub.rs" timestamp="1590406830147">
         <mark key="'" line="13" column="12" />
@@ -184,12 +184,12 @@
         <mark key="[" line="47" column="0" />
         <mark key="]" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590750877382">
-        <mark key="'" line="648" column="83" />
-        <mark key="[" line="341" column="16" />
-        <mark key="]" line="341" column="17" />
-        <mark key="^" line="341" column="17" />
-        <mark key="." line="341" column="16" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590768975015">
+        <mark key="'" line="652" column="83" />
+        <mark key="[" line="356" column="30" />
+        <mark key="]" line="357" column="29" />
+        <mark key="^" line="357" column="29" />
+        <mark key="." line="357" column="28" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590485895334">
         <mark key="'" line="101" column="42" />
@@ -331,7 +331,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIC8vLyBzdGFydCBmcm9tLiBGb3IgcmVwbHksIHRoaXMgaXMgdGhlIGxhc3Qgb2Zmc2V0Cg==</text>
+        <text encoding="base64">ICAgIC8vLyBDb3VudCBvZiBuYXRpdmUgZGF0YSBpbiBwYXlsb2FkCiAgICBwdWIgbmF0aXZlX2NvdW50OiB1c2l6ZSwK</text>
       </register>
       <register name="-" type="4">
         <text>request</text>
@@ -340,34 +340,34 @@
         <text>pretty_e</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGJnISgmcmVxdWVzdCk7Cg==</text>
+        <text encoding="base64">ICAgIC8vLyBTZWdtZW50IGlkIG9mIG5hdGl2ZSBsb2cgb2YgdGhpcyB0b3BpYy4KICAgIHB1YiBuYXRpdmVfc2VnbWVudDogdTY0LAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vLyBzdGFydCBmcm9tLiBGb3IgcmVwbHksIHRoaXMgaXMgdGhlIGxhc3Qgb2Zmc2V0Cg==</text>
+        <text encoding="base64">ICAgIC8vLyBDb3VudCBvZiBuYXRpdmUgZGF0YSBpbiBwYXlsb2FkCiAgICBwdWIgbmF0aXZlX2NvdW50OiB1c2l6ZSwK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC8vLyAuIEZvciByZXBseSwgdGhpcyBpcyB0aGUgbGFzdCBvZmZzZXQK</text>
+        <text encoding="base64">ICAgIC8vLyBOdW1iZXIgb2YgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgY29ubmVjdGlvbl9yeCkuYXdhaXQuaXNfbm9uZSgpKTsK</text>
+        <text encoding="base64">ICAgIC8vLyBzdGFydCBmcm9tLiBGb3IgcmVwbHksIHRoaXMgaXMgdGhlIGxhc3Qgb2Zmc2V0Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgcmVwbGljYXRvcl9yeCkuYXdhaXQuaXNfbm9uZSgpKTsK</text>
+        <text encoding="base64">ICAgIC8vLyAuIEZvciByZXBseSwgdGhpcyBpcyB0aGUgbGFzdCBvZmZzZXQK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRfZXEhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgcmVwbGljYXRvcl9yeCkuYXdhaXQudW53cmFwKCkucGF5bG9hZC5sZW4oKSwgMCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgY29ubmVjdGlvbl9yeCkuYXdhaXQuaXNfbm9uZSgpKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBlbXB0eSByZXNwb25zZSBvbiBmaXJzdCByZXF1ZXN0IGZyb20gcmVwbGljYXRvcgo=</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgcmVwbGljYXRvcl9yeCkuYXdhaXQuaXNfbm9uZSgpKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfZGF0YV9yZXF1ZXN0KHJlcGxpY2F0b3JfaWQsICZtdXQgcm91dGVyX3R4LCAiaGVsbG8vd29ybGQiLCAwKTsK</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRfZXEhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgcmVwbGljYXRvcl9yeCkuYXdhaXQudW53cmFwKCkucGF5bG9hZC5sZW4oKSwgMCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBmaXJzdCB3YWl0IG9uIHJlcGxpY2F0b3Jfcnggc2hvdWxkIHJldHVybiBzb21lIGRhdGEgYW5kIG5leHQgd2FpdCBub25lCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBlbXB0eSByZXNwb25zZSBvbiBmaXJzdCByZXF1ZXN0IGZyb20gcmVwbGljYXRvcgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBuZXdfZGF0YV9yZXF1ZXN0KHJlcGxpY2F0b3JfaWQsICZtdXQgcm91dGVyX3R4LCAiaGVsbG8vd29ybGQiLCAwKTsK</text>
       </register>
       <register name=":" type="4">
         <text>445</text>
