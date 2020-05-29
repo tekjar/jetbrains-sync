@@ -141,17 +141,17 @@
       <file name="/fragment.rs" timestamp="1590750779939">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1590768991785">
-        <mark key="[" line="98" column="13" />
-        <mark key="]" line="98" column="13" />
-        <mark key="." line="98" column="12" />
-        <mark key="^" line="98" column="13" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1590770615069">
+        <mark key="[" line="74" column="14" />
+        <mark key="]" line="74" column="15" />
+        <mark key="." line="74" column="14" />
+        <mark key="^" line="74" column="15" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" timestamp="1590768103770">
-        <mark key="[" line="147" column="29" />
-        <mark key="]" line="148" column="30" />
-        <mark key="^" line="148" column="30" />
-        <mark key="." line="148" column="29" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" timestamp="1590770659434">
+        <mark key="[" line="146" column="30" />
+        <mark key="]" line="147" column="31" />
+        <mark key="^" line="147" column="31" />
+        <mark key="." line="147" column="30" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/syncpubsub.rs" timestamp="1590406830147">
         <mark key="'" line="13" column="12" />
@@ -167,12 +167,12 @@
         <mark key="." line="64" column="28" />
         <mark key="^" line="64" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590233919859">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590770771065">
         <mark key="'" line="51" column="24" />
-        <mark key="[" line="52" column="0" />
-        <mark key="]" line="52" column="0" />
-        <mark key="." line="52" column="0" />
-        <mark key="^" line="53" column="27" />
+        <mark key="[" line="52" column="84" />
+        <mark key="]" line="52" column="84" />
+        <mark key="." line="52" column="84" />
+        <mark key="^" line="52" column="85" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/commitlog.rs" timestamp="1590250751849">
         <mark key="[" line="30" column="12" />
@@ -184,12 +184,12 @@
         <mark key="[" line="47" column="0" />
         <mark key="]" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590768975015">
-        <mark key="'" line="652" column="83" />
-        <mark key="[" line="356" column="30" />
-        <mark key="]" line="357" column="29" />
-        <mark key="^" line="357" column="29" />
-        <mark key="." line="357" column="28" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590770706972">
+        <mark key="'" line="654" column="83" />
+        <mark key="[" line="621" column="34" />
+        <mark key="]" line="622" column="35" />
+        <mark key="^" line="622" column="35" />
+        <mark key="." line="622" column="34" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590485895334">
         <mark key="'" line="101" column="42" />
@@ -214,12 +214,12 @@
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/Cargo.toml" timestamp="1590396780432">
         <mark key="[" line="14" column="56" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1590240671822">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1590770827616">
         <mark key="'" line="74" column="23" />
-        <mark key="[" line="93" column="16" />
-        <mark key="]" line="93" column="17" />
-        <mark key="^" line="93" column="17" />
-        <mark key="." line="93" column="16" />
+        <mark key="[" line="106" column="34" />
+        <mark key="]" line="107" column="31" />
+        <mark key="^" line="107" column="31" />
+        <mark key="." line="107" column="30" />
       </file>
     </filemarks>
     <jumps>
@@ -330,17 +330,17 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIC8vLyBDb3VudCBvZiBuYXRpdmUgZGF0YSBpbiBwYXlsb2FkCiAgICBwdWIgbmF0aXZlX2NvdW50OiB1c2l6ZSwK</text>
+      <register name="*" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>request</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>pretty_e</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIC8vLyBTZWdtZW50IGlkIG9mIG5hdGl2ZSBsb2cgb2YgdGhpcyB0b3BpYy4KICAgIHB1YiBuYXRpdmVfc2VnbWVudDogdTY0LAo=</text>
+        <text encoding="base64">ICAgIC8vLyBTZWdtZW50IGlkIG9mIHRoZSBsb2cuCiAgICBwdWIgbmF0aXZlX3NlZ21lbnQ6IHU2NCwK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIC8vLyBDb3VudCBvZiBuYXRpdmUgZGF0YSBpbiBwYXlsb2FkCiAgICBwdWIgbmF0aXZlX2NvdW50OiB1c2l6ZSwK</text>
