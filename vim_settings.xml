@@ -184,12 +184,12 @@
         <mark key="[" line="47" column="0" />
         <mark key="]" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590747934886">
-        <mark key="'" line="632" column="83" />
-        <mark key="[" line="490" column="41" />
-        <mark key="]" line="490" column="55" />
-        <mark key="." line="490" column="54" />
-        <mark key="^" line="490" column="55" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590749628897">
+        <mark key="'" line="648" column="83" />
+        <mark key="[" line="504" column="12" />
+        <mark key="]" line="504" column="66" />
+        <mark key="^" line="505" column="34" />
+        <mark key="." line="505" column="33" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590485895334">
         <mark key="'" line="101" column="42" />
@@ -338,43 +338,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IHJlcGxpY2F0b3Jfcng=</text>
+        <text encoding="base64">IG5ld19kYXRhX2Zyb21fcmVwbGljYXRvcl9zaG91bGRfbm90aWZ5X29ubHlfY29ubmVjdGlvbg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHJlcGxpY2F0b3Jfcng=</text>
+        <text encoding="base64">IGNvbm5lY3Rpb25fcng=</text>
       </register>
       <register name="/" type="4">
         <text>pretty_e</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">IG5ld19kYXRhX2Zyb21fcmVwbGljYXRvcl9zaG91bGRfbm90aWZ5X29ubHlfY29ubmVjdGlvbg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAvKgo=</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRfZXEhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgcmVwbGljYXRvcl9yeCkuYXdhaXQudW53cmFwKCkucGF5bG9hZFswXS5hc19yZWYoKSwgJls0LCA1LCA2XSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAvLyAK</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRfZXEhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgY29ubmVjdGlvbl9yeCkuYXdhaXQudW53cmFwKCkucGF5bG9hZFswXS5hc19yZWYoKSwgJls0LCA1LCA2XSk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBubyBtb3JlIGRhdGEgZm9yIGNvbm5lY3Rpb24K</text>
+        <text encoding="base64">ICAgICAgICBuZXdfZGF0YV9yZXF1ZXN0KHJlcGxpY2F0b3JfaWQsICZtdXQgcm91dGVyX3R4LCAiaGVsbG8vd29ybGQiLCAxKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHJlcGxpY2F0aW9uX2RhdGEgPSBpZCA8IDEwOwo=</text>
+        <text encoding="base64">ICAgICAgICBuZXdfZGF0YV9yZXF1ZXN0KGNvbm5lY3Rpb25faWQsICZtdXQgcm91dGVyX3R4LCAiaGVsbG8vd29ybGQiLCAxKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX2FjaygmbXV0IGNvbm5lY3Rpb25fcngpLmF3YWl0LmlzX3NvbWUoKSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB3cml0ZV90b19jb21taXRsb2coY29ubmVjdGlvbl9pZCwgJm11dCByb3V0ZXJfdHgsICJoZWxsby93b3JsZCIsIHZlYyFbNCwgNSwgNl0pOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyB3cml0ZSBuZXcgZGF0YSBhdCBvZmZzZXQgMQo=</text>
       </register>
       <register name=":" type="4">
         <text>445</text>
