@@ -184,12 +184,12 @@
         <mark key="[" line="47" column="0" />
         <mark key="]" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590828505544">
-        <mark key="'" line="666" column="83" />
-        <mark key="[" line="373" column="0" />
-        <mark key="]" line="373" column="0" />
-        <mark key="^" line="365" column="13" />
-        <mark key="." line="373" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590829196373">
+        <mark key="'" line="687" column="83" />
+        <mark key="[" line="367" column="60" />
+        <mark key="]" line="368" column="52" />
+        <mark key="^" line="368" column="52" />
+        <mark key="." line="368" column="51" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590485895334">
         <mark key="'" line="101" column="42" />
@@ -334,51 +334,40 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text encoding="base64">IHlpZWxk</text>
       </register>
       <register name="/" type="4">
         <text>pretty_e</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbmF0aXZlX2NvdW50ID0gY29ubmVjdGlvbl9kYXRhLjUubGVuKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IHJlcGxpY2FfY291bnQgPSByZXBsaWNhdGVkX2RhdGEuNS5sZW4oKTsK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IHJlcGxpY2FfY291bnQgPSByZXBsaWNhdGVkX2RhdGEuNS5sZW4oKTsK</text>
       </register>
-      <register name="5" type="4">
-        <text>DataReply {
-            done: connection_data.0,
-            topic: request.topic.clone(),
-            payload: connection_data.5,
-            native_segment: connection_data.1,
-            native_offset: connection_data.2,
-            native_count,
-            replica_segment: replicated_data.1,
-            replica_offset: replicated_data.2,
-            replica_count,
-            pkids: connection_data.4,
-        };</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgbmF0aXZlX2NvdW50ID0gY29ubmVjdGlvbl9kYXRhLjUubGVuKCk7Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgcmVwbGljYV9jb3VudCA9IHJlcGxpY2F0ZWRfZGF0YS41LmxlbigpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBUT0RPIGhhbmRsZSBhY2tzCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBOb25lCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVycm9yISgiQ29tbWl0bG9nIHJldHVybmVkIG5vdGhpbmchISIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>445</text>
