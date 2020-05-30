@@ -153,11 +153,11 @@
         <mark key="^" line="147" column="31" />
         <mark key="." line="147" column="30" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/docs/journal.md" timestamp="1590844916028">
-        <mark key="[" line="242" column="121" />
-        <mark key="]" line="243" column="69" />
-        <mark key="." line="243" column="68" />
-        <mark key="^" line="243" column="69" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/docs/journal.md" timestamp="1590847683055">
+        <mark key="[" line="240" column="98" />
+        <mark key="]" line="240" column="110" />
+        <mark key="^" line="240" column="110" />
+        <mark key="." line="240" column="109" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/syncpubsub.rs" timestamp="1590406830147">
         <mark key="'" line="13" column="12" />
@@ -334,7 +334,7 @@
         <text encoding="base64">ICAK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text>pretty_e</text>
@@ -346,28 +346,28 @@
         <text encoding="base64">ICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICByb3V0ZXIgY2FuIG1vZGlmeS9hc3NlbWJsZSB0aGUgYmFzZWQgb24gZGF0YSByZXF1ZXN0IHR5cGUsIGUuZyBRb1MgMCBvciAyIGRhdGEgcmVxdWVzdCkgW2V4cGVyaW1lbnRdCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBzdHVmZiAoUW9TIGFuZCByZW1haW5pbmcgbGVuZ3RoIGZvciBRb1MgMCkuIEJ1dCB0aGUgY29ubmVjdGlvbiBzaG91bGQgaXRlcmF0ZSB0aHJvdWdoIHRoZSBiYXRjaCBhbmQgbW9kaWZ5IHRoZXNlICggb3IK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBDb25uZWN0aW9uIHdpbGwgbW9kaWZ5IHRoZSBuZWNlc3NhcnkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">LSBXaGVuIHB1Ymxpc2hpbmcsIAo=</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBUT0RPIFRoaXMgY29waWVzIGRhdGEgZnJvbSBvbmUgcXVldWUgdG8gYW5vdGhlci4gRmluZCBpZiB0aGVyZSBpcyBhIHdheQogICAgICAgIC8vIFRPRE8gdG8gcmVkdWNlIGNvc3QgaGVyZS4gVGhlIGJlc3Qgb3B0aW9uIGhlcmUgaXMgcHJvYmFibHkgc2VuZCBWZWM8VmVjPEJ5dGVzPj4K</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBjb25uZWN0aW9uX2RhdGEuNS5hcHBlbmQoJm11dCByZXBsaWNhdGVkX2RhdGEuNSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">LSBXaGVuIHB1Ymxpc2hpbmcsIAo=</text>
       </register>
       <register name=":" type="4">
         <text>445</text>
