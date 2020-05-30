@@ -184,12 +184,12 @@
         <mark key="[" line="47" column="0" />
         <mark key="]" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590859552391">
-        <mark key="'" line="732" column="83" />
-        <mark key="[" line="355" column="0" />
-        <mark key="]" line="355" column="0" />
-        <mark key="^" line="346" column="26" />
-        <mark key="." line="355" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590861307691">
+        <mark key="'" line="695" column="83" />
+        <mark key="[" line="363" column="0" />
+        <mark key="]" line="363" column="46" />
+        <mark key="^" line="363" column="46" />
+        <mark key="." line="363" column="45" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590485895334">
         <mark key="'" line="101" column="42" />
@@ -331,55 +331,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCByZXBsaWNhX2NvdW50ID0gdi41LmxlbigpOwo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGNvbnRpbnVl</text>
+        <text encoding="base64">cmV0dXJuIA==</text>
       </register>
       <register name="/" type="4">
         <text>pretty_e</text>
       </register>
-      <register name="0" type="4">
-        <text>let native_count = connection_data.5.len();
-            let mut reply = DataReply {
-                done: connection_data.0,
-                topic: request.topic.clone(),
-                payload: connection_data.5,
-                native_segment: connection_data.1,
-                native_offset: connection_data.2,
-                native_count,
-                replica_segment: request.replica_segment,
-                replica_offset: request.replica_offset,
-                replica_count: 0,
-                pkids: connection_data.4,
-            };</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCByZXBsaWNhX2NvdW50ID0gdi41LmxlbigpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICB9Owo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBOb25lOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVycm9yISgiRmFpbGVkIHRvIGV4dHJhY3QgZGF0YSBmcm9tIGNvbW1pdGxvZy4gRXJyb3IgPSB7Oj99IiwgZSk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKCZ3YWl0ZXJzKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgRXJyKGUpID0+IHsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoJnJlcGx5KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgT2sodikgPT4gdiwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGJnISgmcmVxdWVzdCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICApIHsK</text>
       </register>
       <register name=":" type="4">
         <text>445</text>
