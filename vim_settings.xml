@@ -184,12 +184,12 @@
         <mark key="[" line="47" column="0" />
         <mark key="]" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590827049715">
-        <mark key="'" line="670" column="83" />
-        <mark key="[" line="361" column="65" />
-        <mark key="]" line="361" column="66" />
-        <mark key="^" line="361" column="66" />
-        <mark key="." line="361" column="65" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590828505544">
+        <mark key="'" line="666" column="83" />
+        <mark key="[" line="373" column="0" />
+        <mark key="]" line="373" column="0" />
+        <mark key="^" line="365" column="13" />
+        <mark key="." line="373" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590485895334">
         <mark key="'" line="101" column="42" />
@@ -330,11 +330,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">IGNvbm5lY3Rpb25fZGF0YQ==</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGNvbm5lY3Rpb25fZGF0YQ==</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>pretty_e</text>
@@ -343,31 +343,42 @@
         <text encoding="base64">ICAgICAgICBsZXQgbmF0aXZlX2NvdW50ID0gY29ubmVjdGlvbl9kYXRhLjUubGVuKCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKCZjb25uZWN0aW9uX2RhdGEpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB9Owo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTm9uZSA9PiByZXR1cm4gTm9uZSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU29tZShvKSA9PiBvLAo=</text>
+      <register name="5" type="4">
+        <text>DataReply {
+            done: connection_data.0,
+            topic: request.topic.clone(),
+            payload: connection_data.5,
+            native_segment: connection_data.1,
+            native_offset: connection_data.2,
+            native_count,
+            replica_segment: replicated_data.1,
+            replica_offset: replicated_data.2,
+            replica_count,
+            pkids: connection_data.4,
+        };</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbyA9IG1hdGNoIGNvbm5lY3Rpb25fZGF0YSB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBUT0RPIGhhbmRsZSBhY2tzCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gVE9ETyBNb3JlIGRlYnVnIGluZm8uIElkIGV0Ywo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIC8vLyBDb3VudCBvZiBuYXRpdmUgZGF0YSBpbiBwYXlsb2FkCiAgICBwdWIgbmF0aXZlX2NvdW50OiB1c2l6ZSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBOb25lCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8vLyBOdW1iZXIgb2YgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVycm9yISgiQ29tbWl0bG9nIHJldHVybmVkIG5vdGhpbmchISIpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>445</text>
