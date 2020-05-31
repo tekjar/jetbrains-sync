@@ -192,12 +192,12 @@
         <mark key="." line="45" column="35" />
         <mark key="^" line="45" column="36" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590953287349">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590954029550">
         <mark key="'" line="51" column="73" />
-        <mark key="[" line="250" column="44" />
-        <mark key="]" line="250" column="45" />
-        <mark key="." line="250" column="44" />
-        <mark key="^" line="250" column="45" />
+        <mark key="[" line="338" column="36" />
+        <mark key="]" line="338" column="40" />
+        <mark key="." line="338" column="39" />
+        <mark key="^" line="338" column="40" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590936422328">
         <mark key="'" line="101" column="42" />
@@ -336,16 +336,21 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">Jg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">Jg==</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">IGxldCBjb25uZWN0aW9uID0gbWF0Y2ggc2VsZi5jb25uZWN0aW9ucy5nZXRfbXV0KGlkKS51bndyYXAoKSB7CiAgICAgICAgICAgIFNvbWUoYykgPT4gYywKICAgICAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgICAgICBlcnJvciEoIjEuIEludmFsaWQgaWQgPSB7Oj99IiwgaWQpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgfTsKCiAgICAgICAgbGV0IHJlcGx5ID0gUm91dGVyT3V0TWVzc2FnZTo6RGF0YVJlcGx5KHJlcGx5KTsKICAgICAgICBpZiBsZXQgRXJyKGUpID0gY29ubmVjdGlvbi5oYW5kbGUudHJ5X3NlbmQocmVwbHkpIHsKICAgICAgICAgICAgZXJyb3IhKCJGYWlsZWQgdG8gZGF0YSByZXBseS4gRXJyb3IgPSB7Oj99IiwgZS50b19zdHJpbmcoKSk7CiAgICAgICAgfQ==</text>
+        <text>let reply = WatermarksReply {
+                topic: request.topic.clone(),
+                watermarks: watermarks.clone(),
+            };
+
+            self.reply_watermarks(id, reply);</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
