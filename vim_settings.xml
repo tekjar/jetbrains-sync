@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>dbg</entry>
         <entry>as u16</entry>
         <entry>vectored_read_works_as_exp</entry>
         <entry>mqtt4bytes</entry>
@@ -25,6 +24,7 @@
         <entry>register</entry>
         <entry>dbg!</entry>
         <entry>pretty_e</entry>
+        <entry>extract_connection</entry>
       </history-search>
       <history-cmd>
         <entry>90</entry>
@@ -184,12 +184,12 @@
         <mark key="[" line="47" column="0" />
         <mark key="]" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590926318931">
-        <mark key="'" line="784" column="83" />
-        <mark key="[" line="634" column="72" />
-        <mark key="]" line="634" column="63" />
-        <mark key="^" line="634" column="63" />
-        <mark key="." line="634" column="62" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590927241978">
+        <mark key="'" line="677" column="63" />
+        <mark key="[" line="307" column="0" />
+        <mark key="]" line="307" column="0" />
+        <mark key="^" line="287" column="52" />
+        <mark key="." line="307" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590485895334">
         <mark key="'" line="101" column="42" />
@@ -223,9 +223,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="23" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="95" column="34" filename="$USER_HOME$/Workspace/uplink/uplink/src/collector/bridge.rs" />
-      <jump line="32" column="6" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
       <jump line="59" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
       <jump line="92" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
       <jump line="50" column="17" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
@@ -323,6 +320,9 @@
       <jump line="213" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="298" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="619" column="83" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="331" column="7" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="780" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="634" column="63" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -334,40 +334,51 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHJlcGxpY2F0b3Jfcng=</text>
+        <text>extract_connection_data</text>
       </register>
       <register name="/" type="4">
-        <text>pretty_e</text>
+        <text>extract_connection</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB3cml0ZV90b19jb21taXRsb2cocmVwbGljYXRvcl9pZCwgJm11dCByb3V0ZXJfdHgsICJoZWxsby93b3JsZCIsIHZlYyFbNCwgNSwgNl0pOwogICAgICAgIGFzc2VydCEod2FpdF9mb3JfYWNrKCZtdXQgcmVwbGljYXRvcl9yeCkuYXdhaXQuaXNfc29tZSgpKTsK</text>
+      <register name="0" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCByZXBseSA9IG1hdGNoIHNlbGYuZXh0cmFjdF9jb25uZWN0aW9uX2RhdGEoJnJlcXVlc3QpIHsKICAgICAgICAgICAgICAgICAgICBTb21lKHIpID0+IHIsCiAgICAgICAgICAgICAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIERhdGFSZXBseSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkb25lOiB0cnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9waWM6IHJlcXVlc3QudG9waWMuY2xvbmUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hdGl2ZV9zZWdtZW50OiByZXF1ZXN0Lm5hdGl2ZV9zZWdtZW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmF0aXZlX29mZnNldDogcmVxdWVzdC5uYXRpdmVfb2Zmc2V0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmF0aXZlX2NvdW50OiAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVwbGljYV9zZWdtZW50OiByZXF1ZXN0LnJlcGxpY2Ffc2VnbWVudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlcGxpY2Ffb2Zmc2V0OiByZXF1ZXN0LnJlcGxpY2Ffb2Zmc2V0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVwbGljYV9jb3VudDogMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBraWRzOiB2ZWMhW10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXlsb2FkOiB2ZWMhW10KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH07CgogICAgICAgICAgICAgICAgc2VsZi5yZXBseV9kYXRhKGxpbmtfaWQsIHJlcGx5KTs=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRfZXEhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgcmVwbGljYXRvcl9yeCkuYXdhaXQudW53cmFwKCkucGF5bG9hZFswXS5hc19yZWYoKSwgJls0LCA1LCA2XSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRfZXEhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgY29ubmVjdGlvbl9yeCkuYXdhaXQudW53cmFwKCkucGF5bG9hZFswXS5hc19yZWYoKSwgJls0LCA1LCA2XSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnJlcGx5X2RhdGEobGlua19pZCwgcmVwbHkpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfZGF0YV9yZXF1ZXN0KHJlcGxpY2F0b3JfaWQsICZtdXQgcm91dGVyX3R4LCAiaGVsbG8vd29ybGQiLCAxLCAwKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHJlcGx5KSA9IHNlbGYuZXh0cmFjdF9kYXRhKCZyZXF1ZXN0KSB7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfZGF0YV9yZXF1ZXN0KGNvbm5lY3Rpb25faWQsICZtdXQgcm91dGVyX3R4LCAiaGVsbG8vd29ybGQiLCAxLCAwKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHJlcGx5KSA9IHNlbGYuZXh0cmFjdF9jb25uZWN0aW9uX2RhdGEoJnJlcXVlc3QpIHsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX2FjaygmbXV0IGNvbm5lY3Rpb25fcngpLmF3YWl0LmlzX3NvbWUoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHJvdXRlcnMgc2hvdWxkIG9ubHkgZXh0cmFjdCBjb25uZWN0aW9uIGRhdGEK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB3cml0ZV90b19jb21taXRsb2coY29ubmVjdGlvbl9pZCwgJm11dCByb3V0ZXJfdHgsICJoZWxsby93b3JsZCIsIHZlYyFbNCwgNSwgNl0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLnJlcGx5X2RhdGEobGlua19pZCwgcmVwbHkpOwo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvLyB3cml0ZSBuZXcgZGF0YSBhdCBvZmZzZXQgMQo=</text>
+      <register name="9" type="4">
+        <text>DataReply {
+                    done: true,
+                    topic: request.topic.clone(),
+                    native_segment: request.native_segment,
+                    native_offset: request.native_offset,
+                    native_count: 0,
+                    replica_segment: request.replica_segment,
+                    replica_offset: request.replica_offset,
+                    replica_count: 0,
+                    pkids: vec![],
+                    payload: vec![]
+                }</text>
       </register>
       <register name=":" type="4">
         <text>552</text>
@@ -376,9 +387,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>pretty_e</last-search>
+      <last-search>extract_connection</last-search>
       <last-offset />
-      <last-pattern>pretty_e</last-pattern>
+      <last-pattern>extract_connection</last-pattern>
       <last-replace>as u64</last-replace>
       <last-substitute>register</last-substitute>
       <last-dir>1</last-dir>
