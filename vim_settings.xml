@@ -179,12 +179,12 @@
         <mark key="." line="64" column="28" />
         <mark key="^" line="64" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590941621010">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590942065153">
         <mark key="'" line="55" column="24" />
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
-        <mark key="^" line="4" column="0" />
+        <mark key="[" line="0" column="21" />
+        <mark key="]" line="0" column="22" />
+        <mark key="." line="0" column="21" />
+        <mark key="^" line="0" column="22" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/commitlog.rs" timestamp="1590933220986">
         <mark key="[" line="45" column="36" />
