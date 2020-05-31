@@ -27,7 +27,6 @@
         <entry>dbg</entry>
       </history-search>
       <history-cmd>
-        <entry>23</entry>
         <entry>91</entry>
         <entry>%s/as u16/as u64/gc</entry>
         <entry>84</entry>
@@ -47,6 +46,7 @@
         <entry>529</entry>
         <entry>528</entry>
         <entry>41</entry>
+        <entry>668</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -147,11 +147,11 @@
       <file name="/fragment.rs" timestamp="1590750779939">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1590936406994">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="12" column="0" />
-        <mark key="." line="12" column="0" />
-        <mark key="^" line="12" column="26" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1590950538652">
+        <mark key="[" line="40" column="24" />
+        <mark key="]" line="41" column="37" />
+        <mark key="." line="41" column="36" />
+        <mark key="^" line="41" column="37" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" timestamp="1590770659434">
         <mark key="[" line="146" column="30" />
@@ -192,12 +192,12 @@
         <mark key="." line="45" column="35" />
         <mark key="^" line="45" column="36" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590949108032">
-        <mark key="'" line="91" column="36" />
-        <mark key="[" line="674" column="0" />
-        <mark key="]" line="674" column="0" />
-        <mark key="^" line="673" column="33" />
-        <mark key="." line="674" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590951811649">
+        <mark key="'" line="93" column="36" />
+        <mark key="[" line="317" column="0" />
+        <mark key="]" line="320" column="3" />
+        <mark key="^" line="317" column="8" />
+        <mark key="." line="317" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590936422328">
         <mark key="'" line="101" column="42" />
@@ -335,49 +335,47 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text encoding="base64">IGxldCB3YWl0ZXJzID0gbWF0Y2ggc2VsZi5kYXRhX3dhaXRlcnMucmVtb3ZlKHRvcGljKSB7CiAgICAgICAgICAgIFNvbWUodykgPT4gdywKICAgICAgICAgICAgTm9uZSA9PiByZXR1cm4sCiAgICAgICAgfTsK</text>
       </register>
       <register name="-" type="4">
-        <text>t</text>
+        <text encoding="base64">Jg==</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX2FjaygmbXV0IHJlcGxpY2F0b3JfcngpLmF3YWl0LmlzX3NvbWUoKSk7Cg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">IGxldCB3YWl0ZXJzID0gbWF0Y2ggc2VsZi5kYXRhX3dhaXRlcnMucmVtb3ZlKHRvcGljKSB7CiAgICAgICAgICAgIFNvbWUodykgPT4gdywKICAgICAgICAgICAgTm9uZSA9PiByZXR1cm4sCiAgICAgICAgfTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHdhdGVybWFya193YWl0ZXJzOiBWZWM8KENvbm5lY3Rpb25JZCwgV2F0ZXJtYXJrUmVxdWVzdCk+LAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdG9waWNzX3dhaXRlcnM6IFZlYzo6bmV3KCksCg==</text>
       </register>
-      <register name="3" type="8">
-        <text>replicator_rx
-replicator_rx
-replicator_rx</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHdhdGVybWFya3M6IFZlYzx1NjQ+Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vLyBDYXRjaCB1cCBzdGF0dXMK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Ly8hIAo=</text>
+        <text encoding="base64">ICAgIHB1YiBkb25lOiBib29sLAo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIFN0cmVhbURvbmUsCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">cHViIHVzZSB0b2tpbzo6c3luYzo6bXBzYzo6e2NoYW5uZWwsIFNlbmRlciwgUmVjZWl2ZXJ9Owo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>41</text>
+        <text>668</text>
       </register>
     </registers>
   </component>
