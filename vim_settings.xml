@@ -27,7 +27,6 @@
         <entry>dbg</entry>
       </history-search>
       <history-cmd>
-        <entry>73</entry>
         <entry>23</entry>
         <entry>91</entry>
         <entry>%s/as u16/as u64/gc</entry>
@@ -47,6 +46,7 @@
         <entry>523</entry>
         <entry>529</entry>
         <entry>528</entry>
+        <entry>41</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -179,11 +179,11 @@
         <mark key="." line="64" column="28" />
         <mark key="^" line="64" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590770771065">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590937209065">
         <mark key="'" line="51" column="24" />
-        <mark key="[" line="52" column="84" />
-        <mark key="]" line="52" column="84" />
-        <mark key="." line="52" column="84" />
+        <mark key="[" line="40" column="17" />
+        <mark key="]" line="40" column="17" />
+        <mark key="." line="40" column="17" />
         <mark key="^" line="52" column="85" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/commitlog.rs" timestamp="1590933220986">
@@ -192,11 +192,11 @@
         <mark key="." line="45" column="35" />
         <mark key="^" line="45" column="36" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590937010850">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590937131637">
         <mark key="'" line="90" column="36" />
-        <mark key="[" line="166" column="40" />
-        <mark key="]" line="166" column="40" />
-        <mark key="." line="166" column="40" />
+        <mark key="[" line="680" column="22" />
+        <mark key="]" line="680" column="22" />
+        <mark key="." line="680" column="22" />
         <mark key="^" line="666" column="50" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590936422328">
@@ -219,11 +219,11 @@
         <mark key="." line="21" column="8" />
         <mark key="^" line="21" column="9" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1590936923027">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1590937174707">
         <mark key="'" line="108" column="0" />
-        <mark key="[" line="111" column="32" />
-        <mark key="]" line="111" column="40" />
-        <mark key="." line="111" column="39" />
+        <mark key="[" line="110" column="52" />
+        <mark key="]" line="110" column="52" />
+        <mark key="." line="110" column="52" />
         <mark key="^" line="111" column="40" />
       </file>
     </filemarks>
@@ -335,8 +335,8 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIFN0cmVhbURvbmUsCg==</text>
+      <register name="*" type="4">
+        <text encoding="base64">bXV0IA==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">bXV0IA==</text>
@@ -375,7 +375,7 @@
         <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjp7Y2hhbm5lbCwgUmVjZWl2ZXIsIFNlbmRlcn07Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>528</text>
+        <text>41</text>
       </register>
     </registers>
   </component>
