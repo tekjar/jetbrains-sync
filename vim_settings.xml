@@ -213,11 +213,12 @@
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/Cargo.toml" timestamp="1590396780432">
         <mark key="[" line="14" column="56" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1590935253597">
-        <mark key="'" line="127" column="22" />
-        <mark key="[" line="97" column="0" />
-        <mark key="]" line="97" column="0" />
-        <mark key="." line="97" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1590935412609">
+        <mark key="'" line="128" column="22" />
+        <mark key="[" line="99" column="27" />
+        <mark key="]" line="99" column="28" />
+        <mark key="." line="99" column="27" />
+        <mark key="^" line="99" column="28" />
       </file>
     </filemarks>
     <jumps>
