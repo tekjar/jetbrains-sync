@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Packet</entry>
         <entry>connect(</entry>
         <entry>LinkHandle</entry>
         <entry>Stream error</entry>
@@ -25,6 +24,7 @@
         <entry>dbg!</entry>
         <entry>100</entry>
         <entry>Invalid id</entry>
+        <entry>dbg</entry>
       </history-search>
       <history-cmd>
         <entry>73</entry>
@@ -113,6 +113,19 @@
         <mark key="^" line="8" column="27" />
         <mark key="." line="8" column="26" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1590937017586">
+        <mark key="'" line="63" column="17" />
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="^" line="23" column="28" />
+        <mark key="." line="24" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/lib.rs" timestamp="1590936909464">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="4" />
+        <mark key="." line="12" column="3" />
+        <mark key="^" line="12" column="4" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" timestamp="1590932218591">
         <mark key="'" line="23" column="0" />
         <mark key="[" line="14" column="17" />
@@ -134,11 +147,11 @@
       <file name="/fragment.rs" timestamp="1590750779939">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1590770615069">
-        <mark key="[" line="74" column="14" />
-        <mark key="]" line="74" column="15" />
-        <mark key="." line="74" column="14" />
-        <mark key="^" line="74" column="15" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1590936406994">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
+        <mark key="^" line="12" column="26" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" timestamp="1590770659434">
         <mark key="[" line="146" column="30" />
@@ -179,23 +192,19 @@
         <mark key="." line="45" column="35" />
         <mark key="^" line="45" column="36" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1590398241622">
-        <mark key="[" line="47" column="0" />
-        <mark key="]" line="48" column="29" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590937010850">
+        <mark key="'" line="90" column="36" />
+        <mark key="[" line="166" column="40" />
+        <mark key="]" line="166" column="40" />
+        <mark key="." line="166" column="40" />
+        <mark key="^" line="666" column="50" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590934332662">
-        <mark key="'" line="453" column="27" />
-        <mark key="[" line="483" column="25" />
-        <mark key="]" line="483" column="25" />
-        <mark key="." line="483" column="24" />
-        <mark key="^" line="483" column="25" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590485895334">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590936422328">
         <mark key="'" line="101" column="42" />
-        <mark key="[" line="41" column="23" />
-        <mark key="]" line="41" column="35" />
-        <mark key="^" line="41" column="35" />
-        <mark key="." line="41" column="34" />
+        <mark key="[" line="132" column="46" />
+        <mark key="]" line="132" column="54" />
+        <mark key="^" line="132" column="54" />
+        <mark key="." line="132" column="53" />
       </file>
       <file name="$USER_HOME$/Workspace/venom/venom/Cargo.toml" timestamp="1590411197387">
         <mark key="[" line="17" column="48" />
@@ -210,23 +219,15 @@
         <mark key="." line="21" column="8" />
         <mark key="^" line="21" column="9" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/Cargo.toml" timestamp="1590396780432">
-        <mark key="[" line="14" column="56" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1590935412609">
-        <mark key="'" line="128" column="22" />
-        <mark key="[" line="99" column="27" />
-        <mark key="]" line="99" column="28" />
-        <mark key="." line="99" column="27" />
-        <mark key="^" line="99" column="28" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1590936923027">
+        <mark key="'" line="108" column="0" />
+        <mark key="[" line="111" column="32" />
+        <mark key="]" line="111" column="40" />
+        <mark key="." line="111" column="39" />
+        <mark key="^" line="111" column="40" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="35" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
-      <jump line="68" column="23" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
-      <jump line="63" column="31" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
-      <jump line="17" column="56" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
-      <jump line="100" column="30" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
       <jump line="42" column="31" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/link.rs" />
       <jump line="134" column="61" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
       <jump line="144" column="38" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
@@ -319,9 +320,14 @@
       <jump line="451" column="27" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="481" column="27" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="339" column="22" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="483" column="27" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="338" column="27" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="453" column="27" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="483" column="27" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="114" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="250" column="63" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="89" column="36" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="64" column="17" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
+      <jump line="108" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -330,47 +336,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKGNvdW50KTsK</text>
+        <text encoding="base64">ICAgIFN0cmVhbURvbmUsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>data_reply</text>
+        <text encoding="base64">bXV0IA==</text>
       </register>
       <register name="/" type="4">
-        <text>Invalid id</text>
+        <text>dbg</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsZXQgUm91dGVyT3V0TWVzc2FnZTo6RGF0YVJlcGx5KGRhdGFfcmVwbHkpID0gdGhpc19yeC5yZWN2KCkuYXdhaXQudW53cmFwKCkgewo=</text>
+        <text encoding="base64">ICAgIHVzZSBhc3luY19jaGFubmVsOjp7Ym91bmRlZCwgUmVjZWl2ZXIsIFNlbmRlcn07Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKGNvdW50KTsK</text>
+        <text encoding="base64">ICAgIFN0cmVhbURvbmUsCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKGkpOwo=</text>
+        <text encoding="base64">cHViIHVzZSB0b2tpbzo6c3luYzo6bXBzYzo6e2NoYW5uZWwsIFNlbmRlciwgUmVjZWl2ZXJ9Owo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCBtdXQgY291bnQgPSAwOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgbyA9IG8ub2tfb3IoTGlua0Vycm9yOjpTdHJlYW1Eb25lKT87Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBjb3VudCArPSAxOwo=</text>
+        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjplcnJvcjo6U2VuZEVycm9yOwo=</text>
       </register>
-      <register name="6" type="4">
-        <text>if let RouterOutMessage::DataAck(ack) = this_rx.recv().await.unwrap() {
-            continue
-        } else {
-            panic!(&quot;Expecting Ack&quot;);
-        }</text>
+      <register name="6" type="2">
+        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjpTZW5kZXI7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjp7Y2hhbm5lbCwgUmVjZWl2ZXIsIFNlbmRlcn07Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjp7Y2hhbm5lbCwgUmVjZWl2ZXIsIFNlbmRlcn07Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGxldCBtZXNzYWdlID0gKGlkLCBSb3V0ZXJJbk1lc3NhZ2U6OkNvbm5lY3QoY29ubmVjdGlvbikpOwo=</text>
+        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjp7Y2hhbm5lbCwgUmVjZWl2ZXIsIFNlbmRlcn07Cg==</text>
       </register>
       <register name=":" type="4">
         <text>528</text>
@@ -379,9 +381,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Invalid id</last-search>
+      <last-search>dbg</last-search>
       <last-offset />
-      <last-pattern>Invalid id</last-pattern>
+      <last-pattern>dbg</last-pattern>
       <last-replace>as u64</last-replace>
       <last-substitute>register</last-substitute>
       <last-dir>1</last-dir>
