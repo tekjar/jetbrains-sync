@@ -192,12 +192,12 @@
         <mark key="." line="45" column="35" />
         <mark key="^" line="45" column="36" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590954029550">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1590994927142">
         <mark key="'" line="51" column="73" />
-        <mark key="[" line="338" column="36" />
-        <mark key="]" line="338" column="40" />
-        <mark key="." line="338" column="39" />
-        <mark key="^" line="338" column="40" />
+        <mark key="[" line="352" column="0" />
+        <mark key="]" line="352" column="0" />
+        <mark key="^" line="351" column="28" />
+        <mark key="." line="352" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590936422328">
         <mark key="'" line="101" column="42" />
@@ -335,49 +335,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">Jg==</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5yZXBseV93YXRlcm1hcmtzKGxpbmtfaWQsIHJlcGx5KTsK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Jg==</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>dbg</text>
       </register>
-      <register name="0" type="4">
-        <text>let reply = WatermarksReply {
-                topic: request.topic.clone(),
-                watermarks: watermarks.clone(),
-            };
-
-            self.reply_watermarks(id, reply);</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IHJlcGx5ID0gUm91dGVyT3V0TWVzc2FnZTo6V2F0ZXJtYXJrc1JlcGx5KHJlcGx5KTsKICAgICAgICAgICAgc2VsZi5yZXBseShpZCwgcmVwbHkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5yZXBseV93YXRlcm1hcmtzKGxpbmtfaWQsIHJlcGx5KTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLi5wdXNoKHJlcXVlc3QpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5yZXBseV9kYXRhKGxpbmtfaWQsIHJlcGx5KTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnJlcGx5X2RhdGEoaWQsIHJlcGx5KTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHdhdGVybWFya193YWl0ZXJzOiBWZWM8KENvbm5lY3Rpb25JZCwgV2F0ZXJtYXJrUmVxdWVzdCk+LAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdG9waWNzX3dhaXRlcnM6IFZlYzo6bmV3KCksCg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHdhdGVybWFya3M6IFZlYzx1NjQ+Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vLyBDYXRjaCB1cCBzdGF0dXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXJyb3IhKCJGYWlsZWQgdG8gc2VuZCB3YXRlcm1hcmtzIHJlcGx5LiBFcnJvciA9IHs6P30iLCBlLnRvX3N0cmluZygpKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHB1YiBkb25lOiBib29sLAo=</text>
+        <text encoding="base64">ICAgICAgICBpZiBsZXQgRXJyKGUpID0gY29ubmVjdGlvbi5oYW5kbGUudHJ5X3NlbmQocmVwbHkpIHsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcmVwbHkgPSBSb3V0ZXJPdXRNZXNzYWdlOjpXYXRlcm1hcmtzUmVwbHkocmVwbHkpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>668</text>
