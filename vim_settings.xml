@@ -153,12 +153,12 @@
       <file name="/fragment.rs" timestamp="1590750779939">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/index.rt/rust/iterators/src/main.rs" timestamp="1591042597730">
+      <file name="$USER_HOME$/Workspace/index.rt/rust/iterators/src/main.rs" timestamp="1591042835392">
         <mark key="'" line="8" column="21" />
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="5" column="10" />
-        <mark key="." line="5" column="9" />
-        <mark key="^" line="5" column="10" />
+        <mark key="[" line="4" column="10" />
+        <mark key="]" line="4" column="12" />
+        <mark key="." line="4" column="11" />
+        <mark key="^" line="4" column="12" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1590952349718">
         <mark key="[" line="131" column="18" />
