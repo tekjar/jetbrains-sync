@@ -132,12 +132,12 @@
         <mark key="." line="12" column="3" />
         <mark key="^" line="12" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/tests/mesh.rs" timestamp="1591114406696">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/tests/mesh.rs" timestamp="1591115743849">
         <mark key="'" line="43" column="0" />
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="16" column="0" />
-        <mark key="^" line="46" column="4" />
-        <mark key="." line="16" column="0" />
+        <mark key="[" line="45" column="80" />
+        <mark key="]" line="45" column="96" />
+        <mark key="." line="45" column="95" />
+        <mark key="^" line="45" column="96" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" timestamp="1591104342656">
         <mark key="'" line="23" column="0" />
@@ -218,10 +218,10 @@
         <mark key="^" line="132" column="54" />
         <mark key="." line="132" column="53" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1590937174707">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1591114985944">
         <mark key="'" line="108" column="0" />
-        <mark key="[" line="110" column="52" />
-        <mark key="]" line="110" column="52" />
+        <mark key="[" line="79" column="0" />
+        <mark key="]" line="81" column="36" />
         <mark key="." line="110" column="52" />
         <mark key="^" line="111" column="40" />
       </file>
@@ -344,7 +344,7 @@
         <text>dbg</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGxldCAocm91dGVyLCByb3V0ZXJfdHgpID0gUm91dGVyOjpuZXcoY29uZmlnKTsK</text>
+        <text encoding="base64">ICAgIGxldCBjb25uZWN0aW9uID0gQ29ubmVjdGlvbjo6bmV3KCJ3cml0ZXItMSIsIHRoaXNfdHgpOwogICAgbGV0IG1lc3NhZ2UgPSAoMCwgUm91dGVySW5NZXNzYWdlOjpDb25uZWN0KGNvbm5lY3Rpb24pKTsKICAgIHR4LnNlbmQobWVzc2FnZSkuYXdhaXQudW53cmFwKCk7Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -362,16 +362,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGxldCAocm91dGVyLCByb3V0ZXJfdHgpID0gUm91dGVyOjpuZXcoY29uZmlnKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGxldCBfID0gZnM6OnJlbW92ZV9kaXJfYWxsKCZjb25maWcuZGlyKTsK</text>
+        <text encoding="base64">ICAgIGxldCAocm91dGVyLCByb3V0ZXJfdHgpID0gUm91dGVyOjpuZXcoY29uZmlnKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGNvbmZpZy5kaXIgPSBjb25maWcuZGlyLmpvaW4oJmlkKTsK</text>
+        <text encoding="base64">ICAgIGxldCBfID0gZnM6OnJlbW92ZV9kaXJfYWxsKCZjb25maWcuZGlyKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGxldCBpZCA9IGZvcm1hdCEoInt9IiwgY29uZmlnLmlkKTsK</text>
+        <text encoding="base64">ICAgIGNvbmZpZy5kaXIgPSBjb25maWcuZGlyLmpvaW4oJmlkKTsK</text>
       </register>
       <register name=":" type="4">
         <text>668</text>
