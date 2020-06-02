@@ -132,11 +132,12 @@
         <mark key="." line="12" column="3" />
         <mark key="^" line="12" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/tests/mesh.rs" timestamp="1591104735990">
-        <mark key="'" line="54" column="0" />
-        <mark key="[" line="49" column="0" />
-        <mark key="]" line="49" column="0" />
-        <mark key="." line="49" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/tests/mesh.rs" timestamp="1591114406696">
+        <mark key="'" line="43" column="0" />
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="^" line="46" column="4" />
+        <mark key="." line="16" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" timestamp="1591104342656">
         <mark key="'" line="23" column="0" />
@@ -334,7 +335,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIGZpbGVfcGVyX3RocmVhZF9sb2dnZXI6OmluaXRpYWxpemUoInJvdXRlcl8xIik7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IHJ1bl9yb3V0ZXI=</text>
@@ -342,41 +343,35 @@
       <register name="/" type="4">
         <text>dbg</text>
       </register>
-      <register name="0" type="4">
-        <text>Config {
-            id: 255,
-            dir: PathBuf::from(&quot;/tmp/timestone&quot;),
-            max_segment_size: 5 * 1024 * 1024,
-            max_segment_count: 1024,
-            routers: None,
-        }</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGxldCAocm91dGVyLCByb3V0ZXJfdHgpID0gUm91dGVyOjpuZXcoY29uZmlnKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGZpbGVfcGVyX3RocmVhZF9sb2dnZXI6OmluaXRpYWxpemUoInJvdXRlcl8xIik7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHJvdXRlci5zdGFydCgpLmF3YWl0Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGZpbGVfcGVyX3RocmVhZF9sb2dnZXI6OmluaXRpYWxpemUoImZpbGVfcHJlZml4LSIpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">I1t0b2tpbzo6bWFpbihjb3JlX3RocmVhZHMgPSAxKV0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCAocm91dGVyLCByb3V0ZXJfdHgpID0gUm91dGVyOjpuZXcoY29uZmlnKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByZXR0eV9lbnZfbG9nZ2VyOjppbml0KCk7Cg==</text>
+        <text encoding="base64">ICAgIGxldCBfID0gZnM6OnJlbW92ZV9kaXJfYWxsKCZjb25maWcuZGlyKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpZDogMjU1LAogICAgICAgIGRpcjogUGF0aEJ1Zjo6ZnJvbSgiL3RtcC90aW1lc3RvbmUiKSwK</text>
+        <text encoding="base64">ICAgIGNvbmZpZy5kaXIgPSBjb25maWcuZGlyLmpvaW4oJmlkKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCBpZCA9IGZvcm1hdCEoInt9IiwgY29uZmlnLmlkKTsK</text>
       </register>
       <register name=":" type="4">
         <text>668</text>
