@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>LinkHandle</entry>
         <entry>Stream error</entry>
         <entry>write_al</entry>
         <entry>decode</entry>
@@ -25,6 +24,7 @@
         <entry>Invalid id</entry>
         <entry>dbg</entry>
         <entry>debug!</entry>
+        <entry>await</entry>
       </history-search>
       <history-cmd>
         <entry>84</entry>
@@ -132,12 +132,11 @@
         <mark key="." line="12" column="3" />
         <mark key="^" line="12" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/tests/mesh.rs" timestamp="1591119912670">
-        <mark key="'" line="31" column="2" />
-        <mark key="[" line="31" column="4" />
-        <mark key="]" line="31" column="4" />
-        <mark key="." line="31" column="4" />
-        <mark key="^" line="32" column="7" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/tests/mesh.rs" timestamp="1591128985511">
+        <mark key="[" line="65" column="12" />
+        <mark key="]" line="65" column="8" />
+        <mark key="^" line="65" column="8" />
+        <mark key="." line="65" column="7" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" timestamp="1591104342656">
         <mark key="'" line="23" column="0" />
@@ -205,11 +204,12 @@
         <mark key="." line="45" column="35" />
         <mark key="^" line="45" column="36" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1591119865339">
-        <mark key="'" line="92" column="8" />
-        <mark key="[" line="165" column="0" />
-        <mark key="]" line="165" column="0" />
-        <mark key="." line="165" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" timestamp="1591128682416">
+        <mark key="'" line="105" column="59" />
+        <mark key="[" line="835" column="3" />
+        <mark key="]" line="844" column="4" />
+        <mark key="." line="29" column="61" />
+        <mark key="^" line="29" column="62" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590936422328">
         <mark key="'" line="101" column="42" />
@@ -227,57 +227,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="340" column="41" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" />
-      <jump line="372" column="31" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" />
-      <jump line="48" column="30" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/lib.rs" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" />
-      <jump line="258" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" />
-      <jump line="149" column="46" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="52" column="15" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" />
-      <jump line="23" column="17" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="135" column="34" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="110" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="164" column="22" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="7" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="165" column="5" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="255" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="126" column="35" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="184" column="35" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="1" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="27" column="9" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="5" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
-      <jump line="186" column="63" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="191" column="34" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="13" column="50" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="142" column="16" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="162" column="20" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="81" column="35" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="183" column="36" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="302" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="291" column="86" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="292" column="8" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="320" column="18" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="322" column="8" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="284" column="11" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="290" column="12" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="1" column="32" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
-      <jump line="96" column="42" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" />
-      <jump line="21" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" />
-      <jump line="51" column="24" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" />
-      <jump line="41" column="12" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
-      <jump line="95" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
-      <jump line="295" column="17" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="168" column="36" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="20" column="4" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
-      <jump line="28" column="21" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
-      <jump line="27" column="7" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
-      <jump line="76" column="47" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/codec.rs" />
-      <jump line="212" column="74" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="12" column="19" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" />
-      <jump line="9" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="75" column="23" filename="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" />
-      <jump line="202" column="38" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="177" column="43" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="224" column="34" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="135" column="59" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
@@ -300,7 +249,6 @@
       <jump line="619" column="83" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="331" column="7" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="780" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="634" column="63" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="538" column="31" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="162" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="266" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
@@ -327,6 +275,58 @@
       <jump line="31" column="2" filename="$USER_HOME$/Workspace/rumq/rumqttlog/tests/mesh.rs" />
       <jump line="510" column="8" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="92" column="8" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="99" column="17" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="557" column="54" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="562" column="78" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="565" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="566" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="569" column="58" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="576" column="58" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="583" column="106" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="588" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="589" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="593" column="58" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="602" column="106" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="607" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="608" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="612" column="58" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="620" column="106" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="627" column="56" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="631" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="634" column="59" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="635" column="59" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="641" column="106" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="647" column="56" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="651" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="654" column="59" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="655" column="56" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="661" column="106" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="666" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="667" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="670" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="672" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="673" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="679" column="106" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="687" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="688" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="691" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="692" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="697" column="102" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="702" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="703" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="704" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="722" column="27" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="732" column="37" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="734" column="55" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="746" column="37" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="748" column="55" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="813" column="55" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="824" column="55" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="836" column="55" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="555" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="554" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="551" column="78" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
+      <jump line="105" column="59" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -334,44 +334,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>debug!</text>
+        <text>await</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGJnISgpOwo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">IGFzeW5jIGZuIHdhaXRfZm9yX25ld19kYXRhKHJ4OiAmbXV0IFJlY2VpdmVyPFJvdXRlck91dE1lc3NhZ2U+KSAtPiBPcHRpb248RGF0YVJlcGx5PiB7CiAgICAgICAgdG9raW86OnRpbWU6OmRlbGF5X2ZvcihEdXJhdGlvbjo6ZnJvbV9zZWNzKDEpKS5hd2FpdDsKICAgICAgICBtYXRjaCByeC50cnlfcmVjdigpIHsKICAgICAgICAgICAgT2soUm91dGVyT3V0TWVzc2FnZTo6RGF0YVJlcGx5KHJlcGx5KSkgPT4gU29tZShyZXBseSksCiAgICAgICAgICAgIHYgPT4gewogICAgICAgICAgICAgICAgZXJyb3IhKCJ7Oj99Iiwgdik7CiAgICAgICAgICAgICAgICBOb25lCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKCk7Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZW5kX2RhdGEoaWQsICZyb3V0ZXJfdHgsIDEwLCBwa2lkKS5hd2FpdDsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKHBraWQpOwo=</text>
+        <text encoding="base64">ICAgIGZvciBwa2lkIGluIDEuLj1DT1VOVCB7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGJnISgpOwo=</text>
+        <text encoding="base64">ICAgIH0pOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGJnISgpOwo=</text>
+        <text encoding="base64">ICAgIHRhc2s6OnNwYXduKGFzeW5jIG1vdmUgewo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRiZyEoaWQpOwo=</text>
+        <text encoding="base64">ICAgIHRhc2s6OnNwYXduKGFzeW5jIG1vdmUgewo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJoZWxsbyIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVjZWl2ZV9hY2soJnRoaXNfcngsIGkpLmF3YWl0Owo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGRiZyEoKTsKICAgIHByaW50bG4hKCJoZWxsbyIpOwo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGJnISgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgTm9uZQo=</text>
       </register>
       <register name=":" type="4">
         <text>166</text>
@@ -380,9 +380,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>debug!</last-search>
+      <last-search>await</last-search>
       <last-offset />
-      <last-pattern>debug!</last-pattern>
+      <last-pattern>await</last-pattern>
       <last-replace>as u64</last-replace>
       <last-substitute>register</last-substitute>
       <last-dir>1</last-dir>
