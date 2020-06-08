@@ -116,11 +116,11 @@
       <file name="/Dummy.txt" timestamp="1591554688415">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/tracker/src/lib.rs" timestamp="1591634247137">
-        <mark key="[" line="11" column="36" />
-        <mark key="]" line="11" column="36" />
-        <mark key="^" line="11" column="36" />
-        <mark key="." line="11" column="35" />
+      <file name="$USER_HOME$/Workspace/tracker/src/lib.rs" timestamp="1591635602549">
+        <mark key="[" line="15" column="25" />
+        <mark key="]" line="15" column="38" />
+        <mark key="^" line="15" column="38" />
+        <mark key="." line="15" column="37" />
       </file>
       <file name="$USER_HOME$/Workspace/smoller/Cargo.toml" timestamp="1591606361224">
         <mark key="[" line="8" column="14" />
@@ -331,44 +331,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIC8vLyBUT0RPIFRoaXMgY2FuIHByb2JhYmx5IGJlIGFuIGFycmF5IGluIGZ1dHVyZSBieSBzdXBwb3J0aW5nIGEgZml4ZWQgbnVtYmVyIG9mIHRvcGljcwo=</text>
+      <register name="*" type="4">
+        <text>WatermarksRequest</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>WatermarksRequest</text>
       </register>
       <register name="/" type="4">
         <text>await</text>
       </register>
-      <register name="0" type="4">
-        <text>0, 0, 0, 0,</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIC8vLyBMaXN0IG9mIHRvcGljcyB0aGF0IHdlIGFyZSB0cmFja2luZyBmb3Igd2F0ZXJtYXJrCiAgICB3YXRlcm1hcmtfcmVxdWVzdHM6IFZlYzxXYXRlcm1hcmtzUmVxdWVzdD4sCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vLyBUT0RPIFRoaXMgY2FuIHByb2JhYmx5IGJlIGFuIGFycmF5IGluIGZ1dHVyZSBieSBzdXBwb3J0aW5nIGEgZml4ZWQgbnVtYmVyIG9mIHRvcGljcwo=</text>
+        <text encoding="base64">Ly8vIFRPRE8gSGFzaE1hcCBpdGVyYXRpb25zIGFyZSBub3QgYWx3YXlzIHZlcnkgZWZmaWNpZW50LiBDaGVjayBpbmRleG1hcCBjcmF0ZQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC8vLyBUT0RPIFN3YXAgaW5hY3RpdmUgdG9waWNzIHRvIHRoZSBlbmQgb2YgdGhlIGxpc3Qgc28gdGhhdCB2ZWMgaXMgZGl2aWRlZCB0byBpbXByb3ZlIGl0ZXJhdGlvbiBlZmZpY2llbmN5Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIC8vLyBUT0RPIFByb2JhYmx5IGp1c3QgYSB2ZWN0b3Igd2l0aCBzd2FwIHJlbW92ZSB3aWxsIGJlIG1vcmUgZWZmaWNpZW50Cg==</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGFja2VkOiBib29sCg==</text>
+      </register>
       <register name="5" type="2">
-        <text>m</text>
+        <text encoding="base64">ICAgIC8vLyBMYXN0IGRhdGEgcmVxdWVzdCBhY2tlZCBvciBwZW5kaW5nCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmV0dHlfZW52X2xvZ2dlcjo6aW5pdCgpOwo=</text>
+        <text encoding="base64">ICAgIC8vLyBUT0RPIFRoaXMgY2FuIHByb2JhYmx5IGJlIGFuIGFycmF5IGluIGZ1dHVyZSBieSBzdXBwb3J0aW5nIGEgZml4ZWQgbnVtYmVyIG9mIHRvcGljcwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKHJlcGx5KTsK</text>
+        <text encoding="base64">ICAgIC8vLyBUT0RPIFN3YXAgaW5hY3RpdmUgdG9waWNzIHRvIHRoZSBlbmQgb2YgdGhlIGxpc3Qgc28gdGhhdCB2ZWMgaXMgZGl2aWRlZCB0byBpbXByb3ZlIGl0ZXJhdGlvbiBlZmZpY2llbmN5Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRfZXEhKHdhaXRfZm9yX25ld19kYXRhKCZtdXQgcmVwbGljYXRvcl9yeCkuYXdhaXQudW53cmFwKCkucGF5bG9hZC5sZW4oKSwgMyk7Cg==</text>
+        <text encoding="base64">ICAgIC8vLyBUT0RPIFByb2JhYmx5IGp1c3QgYSB2ZWN0b3Igd2l0aCBzd2FwIHJlbW92ZSB3aWxsIGJlIG1vcmUgZWZmaWNpZW50Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>166</text>
