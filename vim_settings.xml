@@ -116,11 +116,11 @@
       <file name="/Dummy.txt" timestamp="1591554688415">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/tracker/src/lib.rs" timestamp="1591635602549">
-        <mark key="[" line="15" column="25" />
-        <mark key="]" line="15" column="38" />
-        <mark key="^" line="15" column="38" />
-        <mark key="." line="15" column="37" />
+      <file name="$USER_HOME$/Workspace/tracker/src/lib.rs" timestamp="1591638687116">
+        <mark key="[" line="89" column="0" />
+        <mark key="]" line="89" column="0" />
+        <mark key="." line="89" column="0" />
+        <mark key="^" line="81" column="15" />
       </file>
       <file name="$USER_HOME$/Workspace/smoller/Cargo.toml" timestamp="1591606361224">
         <mark key="[" line="8" column="14" />
@@ -176,6 +176,12 @@
         <mark key="^" line="258" column="3" />
         <mark key="." line="258" column="2" />
       </file>
+      <file name="$USER_HOME$/Workspace/tracker/Cargo.toml" timestamp="1591636759632">
+        <mark key="[" line="8" column="14" />
+        <mark key="]" line="9" column="17" />
+        <mark key="^" line="9" column="17" />
+        <mark key="." line="9" column="16" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/mesh.rs" timestamp="1590942065153">
         <mark key="'" line="55" column="24" />
         <mark key="[" line="0" column="21" />
@@ -201,13 +207,6 @@
         <mark key="]" line="727" column="0" />
         <mark key="." line="727" column="0" />
         <mark key="^" line="751" column="76" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1590936422328">
-        <mark key="'" line="101" column="42" />
-        <mark key="[" line="132" column="46" />
-        <mark key="]" line="132" column="54" />
-        <mark key="^" line="132" column="54" />
-        <mark key="." line="132" column="53" />
       </file>
       <file name="$USER_HOME$/Workspace/smoller/src/reactor.rs" timestamp="1591606472306">
         <mark key="[" line="2" column="52" />
@@ -331,11 +330,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>WatermarksRequest</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>WatermarksRequest</text>
+        <text>tracks</text>
       </register>
       <register name="/" type="4">
         <text>await</text>
@@ -344,31 +343,31 @@
         <text encoding="base64">ICAgIC8vLyBMaXN0IG9mIHRvcGljcyB0aGF0IHdlIGFyZSB0cmFja2luZyBmb3Igd2F0ZXJtYXJrCiAgICB3YXRlcm1hcmtfcmVxdWVzdHM6IFZlYzxXYXRlcm1hcmtzUmVxdWVzdD4sCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8vIFRPRE8gSGFzaE1hcCBpdGVyYXRpb25zIGFyZSBub3QgYWx3YXlzIHZlcnkgZWZmaWNpZW50LiBDaGVjayBpbmRleG1hcCBjcmF0ZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhY2suYWNrZWQgPSB0cnVlOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGRlYnVnISgiUmVhY3RpdmF0aW5nIGEgc3Vic2NyaXB0aW9uLiBUb3BpYyA9IHs6P30iLCB0b3BpYyk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGFja2VkOiBib29sCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGRlYnVnISgiQ2F1Z2h0IHVwIHN1YnNjcmlwdGlvbi4gVG9waWMgPSB7Oj99IiwgdG9waWMpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vLyBMYXN0IGRhdGEgcmVxdWVzdCBhY2tlZCBvciBwZW5kaW5nCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIC8vLyBUT0RPIFRoaXMgY2FuIHByb2JhYmx5IGJlIGFuIGFycmF5IGluIGZ1dHVyZSBieSBzdXBwb3J0aW5nIGEgZml4ZWQgbnVtYmVyIG9mIHRvcGljcwo=</text>
+        <text encoding="base64">ICAgICAgICBkZWJ1ZyEoIkRhdGEgcmVwbHkuIFRvcGljID0ge30sIHNlZ21lbnQgPSB7fSwgb2Zmc2V0ID0ge30sIGxlbiA9IHt9IiwgdG9waWMsIHNlZ21lbnQsIG9mZnNldCwgbGVuKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vLyBUT0RPIFN3YXAgaW5hY3RpdmUgdG9waWNzIHRvIHRoZSBlbmQgb2YgdGhlIGxpc3Qgc28gdGhhdCB2ZWMgaXMgZGl2aWRlZCB0byBpbXByb3ZlIGl0ZXJhdGlvbiBlZmZpY2llbmN5Cg==</text>
+        <text encoding="base64">ICAgIHB1YiBmbiB1cGRhdGUoJm11dCBzZWxmLCB0b3BpYzogJnN0ciwgc2VnbWVudDogdTY0LCBvZmZzZXQ6IHU2NCwgbGVuOiB1c2l6ZSkgewo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIC8vLyBUT0RPIFByb2JhYmx5IGp1c3QgYSB2ZWN0b3Igd2l0aCBzd2FwIHJlbW92ZSB3aWxsIGJlIG1vcmUgZWZmaWNpZW50Cg==</text>
+        <text encoding="base64">ICAgIC8vLyBUT0RPIHN0YXR1cyBpbiAndHJhY2tzJyBkaXJlY3RseSBhbmQgdXNlIGlkcyBmb3IgaXRlcmF0aW5nPwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vLyBUT0RPIG1haW50YWluaW5nIDIgdHJhY2tzIGFuZCBtb3ZpbmcgYmV0d2VlbiB0aGVtPyBQcm9iYWJseSBzYXZlIGFjdGl2ZS9pbmFjdGl2ZQo=</text>
       </register>
       <register name=":" type="4">
         <text>166</text>
