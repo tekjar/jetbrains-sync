@@ -213,12 +213,12 @@
         <mark key="^" line="2" column="74" />
         <mark key="." line="2" column="73" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1591116689571">
-        <mark key="'" line="108" column="0" />
-        <mark key="[" line="78" column="0" />
-        <mark key="]" line="78" column="43" />
-        <mark key="." line="110" column="52" />
-        <mark key="^" line="111" column="40" />
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1591736926820">
+        <mark key="'" line="117" column="0" />
+        <mark key="[" line="155" column="50" />
+        <mark key="]" line="155" column="71" />
+        <mark key="." line="155" column="70" />
+        <mark key="^" line="155" column="71" />
       </file>
     </filemarks>
     <jumps>
@@ -329,44 +329,61 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIE1wc2MoI1tmcm9tXSBUcnlTZW5kRXJyb3I8Um91dGVyT3V0TWVzc2FnZT4pLAo=</text>
+      <register name="*" type="4">
+        <text>0</text>
       </register>
       <register name="-" type="4">
-        <text>tracks</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
         <text>try_send</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIC8vLyBMaXN0IG9mIHRvcGljcyB0aGF0IHdlIGFyZSB0cmFja2luZyBmb3Igd2F0ZXJtYXJrCiAgICB3YXRlcm1hcmtfcmVxdWVzdHM6IFZlYzxXYXRlcm1hcmtzUmVxdWVzdD4sCg==</text>
+        <text encoding="base64">ICAgIHByaW50bG4hKCJ7fSIsIGlkKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIE1wc2MoI1tmcm9tXSBUcnlTZW5kRXJyb3I8Um91dGVyT3V0TWVzc2FnZT4pLAo=</text>
+        <text encoding="base64">ICAgIHByaW50bG4hKCJ7fSIsIGlkKTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjplcnJvcjo6VHJ5U2VuZEVycm9yOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVwbGljYXRvci5zdAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IG11dCB0b3BpYyA9ICJoZWxsby93b3JsZCIudG9fb3duZWQoKSArICItMCI7Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhY2suYWNrZWQgPSB0cnVlOwo=</text>
+        <text encoding="base64">ICAgIGxldCBkYXRhID0gZGF0YS5pbnRvX2l0ZXIoKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGRlYnVnISgiUmVhY3RpdmF0aW5nIGEgc3Vic2NyaXB0aW9uLiBUb3BpYyA9IHs6P30iLCB0b3BpYyk7Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGRlYnVnISgiQ2F1Z2h0IHVwIHN1YnNjcmlwdGlvbi4gVG9waWMgPSB7Oj99IiwgdG9waWMpOwo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="4">
+        <text>for (i, payload) in data.into_iter().enumerate() {
+        let data = Data { topic: &quot;hello/world&quot;.to_owned(), pkid: 0, payload };
+        let message = (id, RouterInMessage::Data(data));
+        tx.send(message).await.unwrap();
+
+        // Listen for acks in batches to fix send/recv synchronization stalls
+        let count = i + 1;
+        if count % 1000 == 0 {
+            for _ in 0..1000 {
+                if let RouterOutMessage::DataAck(_ack) = this_rx.recv().await.unwrap() {
+                    continue
+                } else {
+                    panic!(&quot;Expecting Ack&quot;);
+                }
+            }
+        }
+
+    }</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIE1wc2MoI1tmcm9tXSBUcnlTZW5kRXJyb3I8Um91dGVyT3V0TWVzc2FnZT4pLAo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkZWJ1ZyEoIkRhdGEgcmVwbHkuIFRvcGljID0ge30sIHNlZ21lbnQgPSB7fSwgb2Zmc2V0ID0ge30sIGxlbiA9IHt9IiwgdG9waWMsIHNlZ21lbnQsIG9mZnNldCwgbGVuKTsK</text>
+        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjplcnJvcjo6VHJ5U2VuZEVycm9yOwo=</text>
       </register>
       <register name=":" type="4">
         <text>166</text>
