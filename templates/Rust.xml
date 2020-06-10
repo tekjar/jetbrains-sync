@@ -26,4 +26,8 @@
       <option name="RUST_FILE" value="true" />
     </context>
   </template>
+  <template name="bfn" value="#[bench]&#10;fn $NAME$(b: &amp;mut Bencher) {&#10;    b.iter(|| {&#10;    &#10;    });$END$&#10;}" description="bench function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>

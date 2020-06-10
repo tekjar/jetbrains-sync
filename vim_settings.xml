@@ -113,7 +113,7 @@
         <mark key="." line="57" column="51" />
         <mark key="^" line="57" column="52" />
       </file>
-      <file name="/Dummy.txt" timestamp="1591554688415">
+      <file name="/Dummy.txt" timestamp="1591780083073">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/tracker/src/lib.rs" timestamp="1591640471018">
@@ -128,13 +128,6 @@
         <mark key="^" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1590937017586">
-        <mark key="'" line="63" column="17" />
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="^" line="23" column="28" />
-        <mark key="." line="24" column="0" />
-      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/lib.rs" timestamp="1591103715462">
         <mark key="[" line="37" column="8" />
         <mark key="]" line="43" column="8" />
@@ -146,6 +139,11 @@
         <mark key="]" line="112" column="4" />
         <mark key="^" line="112" column="4" />
         <mark key="." line="112" column="3" />
+      </file>
+      <file name="$USER_HOME$/Workspace/numbers/collections/src/lib.rs" timestamp="1591781697559">
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="21" column="0" />
+        <mark key="." line="21" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/Cargo.toml" timestamp="1591104342656">
         <mark key="'" line="23" column="0" />
@@ -329,8 +327,8 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>0</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgX2ogPSBpOwo=</text>
       </register>
       <register name="-" type="4">
         <text>0</text>
@@ -338,52 +336,35 @@
       <register name="/" type="4">
         <text>try_send</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJ7fSIsIGlkKTsK</text>
+      <register name="0" type="4">
+        <text encoding="base64">IGZvciBpIGluIHYgewogICAgICAgIGxldCBfaiA9IGk7CiAgICB9</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJ7fSIsIGlkKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgX2ogPSBpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaXRlcmF0ZSgmdikK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IG11dCB0b3BpYyA9ICJoZWxsby93b3JsZCIudG9fb3duZWQoKSArICItMCI7Cg==</text>
+        <text encoding="base64">ICAgIGxldCB2ID0gdmVjIVsxOyBjb3VudF07Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIF9pIGluICZ2IHsKCiAgICAgICAgICAgIH0=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxldCBkYXRhID0gZGF0YS5pbnRvX2l0ZXIoKTsK</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>for (i, payload) in data.into_iter().enumerate() {
-        let data = Data { topic: &quot;hello/world&quot;.to_owned(), pkid: 0, payload };
-        let message = (id, RouterInMessage::Data(data));
-        tx.send(message).await.unwrap();
-
-        // Listen for acks in batches to fix send/recv synchronization stalls
-        let count = i + 1;
-        if count % 1000 == 0 {
-            for _ in 0..1000 {
-                if let RouterOutMessage::DataAck(_ack) = this_rx.recv().await.unwrap() {
-                    continue
-                } else {
-                    panic!(&quot;Expecting Ack&quot;);
-                }
-            }
-        }
-
-    }</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgdiA9IHZlYyFbMTsgMV8wMDBfMDAwXTsK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGV4dGVybiBjcmF0ZSB0ZXN0Owo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIE1wc2MoI1tmcm9tXSBUcnlTZW5kRXJyb3I8Um91dGVyT3V0TWVzc2FnZT4pLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjplcnJvcjo6VHJ5U2VuZEVycm9yOwo=</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name=":" type="4">
         <text>166</text>
