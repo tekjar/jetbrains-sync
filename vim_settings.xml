@@ -328,7 +328,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIHVzZSBmYXN0aGFzaDo6e3NlYSwgUmFuZG9tU3RhdGV9Owo=</text>
+        <text encoding="base64">dGVzdCB0ZXN0czo6aXRlcmF0ZV9tYXBfMV8wMDBfMDAwIC4uLiBiZW5jaDogICA0LDExOSw1MzUgbnMvaXRlciAoKy8tIDk3LDgyNCkgPSAxOTQxIE1CL3MKdGVzdCB0ZXN0czo6aXRlcmF0ZV92ZWNfMV8wMDBfMDAwIC4uLiBiZW5jaDogICAgIDE3Nyw2MjkgbnMvaXRlciAoKy8tIDgsNzc5KSA9IDQ1MDM3IE1CL3MK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Pg==</text>
@@ -336,8 +336,8 @@
       <register name="/" type="4">
         <text>try_send</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">I1tiZW5jaF0KICAgIGZuIGl0ZXJhdGVfdmVjXzFfMDAwXzAwMChiOiAmbXV0IEJlbmNoZXIpIHsKICAgICAgICBsZXQgdiA9IHZlYyFbMTsgMV8wMDBfMDAwXTsKICAgICAgICBiLml0ZXIofHwgewogICAgICAgICAgICBpdGVyYXRlX3ZlYygmdikKICAgICAgICB9KTsKCiAgICAgICAgYi5ieXRlcyA9IHYubGVuKCkgYXMgdTY0ICogODsKICAgIH0=</text>
+      <register name="0" type="2">
+        <text encoding="base64">dGVzdCB0ZXN0czo6aXRlcmF0ZV9tYXBfMV8wMDBfMDAwIC4uLiBiZW5jaDogICA0LDExOSw1MzUgbnMvaXRlciAoKy8tIDk3LDgyNCkgPSAxOTQxIE1CL3MKdGVzdCB0ZXN0czo6aXRlcmF0ZV92ZWNfMV8wMDBfMDAwIC4uLiBiZW5jaDogICAgIDE3Nyw2MjkgbnMvaXRlciAoKy8tIDgsNzc5KSA9IDQ1MDM3IE1CL3MK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHVzZSBmYXN0aGFzaDo6e3NlYSwgUmFuZG9tU3RhdGV9Owo=</text>
