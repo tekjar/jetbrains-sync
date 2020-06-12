@@ -116,11 +116,11 @@
       <file name="/Dummy.txt" timestamp="1591959765764">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/tracker/src/lib.rs" timestamp="1591640471018">
-        <mark key="[" line="124" column="0" />
-        <mark key="]" line="91" column="1" />
-        <mark key="." line="91" column="0" />
-        <mark key="^" line="91" column="1" />
+      <file name="$USER_HOME$/Workspace/tracker/src/lib.rs" timestamp="1591993068817">
+        <mark key="[" line="84" column="17" />
+        <mark key="]" line="84" column="30" />
+        <mark key="." line="84" column="29" />
+        <mark key="^" line="84" column="30" />
       </file>
       <file name="$USER_HOME$/Workspace/smoller/Cargo.toml" timestamp="1591606361224">
         <mark key="[" line="8" column="14" />
@@ -330,47 +330,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IGZhbHNl</text>
+        <text>RouterOutMessage</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGZhbHNl</text>
+        <text>RouterOutMessage</text>
       </register>
       <register name="/" type="4">
         <text>try_send</text>
       </register>
       <register name="0" type="4">
-        <text>#[derive(Debug)]
-pub struct TopicTracker {
-    request: TopicsRequest,
-    active: bool
-}</text>
+        <text encoding="base64">I1tkZXJpdmUoRGVidWcpXQpwdWIgc3RydWN0IFRvcGljc1RyYWNrZXIgewogICAgLy8vIE5leHQgZGF0YSByZXF1ZXN0CiAgICByZXF1ZXN0OiBUb3BpY3NSZXF1ZXN0LAogICAgLy8vIFRvcGljIGFjdGl2ZSBvciBjYXVnaHQgdXAKICAgIGFjdGl2ZTogYm9vbCwKfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdwo=</text>
+        <text encoding="base64">ICAgIERhdGEoRGF0YSksCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIC8vLyBEYXRhIHdoaWNoIGlzIHdyaXR0ZW4gdG8gY29tbWl0bG9nCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgCg==</text>
+        <text encoding="base64">ICAgIENvbm5lY3QoQ29ubmVjdGlvbiksCg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">IGxldCByZXF1ZXN0ID0gVG9waWNzUmVxdWVzdCB7CiAgICAKICAgIH07</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIC8vLyBDbGllbnQgaWQgYW5kIGNvbm5lY3Rpb24gaGFuZGxlCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWNrZWQ6IHRydWUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhY2suYWNrZWQgPSB0cnVlOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGFja2VkOiBib29sCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8vLyBMYXN0IGRhdGEgcmVxdWVzdCBhY2tlZCBvciBwZW5kaW5nCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>166</text>
