@@ -184,12 +184,12 @@
         <mark key="^" line="10" column="12" />
         <mark key="." line="10" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/tracker/src/tracker.rs" timestamp="1592159437403">
+      <file name="$USER_HOME$/Workspace/tracker/src/tracker.rs" timestamp="1592160122305">
         <mark key="'" line="203" column="0" />
-        <mark key="[" line="409" column="78" />
-        <mark key="]" line="409" column="79" />
-        <mark key="^" line="409" column="79" />
-        <mark key="." line="409" column="78" />
+        <mark key="[" line="432" column="11" />
+        <mark key="]" line="432" column="8" />
+        <mark key="^" line="432" column="8" />
+        <mark key="." line="432" column="7" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/commitlog.rs" timestamp="1591554136053">
         <mark key="[" line="96" column="35" />
@@ -331,44 +331,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2suYWN0aXZlID0gdHJ1ZTsK</text>
+      <register name="*" type="4">
+        <text encoding="base64">bWVzc2FnZSA=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bmV4dF9wb3NpdGlvbiA=</text>
+        <text encoding="base64">bWVzc2FnZSA=</text>
       </register>
       <register name="/" type="4">
         <text>dbg!</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2suYWN0aXZlID0gdHJ1ZTsK</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbWVzc2FnZSA9IHRyYWNrZXIubmV4dCgpLnVud3JhcCgpOwogICAgICAgIGFzc2VydCEoaXNfdG9waWNzX3JlcXVlc3QoJm1lc3NhZ2UpKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBubyB0b3BpY3MgdG8gdHJhY2sK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFJvdXRlck91dE1lc3NhZ2U6OlRvcGljc1JlcGx5KHJlcGx5KQo=</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB9Owo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgcmVwbHkgPSBEYXRhUmVwbHkgewo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBvCg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH07Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQ6IHJlcXVlc3QudHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0b3BpY3M6IHZlYyFbXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2F0ZXJtYXJrczogdmVjIVtdLAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBvZmZzZXQ6IDAsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdG9waWM6IHJlcXVlc3QudG9waWMsCg==</text>
       </register>
       <register name=":" type="4">
         <text>166</text>
