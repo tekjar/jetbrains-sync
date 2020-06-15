@@ -43,10 +43,10 @@
         <entry>528</entry>
         <entry>41</entry>
         <entry>668</entry>
-        <entry>q</entry>
         <entry>166</entry>
         <entry>298</entry>
         <entry>459</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -369,7 +369,7 @@
         <text encoding="base64">ICAgICAgICBkYmchKHIpOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>459</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
