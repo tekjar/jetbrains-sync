@@ -155,11 +155,11 @@
         <mark key="." line="97" column="0" />
         <mark key="^" line="123" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/syncpubsub.rs" timestamp="1592331142872">
-        <mark key="[" line="35" column="49" />
-        <mark key="]" line="35" column="42" />
-        <mark key="^" line="35" column="42" />
-        <mark key="." line="35" column="41" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/syncpubsub.rs" timestamp="1592332921504">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="^" line="36" column="33" />
+        <mark key="." line="15" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/tracker/Cargo.toml" timestamp="1591993488426">
         <mark key="[" line="10" column="9" />
@@ -203,12 +203,12 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592332258181">
-        <mark key="'" line="53" column="26" />
-        <mark key="[" line="65" column="44" />
-        <mark key="]" line="65" column="44" />
-        <mark key="." line="65" column="44" />
-        <mark key="^" line="64" column="42" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592332801141">
+        <mark key="'" line="57" column="26" />
+        <mark key="[" line="68" column="35" />
+        <mark key="]" line="68" column="45" />
+        <mark key="." line="68" column="44" />
+        <mark key="^" line="68" column="45" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1592302088051">
         <mark key="'" line="117" column="0" />
@@ -332,11 +332,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>s</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIGxldCBub3RpZmljYXRpb25zID0gY2xpZW50LmNsb25lKCk7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text encoding="base64">IG5vdGlmaWNhdGlvbnM=</text>
       </register>
       <register name="/" type="4">
         <text>Sender</text>
@@ -345,31 +345,34 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBFcnIoZmFpbGVkKSA9PiB7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBPaygoKSkK</text>
+        <text encoding="base64">ICAgIGxldCBub3RpZmljYXRpb25zID0gY2xpZW50LmNsb25lKCk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHB1YiBmCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludGxuISgiUmVjZWl2ZWQgPSB7Oj99Iiwgbm90aWZpY2F0aW9uKTsK</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHJlY2VpdmVyOiBhc3luY19jaGFubmVsOjpSZWNlaXZlcjxOb3RpZmljYXRpb24+IAo=</text>
+        <text encoding="base64">ICAgIGZvciAoaSwgbm90aWZpY2F0aW9uKSBpbiBub3RpZmljYXRpb25zLmVudW1lcmF0ZSgpIHsK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">cHViIHN0cnVjdCBSZWNlaXZlciB7Cg==</text>
+      <register name="7" type="4">
+        <text>// use the cancel handle to stop the client eventloop
+        if i == 10 {
+            client.cancel().unwrap();
+        }</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgUzogSW50bzxTdHJpbmc+LAo=</text>
+        <text encoding="base64">ICAgICAgICBPaygpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVyZQo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>35</text>
