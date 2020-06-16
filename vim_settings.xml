@@ -196,12 +196,12 @@
         <mark key="." line="552" column="41" />
         <mark key="^" line="552" column="42" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/tracker/mod.rs" timestamp="1592250850092">
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/tracker/mod.rs" timestamp="1592296979063">
         <mark key="'" line="98" column="7" />
-        <mark key="[" line="315" column="0" />
-        <mark key="]" line="315" column="0" />
-        <mark key="^" line="98" column="8" />
-        <mark key="." line="315" column="0" />
+        <mark key="[" line="528" column="0" />
+        <mark key="]" line="529" column="13" />
+        <mark key="^" line="529" column="13" />
+        <mark key="." line="529" column="12" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/mod.rs" timestamp="1592250379830">
         <mark key="[" line="4" column="0" />
@@ -331,10 +331,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIHVzZSBzdXBlcjo6VHJhY2tlcjsK</text>
+        <text encoding="base64">ICAgICAgICBSb3V0ZXJPdXRNZXNzYWdlOjpUb3BpY3NSZXBseShyZXBseSkK</text>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text encoding="base64">Um91dGVyT3V0TWVzc2FnZSA=</text>
       </register>
       <register name="/" type="4">
         <text>dbg!</text>
@@ -343,31 +343,31 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgIXJlcGxpY2F0ZWRfdG9waWNfY2F1Z2h0dXAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2sucmVxdWVzdC5yZXBsaWNhX3NlZ21lbnQgPSByZXBseS5yZXBsaWNhX3NlZ21lbnQ7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFjay5yZXF1ZXN0LnJlcGxpY2Ffb2Zmc2V0ID0gcmVwbHkucmVwbGljYV9vZmZzZXQgKyAxOwogICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHVzZSBzdXBlcjo6VHJhY2tlcjsK</text>
+        <text encoding="base64">ICAgICAgICBSb3V0ZXJPdXRNZXNzYWdlOjpUb3BpY3NSZXBseShyZXBseSkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">dXNlIGNyYXRlOjptZXNoOjp0cmFja2VyOjpUcmFja2VyOwo=</text>
+        <text encoding="base64">ICAgICAgICBSb3V0ZXJPdXRNZXNzYWdlOjpXYXRlcm1hcmtzUmVwbHkocmVwbHkpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">bW9kIHRyYWNrZXI7Cg==</text>
+        <text encoding="base64">ICAgICAgICBSb3V0ZXJPdXRNZXNzYWdlOjpEYXRhUmVwbHkocmVwbHkpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5yb3V0ZXJfdHguc2VuZCgoc2VsZi5pZCBhcyB1c2l6ZSwgcmVxdWVzdCkpLmF3YWl0PzsK</text>
+        <text encoding="base64">ICAgIHVzZSBzdXBlcjo6VHJhY2tlcjsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">dXNlIGNyYXRlOjptZXNoOjp0cmFja2VyOjpUcmFja2VyOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUK</text>
+        <text encoding="base64">bW9kIHRyYWNrZXI7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5yb3V0ZXJfdHguc2VuZCgoc2VsZi5pZCBhcyB1c2l6ZSwgcmVxdWVzdCkpLmF3YWl0PzsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
