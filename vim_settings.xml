@@ -203,12 +203,12 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592333614569">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592335598477">
         <mark key="'" line="59" column="26" />
-        <mark key="[" line="98" column="27" />
-        <mark key="]" line="128" column="0" />
-        <mark key="." line="128" column="0" />
-        <mark key="^" line="132" column="4" />
+        <mark key="[" line="113" column="56" />
+        <mark key="]" line="113" column="57" />
+        <mark key="." line="113" column="56" />
+        <mark key="^" line="113" column="57" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1592302088051">
         <mark key="'" line="117" column="0" />
@@ -333,43 +333,46 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Pg==</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text>Sender</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">I1tlcnJvcigiRmFpbGVkIHRvIHNlbmQgbXF0dCByZXF1ZXN0cyB0byBldmVudGxvb3AiKV0KICAgIFJlcXVlc3RFcnJvcigjW2Zyb21dIFNlbmRFcnJvcjxSZXF1ZXN0Piks</text>
+        <text>if let Some(failed) = self.send_notification(item) {
+                    last_failed = Some(failed);
+                    break
+                }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">YXN5bmMgZm4gY29ubmVjdCgmc2VsZikgLT4gUmVzdWx0PCgpLCBFcnJvcj4gewogICAgICAgICAgICAKICAgICAgICB9Cg==</text>
+        <text encoding="base64">Zm4gc2VuZF9ub3RpZmljYXRpb24obm90aWZpY2F0aW9uX3R4OiAmU2VuZGVyPE5vdGlmaWNhdGlvbj4sIG5vdGlmaWNhdGlvbjogTm90aWZpY2F0aW9uKSAtPiBPcHRpb248Tm90aWZpY2F0aW9uPiB7CiAgICAgICAgbWF0Y2ggbm90aWZpY2F0aW9uX3R4LnRyeV9zZW5kKG5vdGlmaWNhdGlvbikgewogICAgICAgICAgICBFcnIoVHJ5U2VuZEVycm9yOjpGdWxsKGZhaWxlZCkpID0+IHsKICAgICAgICAgICAgICAgIGVycm9yISgiTm90aWZpY2F0aW9uIGNoYW5uZWwgZnVsbCEhIik7CiAgICAgICAgICAgICAgICBTb21lKGZhaWxlZCkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgRXJyKFRyeVNlbmRFcnJvcjo6Q2xvc2VkKGZhaWxlZCkpID0+IHsKICAgICAgICAgICAgICAgIGVycm9yISgiTm90aWZpY2F0aW9uIGNoYW5uZWwgY2xvc2VkISEiKTsKICAgICAgICAgICAgICAgIFNvbWUoZmFpbGVkKQogICAgICAgICAgICB9LAogICAgICAgICAgICBPayhfKSA9PiBOb25lLAogICAgICAgIH0KICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">dXNlIGZ1dHVyZXNfdXRpbDo6U3RyZWFtRXh0Owo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBicmVhawo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCBub3RpZmljYXRpb25zID0gY2xpZW50LmNsb25lKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBPayhfKSA9PiAoKSwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludGxuISgiUmVjZWl2ZWQgPSB7Oj99Iiwgbm90aWZpY2F0aW9uKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBFcnIoVHJ5U2VuZEVycm9yOjpDbG9zZWQoZmFpbGVkKSkgPT4gbGFzdF9mYWlsZWQgPSBTb21lKGZhaWxlZCksCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBFcnIoVHJ5U2VuZEVycm9yOjpGdWxsKGZhaWxlZCkpID0+IGxhc3RfZmFpbGVkID0gU29tZShmYWlsZWQpLAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG1hdGNoIG5vdGlmaWNhdGlvbl90eC50cnlfc2VuZChpdGVtKSB7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGZvciAoaSwgbm90aWZpY2F0aW9uKSBpbiBub3RpZmljYXRpb25zLmVudW1lcmF0ZSgpIHsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>35</text>
