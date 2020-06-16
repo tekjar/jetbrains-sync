@@ -141,19 +141,6 @@
         <mark key="^" line="65" column="13" />
         <mark key="." line="65" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/collections/src/lib.rs" timestamp="1591817445678">
-        <mark key="'" line="26" column="27" />
-        <mark key="[" line="103" column="10" />
-        <mark key="]" line="103" column="11" />
-        <mark key="." line="103" column="10" />
-        <mark key="^" line="103" column="11" />
-      </file>
-      <file name="$USER_HOME$/Workspace/numbers/collections/Cargo.toml" timestamp="1591809208783">
-        <mark key="[" line="10" column="14" />
-        <mark key="]" line="11" column="11" />
-        <mark key="^" line="11" column="11" />
-        <mark key="." line="11" column="10" />
-      </file>
       <file name="$USER_HOME$/Workspace/tracker/src/mod.rs" timestamp="1591993322768">
         <mark key="'" line="1" column="0" />
         <mark key="[" line="1" column="0" />
@@ -215,12 +202,24 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592329869848">
+        <mark key="[" line="71" column="49" />
+        <mark key="]" line="71" column="51" />
+        <mark key="." line="71" column="50" />
+        <mark key="^" line="71" column="51" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1592302088051">
         <mark key="'" line="117" column="0" />
         <mark key="[" line="156" column="50" />
         <mark key="]" line="156" column="71" />
         <mark key="." line="156" column="70" />
         <mark key="^" line="156" column="71" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/Cargo.toml" timestamp="1592329547854">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
+        <mark key="^" line="20" column="15" />
       </file>
     </filemarks>
     <jumps>
@@ -331,44 +330,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>request</text>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>request</text>
       </register>
       <register name="/" type="4">
         <text>dbg!</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgIXJlcGxpY2F0ZWRfdG9waWNfY2F1Z2h0dXAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2sucmVxdWVzdC5yZXBsaWNhX3NlZ21lbnQgPSByZXBseS5yZXBsaWNhX3NlZ21lbnQ7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFjay5yZXF1ZXN0LnJlcGxpY2Ffb2Zmc2V0ID0gcmVwbHkucmVwbGljYV9vZmZzZXQgKyAxOwogICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBibG9ja2luZzo6YmxvY2tfb24hKHNlbGYucmVxdWVzdF90eC5zZW5kKHJlcXVlc3QpKT87Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBmdXR1cmVzX2V4ZWN1dG9yOjpibG9ja19vbihzZWxmLmNhbmNlbF90eC5zZW5kKCgpKSk/Owo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbWVzc2FnZSA9IFJvdXRlckluTWVzc2FnZTo6Q29ubmVjdChjb25uZWN0aW9uKTsK</text>
+        <text encoding="base64">ICAgICAgICBmdXR1cmVzX2V4ZWN1dG9yOjpibG9ja19vbihzZWxmLnJlcXVlc3RfdHguc2VuZChyZXF1ZXN0KSk/Owo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjp7Y2hhbm5lbCwgU2VuZGVyfTsK</text>
+        <text encoding="base64">ICAgICAgICBmdXR1cmVzX2V4ZWN1dG9yOjpibG9ja19vbihzZWxmLnJlcXVlc3RfdHguc2VuZChyZXF1ZXN0KSk/Owo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6bmV0OjpUY3BMaXN0ZW5lcjsK</text>
+        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjplcnJvcjo6U2VuZEVycm9yOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6c3luYzo6bXBzYzo6U2VuZGVyOwo=</text>
+        <text encoding="base64">dXNlIHRva2lvOjpzeW5jOjptcHNjOjp7Y2hhbm5lbCwgU2VuZGVyLCBSZWNlaXZlcn07Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBSb3V0ZXJPdXRNZXNzYWdlOjpUb3BpY3NSZXBseShyZXBseSkK</text>
+        <text encoding="base64">ZnV0dXJlcy1leGVjdXRvciA9ICIwLjMiCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBSb3V0ZXJPdXRNZXNzYWdlOjpXYXRlcm1hcmtzUmVwbHkocmVwbHkpCg==</text>
+        <text encoding="base64">Zmx1bWUgPSAiMC43Igo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y3Jvc3NiZWFtLWNoYW5uZWwgPSAiMC40Igo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBSb3V0ZXJPdXRNZXNzYWdlOjpEYXRhUmVwbHkocmVwbHkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
