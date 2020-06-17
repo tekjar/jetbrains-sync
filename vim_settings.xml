@@ -117,10 +117,11 @@
         <mark key="." line="195" column="0" />
         <mark key="^" line="195" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/lib.rs" timestamp="1592411480299">
-        <mark key="[" line="141" column="0" />
-        <mark key="]" line="141" column="0" />
-        <mark key="." line="141" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/lib.rs" timestamp="1592412806224">
+        <mark key="[" line="144" column="4" />
+        <mark key="]" line="144" column="11" />
+        <mark key="." line="144" column="10" />
+        <mark key="^" line="144" column="11" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/link.rs" timestamp="1592250396611">
         <mark key="[" line="14" column="0" />
@@ -183,11 +184,11 @@
         <mark key="." line="552" column="41" />
         <mark key="^" line="552" column="42" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592411992619">
-        <mark key="[" line="105" column="8" />
-        <mark key="]" line="105" column="8" />
-        <mark key="." line="105" column="8" />
-        <mark key="^" line="123" column="44" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592413517546">
+        <mark key="[" line="110" column="17" />
+        <mark key="]" line="110" column="22" />
+        <mark key="." line="110" column="21" />
+        <mark key="^" line="110" column="22" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/tracker/mod.rs" timestamp="1592297974937">
         <mark key="'" line="130" column="11" />
@@ -336,11 +337,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      <register name="*" type="4">
+        <text>:</text>
       </register>
       <register name="-" type="4">
-        <text>i</text>
+        <text>:</text>
       </register>
       <register name="/" type="4">
         <text>Stream done</text>
@@ -348,32 +349,36 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgIGNhbmNlbF9yeDogYXN5bmNfY2hhbm5lbDo6UmVjZWl2ZXI8KCk+LAo=</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBsZXQgU29tZShuKSA9IG5vdGlmaWNhdGlvbiB7IHlpZWxkIG4gfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyB5aWVsZCB0aGUgbm90aWZpY2F0aW9uIHRvIHRoZSB1c2VyCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcmV0dQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeWllbGQgTm90aWZpY2F0aW9uOjpBYm9ydChlLmludG8oKSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH07Cg==</text>
+        <text encoding="base64">ICAgICAgICBjYwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgKG5vdGlmaWNhdGlvbiwgb3V0cGFja2V0KSA9IG8/Owo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsK</text>
+      <register name="9" type="4">
+        <text>// write the reply back to the network
+        // FIXME flush??
+        if let Some(p) = outpacket {
+            network.send(p).await?;
+        }</text>
       </register>
       <register name=":" type="4">
         <text>35</text>
