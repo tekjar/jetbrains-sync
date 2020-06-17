@@ -207,12 +207,12 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592393524000">
-        <mark key="'" line="101" column="24" />
-        <mark key="[" line="209" column="13" />
-        <mark key="]" line="209" column="46" />
-        <mark key="." line="209" column="45" />
-        <mark key="^" line="209" column="46" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592394203463">
+        <mark key="'" line="102" column="24" />
+        <mark key="[" line="204" column="33" />
+        <mark key="]" line="204" column="30" />
+        <mark key="^" line="204" column="30" />
+        <mark key="." line="204" column="29" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1592302088051">
         <mark key="'" line="117" column="0" />
@@ -336,8 +336,8 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">Tm90aWZpY2F0aW9uIA==</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Tm90aWZpY2F0aW9uIA==</text>
@@ -349,35 +349,31 @@
         <text encoding="base64">aWQgPSAiYWN0aW9uLXN0YXR1cyIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRpc2Nvbm5lY3RlZDogYm9vbAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZWxmICAgICAK</text>
+        <text encoding="base64">CnB1YiBzdHJ1Y3QgSXRlcjwnYT4gewo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gVE9ETzogUmVhZCBzbGVlcCB0aW1lIGZyb20gY29uZmlnCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">IGFzeW5jIGZuIGNvbm5lY3Rfd2l0aF9zbGVlcDwnZXZlbnRsb29wPihldmVudGxvb3A6ICYnZXZlbnRsb29wIG11dCBNcXR0RXZlbnRMb29wPGFzeW5jX2NoYW5uZWw6OlJlY2VpdmVyPFJlcXVlc3Q+PikgLT4gUmVzdWx0PGltcGwgU3RyZWFtPEl0ZW0gPSBOb3RpZmljYXRpb24+ICsgJ2V2ZW50bG9vcCwgRXZlbnRMb29wRXJyb3I+IHsKICAgICAgICBtYXRjaCBldmVudGxvb3AuY29ubmVjdCgpLmF3YWl0IHsKICAgICAgICAgICAgT2soc3RyZWFtKSA9PiBPayhzdHJlYW0pLAogICAgICAgICAgICBFcnIoZSkgPT4gewogICAgICAgICAgICAgICAgZXJyb3IhKCJGYWlsZWQgdG8gY29ubmVjdC4gRXJyb3IgPSB7Oj99IiwgZSk7CiAgICAgICAgICAgICAgICAvLyBUT0RPOiBSZWFkIHNsZWVwIHRpbWUgZnJvbSBjb25maWcKICAgICAgICAgICAgICAgIHRpbWU6OmRlbGF5X2ZvcihEdXJhdGlvbjo6ZnJvbV9zZWNzKDEpKS5hd2FpdDsKICAgICAgICAgICAgICAgIEVycihlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQ==</text>
+      <register name="4" type="2">
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
-      <register name="6" type="4">
-        <text>let router_tx = broker.new_router_handle();
-    let mut o = httppush::new(httppush_config, router_tx).await?;
-    task::spawn(async move {
-        error!(&quot;Http push task done!! Result = {:?}&quot;, o.start().await);
-    });</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBPayhfKSA9PiBOb25lLAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9LAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgU29tZShmYWlsZWQpCg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">bGV0IG11dCBzdWJzY3JpcHRpb24gPSBlbXB0eV9zdWJzY3JpYmUoKTsKICAgIHN1YnNjcmlwdGlvbi5hZGQoY29uZmlnLnN1YnNjcmlwdGlvbl9maWx0ZXIuY2xvbmUoKSwgUW9TOjpBdExlYXN0T25jZSk7CgogICAgbGV0IHBhY2tldCA9IFBhY2tldDo6U3Vic2NyaWJlKHN1YnNjcmlwdGlvbik7CiAgICBsZXQgcm91dGVybWVzc2FnZSA9IFJvdXRlck1lc3NhZ2U6OlBhY2tldChwYWNrZXQpOwogICAgcm91dGVyX3R4LnNlbmQoKCJwdXNoY2xpZW50Ii50b19vd25lZCgpLCByb3V0ZXJtZXNzYWdlKSkuYXdhaXQ/OwoK</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgZXJyb3IhKCJOb3RpZmljYXRpb24gY2hhbm5lbCBjbG9zZWQhISIpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>35</text>
