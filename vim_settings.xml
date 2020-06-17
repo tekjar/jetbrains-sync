@@ -207,12 +207,12 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592400832024">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592401770833">
         <mark key="'" line="102" column="24" />
-        <mark key="[" line="226" column="52" />
-        <mark key="]" line="227" column="24" />
-        <mark key="^" line="227" column="24" />
-        <mark key="." line="227" column="23" />
+        <mark key="[" line="241" column="0" />
+        <mark key="]" line="241" column="2" />
+        <mark key="^" line="241" column="2" />
+        <mark key="." line="241" column="1" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1592302088051">
         <mark key="'" line="117" column="0" />
@@ -336,11 +336,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">cmV0dXJuIA==</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIE9rKG8pCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">cmV0dXJuIA==</text>
+        <text>i</text>
       </register>
       <register name="/" type="4">
         <text>Stream done</text>
@@ -349,31 +349,31 @@
         <text encoding="base64">ICAgIGNhbmNlbF9yeDogYXN5bmNfY2hhbm5lbDo6UmVjZWl2ZXI8KCk+LAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrICdyZWNvbm5lY3Rpb24K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIE9rKG8pCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrICdyZWNvbm5lY3Rpb24K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlICdyZWNvbm5lY3Rpb24K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbm5lY3Rpb25fY291bnQgKz0gMTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlICdyZWNvbm5lY3Rpb24K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU29tZShfKSB8IE5vbmUgPT4gewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbm5lY3Rpb25fY291bnQgKz0gMTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU29tZShtYXgpIGlmIGNvbm5lY3Rpb25fY291bnQgPiBtYXggPT4gcmV0dXJuIEVycihlKSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU29tZShfKSB8IE5vbmUgPT4gewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBFcnIoZSkgPT4gbWF0Y2ggbWF4X3JldHJ5X2NvdW50IHsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU29tZShtYXgpIGlmIGNvbm5lY3Rpb25fY291bnQgPiBtYXggPT4gcmV0dXJuIEVycihlKSwK</text>
       </register>
       <register name=":" type="4">
         <text>35</text>
