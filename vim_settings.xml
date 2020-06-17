@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Empty</entry>
-        <entry encoding="base64">JiY=</entry>
         <entry>Invalid</entry>
         <entry>reply_topic</entry>
         <entry>register</entry>
@@ -25,6 +23,8 @@
         <entry>Receiver</entry>
         <entry>Sender</entry>
         <entry>state</entry>
+        <entry>stream done</entry>
+        <entry>Stream done</entry>
       </history-search>
       <history-cmd>
         <entry>407</entry>
@@ -104,11 +104,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/rumqd/src/main.rs" timestamp="1592379569478">
-        <mark key="[" line="30" column="35" />
-        <mark key="]" line="30" column="36" />
-        <mark key="^" line="30" column="36" />
-        <mark key="." line="30" column="35" />
+      <file name="$USER_HOME$/Workspace/rumqd/src/main.rs" timestamp="1592382265261">
+        <mark key="[" line="28" column="21" />
+        <mark key="]" line="29" column="15" />
+        <mark key="^" line="29" column="15" />
+        <mark key="." line="29" column="14" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" timestamp="1592313477977">
         <mark key="'" line="2" column="1" />
@@ -146,11 +146,12 @@
         <mark key="." line="86" column="6" />
         <mark key="^" line="86" column="7" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqd/src/httppush.rs" timestamp="1592381066988">
-        <mark key="[" line="36" column="31" />
-        <mark key="]" line="36" column="31" />
-        <mark key="^" line="36" column="31" />
-        <mark key="." line="36" column="30" />
+      <file name="$USER_HOME$/Workspace/rumqd/src/httppush.rs" timestamp="1592382464300">
+        <mark key="'" line="57" column="12" />
+        <mark key="[" line="107" column="53" />
+        <mark key="]" line="107" column="60" />
+        <mark key="^" line="107" column="60" />
+        <mark key="." line="107" column="59" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/mesh/tracker.rs" timestamp="1592249878563">
         <mark key="[" line="97" column="0" />
@@ -170,10 +171,11 @@
         <mark key="." line="463" column="43" />
         <mark key="^" line="463" column="44" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqd/rumqd.conf" timestamp="1592380863290">
-        <mark key="[" line="40" column="0" />
-        <mark key="]" line="40" column="0" />
-        <mark key="." line="40" column="0" />
+      <file name="$USER_HOME$/Workspace/rumqd/rumqd.conf" timestamp="1592382240579">
+        <mark key="[" line="42" column="12" />
+        <mark key="]" line="42" column="12" />
+        <mark key="." line="42" column="11" />
+        <mark key="^" line="42" column="12" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/volatile/mod.rs" timestamp="1592247930650">
         <mark key="[" line="195" column="0" />
@@ -227,7 +229,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="339" column="22" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="338" column="27" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="453" column="27" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="483" column="27" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
@@ -327,6 +328,7 @@
       <jump line="56" column="26" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="110" column="33" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="93" column="4" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
+      <jump line="57" column="12" filename="$USER_HOME$/Workspace/rumqd/src/httppush.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -334,44 +336,48 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>String</text>
+      <register name="*" type="2">
+        <text encoding="base64">aWQgPSAiYWN0aW9uLXN0YXR1cyIK</text>
       </register>
       <register name="-" type="4">
-        <text>String</text>
+        <text>]</text>
       </register>
       <register name="/" type="4">
-        <text>state</text>
+        <text>Stream done</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">W1todHRwcHVzaF1dCnVybCA9ICJodHRwOi8vbG9jYWxob3N0OjMzMzMvYXBpL3YxL2RldmljZXMvYWN0aW9uL3N0YXR1cyIKc3Vic2NyaXB0aW9uX2ZpbHRlciA9ICIvZGV2aWNlcy8rL2FjdGlvbi9zdGF0dXMiCg==</text>
+        <text encoding="base64">aWQgPSAiYWN0aW9uLXN0YXR1cyIK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text>let router_tx = broker.new_router_handle();
+    let mut o = httppush::new(httppush_config, router_tx).await?;
+    task::spawn(async move {
+        error!(&quot;Http push task done!! Result = {:?}&quot;, o.start().await);
+    });</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
         <text encoding="base64">bGV0IG11dCBzdWJzY3JpcHRpb24gPSBlbXB0eV9zdWJzY3JpYmUoKTsKICAgIHN1YnNjcmlwdGlvbi5hZGQoY29uZmlnLnN1YnNjcmlwdGlvbl9maWx0ZXIuY2xvbmUoKSwgUW9TOjpBdExlYXN0T25jZSk7CgogICAgbGV0IHBhY2tldCA9IFBhY2tldDo6U3Vic2NyaWJlKHN1YnNjcmlwdGlvbik7CiAgICBsZXQgcm91dGVybWVzc2FnZSA9IFJvdXRlck1lc3NhZ2U6OlBhY2tldChwYWNrZXQpOwogICAgcm91dGVyX3R4LnNlbmQoKCJwdXNoY2xpZW50Ii50b19vd25lZCgpLCByb3V0ZXJtZXNzYWdlKSkuYXdhaXQ/OwoK</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIGV2ZW50bG9vcDogTXF0dEV2ZW50TG9vcDxhc3luY19jaGFubmVsOjpSZWNlaXZlcjxSZXF1ZXN0Pj4sCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIC8vLyBgQ2xpZW50YCB3aGljaCBjYW4gY29tbXVuaWNhdGUgd2l0aCBNUVRUIGV2ZW50bG9vcCBgQ29ubmVjdGlvbmAuIENsaWVudCBpcyAKICAgIC8vLyBjbG9uZWFibGUgYW5kIGNhbiBiZSB1c2VkIHRvIHN5bmNocm9ub3VzbHkgUHVibGlzaCwgU3Vic2NyaWJlIGFzIHdlbGwgYXMgcmVjZWl2ZSBpbmNvbWluZwogICAgLy8vIE1RVFQgbWVzc2FnZXMK</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIC8vLyBSZXF1ZXN0cyB0aGUgZXZlbnRsb29wIGZvciBtcXR0IHB1Ymxpc2gK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBUT0RPOiBNYWtlIHRoaXMgYW4gb3B0aW9uIGluIENvbm5lY3Rpb24gYW5kIHRha2UoKQo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbWF4X3JldHJ5X2NvdW50ID0gc2VsZi5tYXhfcmV0cnlfY291bnQudGFrZSgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAvLyBUT0RPOiBNYWtlIHRoaXMgYW4gb3B0aW9uIGluIENvbm5lY3Rpb24gYW5kIHRha2UoKQo=</text>
       </register>
       <register name=":" type="4">
         <text>35</text>
@@ -380,9 +386,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>state</last-search>
+      <last-search>Stream done</last-search>
       <last-offset />
-      <last-pattern>state</last-pattern>
+      <last-pattern>Stream done</last-pattern>
       <last-replace>as u64</last-replace>
       <last-substitute>register</last-substitute>
       <last-dir>1</last-dir>
