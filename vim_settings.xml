@@ -207,9 +207,9 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592394203463">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592394847601">
         <mark key="'" line="102" column="24" />
-        <mark key="[" line="204" column="33" />
+        <mark key="[" line="196" column="15" />
         <mark key="]" line="204" column="30" />
         <mark key="^" line="204" column="30" />
         <mark key="." line="204" column="29" />
