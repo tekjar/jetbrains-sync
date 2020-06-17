@@ -207,12 +207,12 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592392747916">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592393524000">
         <mark key="'" line="101" column="24" />
-        <mark key="[" line="102" column="0" />
-        <mark key="]" line="102" column="0" />
-        <mark key="." line="102" column="0" />
-        <mark key="^" line="111" column="15" />
+        <mark key="[" line="209" column="13" />
+        <mark key="]" line="209" column="46" />
+        <mark key="." line="209" column="45" />
+        <mark key="^" line="209" column="46" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/examples/routernxn.rs" timestamp="1592302088051">
         <mark key="'" line="117" column="0" />
@@ -336,11 +336,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIGRpc2Nvbm5lY3RlZDogYm9vbAo=</text>
+      <register name="*" type="4">
+        <text encoding="base64">Tm90aWZpY2F0aW9uIA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IG5kYXdleHQ=</text>
+        <text encoding="base64">Tm90aWZpY2F0aW9uIA==</text>
       </register>
       <register name="/" type="4">
         <text>Stream done</text>
