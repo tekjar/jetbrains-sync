@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>register</entry>
         <entry>pretty_e</entry>
         <entry>extract_connection</entry>
         <entry>new_data_from_rep</entry>
@@ -25,6 +24,7 @@
         <entry>Stream done</entry>
         <entry>pin</entry>
         <entry>Pin</entry>
+        <entry>Context</entry>
       </history-search>
       <history-cmd>
         <entry>407</entry>
@@ -184,8 +184,8 @@
         <mark key="." line="552" column="41" />
         <mark key="^" line="552" column="42" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592419307878">
-        <mark key="'" line="167" column="38" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592419398316">
+        <mark key="'" line="260" column="52" />
         <mark key="[" line="256" column="0" />
         <mark key="]" line="263" column="5" />
         <mark key="." line="262" column="0" />
@@ -230,9 +230,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="583" column="106" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="588" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="589" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="593" column="58" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="602" column="106" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="607" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
@@ -330,6 +327,9 @@
       <jump line="761" column="68" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="165" column="33" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="167" column="38" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
+      <jump line="256" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
+      <jump line="260" column="52" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -344,7 +344,7 @@
         <text>next</text>
       </register>
       <register name="/" type="4">
-        <text>Pin</text>
+        <text>Context</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CmltcGw8UjogUmVxdWVzdHM+IFN0cmVhbSBmb3IgTXF0dEV2ZW50TG9vcDxSPiB7CiAgICB0eXBlIEl0ZW0gPSBSZXN1bHQ8KE5vdGlmaWNhdGlvbiwgT3V0Z29pbmcpLCBFdmVudExvb3BFcnJvcj47CgogICAgZm4gcG9sbF9uZXh0KG11dCBzZWxmOiBQaW48Jm11dCBTZWxmPiwgY3g6ICZtdXQgQ29udGV4dDwnXz4pIC0+IFBvbGw8T3B0aW9uPFNlbGY6Okl0ZW0+PiB7CiAgICAgICAgbGV0IGYgPSAmbXV0IHNlbGYuc3RlcCgpOwogICAgICAgIFBpbjo6bmV3KGYpLnBvbGxfbmV4dChjeCkKICAgIH0K</text>
@@ -383,9 +383,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Pin</last-search>
+      <last-search>Context</last-search>
       <last-offset />
-      <last-pattern>Pin</last-pattern>
+      <last-pattern>Context</last-pattern>
       <last-replace>as u64</last-replace>
       <last-substitute>register</last-substitute>
       <last-dir>1</last-dir>
