@@ -195,12 +195,12 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592570972830">
-        <mark key="'" line="149" column="0" />
-        <mark key="[" line="109" column="44" />
-        <mark key="]" line="109" column="54" />
-        <mark key="^" line="109" column="54" />
-        <mark key="." line="109" column="53" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592574369887">
+        <mark key="'" line="155" column="0" />
+        <mark key="[" line="96" column="34" />
+        <mark key="]" line="96" column="19" />
+        <mark key="^" line="96" column="19" />
+        <mark key="." line="96" column="18" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/pubsub.rs" timestamp="1592559011594">
         <mark key="[" line="27" column="38" />
@@ -336,11 +336,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIGNvbG9yX2JhY2t0cmFjZTo6aW5zdGFsbCgpOwo=</text>
+      <register name="*" type="4">
+        <text encoding="base64">Pg==</text>
       </register>
       <register name="-" type="4">
-        <text>all</text>
+        <text encoding="base64">Pg==</text>
       </register>
       <register name="/" type="4">
         <text>async_channel::Receiver</text>
@@ -375,31 +375,31 @@ fn main() {
 }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGNvbG9yX2JhY2t0cmFjZTo6aW5zdGFsbCgpOwo=</text>
+        <text encoding="base64">ICAgIHJ1bnRpbWU6IHJ1bnRpbWU6OlJ1bnRpbWUsCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Kgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcnVudGltZTogU29tZShydW50aW1lOjpSdW50aW1lOjpuZXcoKS51bndyYXAoKSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHJ1bnRpbWU6IE9wdGlvbjxSdW50aW1lPgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgZXZlbnRsb29wID0gRXZlbnRMb29wOjpuZXcob3B0aW9ucywgcmVxdWVzdF9yeCk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgIGkgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcnVudGltZTogcnVudGltZTo6UnVudGltZTo6bmV3KCkudW53cmFwKCksCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIFJlcXVlc3Q6OlB1Ymxpc2gocHVibGlzaCkK</text>
+        <text encoding="base64">ICAgIGNvbG9yX2JhY2t0cmFjZTo6aW5zdGFsbCgpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGxldCBwdWJsaXNoID0gUHVibGlzaDo6bmV3KCZ0b3BpYywgUW9TOjpBdExlYXN0T25jZSwgcGF5bG9hZCk7Cg==</text>
+        <text encoding="base64">Kgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>90</text>
