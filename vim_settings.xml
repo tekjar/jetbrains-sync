@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>+= 1</entry>
         <entry>+=</entry>
         <entry>100</entry>
         <entry>Invalid id</entry>
@@ -25,6 +24,7 @@
         <entry>previous</entry>
         <entry>runtime</entry>
         <entry>async_channel::Receiver</entry>
+        <entry>Cancel</entry>
       </history-search>
       <history-cmd>
         <entry>447</entry>
@@ -157,12 +157,12 @@
         <mark key="^" line="107" column="60" />
         <mark key="." line="107" column="59" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/syncpubsub.rs" timestamp="1592571191542">
-        <mark key="'" line="14" column="64" />
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="^" line="14" column="65" />
-        <mark key="." line="7" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/syncpubsub.rs" timestamp="1592576880965">
+        <mark key="'" line="13" column="64" />
+        <mark key="[" line="17" column="18" />
+        <mark key="]" line="17" column="33" />
+        <mark key="^" line="17" column="33" />
+        <mark key="." line="17" column="32" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqd/rumqd.conf" timestamp="1592382240579">
         <mark key="[" line="42" column="12" />
@@ -170,12 +170,12 @@
         <mark key="." line="42" column="11" />
         <mark key="^" line="42" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592561582083">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592575731942">
         <mark key="'" line="92" column="0" />
-        <mark key="[" line="54" column="4" />
-        <mark key="]" line="54" column="10" />
-        <mark key="." line="54" column="9" />
-        <mark key="^" line="54" column="10" />
+        <mark key="[" line="79" column="8" />
+        <mark key="]" line="79" column="14" />
+        <mark key="." line="79" column="13" />
+        <mark key="^" line="79" column="14" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/tracker/mod.rs" timestamp="1592297974937">
         <mark key="'" line="130" column="11" />
@@ -195,12 +195,12 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592574369887">
-        <mark key="'" line="155" column="0" />
-        <mark key="[" line="96" column="34" />
-        <mark key="]" line="96" column="19" />
-        <mark key="^" line="96" column="19" />
-        <mark key="." line="96" column="18" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592576951743">
+        <mark key="'" line="15" column="4" />
+        <mark key="[" line="149" column="70" />
+        <mark key="]" line="149" column="53" />
+        <mark key="." line="149" column="52" />
+        <mark key="^" line="149" column="53" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/pubsub.rs" timestamp="1592559011594">
         <mark key="[" line="27" column="38" />
@@ -229,10 +229,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="673" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="679" column="106" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="687" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="688" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="691" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="692" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="697" column="102" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
@@ -319,7 +315,6 @@
       <jump line="7" column="26" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="133" column="4" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="122" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
-      <jump line="126" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="80" column="25" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="84" column="63" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="141" column="30" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
@@ -329,6 +324,11 @@
       <jump line="53" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" />
       <jump line="4" column="1" filename="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" />
       <jump line="14" column="64" filename="$USER_HOME$/Workspace/rumq/rumq-client/examples/syncpubsub.rs" />
+      <jump line="134" column="42" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
+      <jump line="98" column="33" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
+      <jump line="108" column="36" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
+      <jump line="126" column="18" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
+      <jump line="15" column="4" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -337,69 +337,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">Pg==</text>
+        <text encoding="base64">bXV0IA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Pg==</text>
+        <text encoding="base64">bXV0IA==</text>
       </register>
       <register name="/" type="4">
-        <text>async_channel::Receiver</text>
+        <text>Cancel</text>
       </register>
-      <register name="0" type="4">
-        <text>use rumq_client::{self, MqttOptions, Publish, QoS, Request, Subscribe, Client};
-use std::time::Duration;
-use std::thread;
-
-
-fn main() {
-    pretty_env_logger::init();
-    color_backtrace::install();
-
-    let mut mqttoptions = MqttOptions::new(&quot;test-1&quot;, &quot;localhost&quot;, 1883);
-    mqttoptions.set_keep_alive(5).set_throttle(Duration::from_secs(1));
-
-    let (mut client, mut connection) = Client::new(mqttoptions, 10);
-    thread::spawn(move || {
-        client.subscribe(&quot;hello/world&quot;, QoS::AtMostOnce);
-        for i in 0..10 {
-            let payload = vec![1, 2, 3, i];
-            client.publish(&quot;hello&quot;, QoS::AtLeastOnce, false, payload);
-        }
-    });
-
-    for notification in connection.iter() {
-        println!(&quot;{:?}&quot;, notification);
-    }
-
-    println!(&quot;Done with the stream. out = {:?}&quot;, o);
-}</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgcnVudGltZSA9IHJ1bnRpbWU6OkJ1aWxkZXI6Om5ldygpLmJhc2ljX3NjaGVkdWxlcigpLmVuYWJsZV9hbGwoKS5idWlsZCgpLnVud3JhcCgpOwo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIHJ1bnRpbWU6IHJ1bnRpbWU6OlJ1bnRpbWUsCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgICBjbGllbnQuc3Vic2NyaWJlKCJoZWxsby93b3JsZCIsIFFvUzo6QXRNb3N0T25jZSkudW53cmFwKCk7CiAgICAgICAgZm9yIGkgaW4gMC4uMTAgewogICAgICAgICAgICBsZXQgcGF5bG9hZCA9IHZlYyFbMSwgMiwgMywgaV07CiAgICAgICAgICAgIGNsaWVudC5wdWJsaXNoKCJoZWxsbyIsIFFvUzo6QXRMZWFzdE9uY2UsIGZhbHNlLCBwYXlsb2FkKS51bndyYXAoKTsKICAgICAgICB9</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcnVudGltZTogU29tZShydW50aW1lOjpSdW50aW1lOjpuZXcoKS51bndyYXAoKSkK</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIHJ1bnRpbWU6IE9wdGlvbjxSdW50aW1lPgo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgZXZlbnRsb29wID0gRXZlbnRMb29wOjpuZXcob3B0aW9ucywgcmVxdWVzdF9yeCk7Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIGkgCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcnVudGltZTogcnVudGltZTo6UnVudGltZTo6bmV3KCkudW53cmFwKCksCg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgIGNvbG9yX2JhY2t0cmFjZTo6aW5zdGFsbCgpOwo=</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBTb21lKHNlbGYucnVudGltZS5ibG9ja19vbihmKSkK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgbXV0IHJ1bnRpbWUgPSBydW50aW1lOjpSdW50aW1lOjpuZXcoKS51bndyYXAoKTsK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBydW50aW1lLmJhc2ljX3NjaGVkdWxlcigpLmVuYWJsZV9pbygpLmVuYWJsZV90aW1lKCk7Cg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">Kgo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbXV0IHJ1bnRpbWUgPSBydW50aW1lOjpCdWlsZGVyOjpuZXcoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgCg==</text>
       </register>
       <register name=":" type="4">
         <text>90</text>
@@ -408,9 +382,9 @@ fn main() {
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>async_channel::Receiver</last-search>
+      <last-search>Cancel</last-search>
       <last-offset />
-      <last-pattern>async_channel::Receiver</last-pattern>
+      <last-pattern>Cancel</last-pattern>
       <last-replace>as u64</last-replace>
       <last-substitute>register</last-substitute>
       <last-dir>1</last-dir>
