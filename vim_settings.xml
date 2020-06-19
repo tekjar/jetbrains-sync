@@ -27,7 +27,6 @@
         <entry>Cancel</entry>
       </history-search>
       <history-cmd>
-        <entry>447</entry>
         <entry>419</entry>
         <entry>520</entry>
         <entry>428</entry>
@@ -47,6 +46,7 @@
         <entry>125</entry>
         <entry>35</entry>
         <entry>90</entry>
+        <entry>23</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,8 +140,11 @@
         <mark key="^" line="65" column="13" />
         <mark key="." line="65" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" timestamp="1592570036411">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" timestamp="1592587687483">
+        <mark key="[" line="16" column="70" />
+        <mark key="]" line="16" column="70" />
+        <mark key="^" line="16" column="73" />
+        <mark key="." line="16" column="70" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1592298011369">
         <mark key="[" line="86" column="14" />
@@ -169,11 +172,12 @@
         <mark key="." line="42" column="11" />
         <mark key="^" line="42" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592587607920">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592588636577">
         <mark key="'" line="229" column="40" />
-        <mark key="]" line="406" column="1" />
-        <mark key="^" line="406" column="1" />
-        <mark key="." line="406" column="0" />
+        <mark key="[" line="427" column="0" />
+        <mark key="]" line="427" column="0" />
+        <mark key="^" line="411" column="69" />
+        <mark key="." line="427" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/tracker/mod.rs" timestamp="1592297974937">
         <mark key="'" line="130" column="11" />
@@ -335,46 +339,46 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">LyoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>debug</text>
+        <text>next</text>
       </register>
       <register name="/" type="4">
         <text>Cancel</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGZvciAoaSwgbm90aWZpY2F0aW9uKSBpbiBjb25uZWN0aW9uLml0ZXIoKS5lbnVtZXJhdGUoKSB7CiAgICAgICAgaWYgaSA9PSA0IHsgYnJlYWsgfQogICAgICAgIHByaW50bG4hKCJOb3RpZmljYXRpb24gPSB7Oj99Iiwgbm90aWZpY2F0aW9uKTsKICAgIH0K</text>
+      <register name="0" type="4">
+        <text encoding="base64">IHRocm90dGxlZF9yZXF1ZXN0c193b3Jrc193aXRoX2NvcnJlY3RfZGVsYXlzX2JldHdlZW5fcmVxdWVzdHM=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">LyoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ki8K</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2hpbGUgbGV0IFNvbWUoXykgPSBzdHJlYW0ubmV4dCgpLmF3YWl0IHt9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBpID09IDQgeyBicmVhayB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IG11dCBldmVudGxvb3AgPSBzdXBlcjo6RXZlbnRMb29wOjpuZXcob3B0aW9ucywgcmVxdWVzdHNfcngpLmF3YWl0Owo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXZlbnRsb29wLmNvbm5lY3QoKS5hd2FpdC51bndyYXAoKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIE9rKHYpID0+IFNvbWUoT2sodikpLAogICAgICAgICAgICAgICAgLy8gY2FuY2VsbGF0aW9uIGVycm9ycyBkdXJpbmcgY29ubmVjdGlvbiBzaG91bGQgc3RvcCB0aGUgaXRlcmF0b3IKICAgICAgICAgICAgICAgIEVycihFdmVudExvb3BFcnJvcjo6Q2FuY2VsKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgdHJhY2UhKCJDYW5jZWxsYXRpb24gcmVxdWVzdCByZWNlaXZlZCB3aGlsZSBjb25uZWN0aW5nIik7CiAgICAgICAgICAgICAgICAgICAgTm9uZQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIEVycihlKSA9PiBTb21lKEVycihlKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBrCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV2ZW50bG9vcC5wb2xsKCkuYXdhaXQ7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6dGltZTo6RHVyYXRpb247Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9vcCB7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>90</text>
+        <text>23</text>
       </register>
     </registers>
   </component>
