@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>pretty_e</entry>
         <entry>extract_connection</entry>
         <entry>new_data_from_rep</entry>
         <entry>+= 1</entry>
@@ -25,6 +24,7 @@
         <entry>pin</entry>
         <entry>Pin</entry>
         <entry>Context</entry>
+        <entry>previous</entry>
       </history-search>
       <history-cmd>
         <entry>407</entry>
@@ -184,8 +184,8 @@
         <mark key="." line="552" column="41" />
         <mark key="^" line="552" column="42" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592511639689">
-        <mark key="'" line="252" column="31" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592554643785">
+        <mark key="'" line="142" column="43" />
         <mark key="[" line="132" column="0" />
         <mark key="]" line="132" column="0" />
         <mark key="^" line="164" column="20" />
@@ -231,7 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="607" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="608" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="612" column="58" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="620" column="106" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
@@ -331,6 +330,7 @@
       <jump line="260" column="52" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="264" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="253" column="31" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
+      <jump line="142" column="43" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -345,7 +345,7 @@
         <text encoding="base64">dGltZW9laXQg</text>
       </register>
       <register name="/" type="4">
-        <text>Context</text>
+        <text>previous</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgc2VsZi5oYXNfcGVuZGluZyA9IHRydWU7Cg==</text>
@@ -384,9 +384,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Context</last-search>
+      <last-search>previous</last-search>
       <last-offset />
-      <last-pattern>Context</last-pattern>
+      <last-pattern>previous</last-pattern>
       <last-replace>as u64</last-replace>
       <last-substitute>register</last-substitute>
       <last-dir>1</last-dir>
