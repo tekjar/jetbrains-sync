@@ -170,12 +170,12 @@
         <mark key="." line="42" column="11" />
         <mark key="^" line="42" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592575731942">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592579501537">
         <mark key="'" line="92" column="0" />
-        <mark key="[" line="79" column="8" />
-        <mark key="]" line="79" column="14" />
-        <mark key="." line="79" column="13" />
-        <mark key="^" line="79" column="14" />
+        <mark key="[" line="51" column="44" />
+        <mark key="]" line="52" column="52" />
+        <mark key="^" line="52" column="52" />
+        <mark key="." line="52" column="51" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/tracker/mod.rs" timestamp="1592297974937">
         <mark key="'" line="130" column="11" />
@@ -195,7 +195,7 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592577735918">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592579350593">
         <mark key="'" line="15" column="4" />
         <mark key="[" line="145" column="25" />
         <mark key="]" line="145" column="26" />
@@ -337,7 +337,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGVycm8K</text>
+        <text encoding="base64">ICAgIC8vIGJ5IHRoZSBzdGF0ZSBtYWNoaW5lIHdoZW4gdGhlIHN0cmVhbWluZyBlbmRzCg==</text>
       </register>
       <register name="-" type="4">
         <text>RequestsDone</text>
@@ -349,31 +349,52 @@
         <text encoding="base64">ICAgICAgICAgICAgRXJyKEV2ZW50TG9vcEVycm9yOjpSZXF1ZXN0c0RvbmUpID0+IE5vbmUsCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGVycm8K</text>
+        <text encoding="base64">ICAgIC8vIGJ5IHRoZSBzdGF0ZSBtYWNoaW5lIHdoZW4gdGhlIHN0cmVhbWluZyBlbmRzCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gCg==</text>
+        <text encoding="base64">ICAgIC8vIGludGVybWVkaWF0ZSBzdGF0ZSBvZiB0aGUgZXZlbnRsb29wLiB0aGlzIGlzIHNldAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIFNvbWUoc2VsZi5jb25uZWN0KCkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhbmljISgiIikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ICAgICBjbGllbnQuc3Vic2NyaWJlKCJoZWxsby93b3JsZCIsIFFvUzo6QXRNb3N0T25jZSkudW53cmFwKCk7CiAgICAgICAgZm9yIGkgaW4gMC4uMTAgewogICAgICAgICAgICBsZXQgcGF5bG9hZCA9IHZlYyFbMSwgMiwgMywgaV07CiAgICAgICAgICAgIGNsaWVudC5wdWJsaXNoKCJoZWxsbyIsIFFvUzo6QXRMZWFzdE9uY2UsIGZhbHNlLCBwYXlsb2FkKS51bndyYXAoKTsKICAgICAgICB9</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIGNvbG9yX2JhY2t0cmFjZTo6aW5zdGFsbCgpOwo=</text>
+      <register name="6" type="4">
+        <text>/// Critical errors during eventloop polling
+#[derive(Debug, thiserror::Error)]
+pub enum EventLoopError {
+    #[error(&quot;Mqtt state&quot;)]
+    MqttState(#[from] StateError),
+    #[error(&quot;Timeout&quot;)]
+    Timeout(#[from] Elapsed),
+    #[error(&quot;Rumq&quot;)]
+    Rumq(#[from] rumq_core::Error),
+    #[error(&quot;Network&quot;)]
+    Network(#[from] network::Error),
+    #[error(&quot;I/O&quot;)]
+    Io(#[from] io::Error),
+    #[error(&quot;Stream done&quot;)]
+    StreamDone,
+    #[error(&quot;Requests done&quot;)]
+    RequestsDone,
+    #[error(&quot;No network link. Call eventloop.connect()&quot;)]
+    NoLink,
+    #[error(&quot;Cancel request by the user&quot;)]
+    Cancel,
+}</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGVycm8K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBTb21lKHNlbGYucnVudGltZS5ibG9ja19vbihmKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8gCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbXV0IHJ1bnRpbWUgPSBydW50aW1lOjpSdW50aW1lOjpuZXcoKS51bndyYXAoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIFNvbWUoc2VsZi5jb25uZWN0KCkpCg==</text>
       </register>
       <register name=":" type="4">
         <text>90</text>
