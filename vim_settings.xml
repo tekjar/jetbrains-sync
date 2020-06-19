@@ -170,11 +170,12 @@
         <mark key="." line="42" column="11" />
         <mark key="^" line="42" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592581508420">
-        <mark key="'" line="58" column="0" />
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="0" />
-        <mark key="." line="11" column="0" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592582906087">
+        <mark key="'" line="88" column="11" />
+        <mark key="[" line="193" column="0" />
+        <mark key="]" line="193" column="0" />
+        <mark key="^" line="190" column="8" />
+        <mark key="." line="193" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/tracker/mod.rs" timestamp="1592297974937">
         <mark key="'" line="130" column="11" />
@@ -194,12 +195,12 @@
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592579350593">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592582540866">
         <mark key="'" line="15" column="4" />
-        <mark key="[" line="145" column="25" />
-        <mark key="]" line="145" column="26" />
-        <mark key="." line="145" column="25" />
-        <mark key="^" line="145" column="26" />
+        <mark key="[" line="147" column="26" />
+        <mark key="]" line="147" column="33" />
+        <mark key="." line="147" column="32" />
+        <mark key="^" line="147" column="33" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/pubsub.rs" timestamp="1592559011594">
         <mark key="[" line="27" column="38" />
@@ -228,7 +229,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="697" column="102" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="702" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="703" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="704" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
@@ -328,6 +328,7 @@
       <jump line="15" column="4" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="54" column="22" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="59" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
+      <jump line="88" column="11" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -336,10 +337,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">dXNlIGFzeW5jX2NoYW5uZWw6OntTZW5kZXIsIFJlY2VpdmVyfTsK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>RequestsDone</text>
+        <text encoding="base64">IHJlcXVlc3RzX3J4</text>
       </register>
       <register name="/" type="4">
         <text>Cancel</text>
@@ -348,31 +349,31 @@
         <text encoding="base64">ICAgICAgICAgICAgRXJyKEV2ZW50TG9vcEVycm9yOjpSZXF1ZXN0c0RvbmUpID0+IE5vbmUsCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">dXNlIGFzeW5jX2NoYW5uZWw6OntTZW5kZXIsIFJlY2VpdmVyfTsK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC8vLyAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGNhbmNlbF9yeDogUmVjZWl2ZXI8KCk+Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgIC8vLyBDb25uZWN0cyB0byB0aGUgYnJva2VyIGFuZCByZXR1cm5zIGEgc3RyZWFtIHRoYXQgZG9lcyBldmVyeXRoaW5nIE1RVFQuCiAgICAvLy8gVGhpcyBzdHJlYW0gaW50ZXJuYWxseSBwcm9jZXNzZXMgcmVxdWVzdHMgZnJvbSB0aGUgcmVxdWVzdCBzdHJlYW0gcHJvdmlkZWQgdG8gdGhlIGV2ZW50bG9vcAogICAgLy8vIHdoaWxlIGFsc28gY29uc3VtaW5nIGJ5dGUgc3RyZWFtIGZyb20gdGhlIG5ldHdvcmsgYW5kIHlpZWxkaW5nIG1xdHQgcGFja2V0cyBhcyB0aGUgb3V0cHV0IG9mCiAgICAvLy8gdGhlIHN0cmVhbQogICAgcHViIGFzeW5jIGZuIGNvbm5lY3QoJm11dCBzZWxmKSAtPiBSZXN1bHQ8KCksIEV2ZW50TG9vcEVycm9yPiB7CiAgICAgICAgc2VsZi5zdGF0ZS5hd2FpdF9waW5ncmVzcCA9IGZhbHNlOwoKICAgICAgICAvLyBjb25uZWN0IHRvIHRoZSBicm9rZXIKICAgICAgICBsZXQgbXV0IG5ldHdvcmsgPSBzZWxmLm5ldHdvcmtfY29ubmVjdCgpLmF3YWl0PzsKICAgICAgICBzZWxmLm1xdHRfY29ubmVjdCgmbXV0IG5ldHdvcmspLmF3YWl0PzsKICAgICAgICBzZWxmLm5ldHdvcmsgPSBTb21lKG5ldHdvcmspOwoKICAgICAgICAvLyBtb3ZlIHBlbmRpbmcgbWVzc2FnZXMgZnJvbSBzdGF0ZSB0byBldmVudGxvb3AgYW5kIGNyZWF0ZSBhIHBlbmRpbmcgc3RyZWFtIG9mIHJlcXVlc3RzCiAgICAgICAgc2VsZi5wb3B1bGF0ZV9wZW5kaW5nKCk7CiAgICAgICAgT2soKCkpCiAgICB9Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIC8vLyBIYW5kbGUgdG8gcmVhZCBjYW5jZWxsYXRpb24gcmVxdWVzdHMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgXyA9PiAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vIGJ5IHRoZSBzdGF0ZSBtYWNoaW5lIHdoZW4gdGhlIHN0cmVhbWluZyBlbmRzCg==</text>
+        <text encoding="base64">ICAgIC8vLyAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIC8vIGludGVybWVkaWF0ZSBzdGF0ZSBvZiB0aGUgZXZlbnRsb29wLiB0aGlzIGlzIHNldAo=</text>
+        <text encoding="base64">ICAgIC8vLyAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dXNlIGFzeW5jX2NoYW5uZWw6OntTZW5kZXIsIFJlY2VpdmVyfTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vLyAK</text>
       </register>
       <register name=":" type="4">
         <text>90</text>
