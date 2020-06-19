@@ -170,12 +170,11 @@
         <mark key="." line="42" column="11" />
         <mark key="^" line="42" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592579501537">
-        <mark key="'" line="92" column="0" />
-        <mark key="[" line="51" column="44" />
-        <mark key="]" line="52" column="52" />
-        <mark key="^" line="52" column="52" />
-        <mark key="." line="52" column="51" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" timestamp="1592581508420">
+        <mark key="'" line="58" column="0" />
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/tracker/mod.rs" timestamp="1592297974937">
         <mark key="'" line="130" column="11" />
@@ -229,8 +228,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="691" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
-      <jump line="692" column="57" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="697" column="102" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="702" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
       <jump line="703" column="49" filename="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/router.rs" />
@@ -329,6 +326,8 @@
       <jump line="108" column="36" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="126" column="18" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="15" column="4" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
+      <jump line="54" column="22" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
+      <jump line="59" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -337,7 +336,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIC8vIGJ5IHRoZSBzdGF0ZSBtYWNoaW5lIHdoZW4gdGhlIHN0cmVhbWluZyBlbmRzCg==</text>
+        <text encoding="base64">dXNlIGFzeW5jX2NoYW5uZWw6OntTZW5kZXIsIFJlY2VpdmVyfTsK</text>
       </register>
       <register name="-" type="4">
         <text>RequestsDone</text>
@@ -349,52 +348,31 @@
         <text encoding="base64">ICAgICAgICAgICAgRXJyKEV2ZW50TG9vcEVycm9yOjpSZXF1ZXN0c0RvbmUpID0+IE5vbmUsCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vIGJ5IHRoZSBzdGF0ZSBtYWNoaW5lIHdoZW4gdGhlIHN0cmVhbWluZyBlbmRzCg==</text>
+        <text encoding="base64">dXNlIGFzeW5jX2NoYW5uZWw6OntTZW5kZXIsIFJlY2VpdmVyfTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC8vIGludGVybWVkaWF0ZSBzdGF0ZSBvZiB0aGUgZXZlbnRsb29wLiB0aGlzIGlzIHNldAo=</text>
+        <text encoding="base64">ICAgIC8vLyAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNhbmNlbF9yeDogUmVjZWl2ZXI8KCk+Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vLyBIYW5kbGUgdG8gcmVhZCBjYW5jZWxsYXRpb24gcmVxdWVzdHMK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vIGJ5IHRoZSBzdGF0ZSBtYWNoaW5lIHdoZW4gdGhlIHN0cmVhbWluZyBlbmRzCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>/// Critical errors during eventloop polling
-#[derive(Debug, thiserror::Error)]
-pub enum EventLoopError {
-    #[error(&quot;Mqtt state&quot;)]
-    MqttState(#[from] StateError),
-    #[error(&quot;Timeout&quot;)]
-    Timeout(#[from] Elapsed),
-    #[error(&quot;Rumq&quot;)]
-    Rumq(#[from] rumq_core::Error),
-    #[error(&quot;Network&quot;)]
-    Network(#[from] network::Error),
-    #[error(&quot;I/O&quot;)]
-    Io(#[from] io::Error),
-    #[error(&quot;Stream done&quot;)]
-    StreamDone,
-    #[error(&quot;Requests done&quot;)]
-    RequestsDone,
-    #[error(&quot;No network link. Call eventloop.connect()&quot;)]
-    NoLink,
-    #[error(&quot;Cancel request by the user&quot;)]
-    Cancel,
-}</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIC8vIGludGVybWVkaWF0ZSBzdGF0ZSBvZiB0aGUgZXZlbnRsb29wLiB0aGlzIGlzIHNldAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGVycm8K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIFNvbWUoc2VsZi5jb25uZWN0KCkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>90</text>
