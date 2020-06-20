@@ -116,13 +116,13 @@
         <mark key="]" line="110" column="0" />
         <mark key="." line="110" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" timestamp="1592685331919">
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" timestamp="1592686005106">
         <mark key="'" line="6" column="0" />
-        <mark key="[" line="25" column="8" />
+        <mark key="[" line="25" column="10" />
         <mark key="l" line="70" column="6" />
-        <mark key="]" line="25" column="8" />
-        <mark key="^" line="70" column="48" />
-        <mark key="." line="25" column="8" />
+        <mark key="]" line="25" column="11" />
+        <mark key="^" line="25" column="11" />
+        <mark key="." line="25" column="10" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttlog/tests/mesh.rs" timestamp="1592298037025">
         <mark key="[" line="65" column="12" />
@@ -313,10 +313,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">bXV0IA==</text>
+        <text>p</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bXV0IA==</text>
+        <text>p</text>
       </register>
       <register name="/" type="4">
         <text>Subscribe</text>
