@@ -139,11 +139,11 @@
         <mark key="." line="14" column="43" />
         <mark key="^" line="14" column="44" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/rumqttsync.rs" timestamp="1592729582381">
-        <mark key="[" line="12" column="4" />
-        <mark key="]" line="12" column="7" />
-        <mark key="." line="12" column="6" />
-        <mark key="^" line="12" column="7" />
+      <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/rumqttsync.rs" timestamp="1592729618750">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+        <mark key="^" line="11" column="7" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" timestamp="1592682125172">
         <mark key="'" line="45" column="0" />
@@ -345,13 +345,13 @@
         <text encoding="base64">dXNlIHN0ZDo6aW86OldyaXRlOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6ZnM6OkZpbGU7Cg==</text>
+        <text encoding="base64">dXNlIHN0ZDo6aW86OldyaXRlOwo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">dXNlIHN0ZDo6ZnM6OkZpbGU7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">dXNlIHByb3N0OjpNZXNzYWdlOwo=</text>
+        <text encoding="base64">dXNlIHN0ZDo6ZnM6OkZpbGU7Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">dXNlIHByb3N0OjpNZXNzYWdlOwo=</text>
@@ -360,13 +360,13 @@
         <text encoding="base64">dXNlIHByb3N0OjpNZXNzYWdlOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIH07Cg==</text>
+        <text encoding="base64">dXNlIHByb3N0OjpNZXNzYWdlOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBmaWxlLndyaXRlX2FsbCgmY29udGVudCkudW53cmFwKCk7Cg==</text>
+        <text encoding="base64">ICAgIH07Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9maWxlLmVuY29kZSgmbXV0IGNvbnRlbnQpLnVud3JhcCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBmaWxlLndyaXRlX2FsbCgmY29udGVudCkudW53cmFwKCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>25</text>
