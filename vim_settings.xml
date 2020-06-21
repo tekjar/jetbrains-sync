@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>runtime</entry>
         <entry>async_channel::Receiver</entry>
         <entry>Cancel</entry>
         <entry encoding="base64">cG9sbCgmc2VsZg==</entry>
@@ -25,10 +24,9 @@
         <entry>iter</entry>
         <entry>.connect</entry>
         <entry>\.connect()</entry>
+        <entry>.await</entry>
       </history-search>
       <history-cmd>
-        <entry>90</entry>
-        <entry>384</entry>
         <entry>433</entry>
         <entry>33</entry>
         <entry>23</entry>
@@ -47,6 +45,8 @@
         <entry>14</entry>
         <entry>40</entry>
         <entry>25</entry>
+        <entry>75</entry>
+        <entry>139</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -153,6 +153,9 @@
         <mark key="[" line="33" column="4" />
         <mark key="]" line="40" column="4" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1592759026365">
+        <mark key="'" line="85" column="5" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" timestamp="1592682125172">
         <mark key="'" line="45" column="0" />
         <mark key="[" line="7" column="0" />
@@ -166,12 +169,11 @@
         <mark key="^" line="9" column="7" />
         <mark key="." line="9" column="6" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1592758137480">
-        <mark key="'" line="65" column="0" />
-        <mark key="[" line="20" column="63" />
-        <mark key="]" line="20" column="82" />
-        <mark key="^" line="20" column="82" />
-        <mark key="." line="20" column="81" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1592760955557">
+        <mark key="[" line="64" column="22" />
+        <mark key="]" line="64" column="31" />
+        <mark key="." line="64" column="30" />
+        <mark key="^" line="64" column="31" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592664171948">
         <mark key="'" line="134" column="8" />
@@ -215,17 +217,15 @@
         <mark key="^" line="14" column="66" />
         <mark key="." line="13" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/client.rs" timestamp="1592756430079">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/client.rs" timestamp="1592759311524">
         <mark key="'" line="111" column="27" />
+        <mark key="[" line="114" column="19" />
+        <mark key="]" line="114" column="19" />
+        <mark key="." line="114" column="18" />
+        <mark key="^" line="114" column="19" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="417" column="66" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="441" column="16" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="446" column="33" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="472" column="35" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="493" column="75" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="761" column="68" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="165" column="33" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="167" column="38" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="256" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
@@ -320,6 +320,12 @@
       <jump line="164" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
       <jump line="193" column="14" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
       <jump line="137" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
+      <jump line="85" column="5" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
+      <jump line="68" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
+      <jump line="61" column="13" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
+      <jump line="72" column="4" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
+      <jump line="67" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
+      <jump line="62" column="60" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -327,14 +333,14 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">IHBheWxvYWQ=</text>
+      <register name="*" type="2">
+        <text encoding="base64">Ly8gICAgICAgICAgfQo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHBheWxvYWQ=</text>
+        <text>?</text>
       </register>
       <register name="/" type="4">
-        <text>\.connect()</text>
+        <text>.await</text>
       </register>
       <register name="0" type="4">
         <text>client.subscribe(&quot;hello/world&quot;, QoS::AtMostOnce).unwrap();
@@ -347,42 +353,42 @@
     }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8hICAgICAgICAgICAgbGV0IHBheWxvYWQgPSB2ZWMhW2k7IGkgYXMgdXNpemVdOwo=</text>
+        <text encoding="base64">Ly8gICAgICAgICAgfQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8hIGBgYAo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Ly8hIH0K</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Ly8hICAgICB9Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Ly8hICAgICAgICAgdGltZTo6ZGVsYXlfZm9yKER1cmF0aW9uOjpmcm9tX3NlY3MoMSkpLmF3YWl0Owo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Ly8hCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Ly8hICAgICAgICAgfQo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Ly8hICAgICAgICAgICAgIH0K</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">Ly8hICAgICAgICAgICAgICAgICBicmVhawo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Ly8hICAgICAgICAgICAgICAgICBwcmludGxuISgiRXJyb3IgPSB7Oj99IiwgZSk7Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Ly8hICAgICAgICAgICAgIEVycihlKSA9PiB7Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Ly8hICAgICAgICAgICAgIE9rKG4pID0+IG4sCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Ly8hICAgICAgICAgbWF0Y2ggZXZlbnRsb29wLnBvbGwoKS5hd2FpdCB7Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Ly8hICAgICAgICAgdGltZTo6ZGVsYXlfZm9yKER1cmF0aW9uOjpmcm9tX3NlY3MoMSkpLmF3YWl0Owo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">Ly8hICAgICAgICAgICAgICAgICBOb3RpZmljYXRpb246OkNvbm5lY3QgPT4gcmVxdWVzdHNfdHguc2VuZChzdWJzY3JpYmUpLnVud3JhcCgpLAo=</text>
+        <text encoding="base64">Ly8hICAgICAgICAgcHJpbnRsbiEoIlJlY2VpdmVkID0gezo/fSIsIG5vdGlmaWNhdGlvbik7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>75</text>
+        <text>139</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>\.connect()</last-search>
+      <last-search>.await</last-search>
       <last-offset />
-      <last-pattern>\.connect()</last-pattern>
+      <last-pattern>.await</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
