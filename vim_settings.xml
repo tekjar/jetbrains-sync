@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Stream done</entry>
-        <entry>pin</entry>
-        <entry>Pin</entry>
         <entry>Context</entry>
         <entry>previous</entry>
         <entry>runtime</entry>
@@ -25,10 +22,11 @@
         <entry>flush</entry>
         <entry>subscribe</entry>
         <entry>Subscribe</entry>
+        <entry>time::</entry>
+        <entry>sleep</entry>
+        <entry>iter</entry>
       </history-search>
       <history-cmd>
-        <entry>125</entry>
-        <entry>35</entry>
         <entry>90</entry>
         <entry>384</entry>
         <entry>433</entry>
@@ -40,13 +38,15 @@
         <entry>115</entry>
         <entry>88</entry>
         <entry>41</entry>
-        <entry>40</entry>
         <entry>56</entry>
         <entry>63</entry>
         <entry>43</entry>
         <entry>89</entry>
         <entry>70</entry>
         <entry>26</entry>
+        <entry>14</entry>
+        <entry>40</entry>
+        <entry>25</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -104,6 +104,22 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Workspace/rumqd/src/main.rs" timestamp="1592382265261">
+        <mark key="[" line="28" column="21" />
+        <mark key="]" line="29" column="15" />
+        <mark key="^" line="29" column="15" />
+        <mark key="." line="29" column="14" />
+      </file>
+      <file name="/GDB" timestamp="1592661656253">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" timestamp="1592726897903">
+        <mark key="'" line="75" column="39" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+        <mark key="^" line="75" column="40" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" timestamp="1592313477977">
         <mark key="'" line="2" column="1" />
         <mark key="[" line="194" column="58" />
@@ -130,6 +146,14 @@
         <mark key="^" line="65" column="13" />
         <mark key="." line="65" column="12" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1592724983258" />
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" timestamp="1592682125172">
+        <mark key="'" line="45" column="0" />
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="22" />
+        <mark key="." line="45" column="0" />
+        <mark key="^" line="40" column="66" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumqd/src/httppush.rs" timestamp="1592382464300">
         <mark key="'" line="57" column="12" />
         <mark key="[" line="107" column="53" />
@@ -137,17 +161,36 @@
         <mark key="^" line="107" column="60" />
         <mark key="." line="107" column="59" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1592298011369">
+        <mark key="[" line="86" column="14" />
+        <mark key="]" line="86" column="7" />
+        <mark key="." line="86" column="6" />
+        <mark key="^" line="86" column="7" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumqd/rumqd.conf" timestamp="1592382240579">
         <mark key="[" line="42" column="12" />
         <mark key="]" line="42" column="12" />
         <mark key="." line="42" column="11" />
         <mark key="^" line="42" column="12" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/Cargo.toml" timestamp="1592725721618">
+        <mark key="[" line="9" column="11" />
+        <mark key="]" line="9" column="7" />
+        <mark key="^" line="9" column="7" />
+        <mark key="." line="9" column="6" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumqttd/examples/broker.rs" timestamp="1592313550737">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="3" />
         <mark key="." line="1" column="2" />
         <mark key="^" line="1" column="3" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592664171948">
+        <mark key="'" line="134" column="8" />
+        <mark key="[" line="6" column="17" />
+        <mark key="]" line="6" column="18" />
+        <mark key="." line="6" column="17" />
+        <mark key="^" line="6" column="18" />
       </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/pubsub.rs" timestamp="1592559011594">
         <mark key="[" line="27" column="38" />
@@ -168,35 +211,6 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="53" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqd/src/main.rs" timestamp="1592382265261">
-        <mark key="[" line="28" column="21" />
-        <mark key="]" line="29" column="15" />
-        <mark key="^" line="29" column="15" />
-        <mark key="." line="29" column="14" />
-      </file>
-      <file name="/GDB" timestamp="1592661656253">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" timestamp="1592682125172">
-        <mark key="'" line="45" column="0" />
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="22" />
-        <mark key="." line="45" column="0" />
-        <mark key="^" line="40" column="66" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumqttlog/src/router/mod.rs" timestamp="1592298011369">
-        <mark key="[" line="86" column="14" />
-        <mark key="]" line="86" column="7" />
-        <mark key="." line="86" column="6" />
-        <mark key="^" line="86" column="7" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" timestamp="1592664171948">
-        <mark key="'" line="134" column="8" />
-        <mark key="[" line="6" column="17" />
-        <mark key="]" line="6" column="18" />
-        <mark key="." line="6" column="17" />
-        <mark key="^" line="6" column="18" />
-      </file>
       <file name="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/Cargo.toml" timestamp="1592691503235">
         <mark key="[" line="13" column="0" />
         <mark key="]" line="13" column="0" />
@@ -205,13 +219,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="1" filename="$USER_HOME$/Workspace/rumq/rumqttd/src/lib.rs" />
-      <jump line="56" column="26" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
-      <jump line="110" column="33" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
-      <jump line="93" column="4" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
-      <jump line="57" column="12" filename="$USER_HOME$/Workspace/rumqd/src/httppush.rs" />
-      <jump line="100" column="24" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
-      <jump line="257" column="15" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="281" column="47" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="282" column="52" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="284" column="105" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
@@ -305,6 +312,13 @@
       <jump line="18" column="31" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
       <jump line="6" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
       <jump line="14" column="4" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
+      <jump line="13" column="47" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
+      <jump line="46" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
+      <jump line="1" column="9" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
+      <jump line="86" column="13" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
+      <jump line="36" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
+      <jump line="77" column="39" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -312,55 +326,57 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>:</text>
-      </register>
-      <register name="-" type="4">
-        <text>:</text>
-      </register>
-      <register name="/" type="4">
-        <text>Subscribe</text>
-      </register>
-      <register name="0" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6ZXJyb3I6OkVycm9yOwo=</text>
-      </register>
-      <register name="1" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6aW86OldyaXRlOwo=</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">cHByb2YgPSAiMC4zIgo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGxldCBndWFyZCA9IHBwcm9mOjpQcm9maWxlckd1YXJkOjpuZXcoMTAwKS51bndyYXAoKTsK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIHBwcm9mCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIHAK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHAgCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGxldCBtdXQgcGF5bG9hZHMgPSBnZW5lcmF0ZV9wYXlsb2Fkcyhjb3VudCwgcGF5bG9hZF9zaXplKTsK</text>
-      </register>
-      <register name="8" type="2">
+      <register name="*" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="-" type="4">
+        <text>,</text>
+      </register>
+      <register name="/" type="4">
+        <text>iter</text>
+      </register>
+      <register name="0" type="4">
+        <text>[[bin]]
+name = &quot;rumqttasync&quot;
+path = &quot;rumqttasync.rs&quot;</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">dXNlIGFzeW5jX2NoYW5uZWw6Ontib3VuZGVkIGFzIGNoYW5uZWwsIFNlbmRlcn07Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGV2ZW50bG9vcC5jb25uZWN0KCkuYXdhaXQudW53cmFwKCk7Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGxldCB0b3BpYyA9IGZvcm1hdCEoImhlbGxvL3dvcmxkIiwgaWQpOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmUK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBsZXQgRXJyKF8pID0gcmVxdWVzdHNfdHguc2VuZChwdWJsaXNoKS5hd2FpdCB7Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgcHVibGlzaCA9IFJlcXVlc3Q6OlB1Ymxpc2gocHVibGlzaCk7Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgcHVibGlzaCA9IFB1Ymxpc2g6Om5ldygmdG9waWMsIFFvUzo6QXRMZWFzdE9uY2UsIHBheWxvYWQpOwo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwYXlsb2FkWzBdID0gKGkgJSAyNTUpIGFzIHU4Owo=</text>
+        <text encoding="base64">ICAgIC8vIGxldCBfID0gcmVxdWVzdHNfdHguc2VuZChSZXF1ZXN0OjpTdWJzY3JpYmUoc3Vic2NyaXB0aW9uKSkuYXdhaXQ7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>26</text>
+        <text>25</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Subscribe</last-search>
+      <last-search>iter</last-search>
       <last-offset />
-      <last-pattern>Subscribe</last-pattern>
+      <last-pattern>iter</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
