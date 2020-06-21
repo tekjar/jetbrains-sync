@@ -30,4 +30,31 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="pprof" value=" let guard = pprof::ProfilerGuard::new(100).unwrap();&#10; if let Ok(report) = guard.report().build() {&#10;        let mut file = File::create(&quot;bench.pb&quot;).unwrap();&#10;        let profile = report.pprof().unwrap();&#10;&#10;        let mut content = Vec::new();&#10;        profile.encode(&amp;mut content).unwrap();&#10;        file.write_all(&amp;content).unwrap();&#10;};" description="pprof setup for profiling" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
+  <template name="pprofcargo" value="prost = &quot;0.6&quot;&#10;pprof = { version = &quot;0.3&quot;, features = [&quot;flamegraph&quot;, &quot;protobuf&quot;] }" description="Cargo deps for pprof profiling" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CMAKE" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="RUST_FILE" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+    </context>
+  </template>
 </templateSet>
