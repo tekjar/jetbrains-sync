@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Cancel</entry>
-        <entry encoding="base64">cG9sbCgmc2VsZg==</entry>
         <entry encoding="base64">cG9sbCgmbXV0IHNlbGY=</entry>
         <entry>15</entry>
         <entry>reset</entry>
@@ -25,6 +23,8 @@
         <entry>\.connect()</entry>
         <entry>.await</entry>
         <entry>new_connection</entry>
+        <entry encoding="base64">RmFpbGVkIHRvIA==</entry>
+        <entry>Failed to topics</entry>
       </history-search>
       <history-cmd>
         <entry>33</entry>
@@ -138,10 +138,6 @@
         <mark key="^" line="10" column="9" />
         <mark key="." line="10" column="8" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/examples/syncpubsub.rs" timestamp="1592757837056">
-        <mark key="[" line="33" column="4" />
-        <mark key="]" line="40" column="4" />
-      </file>
       <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/paho.rs" timestamp="1592846904457">
         <mark key="'" line="42" column="0" />
         <mark key="[" line="39" column="0" />
@@ -202,12 +198,19 @@
         <mark key="." line="13" column="21" />
         <mark key="^" line="13" column="22" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" timestamp="1592924985216">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1592925616477">
+        <mark key="'" line="432" column="20" />
+        <mark key="[" line="583" column="44" />
+        <mark key="]" line="583" column="29" />
+        <mark key="^" line="583" column="29" />
+        <mark key="." line="583" column="28" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" timestamp="1592925412725">
         <mark key="'" line="108" column="0" />
-        <mark key="[" line="119" column="47" />
-        <mark key="]" line="119" column="48" />
-        <mark key="." line="119" column="47" />
-        <mark key="^" line="119" column="48" />
+        <mark key="[" line="20" column="53" />
+        <mark key="]" line="20" column="44" />
+        <mark key="." line="20" column="43" />
+        <mark key="^" line="20" column="44" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/clients.sh" timestamp="1592829869432">
         <mark key="[" line="3" column="9" />
@@ -224,12 +227,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="147" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" />
-      <jump line="53" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" />
-      <jump line="4" column="1" filename="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" />
-      <jump line="14" column="64" filename="$USER_HOME$/Workspace/rumq/rumq-client/examples/syncpubsub.rs" />
-      <jump line="98" column="33" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="108" column="36" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="126" column="18" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
       <jump line="15" column="4" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/client.rs" />
@@ -324,6 +321,12 @@
       <jump line="93" column="1" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
       <jump line="85" column="16" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
       <jump line="87" column="0" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="146" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="481" column="24" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="517" column="24" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="573" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="432" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -332,13 +335,13 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text>A</text>
+        <text>0</text>
       </register>
       <register name="-" type="4">
-        <text>A</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>new_connection</text>
+        <text>Failed to topics</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoIlJlY2VpdmVkID0gezo/fSIsIHJlcGx5KTsK</text>
@@ -377,9 +380,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>new_connection</last-search>
+      <last-search>Failed to topics</last-search>
       <last-offset />
-      <last-pattern>new_connection</last-pattern>
+      <last-pattern>Failed to topics</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
