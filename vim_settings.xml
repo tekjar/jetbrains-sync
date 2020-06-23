@@ -201,12 +201,12 @@
         <mark key="." line="13" column="21" />
         <mark key="^" line="13" column="22" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" timestamp="1592905331375">
-        <mark key="'" line="104" column="0" />
-        <mark key="[" line="69" column="0" />
-        <mark key="]" line="69" column="0" />
-        <mark key="." line="69" column="0" />
-        <mark key="^" line="71" column="52" />
+      <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" timestamp="1592905480452">
+        <mark key="'" line="103" column="0" />
+        <mark key="[" line="3" column="23" />
+        <mark key="]" line="3" column="23" />
+        <mark key="^" line="70" column="52" />
+        <mark key="." line="3" column="23" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/clients.sh" timestamp="1592829869432">
         <mark key="[" line="3" column="9" />
@@ -331,43 +331,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHBraWQgPSA7Cg==</text>
+        <text encoding="base64">I1thbGxvdyh1bnVzZWQpXQo=</text>
       </register>
       <register name="-" type="4">
-        <text>(i % 65000) as u16 + 1</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
         <text>new_connection</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJvdXRlcl90eC5zZW5kKG1lc3NhZ2UpLmF3YWl0LnVud3JhcCgpOwo=</text>
+        <text encoding="base64">I1thbGxvdyh1bnVzZWQpXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHBraWQgPSA7Cg==</text>
+        <text encoding="base64">dXNlIGJ5dGVzOjpCeXRlczsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICovCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgCg==</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHRvdGFsX3NpemUK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGNvbW1hbmRsaW5lOiAmQ29tbWFuZExpbmUsCg==</text>
+        <text encoding="base64">ICAgIHByaW50bG4hKCJJZCA9IHt9LCBUb3RhbCBzaXplID1yb3V0ZXJuIHt9IiwgaWQsIHRvdGFsX3NpemUpOwo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICovCg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgIH0K</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZWFkcy5wdXNoKGYpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdG9waWMgPSAiaGVsbG8vd29ybGQiLnRvX293bmVkKCkgKyAmdG9waWNfY291bnQudG9fc3RyaW5nKCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>139</text>
