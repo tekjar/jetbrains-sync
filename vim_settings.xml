@@ -176,12 +176,12 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" timestamp="1593002121744">
-        <mark key="'" line="42" column="21" />
-        <mark key="[" line="17" column="12" />
-        <mark key="]" line="17" column="12" />
-        <mark key="^" line="17" column="12" />
-        <mark key="." line="17" column="11" />
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" timestamp="1593003772094">
+        <mark key="'" line="45" column="21" />
+        <mark key="[" line="6" column="67" />
+        <mark key="]" line="6" column="72" />
+        <mark key="^" line="6" column="72" />
+        <mark key="." line="6" column="71" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/examples/routernxn.rs" timestamp="1592898395529">
         <mark key="[" line="131" column="0" />
@@ -337,44 +337,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>x = np.arange(len(labels))</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIGF4LnNldF90aXRsZSgnU2NvcmVzIGJ5IGdyb3VwIGFuZCBnZW5kZXInKQo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHdvbWVuX21lYW5z</text>
+        <text>Score</text>
       </register>
       <register name="/" type="4">
         <text>smol</text>
       </register>
-      <register name="0" type="4">
-        <text>x = np.arange(len(labels))</text>
+      <register name="0" type="2">
+        <text encoding="base64">dG9raW8gPSAoWzEsIDIsIDMsIDQsIDVdLCAndG9raW8nKSAK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGF1dG9sYWJlbChyZWN0czIpCg==</text>
+        <text encoding="base64">ICAgIGF4LnNldF90aXRsZSgnU2NvcmVzIGJ5IGdyb3VwIGFuZCBnZW5kZXInKQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGF1dG9sYWJlbChyZWN0czEpCg==</text>
+        <text encoding="base64">ICAgIG5leHRfd2lkdGggPSAwCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">cGxvdCgpCg==</text>
+        <text encoding="base64">ICAgICAgICBuZXh0X3dpZHRoID0gd2lkdGgK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhdXRvbGFiZWwoYXgsIHJlY3RzMikK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICByZWN0czIgPSBheC5iYXJoKHggKyB3aWR0aCwgcDIsIHdpZHRoLCBsYWJlbD0nc21vbCcpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBoYT0nY2VudGVyJywgdmE9J2JvdHRvbScpCg==</text>
+        <text encoding="base64">ICAgIGF1dG9sYWJlbChheCwgcmVjdHMxKQogICAgYXV0b2xhYmVsKGF4LCByZWN0czIpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0ZXh0Y29vcmRzPSJvZmZzZXQgcG9pbnRzIiwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB4eXRleHQ9KDAsIDMpLCAgIyAzIHBvaW50cyB2ZXJ0aWNhbCBvZmZzZXQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB4eT0ocmVjdC5nZXRfeCgpICsgcmVjdC5nZXRfd2lkdGgoKSAvIDIsIGhlaWdodCksCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBoYT0nY2VudGVyJywgdmE9J2JvdHRvbScpCg==</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
