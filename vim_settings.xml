@@ -114,11 +114,11 @@
         <mark key="^" line="14" column="9" />
         <mark key="." line="14" column="8" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" timestamp="1593020501520">
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" timestamp="1593020588906">
         <mark key="[" line="72" column="35" />
-        <mark key="]" line="72" column="34" />
-        <mark key="^" line="72" column="34" />
-        <mark key="." line="72" column="33" />
+        <mark key="]" line="72" column="30" />
+        <mark key="^" line="72" column="30" />
+        <mark key="." line="72" column="29" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/rumqttsync.rs" timestamp="1592830002335">
         <mark key="[" line="10" column="8" />
@@ -337,11 +337,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChyZXMpCg==</text>
+      <register name="*" type="4">
+        <text>res</text>
       </register>
       <register name="-" type="4">
-        <text>/</text>
+        <text>res</text>
       </register>
       <register name="/" type="4">
         <text>smol</text>
@@ -353,28 +353,28 @@
         <text encoding="base64">ICAgICAgICBwcmludChyZXMpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHNzCg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIHMK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJJZCA9IHRva2lvLCBUb3RhbCA9IHt9LCBQYXlsb2FkIHNpemUgPSB7fSBieXRlcywgRmxvdyBjb250cm9sIHdpbmRvdyBsZW4gPSB7fSwgVGhyb3VnaHB1dCA9IHt9IE1lc3NhZ2VzL3MiLCBhY2tlZCwgY29uZmlnLnBheWxvYWRfc2l6ZSwgY29uZmlnLmZsb3dfY29udHJvbF9zaXplLCB0aHJvdWdocHV0X3NlY3MpOwo=</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBwcmludChyZXMpCg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHNzCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHMK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHByaW50bG4hKCJJZCA9IHRva2lvLCBUb3RhbCA9IHt9LCBQYXlsb2FkIHNpemUgPSB7fSBieXRlcywgRmxvdyBjb250cm9sIHdpbmRvdyBsZW4gPSB7fSwgVGhyb3VnaHB1dCA9IHt9IE1lc3NhZ2VzL3MiLCBhY2tlZCwgY29uZmlnLnBheWxvYWRfc2l6ZSwgY29uZmlnLmZsb3dfY29udHJvbF9zaXplLCB0aHJvdWdocHV0X3NlY3MpOwo=</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludChyZXMpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsaW5lID0gIiIuam9pbihsaW5lLnNwbGl0KCkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjIHJlc3VsdHMuYXBwZW5kKCh0ZXN0LCBsYW5nLCBpbXBsLCBmbG9hdChzZWNzKSkpCg==</text>
+        <text encoding="base64">ICAgICAgICBsaW5lID0gIiIuam9pbihsaW5lLnNwbGl0KCkpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIHRlc3QsIGxhbmcsIGltcGwsIHNlY3MsIF8gPSBsaW5lLnNwbGl0KCkK</text>
+        <text encoding="base64">ICAgICAgICAjIHJlc3VsdHMuYXBwZW5kKCh0ZXN0LCBsYW5nLCBpbXBsLCBmbG9hdChzZWNzKSkpCg==</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
