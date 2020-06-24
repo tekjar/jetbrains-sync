@@ -176,12 +176,12 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" timestamp="1593001149659">
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" timestamp="1593002121744">
         <mark key="'" line="42" column="21" />
-        <mark key="[" line="10" column="29" />
-        <mark key="]" line="10" column="21" />
-        <mark key="^" line="10" column="21" />
-        <mark key="." line="10" column="20" />
+        <mark key="[" line="17" column="12" />
+        <mark key="]" line="17" column="12" />
+        <mark key="^" line="17" column="12" />
+        <mark key="." line="17" column="11" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/examples/routernxn.rs" timestamp="1592898395529">
         <mark key="[" line="131" column="0" />
@@ -337,8 +337,8 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIGF1dG9sYWJlbChyZWN0czIpCg==</text>
+      <register name="*" type="4">
+        <text>x = np.arange(len(labels))</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IHdvbWVuX21lYW5z</text>
@@ -346,8 +346,8 @@
       <register name="/" type="4">
         <text>smol</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGF1dG9sYWJlbChheCwgcmVjdHMxKQo=</text>
+      <register name="0" type="4">
+        <text>x = np.arange(len(labels))</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGF1dG9sYWJlbChyZWN0czIpCg==</text>
