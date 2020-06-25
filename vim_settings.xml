@@ -160,10 +160,10 @@
         <mark key="." line="73" column="7" />
         <mark key="^" line="73" column="8" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" timestamp="1593090886280">
-        <mark key="'" line="103" column="17" />
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" timestamp="1593091222814">
+        <mark key="'" line="183" column="39" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
+        <mark key="]" line="0" column="17" />
         <mark key="^" line="267" column="66" />
         <mark key="." line="0" column="0" />
       </file>
@@ -231,7 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="395" column="19" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="163" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/lib.rs" />
       <jump line="271" column="7" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/state.rs" />
       <jump line="431" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
@@ -331,6 +330,7 @@
       <jump line="155" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
       <jump line="103" column="17" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
+      <jump line="183" column="39" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -339,7 +339,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IyFbZmVhdHVyZSh0ZXN0KV0K</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -348,7 +348,7 @@
         <text>width</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">IyFbY2ZnX2F0dHIobmlnaHRseSwgZmVhdHVyZSh0ZXN0KSldCg==</text>
+        <text encoding="base64">IyFbZmVhdHVyZSh0ZXN0KV0K</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
