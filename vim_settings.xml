@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>15</entry>
-        <entry>reset</entry>
-        <entry>halfopen</entry>
         <entry>println</entry>
         <entry>println!</entry>
         <entry>Notification</entry>
@@ -25,6 +22,9 @@
         <entry encoding="base64">RmFpbGVkIHRvIA==</entry>
         <entry>Failed to topics</entry>
         <entry>smol</entry>
+        <entry>print</entry>
+        <entry>self.width</entry>
+        <entry>width</entry>
       </history-search>
       <history-cmd>
         <entry>33</entry>
@@ -114,11 +114,11 @@
         <mark key="^" line="14" column="9" />
         <mark key="." line="14" column="8" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" timestamp="1593020588906">
-        <mark key="[" line="72" column="35" />
-        <mark key="]" line="72" column="30" />
-        <mark key="^" line="72" column="30" />
-        <mark key="." line="72" column="29" />
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" timestamp="1593037968198">
+        <mark key="'" line="36" column="44" />
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/rumqttsync.rs" timestamp="1592830002335">
         <mark key="[" line="10" column="8" />
@@ -171,11 +171,11 @@
         <mark key="^" line="583" column="29" />
         <mark key="." line="583" column="28" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/benchmarks/clients.sh" timestamp="1592829869432">
-        <mark key="[" line="3" column="9" />
-        <mark key="]" line="3" column="12" />
-        <mark key="^" line="3" column="12" />
-        <mark key="." line="3" column="9" />
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/run.sh" timestamp="1593035665239">
+        <mark key="[" line="11" column="41" />
+        <mark key="]" line="11" column="42" />
+        <mark key="^" line="11" column="42" />
+        <mark key="." line="11" column="41" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/common.rs" timestamp="1592987568491">
         <mark key="[" line="2" column="0" />
@@ -230,14 +230,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="31" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/examples/asyncpubsub.rs" />
-      <jump line="335" column="23" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="182" column="39" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="58" column="4" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="399" column="19" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="123" column="35" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="121" column="17" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
-      <jump line="574" column="18" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="580" column="20" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="573" column="12" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
       <jump line="397" column="19" filename="$USER_HOME$/Workspace/rumq/rumq-client/src/eventloop.rs" />
@@ -330,6 +322,14 @@
       <jump line="44" column="21" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" />
       <jump line="56" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" />
+      <jump line="49" column="20" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
+      <jump line="92" column="33" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
+      <jump line="17" column="71" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
+      <jump line="18" column="31" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
+      <jump line="10" column="8" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
+      <jump line="37" column="29" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
+      <jump line="35" column="29" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
+      <jump line="36" column="44" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -337,44 +337,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>res</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>res</text>
+        <text>1</text>
       </register>
       <register name="/" type="4">
-        <text>smol</text>
+        <text>width</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJJZCA9IHNtb2wsIFRvdGFsID0ge30sIFBheWxvYWQgc2l6ZSAoYnl0ZXMpID0ge30sIEZsb3cgY29udHJvbCB3aW5kb3cgbGVuID0ge30sIFRocm91Z2hwdXQgKG1lc3NhZ2Uvc2VjKSA9IHt9IiwgYWNrZWQsIGNvbmZpZy5wYXlsb2FkX3NpemUsIGNvbmZpZy5mbG93X2NvbnRyb2xfc2l6ZSwgdGhyb3VnaHB1dF9zZWNzKTsK</text>
+        <text encoding="base64">Y2FyZ28gcnVuIC0tcmVsZWFzZSAtLWJpbiBzbW9sIC0tIC1mIDUwMCAgfCB0ZWUgLWEgdGhyb3VnaHB1dC50eHQKY2FyZ28gcnVuIC0tcmVsZWFzZSAtLWJpbiB0b2tpbyAtLSAtZiA1MDAgfCB0ZWUgLWEgdGhyb3VnaHB1dC50eHQK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChyZXMpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChyZXMpCg==</text>
+        <text encoding="base64">ICAgIHNwYWNjaQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHNzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQod2lkdGgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHMK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnggPSBucC5hcmFuZ2Uoc3RhcnQ9c3RhcnQsIHN0b3A9c3RvcCwgc3RlcD1zZWxmLndpZHRoKjUpICAjIHRoZSBsYWJlbCBsb2NhdGlvbnMK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJJZCA9IHRva2lvLCBUb3RhbCA9IHt9LCBQYXlsb2FkIHNpemUgPSB7fSBieXRlcywgRmxvdyBjb250cm9sIHdpbmRvdyBsZW4gPSB7fSwgVGhyb3VnaHB1dCA9IHt9IE1lc3NhZ2VzL3MiLCBhY2tlZCwgY29uZmlnLnBheWxvYWRfc2l6ZSwgY29uZmlnLmZsb3dfY29udHJvbF9zaXplLCB0aHJvdWdocHV0X3NlY3MpOwo=</text>
+      <register name="5" type="8">
+        <text>len(self.labels)*self.width</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChyZXMpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludChsYWJlbCwgdmFsdWVzKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludChzZWxmLmxhYmVscykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsaW5lID0gIiIuam9pbihsaW5lLnNwbGl0KCkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIHJlc3VsdHMuYXBwZW5kKCh0ZXN0LCBsYW5nLCBpbXBsLCBmbG9hdChzZWNzKSkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
@@ -383,9 +383,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>smol</last-search>
+      <last-search>width</last-search>
       <last-offset />
-      <last-pattern>smol</last-pattern>
+      <last-pattern>width</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
