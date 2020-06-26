@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>.await</entry>
-        <entry>new_connection</entry>
         <entry encoding="base64">RmFpbGVkIHRvIA==</entry>
         <entry>Failed to topics</entry>
         <entry>smol</entry>
@@ -25,6 +23,8 @@
         <entry>new_topic_from_</entry>
         <entry>replicated_data_updates</entry>
         <entry>router_registers_and</entry>
+        <entry>push</entry>
+        <entry>pop</entry>
       </history-search>
       <history-cmd>
         <entry>33</entry>
@@ -148,12 +148,12 @@
         <mark key="." line="11" column="10" />
         <mark key="^" line="11" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" timestamp="1593181483475">
-        <mark key="'" line="239" column="4" />
-        <mark key="[" line="374" column="0" />
-        <mark key="]" line="374" column="0" />
-        <mark key="." line="374" column="0" />
-        <mark key="^" line="356" column="3" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" timestamp="1593182271141">
+        <mark key="'" line="14" column="53" />
+        <mark key="[" line="253" column="14" />
+        <mark key="]" line="253" column="17" />
+        <mark key="^" line="253" column="17" />
+        <mark key="." line="253" column="16" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" timestamp="1593095444945">
         <mark key="'" line="250" column="1" />
@@ -231,13 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="9" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
-      <jump line="86" column="13" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
-      <jump line="36" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
-      <jump line="77" column="39" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
-      <jump line="207" column="16" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
-      <jump line="122" column="33" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
-      <jump line="212" column="20" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
       <jump line="399" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
       <jump line="425" column="29" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
       <jump line="582" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
@@ -331,6 +324,13 @@
       <jump line="659" column="50" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="785" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="239" column="4" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
+      <jump line="87" column="38" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
+      <jump line="95" column="42" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
+      <jump line="103" column="40" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
+      <jump line="129" column="34" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
+      <jump line="142" column="44" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
+      <jump line="154" column="50" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
+      <jump line="14" column="53" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -339,43 +339,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQ6IHJlcXVlc3QudHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>/</text>
+        <text encoding="base64">IFZlYw==</text>
       </register>
       <register name="/" type="4">
-        <text>router_registers_and</text>
+        <text>pop</text>
       </register>
       <register name="0" type="4">
         <text>_</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQ6IHJlcXVlc3QudHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQ6IHJlcXVlc3QudHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
+        <text encoding="base64">ICAgICAgICB0cmFja2VyLnVwZGF0ZV90b3BpY3NfdHJhY2tlcigmcmVwbHkpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcmVwbHkgPSBlbXB0eV90b3BpY3NfcmVwbHkoKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBkaXNhYmxlIHRvcGljcyByZXF1ZXN0IHdpdGggZW1wdHkgcmVwbHkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgCg==</text>
+        <text encoding="base64">ICAgICAqLwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAqLwo=</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIC8qCg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQhKGlzX3RvcGljc19yZXF1ZXN0KCZtZXNzYWdlKSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgKi8K</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbWVzc2FnZSA9IHRyYWNrZXIubmV4dCgpLnVud3JhcCgpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAqLwo=</text>
+        <text encoding="base64">ICAgICAgICAvLyBuZXh0KCkgcmV0dXJucyB0b3BpY3MgcmVxdWVzdCBub3cK</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
@@ -384,9 +384,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>router_registers_and</last-search>
+      <last-search>pop</last-search>
       <last-offset />
-      <last-pattern>router_registers_and</last-pattern>
+      <last-pattern>pop</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
