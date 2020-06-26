@@ -335,10 +335,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text>)</text>
+        <text>DataTracker</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>DataTracker</text>
       </register>
       <register name="/" type="4">
         <text>width</text>
