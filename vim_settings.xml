@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">RmFpbGVkIHRvIA==</entry>
         <entry>Failed to topics</entry>
         <entry>smol</entry>
         <entry>print</entry>
@@ -25,6 +24,7 @@
         <entry>router_registers_and</entry>
         <entry>push</entry>
         <entry>pop</entry>
+        <entry>pretty_e</entry>
       </history-search>
       <history-cmd>
         <entry>33</entry>
@@ -148,12 +148,12 @@
         <mark key="." line="11" column="10" />
         <mark key="^" line="11" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" timestamp="1593182271141">
-        <mark key="'" line="14" column="53" />
-        <mark key="[" line="253" column="14" />
-        <mark key="]" line="253" column="17" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" timestamp="1593182358708">
+        <mark key="'" line="13" column="11" />
+        <mark key="[" line="256" column="0" />
+        <mark key="]" line="256" column="0" />
         <mark key="^" line="253" column="17" />
-        <mark key="." line="253" column="16" />
+        <mark key="." line="256" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" timestamp="1593095444945">
         <mark key="'" line="250" column="1" />
@@ -209,12 +209,12 @@
         <mark key="^" line="186" column="37" />
         <mark key="." line="186" column="36" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593181320765">
-        <mark key="'" line="785" column="0" />
-        <mark key="[" line="605" column="64" />
-        <mark key="]" line="606" column="33" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593182316182">
+        <mark key="'" line="606" column="32" />
+        <mark key="[" line="698" column="0" />
+        <mark key="]" line="698" column="0" />
         <mark key="^" line="606" column="33" />
-        <mark key="." line="606" column="32" />
+        <mark key="." line="698" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/run.sh" timestamp="1593035665239">
         <mark key="[" line="11" column="41" />
@@ -231,8 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="399" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
-      <jump line="425" column="29" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
       <jump line="582" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
       <jump line="34" column="0" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
       <jump line="210" column="20" filename="$USER_HOME$/Workspace/rumq/rumqttc/src/eventloop.rs" />
@@ -331,6 +329,8 @@
       <jump line="142" column="44" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
       <jump line="154" column="50" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
       <jump line="14" column="53" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
+      <jump line="606" column="32" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="13" column="11" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -345,7 +345,7 @@
         <text encoding="base64">IFZlYw==</text>
       </register>
       <register name="/" type="4">
-        <text>pop</text>
+        <text>pretty_e</text>
       </register>
       <register name="0" type="4">
         <text>_</text>
@@ -354,28 +354,28 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0cmFja2VyLnVwZGF0ZV90b3BpY3NfdHJhY2tlcigmcmVwbHkpOwo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgcmVwbHkgPSBlbXB0eV90b3BpY3NfcmVwbHkoKTsK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBkaXNhYmxlIHRvcGljcyByZXF1ZXN0IHdpdGggZW1wdHkgcmVwbHkK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAqLwo=</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">ICAgIH0K</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICByZXBseQo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB9Owo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcGF5bG9hZDogdmVjIVtdLAo=</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQhKGlzX3RvcGljc19yZXF1ZXN0KCZtZXNzYWdlKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcGtpZHM6IHZlYyFbXSwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbWVzc2FnZSA9IHRyYWNrZXIubmV4dCgpLnVud3JhcCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVwbGljYV9jb3VudDogMCwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBuZXh0KCkgcmV0dXJucyB0b3BpY3MgcmVxdWVzdCBub3cK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVwbGljYV9vZmZzZXQ6IDAsCg==</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
@@ -384,9 +384,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>pop</last-search>
+      <last-search>pretty_e</last-search>
       <last-offset />
-      <last-pattern>pop</last-pattern>
+      <last-pattern>pretty_e</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
