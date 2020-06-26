@@ -5,15 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>PacketIden</entry>
-        <entry>flush</entry>
-        <entry>subscribe</entry>
-        <entry>Subscribe</entry>
-        <entry>time::</entry>
-        <entry>sleep</entry>
-        <entry>iter</entry>
-        <entry>.connect</entry>
-        <entry>\.connect()</entry>
         <entry>.await</entry>
         <entry>new_connection</entry>
         <entry encoding="base64">RmFpbGVkIHRvIA==</entry>
@@ -25,6 +16,15 @@
         <entry>connection_reads_existing</entry>
         <entry>wait_for_ack</entry>
         <entry>new_data_from_conn</entry>
+        <entry>Empty connection</entry>
+        <entry>new_data_from_replicator</entry>
+        <entry>new_topic_from_replicator</entry>
+        <entry>wait_for_new_water</entry>
+        <entry>replicated_data_update</entry>
+        <entry>router_responds_with</entry>
+        <entry>new_topic_from_</entry>
+        <entry>replicated_data_updates</entry>
+        <entry>router_registers_and</entry>
       </history-search>
       <history-cmd>
         <entry>33</entry>
@@ -148,11 +148,12 @@
         <mark key="." line="11" column="10" />
         <mark key="^" line="11" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" timestamp="1593180325761">
-        <mark key="'" line="186" column="5" />
-        <mark key="[" line="461" column="0" />
-        <mark key="]" line="461" column="0" />
-        <mark key="." line="461" column="0" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" timestamp="1593181483475">
+        <mark key="'" line="239" column="4" />
+        <mark key="[" line="374" column="0" />
+        <mark key="]" line="374" column="0" />
+        <mark key="." line="374" column="0" />
+        <mark key="^" line="356" column="3" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" timestamp="1593095444945">
         <mark key="'" line="250" column="1" />
@@ -208,12 +209,12 @@
         <mark key="^" line="186" column="37" />
         <mark key="." line="186" column="36" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593180642910">
-        <mark key="'" line="665" column="21" />
-        <mark key="[" line="733" column="81" />
-        <mark key="]" line="734" column="34" />
-        <mark key="^" line="734" column="34" />
-        <mark key="." line="734" column="33" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593181320765">
+        <mark key="'" line="785" column="0" />
+        <mark key="[" line="605" column="64" />
+        <mark key="]" line="606" column="33" />
+        <mark key="^" line="606" column="33" />
+        <mark key="." line="606" column="32" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/run.sh" timestamp="1593035665239">
         <mark key="[" line="11" column="41" />
@@ -230,17 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="29" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
-      <jump line="5" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
-      <jump line="16" column="61" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
-      <jump line="88" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
-      <jump line="12" column="45" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
-      <jump line="18" column="31" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
-      <jump line="6" column="0" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
-      <jump line="14" column="4" filename="$USER_HOME$/Workspace/rumq/rumq-client/benchmarks/rumqttasync.rs" />
-      <jump line="13" column="47" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
-      <jump line="46" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
       <jump line="1" column="9" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
       <jump line="86" column="13" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
       <jump line="36" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/benchmarks/rumqttsync.rs" />
@@ -325,11 +315,22 @@
       <jump line="641" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="679" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="725" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="763" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="803" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="821" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="589" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="665" column="21" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="743" column="8" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="523" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="594" column="66" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="763" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="703" column="43" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="759" column="16" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="788" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="932" column="13" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="637" column="71" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="659" column="50" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="785" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="239" column="4" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -337,44 +338,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">IG5ld19kYXRhX2Zyb21fY29ubmVjdGlvbl9zaG91bGRfbm90aWZ5X3JlcGxpY2F0b3JfYW5kX2Nvbm5lY3Rpb24=</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQ6IHJlcXVlc3QudHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">V2F0ZXJtYXJrc1JlcGx5IA==</text>
+        <text>/</text>
       </register>
       <register name="/" type="4">
-        <text>new_data_from_conn</text>
+        <text>router_registers_and</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">IG5ld19kYXRhX2Zyb21fY29ubmVjdGlvbl9zaG91bGRfbm90aWZ5X3JlcGxpY2F0b3JfYW5kX2Nvbm5lY3Rpb24=</text>
+        <text>_</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX2FjaygmbXV0IGNvbm5lY3Rpb25fcngpLmF3YWl0LmlzX3NvbWUoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQ6IHJlcXVlc3QudHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX2FjaygmbXV0IGNvbm5lY3Rpb25fcngpLmF3YWl0LmlzX3NvbWUoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQ6IHJlcXVlc3QudHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX2FjaygmbXV0IGNvbm5lY3Rpb25fcngpLmF3YWl0LmlzX3NvbWUoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhY2tlcl90b3BpY19vZmZzZXQsCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQhKHdhaXRfZm9yX2FjaygmbXV0IGNvbm5lY3Rpb25fcngpLmF3YWl0LmlzX3NvbWUoKSk7Cg==</text>
+        <text encoding="base64">ICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAqLwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgIC8qCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgKi8K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAqLwo=</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
@@ -383,9 +384,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>new_data_from_conn</last-search>
+      <last-search>router_registers_and</last-search>
       <last-offset />
-      <last-pattern>new_data_from_conn</last-pattern>
+      <last-pattern>router_registers_and</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
