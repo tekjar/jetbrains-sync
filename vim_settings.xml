@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>smol</entry>
-        <entry>print</entry>
-        <entry>self.width</entry>
         <entry>width</entry>
         <entry>connection_reads_existing</entry>
         <entry>wait_for_ack</entry>
@@ -25,6 +22,9 @@
         <entry>pop</entry>
         <entry>pretty_e</entry>
         <entry>WaterMark</entry>
+        <entry>Watermarks</entry>
+        <entry>struct Watermarks</entry>
+        <entry>handle_new_connection</entry>
       </history-search>
       <history-cmd>
         <entry>33</entry>
@@ -203,18 +203,18 @@
         <mark key="^" line="19" column="28" />
         <mark key="." line="19" column="27" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/mod.rs" timestamp="1593175401164">
-        <mark key="[" line="186" column="22" />
-        <mark key="]" line="186" column="37" />
-        <mark key="^" line="186" column="37" />
-        <mark key="." line="186" column="36" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/mod.rs" timestamp="1593258489329">
+        <mark key="[" line="175" column="16" />
+        <mark key="]" line="173" column="11" />
+        <mark key="^" line="173" column="11" />
+        <mark key="." line="173" column="10" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593257547217">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="576" column="1" />
-        <mark key="]" line="581" column="12" />
-        <mark key="^" line="581" column="12" />
-        <mark key="." line="581" column="11" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593258729262">
+        <mark key="'" line="282" column="38" />
+        <mark key="[" line="282" column="23" />
+        <mark key="]" line="282" column="39" />
+        <mark key="." line="282" column="38" />
+        <mark key="^" line="282" column="39" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/run.sh" timestamp="1593035665239">
         <mark key="[" line="11" column="41" />
@@ -231,10 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="111" column="27" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/client.rs" />
-      <jump line="164" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
-      <jump line="193" column="14" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
-      <jump line="137" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
       <jump line="85" column="5" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
       <jump line="68" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
       <jump line="61" column="13" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
@@ -330,7 +326,11 @@
       <jump line="698" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="57" column="34" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="568" column="39" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="287" column="34" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="935" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="11" column="19" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="282" column="38" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -339,43 +339,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IGNsdXN0ZXJfb2Zmc2V0cyA9IDsK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IFZlYw==</text>
+        <text>vec![0, 0, 0, 0, 0, 0, 0, 0, 0, 0]</text>
       </register>
       <register name="/" type="4">
-        <text>WaterMark</text>
+        <text>handle_new_connection</text>
       </register>
       <register name="0" type="4">
         <text>_</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IGNsdXN0ZXJfb2Zmc2V0cyA9IDsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGUK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYW5pYyEoIkV4cGVjdGluZyBBY2siKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0gZWxzZSB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYW5pYyEoIkV4cGVjdGluZyBBY2siKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGxldCBSb3V0ZXJPdXRNZXNzYWdlOjpEYXRhQWNrKF9hY2spID0gdGhpc19yeC5yZWN2KCkuYXdhaXQudW53cmFwKCkgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0gZWxzZSB7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZm9yIF8gaW4gMC4uMTAwMCB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsK</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
@@ -384,9 +384,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>WaterMark</last-search>
+      <last-search>handle_new_connection</last-search>
       <last-offset />
-      <last-pattern>WaterMark</last-pattern>
+      <last-pattern>handle_new_connection</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
