@@ -5,10 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>new_data_from_conn</entry>
-        <entry>Empty connection</entry>
-        <entry>new_data_from_replicator</entry>
-        <entry>new_topic_from_replicator</entry>
         <entry>wait_for_new_water</entry>
         <entry>replicated_data_update</entry>
         <entry>router_responds_with</entry>
@@ -25,6 +21,10 @@
         <entry>data_request</entry>
         <entry>append_comm</entry>
         <entry>append</entry>
+        <entry>update_water</entry>
+        <entry encoding="base64">PCAxMA==</entry>
+        <entry>self.connection</entry>
+        <entry>append_to</entry>
       </history-search>
       <history-cmd>
         <entry>33</entry>
@@ -101,6 +101,12 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed L</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed OPEN_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed CLOSE_BRACKET</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
@@ -187,10 +193,12 @@
         <mark key="^" line="13" column="12" />
         <mark key="." line="13" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/tests/mesh.rs" timestamp="1593180352709">
-        <mark key="[" line="110" column="0" />
-        <mark key="]" line="110" column="0" />
-        <mark key="." line="110" column="0" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/tests/mesh.rs" timestamp="1593263545394">
+        <mark key="'" line="0" column="1" />
+        <mark key="[" line="163" column="1" />
+        <mark key="]" line="164" column="0" />
+        <mark key="." line="164" column="0" />
+        <mark key="^" line="164" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/mesh/link.rs" timestamp="1593263251251">
         <mark key="[" line="230" column="0" />
@@ -209,12 +217,12 @@
         <mark key="^" line="47" column="17" />
         <mark key="." line="47" column="16" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593263365829">
-        <mark key="'" line="517" column="30" />
-        <mark key="[" line="176" column="58" />
-        <mark key="]" line="176" column="58" />
-        <mark key="." line="176" column="58" />
-        <mark key="^" line="389" column="41" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593266691356">
+        <mark key="'" line="580" column="11" />
+        <mark key="[" line="180" column="78" />
+        <mark key="]" line="180" column="56" />
+        <mark key="." line="180" column="55" />
+        <mark key="^" line="180" column="56" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/run.sh" timestamp="1593035665239">
         <mark key="[" line="11" column="41" />
@@ -231,20 +239,12 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="10" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/mesh.rs" />
-      <jump line="37" column="32" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/mesh.rs" />
-      <jump line="1" column="4" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/paho.rs" />
-      <jump line="45" column="0" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/paho.rs" />
-      <jump line="9" column="12" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
-      <jump line="89" column="0" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
-      <jump line="81" column="3" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
       <jump line="93" column="1" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
       <jump line="85" column="16" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
       <jump line="87" column="0" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
       <jump line="146" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="481" column="24" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="517" column="24" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="573" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="432" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="114" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/smol.rs" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/Cargo.lock" />
@@ -312,7 +312,6 @@
       <jump line="568" column="39" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="287" column="34" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="935" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="11" column="19" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="282" column="38" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="378" column="7" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
@@ -331,6 +330,15 @@
       <jump line="616" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="474" column="35" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="518" column="30" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="0" column="1" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/tests/mesh.rs" />
+      <jump line="177" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="585" column="37" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="215" column="26" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="411" column="31" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="561" column="31" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="591" column="58" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="573" column="11" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -339,43 +347,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IHU2NA==</text>
+        <text>entry</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHU2NA==</text>
+        <text>entry</text>
       </register>
       <register name="/" type="4">
-        <text>append</text>
+        <text>append_to</text>
       </register>
-      <register name="0" type="4">
-        <text>_</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbWFwLjAuYXBwZW5kKHBraWQpOwogICAgICAgICAgICBtYXAuMS5hcHBlbmQob2Zmc2V0KTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwa2lkOiB1NjQsCg==</text>
-      </register>
-      <register name="2" type="8">
-        <text encoding="base64">RGF0YSBmcm9tIHJlcGxpY2F0b3IgYW5kIGRhdGEgZnJvbSBjb25uZWN0aW9uIGFyZSBzZXBhcmF0ZS4g</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">cwogICAgICAgICAgICAgICAgICAgIGlmIGNvbm5lY3Rpb24uaXNfbm9uZSgpICYmIGkgPj0gMTAgewogICAgICAgICAgICAgICAgICAgICAgICBpZCA9IGk7CiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpZiBpZCA9PSAwIHsKICAgICAgICAgICAgICAgICAgICBlcnJvciEoIk5vIGVtcHR5IHNsb3RzIGZvdW5kIGZvciBpbmNvbWluZyBjb25uZWN0aW9uID0gezo/fSIsIGRpZCk7CiAgICAgICAgICAgICAgICAgICAgLy8gVE9ETyBhY2sgY29ubmVjdGlvbiB3aXRoIGZhaWx1cmUgYXMgdGhlcmUgYXJlIG5vIGVtcHR5IHNsb3RzCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGlkCiAgICAgICAgICAgIH0KICAgICAgICB9OwoKICAgICAgICBsZXQgbWVzc2FnZSA9IFJvdXRlck91dE1lc3NhZ2U6OkNvbm5lY3Rpb25BY2soQ29ubmVjdGlvbkFjazo6U3VjY2VzcyhpZCkpOwogICAgICAgIGlmIGxldCBFcnIoZSkgPSBjb25uZWN0aW9uLmhhbmRsZS50cnlfc2VuZChtZXNzYWdlKSB7CiAgICAgICAgICAgIGVycm9yISgiRmFpbGVkIHRvIHNlbmQgY29ubmVjdGlvbiBhY2suIEVycm9yID0gezo/fSIsIGUudG9fc3RyaW5nKCkpOwogICAgICAgIH0KCiAgICAgICAgaW5mbyEoCiAgICAgICAgICAgICJOZXcgQ29ubmVjdGlvbi4gSW5jb21pbmcgSUQgPSB7Oj99LCBSb3V0ZXIgYXNzaWduZWQgSUQgPSB7Oj99IiwKICAgICAgICAgICAgY29ubmVjdGlvbi5jb25uLCBpZAogICAgICAgICk7CiAgICAgICAgaWYgbGV0IFNvbWUoXykgPSBtZW06OnJlcGxhY2UoJm11dCBzZWxmLmNvbm5lY3Rpb25zW2lkXSwgU29tZShjb25uZWN0aW9uKSkgewogICAgICAgICAgICB3YXJuISgiUmVwbGFjaW5nIGFuIGV4aXN0aW5nIGNvbm5lY3Rpb24gd2l0aCBzYW1lIElEIik7CiAgICAgICAgfQogICAgfQoKICAgIC8vLyBIYW5kbGVzIG5ldyBpbmNvbWluZyBkYXRhIG9uIGEgdG9waWMKICAgIGZuIGhhbmRsZV9pbmNvbWluZ19kYXRhKCZtdXQgc2VsZiwgaWQ6IENvbm5lY3Rpb25JZCwgZGF0YTogRGF0YSkgewogICAgICAgIGlmIGRhdGEucGF5bG9hZC5sZW4oKSA9PSAwIHsKICAgICAgICAgICAgZXJyb3IhKAogICAgICAgICAgICAgICAgIkVtcHR5IHB1Ymxpc2guIElnbm9yaW5nLiBJRCA9IHs6P30sIHRvcGljID0gezo/fSIsCiAgICAgICAgICAgICAgICBpZCwgZGF0YS50b3BpYwogICAgICAgICAgICApOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQoKICAgICAgICBsZXQgRGF0YSB7CiAgICAgICAgICAgIHBraWQsCiAgICAgICAgICAgIHRvcGljLAogICAgICAgICAgICBwYXlsb2FkLAogICAgICAgIH0gPSBkYXRhOwoKICAgICAgICAvLyBBY2tub3dsZWRnZSB0aGUgY29ubmVjdGlvbiBhZnRlciB3cml0aW5nIGRhdGEgdG8gY29tbWl0bG9nCiAgICAgICAgaWYgbGV0IFNvbWUob2Zmc2V0KSA9IHNlbGYuYXBwZW5kX3RvX2NvbW1pdGxvZyhpZCwgcGtpZCwgJnRvcGljLCBwYXlsb2FkKSB7CiAgICAgICAgICAgIC8vIFRPRE8gRml4IHRoaXMgcHVzaAogICAgICAgICAgICAvLyBzZWxmLmFja19kYXRhKGlkLCBwa2lkLCBvZmZzZXQpCiAgICAgICAgfQoKICAgICAgICAvLyBJZiB0aGVyZSBpcyBhIG5ldyB1bmlxdWUgYXBwZW5kLCBzZW5kIGl0IHRvIGNvbm5lY3Rpb24vbGlua2VyIHdhaXRpbmcKICAgICAgICAvLyBvbiBpdC4gVGhpcyBpcyBlcXVpdmFsZW50IHRvIGh5YnJpZCBvZiBibG9jayBhbmQgcG9sbCBhbmQgd2UgZG9uJ3QgbmVlZAogICAgICAgIC8vIHRpbWVycy4gQ29ubmVjdGlvbnMvUmVwbGljYXRvciB3aWxsIG1ha2UgYSByZXF1ZXN0IGFuZCByZXF1ZXN0IGZhaWxzIGFzCiAgICAgICAgLy8gdGhlcmUgaXMgbm8gbmV3IGRhdGEuIFJvdXRlciBjYWNoZXMgdGhlIGZhaWxlZCByZXF1ZXN0IG9uIHRoZSB0b3BpYy4KICAgICAgICAvLyBJZiB0aGVyZSBpcyBuZXcgZGF0YSBvbiB0aGlzIHRvcGljLCByb3V0ZXIgZnVsZmlsbHMgdGhlIGxhc3QgZmFpbGVkIHJlcXVlc3QuCiAgICAgICAgLy8gVGhpcyBjb21wbGV0ZWx5IGVsaW1pbmF0ZXMgdGhlIG5lZWQgb2YgcG9sbGluZwogICAgICAgIGlmIHNlbGYudG9waWNsb2cudW5pcXVlX2FwcGVuZCgmdG9waWMpIHsKICAgICAgICAgICAgc2VsZi5mcmVzaF90b3BpY3Nfbm90aWZpY2F0aW9uKGlkKTsKICAgICAgICB9CgogICAgICAgIHNlbGYuZnJlc2hfZGF0YV9ub3RpZmljYXRpb24oaWQsICZ0b3BpYyk7CiAgICB9CgogICAgZm4gaGFuZGxlX3RvcGljc19yZXF1ZXN0KCZtdXQgc2VsZiwgaWQ6IENvbm5lY3Rpb25JZCwgcmVxdWVzdDogVG9waWNzUmVxdWVzdCkgewogICAgICAgIGxldCByZXBseSA9IHNlbGYuZXh0cmFjdF90b3BpY3MoJnJlcXVlc3QpOwogICAgICAgIGxldCByZXBseSA9IG1hdGNoIHJlcGx5IHsKICAgICAgICAgICAgU29tZShyKSA9PiByLAogICAgICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgICAgIHNlbGYucmVnaXN0ZXJfdG9waWNzX3dhaXRlcihpZCwgcmVxdWVzdCk7CiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfSwKICAgICAgICB9OwoKICAgICAgICAvLyByZWdpc3RlciB0aGlzIGlkIHRvIHdha2UgdXAgd2hlbiB0aGVyZSBhcmUgbmV3IHRvcGljcwogICAgICAgIGlmIHJlcGx5LnRvcGljcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgc2VsZi5yZWdpc3Rlcl90b3BpY3Nfd2FpdGVyKGlkLCByZXF1ZXN0KTsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICBzZWxmLnJlcGx5KGlkLCBSb3V0ZXJPdXRNZXNzYWdlOjpUb3BpY3NSZXBseShyZXBseSkpOwogICAgfQoKICAgIGZuIGhhbmRsZV9kYXRhX3JlcXVlc3QoJm11dCBzZWxmLCBpZDogQ29ubmVjdGlvbklkLCByZXF1ZXN0OiBEYXRhUmVxdWVzdCkgewogICAgICAgIC8vIFJlcGxpY2F0b3IgYXNraW5nIGRhdGEgaW1wbGllcyB0aGF0IHByZXZpb3VzIGRhdGEgaGFzIGJlZW4gcmVwbGljYXRlZAogICAgICAgIC8vIFdlIHVwZGF0ZSByZXBsaWNhdGlvbiB3YXRlcm1hcmtzIGF0IHRoaXMgcG9pbnQKICAgICAgICAvLyBBbHNvLCBleHRyYWN0IG9ubHkgY29ubmVjdGlvbiBkYXRhIGlmIHRoaXMgcmVxdWVzdCBpcyBmcm9tIGEgcmVwbGljYXRvcgogICAgICAgIGxldCByZXBseSA9IGlmIGlkIDwgMTAgewogICAgICAgICAgICBzZWxmLnVwZGF0ZV93YXRlcm1hcmtzKGlkLCAmcmVxdWVzdCk7CiAgICAgICAgICAgIHNlbGYuZXh0cmFjdF9jb25uZWN0aW9uX2RhdGEoJnJlcXVlc3QpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc2VsZi5leHRyYWN0X2RhdGEoJnJlcXVlc3QpCiAgICAgICAgfTsKCiAgICAgICAgLy8gSWYgZXh0cmFjdGlvbiBmYWlscyBkdWUgdG8gc29tZSBlcnJvci90b3BpYyBkb2Vzbid0IGV4aXN0IHlldCwgcmVwbHkgd2l0aCBlbXB0eSByZXNwb25zZS4KICAgICAgICAvLyBUaGlzIGVuc3VyZXMgdGhhdCBsaW5rcyBjb250aW51ZSB0aGVpciBwb2xsaW5nIG9mIG5leHQgdG9waWMgZHVyaW5nIG5ldyBzdWJzY3JpcHRpb25zCiAgICAgICAgLy8gd2hpY2ggZG9lc24ndCBoYXZlIHB1Ymxpc2hlcyB5ZXQKICAgICAgICAvLyBUaGUgc2FtZSBsb2dpYyBkb2Vzbid0IGV4aXN0cyB3aGlsZSBub3RpZnlpbmcgbmV3IGRhdGEgYmVjYXVzZSB0b3BpYyBzaG91bGQgYWx3YXlzCiAgICAgICAgLy8gZXhpc3RzIHdoaWxlIHNlbmRpbmcgbm90aWZpY2F0aW9uIGR1ZSB0byBuZXcgZGF0YQogICAgICAgIGxldCByZXBseSA9IG1hdGNoIHJlcGx5IHsKICAgICAgICAgICAgU29tZShyKSA9PiByLAogICAgICAgICAgICBOb25lID0+IHsKICAgICAgICAgICAgICAgIHNlbGYucmVnaXN0ZXJfZGF0YV93YWl0ZXIoaWQsIHJlcXVlc3QpOwogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0sCiAgICAgICAgfTsKCiAgICAgICAgLy8gVGhpcyBjb25uZWN0aW9uci9yZXBsaWNhdG9yIGlzIGNvbXBsZXRlbHkgY2F1Z2h0IHVwIHdpdGggdGhpcyB0b3BpYy4KICAgICAgICAvLyBBZGQgdGhpcyBjb25uZWN0aW9uL2xpbmtlciBpbnRvIHdhaXRlcnMgbGlzdCBvZiB0aGlzIHRvcGljLgogICAgICAgIC8vIFdlIGRvbid0IHNlbmQgYW55IHJlc3BvbnNlCiAgICAgICAgLy8gVE9ETzogVGhpcyBjaGVjayBjYW4gcHJvYmFibHkgYmUgcmVtb3ZlZCBhZnRlciB2ZXJpZnlpbmcgdGhlIGZsb3cKICAgICAgICBpZiByZXBseS5wYXlsb2FkLmlzX2VtcHR5KCkgewogICAgICAgICAgICBzZWxmLnJlZ2lzdGVyX2RhdGFfd2FpdGVyKGlkLCByZXF1ZXN0KTsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICBsZXQgcmVwbHkgPSBSb3V0ZXJPdXRNZXNzYWdlOjpEYXRhUmVwbHkocmVwbHkpOwogICAgICAgIHNlbGYucmVwbHkoaWQsIHJlcGx5KTsKICAgIH0KCiAgICBwdWIgZm4gaGFuZGxlX3dhdGVybWFya3NfcmVxdWVzdCgmbXV0IHNlbGYsIGlkOiBDb25uZWN0aW9uSWQsIHJlcXVlc3Q6IA==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IGNsdXN0ZXJfb2Zmc2V0cyA9IDsK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGUK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbWFwLjEuYXBwZW5kKG9mZnNldCk7Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbWFwLjAuYXBwZW5kKHBraWQpOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IG11dCBtYXAgPSAoVmVjRGVxdWU6Om5ldygpLCBWZWNEZXF1ZTo6bmV3KCkpOwo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBlbHNlIHsK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIH0K</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgIGZuIG1hcF9wa2lkX3RvX29mZnNldCgmbXV0IHNlbGYsIHRvcGljOiAmc3RyLCBwa2lkOiB1MTYsIG9mZnNldDogdTY0KSB7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
@@ -384,9 +392,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>append</last-search>
+      <last-search>append_to</last-search>
       <last-offset />
-      <last-pattern>append</last-pattern>
+      <last-pattern>append_to</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
