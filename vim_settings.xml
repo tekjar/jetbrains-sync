@@ -133,12 +133,6 @@
         <mark key="^" line="278" column="11" />
         <mark key="." line="277" column="22" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/run.sh" timestamp="1593017132735">
-        <mark key="[" line="3" column="55" />
-        <mark key="]" line="5" column="0" />
-        <mark key="^" line="5" column="0" />
-        <mark key="." line="5" column="0" />
-      </file>
       <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/tests/mesh.rs" timestamp="1593263545394">
         <mark key="'" line="0" column="1" />
       </file>
@@ -162,13 +156,6 @@
         <mark key="^" line="11" column="42" />
         <mark key="." line="11" column="41" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" timestamp="1593017295960">
-        <mark key="'" line="67" column="0" />
-        <mark key="[" line="64" column="30" />
-        <mark key="]" line="65" column="18" />
-        <mark key="." line="65" column="17" />
-        <mark key="^" line="65" column="18" />
-      </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/tokio.rs" timestamp="1593019914081">
         <mark key="'" line="91" column="0" />
         <mark key="[" line="84" column="114" />
@@ -186,6 +173,12 @@
         <mark key="[" line="106" column="0" />
         <mark key="]" line="106" column="0" />
         <mark key="." line="106" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593373958901">
+        <mark key="[" line="72" column="69" />
+        <mark key="]" line="72" column="70" />
+        <mark key="." line="72" column="69" />
+        <mark key="^" line="72" column="70" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" timestamp="1593095444945">
         <mark key="'" line="250" column="1" />
@@ -212,6 +205,12 @@
         <mark key="]" line="14" column="44" />
         <mark key="^" line="14" column="49" />
         <mark key="." line="14" column="43" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1593373641429">
+        <mark key="[" line="315" column="47" />
+        <mark key="]" line="315" column="48" />
+        <mark key="." line="315" column="47" />
+        <mark key="^" line="315" column="48" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/smol.rs" timestamp="1593019906523">
         <mark key="'" line="98" column="0" />
@@ -336,41 +335,48 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">IE1lc2hDb2RlYw==</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQga2VlcGFsaXZlID0gb3B0aW9ucy5rZWVwX2FsaXZlOwo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IE1lc2hDb2RlYw==</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>append_to</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIElvKCNbZnJvbV0gaW86OkVycm9yKSwK</text>
+        <text encoding="base64">I1tkZXJpdmUoQ2xvbmUsIERlYnVnKV0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBmcmFtZWQK</text>
+        <text encoding="base64">ICAgICAgICBsZXQga2VlcGFsaXZlID0gb3B0aW9ucy5rZWVwX2FsaXZlOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIE1pbnVzID0gMywK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5zdXBlcnZpc29yX3R4LnNlbmQoc2VsZi5pZCkuYXdhaXQudW53cmFwKCk7Cg==</text>
+      <register name="4" type="4">
+        <text>/// Client authentication option for mqtt connect packet
+#[derive(Clone, Debug)]
+pub enum SecurityOptions {
+    /// No authentication.
+    None,
+    /// Use the specified `(username, password)` tuple to authenticate.
+    UsernamePassword(String, String),
+}</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGltZTo6ZGVsYXlfZm9yKER1cmF0aW9uOjpmcm9tX3NlY3MoMikpLmF3YWl0Owo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5mbyEoIkFib3V0IHRvIG1ha2UgYSBuZXcgY29ubmVjdGlvbiAuLi4iKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmlzX2NsaWVudCB7Cg==</text>
+        <text encoding="base64">ICAgIHB1Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpbmZvISgiTGluayB3aXRoIHt9IGJyb2tlbiEhIiwgc2VsZi5pZCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBmcmFtZWQK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
