@@ -127,7 +127,7 @@
         <mark key="." line="65" column="17" />
         <mark key="^" line="65" column="18" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/volatile/segment.rs" timestamp="1593346373650" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/volatile/segment.rs" timestamp="1593346575922" />
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/tokio.rs" timestamp="1593019914081">
         <mark key="'" line="91" column="0" />
         <mark key="[" line="84" column="114" />
@@ -154,6 +154,12 @@
         <mark key="]" line="11" column="11" />
         <mark key="." line="11" column="10" />
         <mark key="^" line="11" column="11" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" timestamp="1593347427748">
+        <mark key="[" line="277" column="22" />
+        <mark key="]" line="277" column="22" />
+        <mark key="^" line="278" column="11" />
+        <mark key="." line="277" column="22" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" timestamp="1593095444945">
         <mark key="'" line="250" column="1" />
@@ -190,6 +196,19 @@
       <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/tests/mesh.rs" timestamp="1593263545394">
         <mark key="'" line="0" column="1" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/mesh/link.rs" timestamp="1593348072517">
+        <mark key="[" line="149" column="20" />
+        <mark key="]" line="161" column="22" />
+        <mark key="." line="149" column="20" />
+        <mark key="^" line="149" column="20" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593347444262">
+        <mark key="'" line="12" column="1" />
+        <mark key="[" line="798" column="34" />
+        <mark key="]" line="798" column="34" />
+        <mark key="." line="798" column="34" />
+        <mark key="^" line="913" column="25" />
+      </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/run.sh" timestamp="1593035665239">
         <mark key="[" line="11" column="41" />
         <mark key="]" line="11" column="42" />
@@ -205,7 +224,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="93" column="1" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
       <jump line="85" column="16" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
       <jump line="87" column="0" filename="$USER_HOME$/Workspace/rumqtt/benchmarks/routernxn.rs" />
       <jump line="146" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
@@ -305,6 +323,7 @@
       <jump line="561" column="31" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="591" column="58" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="573" column="11" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
+      <jump line="12" column="1" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -313,43 +332,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text>insert</text>
+        <text encoding="base64">bGV0IG8gPSBtYXRjaCBvIHsKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShPayhvKSkgPT4gbywKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShFcnIoZSkpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yISgiU3RyZWFtIGVycm9yID0gezo/fSIsIGUpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJva2VuID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIE5vbmUgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5mbyEoIlN0cmVhbSBlbmQhISIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJva2VuID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfTs=</text>
       </register>
       <register name="-" type="4">
-        <text>insert</text>
+        <text>st</text>
       </register>
       <register name="/" type="4">
         <text>append_to</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWFwLjAuYXBwZW5kKHBraWQpOwogICAgICAgICAgICBtYXAuMS5hcHBlbmQob2Zmc2V0KTsK</text>
+      <register name="0" type="4">
+        <text encoding="base64">bGV0IG8gPSBtYXRjaCBvIHsKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShPayhvKSkgPT4gbywKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShFcnIoZSkpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yISgiU3RyZWFtIGVycm9yID0gezo/fSIsIGUpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJva2VuID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIE5vbmUgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5mbyEoIlN0cmVhbSBlbmQhISIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJva2VuID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfTs=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsZXQgU29tZSgpIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHB1YiBhc3luYyBmbiBzdGFydDxTOiBJTz4oKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBsZXQgU29tZSgpIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5yZWdpc3Rlcl9hY2tzX3dhaXRlcihpZCwgcmVxdWVzdCk7Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiByZXBseS5vZmZzZXQuaXNfZW1wdHkoKSB7Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBjYXVnaHRfdXAgPSB3YXRlcm1hcmtzLmNsdXN0ZXJfb2Zmc2V0cyA9PSByZXF1ZXN0Lm9mZnNldDsK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRvZG8hKCk7Cg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5yZWdpc3Rlcl9hY2tzX3dhaXRlcihpZCwgcmVxdWVzdCk7Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBpZiByZXBseS5vZmZzZXQuaXNfZW1wdHkoKSB7Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBjYXVnaHRfdXAgPSB3YXRlcm1hcmtzLmNsdXN0ZXJfb2Zmc2V0cyA9PSByZXF1ZXN0Lm9mZnNldDsK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRvZG8hKCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
