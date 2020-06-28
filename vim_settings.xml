@@ -196,11 +196,11 @@
       <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/tests/mesh.rs" timestamp="1593263545394">
         <mark key="'" line="0" column="1" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/mesh/link.rs" timestamp="1593348072517">
-        <mark key="[" line="149" column="20" />
-        <mark key="]" line="161" column="22" />
-        <mark key="." line="149" column="20" />
-        <mark key="^" line="149" column="20" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/mesh/link.rs" timestamp="1593348513416">
+        <mark key="[" line="181" column="0" />
+        <mark key="]" line="181" column="0" />
+        <mark key="^" line="163" column="20" />
+        <mark key="." line="181" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593347444262">
         <mark key="'" line="12" column="1" />
@@ -331,8 +331,8 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">bGV0IG8gPSBtYXRjaCBvIHsKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShPayhvKSkgPT4gbywKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShFcnIoZSkpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yISgiU3RyZWFtIGVycm9yID0gezo/fSIsIGUpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJva2VuID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIE5vbmUgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5mbyEoIlN0cmVhbSBlbmQhISIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJva2VuID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfTs=</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
         <text>st</text>
@@ -341,34 +341,34 @@
         <text>append_to</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">bGV0IG8gPSBtYXRjaCBvIHsKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShPayhvKSkgPT4gbywKICAgICAgICAgICAgICAgICAgICAgICAgU29tZShFcnIoZSkpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yISgiU3RyZWFtIGVycm9yID0gezo/fSIsIGUpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJva2VuID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIE5vbmUgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5mbyEoIlN0cmVhbSBlbmQhISIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJva2VuID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfTs=</text>
+        <text encoding="base64">bWF0Y2ggbyB7CiAgICAgICAgICAgICAgICAgICAgICAgIFBhY2tldDo6RGF0YShwa2lkLCB0b3BpYywgcGF5bG9hZCkgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGFjayA9IFBhY2tldDo6RGF0YUFjayhwa2lkKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyeV9sb29wIShmcmFtZWQuc2VuZChhY2spLmF3YWl0LCBicm9rZW4sIGNvbnRpbnVlICdzdGFydCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBUaGlzIGlzIGEgZHVtbXkgaW4gcmVwbGljYXRpb24gY29udGV4dAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IHBraWQgPSAwOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGRhdGEgPSBSb3V0ZXJJbk1lc3NhZ2U6OkRhdGEoRGF0YSB7IHBraWQsIHRvcGljLCBwYXlsb2FkIH0pOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcm91dGVyX3R4LnNlbmQoKHNlbGYuaWQgYXMgdXNpemUsIGRhdGEpKS5hd2FpdD87CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgUGFja2V0OjpEYXRhQWNrKGFjaykgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVidWchKCJSZXBsaWNhdGVkIHRpbGwgb2Zmc2V0ID0gezo/fSIsIGFjayk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXRjaCBzZWxmLnRyYWNrZXIubmV4dCgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTb21lKHJlcXVlc3QpID0+IHNlbGYucm91dGVyX3R4LnNlbmQoKHNlbGYuaWQgYXMgdXNpemUsIHJlcXVlc3QpKS5hd2FpdD8sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTm9uZSA9PiBjb250aW51ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBwYWNrZXQgPT4gd2FybiEoIlJlY2VpdmVkIHVuc3VwcG9ydGVkIHBhY2tldCA9IHs6P30iLCBwYWNrZXQpLAogICAgICAgICAgICAgICAgICAgIH0=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHB1YiBhc3luYyBmbiBzdGFydDxTOiBJTz4oKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsZXQgU29tZSgpIAo=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHB1YiBhc3luYyBmbiBzdGFydDxTOiBJTz4oKQo=</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBsZXQgU29tZSgpIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5yZWdpc3Rlcl9hY2tzX3dhaXRlcihpZCwgcmVxdWVzdCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiByZXBseS5vZmZzZXQuaXNfZW1wdHkoKSB7Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBjYXVnaHRfdXAgPSB3YXRlcm1hcmtzLmNsdXN0ZXJfb2Zmc2V0cyA9PSByZXF1ZXN0Lm9mZnNldDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5yZWdpc3Rlcl9hY2tzX3dhaXRlcihpZCwgcmVxdWVzdCk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRvZG8hKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiByZXBseS5vZmZzZXQuaXNfZW1wdHkoKSB7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
