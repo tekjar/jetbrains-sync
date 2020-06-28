@@ -174,11 +174,11 @@
         <mark key="]" line="106" column="0" />
         <mark key="." line="106" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593373958901">
-        <mark key="[" line="72" column="69" />
-        <mark key="]" line="72" column="70" />
-        <mark key="." line="72" column="69" />
-        <mark key="^" line="72" column="70" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593375895529">
+        <mark key="[" line="174" column="77" />
+        <mark key="]" line="174" column="72" />
+        <mark key="." line="174" column="71" />
+        <mark key="^" line="174" column="72" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" timestamp="1593095444945">
         <mark key="'" line="250" column="1" />
@@ -206,11 +206,11 @@
         <mark key="^" line="14" column="49" />
         <mark key="." line="14" column="43" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1593373641429">
-        <mark key="[" line="315" column="47" />
-        <mark key="]" line="315" column="48" />
-        <mark key="." line="315" column="47" />
-        <mark key="^" line="315" column="48" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1593374356802">
+        <mark key="[" line="306" column="0" />
+        <mark key="]" line="306" column="0" />
+        <mark key="^" line="311" column="48" />
+        <mark key="." line="306" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/smol.rs" timestamp="1593019906523">
         <mark key="'" line="98" column="0" />
@@ -335,11 +335,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQga2VlcGFsaXZlID0gb3B0aW9ucy5rZWVwX2FsaXZlOwo=</text>
+      <register name="*" type="4">
+        <text>)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>append_to</text>
@@ -348,38 +348,31 @@
         <text encoding="base64">I1tkZXJpdmUoQ2xvbmUsIERlYnVnKV0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQga2VlcGFsaXZlID0gb3B0aW9ucy5rZWVwX2FsaXZlOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYua2VlcGFsaXZlX3RpbWVvdXQuaW5uCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIE1pbnVzID0gMywK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYua2VlcGFsaXZlX3RpbWVvdXQucmVzZXQoSW5zdGFudDo6bm93KCkgKyBzZWxmLm9wdGlvbnMua2VlcF9hbGl2ZSk7Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>/// Client authentication option for mqtt connect packet
-#[derive(Clone, Debug)]
-pub enum SecurityOptions {
-    /// No authentication.
-    None,
-    /// Use the specified `(username, password)` tuple to authenticate.
-    UsernamePassword(String, String),
-}</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcGFuaWMhKCJLZWVwIGFsaXZlcyBzaG91bGQgYmUgPj0gNSAgc2VjcyIpOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHB1Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBzZWNzIDwgNSB7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBmcmFtZWQK</text>
+        <text encoding="base64">ICAgICAgICBsZXQga2VlcGFsaXZlID0gb3B0aW9ucy5rZWVwX2FsaXZlOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIE1pbnVzID0gMywK</text>
       </register>
       <register name=":" type="4">
         <text>211</text>
