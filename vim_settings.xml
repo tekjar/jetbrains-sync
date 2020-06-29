@@ -173,12 +173,6 @@
         <mark key="^" line="30" column="17" />
         <mark key="." line="30" column="16" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/vectored/src/bin/tokio.rs" timestamp="1593461485223">
-        <mark key="[" line="74" column="0" />
-        <mark key="]" line="74" column="0" />
-        <mark key="." line="74" column="0" />
-        <mark key="^" line="74" column="20" />
-      </file>
       <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/tests/mesh.rs" timestamp="1593263545394">
         <mark key="'" line="0" column="1" />
       </file>
