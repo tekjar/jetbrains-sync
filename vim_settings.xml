@@ -113,20 +113,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1593430403494">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" timestamp="1593038186760">
-        <mark key="'" line="37" column="44" />
-        <mark key="[" line="43" column="97" />
-        <mark key="]" line="10" column="17" />
-        <mark key="." line="10" column="16" />
-        <mark key="^" line="10" column="17" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/examples/routernxn.rs" timestamp="1593251368577">
-        <mark key="[" line="106" column="0" />
-        <mark key="]" line="106" column="0" />
-        <mark key="." line="106" column="0" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/suback.rs" timestamp="1593605211712">
+        <mark key="[" line="51" column="0" />
+        <mark key="]" line="51" column="0" />
+        <mark key="." line="51" column="0" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/chunked-bytes-0.1.0/src/chunked.rs" timestamp="1593461378371">
         <mark key="[" line="169" column="18" />
@@ -134,56 +124,35 @@
         <mark key="^" line="169" column="28" />
         <mark key="." line="169" column="27" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/codec/futures.rs" timestamp="1593087353337">
-        <mark key="[" line="11" column="8" />
-        <mark key="]" line="11" column="11" />
-        <mark key="." line="11" column="10" />
-        <mark key="^" line="11" column="11" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" timestamp="1593605224770">
+        <mark key="'" line="49" column="17" />
+        <mark key="[" line="97" column="0" />
+        <mark key="]" line="97" column="0" />
+        <mark key="." line="97" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593411113774">
-        <mark key="'" line="273" column="36" />
-        <mark key="[" line="131" column="76" />
-        <mark key="]" line="131" column="76" />
-        <mark key="^" line="131" column="82" />
-        <mark key="." line="131" column="76" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/mod.rs" timestamp="1593604627718">
+        <mark key="[" line="31" column="4" />
+        <mark key="]" line="31" column="0" />
+        <mark key="^" line="31" column="0" />
+        <mark key="." line="31" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" timestamp="1593347427748">
-        <mark key="[" line="277" column="22" />
-        <mark key="]" line="277" column="22" />
-        <mark key="^" line="278" column="11" />
-        <mark key="." line="277" column="22" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/connack.rs" timestamp="1593601707519">
+        <mark key="'" line="57" column="0" />
+        <mark key="[" line="0" column="23" />
+        <mark key="]" line="0" column="30" />
+        <mark key="." line="0" column="29" />
+        <mark key="^" line="0" column="30" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" timestamp="1593095444945">
-        <mark key="'" line="250" column="1" />
-        <mark key="[" line="293" column="7" />
-        <mark key="]" line="295" column="14" />
-        <mark key="." line="301" column="0" />
-        <mark key="^" line="301" column="0" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/disconnect.rs" timestamp="1593604777043">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/benches/benchmark.rs" timestamp="1593096713532">
-        <mark key="'" line="40" column="25" />
-        <mark key="[" line="56" column="64" />
-        <mark key="]" line="56" column="64" />
-        <mark key="." line="56" column="64" />
-        <mark key="^" line="56" column="65" />
-      </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/Cargo.toml" timestamp="1593093966618">
-        <mark key="[" line="30" column="8" />
-        <mark key="]" line="30" column="17" />
-        <mark key="^" line="30" column="17" />
-        <mark key="." line="30" column="16" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/tests/mesh.rs" timestamp="1593263545394">
-        <mark key="'" line="0" column="1" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/mesh/link.rs" timestamp="1593426397949">
-        <mark key="'" line="264" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/Cargo.toml" timestamp="1593353577436">
-        <mark key="[" line="14" column="43" />
-        <mark key="]" line="14" column="44" />
-        <mark key="^" line="14" column="49" />
-        <mark key="." line="14" column="43" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/pubrec.rs" timestamp="1593604797907">
+        <mark key="'" line="20" column="18" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/vectored/Cargo.toml" timestamp="1593461603103">
         <mark key="[" line="21" column="21" />
@@ -191,35 +160,71 @@
         <mark key="^" line="21" column="48" />
         <mark key="." line="21" column="47" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" timestamp="1593355906550">
-        <mark key="'" line="12" column="1" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/write.rs" timestamp="1593604328994">
+        <mark key="'" line="224" column="16" />
+        <mark key="[" line="5" column="32" />
+        <mark key="]" line="5" column="13" />
+        <mark key="^" line="5" column="13" />
+        <mark key="." line="5" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttlog/docs/journal.md" timestamp="1593352238007">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="254" column="120" />
-        <mark key="]" line="255" column="97" />
-        <mark key="^" line="255" column="97" />
-        <mark key="." line="255" column="96" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/pubcomp.rs" timestamp="1593604794509">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/pubrel.rs" timestamp="1593604932649">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/publish.rs" timestamp="1593605190349">
+        <mark key="'" line="46" column="21" />
+        <mark key="[" line="90" column="0" />
+        <mark key="]" line="90" column="0" />
+        <mark key="." line="90" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" timestamp="1593604770860">
+        <mark key="[" line="23" column="12" />
+        <mark key="]" line="23" column="12" />
+        <mark key="^" line="98" column="23" />
+        <mark key="." line="23" column="12" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packetbytes.rs" timestamp="1593603367176">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/unsuback.rs" timestamp="1593604780828">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/puback.rs" timestamp="1593605239028">
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="0" />
+        <mark key="." line="31" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/unsubscribe.rs" timestamp="1593604723684">
+        <mark key="'" line="30" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="1" column="13" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/connect.rs" timestamp="1593605180526">
+        <mark key="'" line="155" column="50" />
+        <mark key="[" line="168" column="0" />
+        <mark key="]" line="168" column="0" />
+        <mark key="^" line="2" column="13" />
+        <mark key="." line="168" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/read.rs" timestamp="1593604296261">
+        <mark key="[" line="0" column="74" />
+        <mark key="]" line="0" column="13" />
+        <mark key="." line="0" column="12" />
+        <mark key="^" line="0" column="13" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="65" column="9" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" />
-      <jump line="44" column="21" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" />
-      <jump line="56" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/src/bin/plot.py" />
-      <jump line="49" column="20" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
-      <jump line="92" column="33" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
-      <jump line="17" column="71" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
-      <jump line="18" column="31" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
-      <jump line="10" column="8" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
-      <jump line="37" column="29" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
-      <jump line="35" column="29" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
-      <jump line="36" column="44" filename="$USER_HOME$/Workspace/numbers/minimqtt/mergedbytes/plot.py" />
-      <jump line="218" column="55" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
-      <jump line="264" column="47" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
-      <jump line="155" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
-      <jump line="103" column="17" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
-      <jump line="183" column="39" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
       <jump line="263" column="12" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
       <jump line="299" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
@@ -303,6 +308,23 @@
       <jump line="47" column="33" filename="$USER_HOME$/Workspace/numbers/minimqtt/vectored/src/bin/tokio.rs" />
       <jump line="74" column="20" filename="$USER_HOME$/Workspace/numbers/minimqtt/vectored/src/bin/tokio.rs" />
       <jump line="46" column="27" filename="$USER_HOME$/Workspace/numbers/minimqtt/vectored/src/bin/tokio.rs" />
+      <jump line="92" column="0" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/connect.rs" />
+      <jump line="135" column="0" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/connect.rs" />
+      <jump line="42" column="0" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/connect.rs" />
+      <jump line="136" column="0" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/connect.rs" />
+      <jump line="57" column="0" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/connack.rs" />
+      <jump line="44" column="21" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/publish.rs" />
+      <jump line="32" column="3" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" />
+      <jump line="18" column="0" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" />
+      <jump line="154" column="50" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/connect.rs" />
+      <jump line="19" column="12" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" />
+      <jump line="227" column="10" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/write.rs" />
+      <jump line="20" column="18" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/pubrec.rs" />
+      <jump line="27" column="0" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/unsubscribe.rs" />
+      <jump line="225" column="16" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/write.rs" />
+      <jump line="46" column="20" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" />
+      <jump line="48" column="17" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -311,7 +333,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHVzZSBhbGxvYzo6Ym9ycm93OjpUb093bmVkOwo=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -320,34 +342,34 @@
         <text>println</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgb3V0LmZsdXNoKCk7Cg==</text>
+        <text encoding="base64">dXNlIGNyYXRlOjoqOwp1c2Ugc3VwZXI6Oio7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHVzZSBhbGxvYzo6Ym9ycm93OjpUb093bmVkOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgb3V0LmZsdXNoKCk7Cg==</text>
+        <text encoding="base64">ICAgIHVzZSBhbGxvYzo6dmVjOwo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">cnVuX3Rhc2sKICAgICAgICAgICAgIGF0IC9ob21lL3Rla2phci8uY2FyZ28vcmVnaXN0cnkvc3JjL2dpdGh1Yi5jb20tMWVjYzYyOTlkYjllYzgyMy90b2tpby0wLjIuMjAvc3JjL3J1bnRpbWUvdGhyZWFkX3Bvb2wvd29ya2VyLnJzOjM1MgogIDM3OiB0b2tpbzo6cnVudGltZTo6dGhyZWFkX3Bvb2w6Ondvcmtlcjo6Q29udGV4dDo6cnVuCiAgICAgICAgICAgICBhdCAvaG9tZS90ZWtqYXIvLmNhcmdvL3JlZ2lzdHJ5L3NyYy9naXRodWIuY29tLTFlY2M2Mjk5ZGI5ZWM4MjMvdG9raW8tMC4yLjIwL3NyYy9ydW50aW1lL3RocmVhZF9wb29sL3dvcmtlci5yczozMjQKICAzODogdG9raW86OnJ1bnRpbWU6OnRocmVhZF9wb29sOjp3b3JrZXI6OnJ1bjo6e3tjbG9zdXJlfX0KICAgICAgICAgICAgIGF0IC9ob21lL3Rla2phci8uY2FyZ28vcmVnaXN0cnkvc3JjL2dpdGh1Yi5jb20tMWVjYzYyOTlkYjllYzgyMy90b2tpby0wLjIuMjAvc3JjL3J1bnRpbWUvdGhyZWFkX3Bvb2wvd29ya2VyLnJzOjMwOQogIDM5OiB0b2tpbzo6bWFjcm9zOjpzY29wZWRfdGxzOjpTY29wZWRLZXk8VD46OnNldAogICAgICAgICAgICAgYQ==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHVzZSBjcmF0ZTo6KjsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludGxuISgie30iLCBzZW50KTsK</text>
+        <text encoding="base64">ICAgIHVzZSBjcmF0ZTo6KjsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cHJvc3QgPSAiMC42IgpwcHJvZiA9IHsgdmVyc2lvbiA9ICIwLjMiLCBmZWF0dXJlcyA9IFsiZmxhbWVncmFwaCIsICJwcm90b2J1ZiJdIH0K</text>
+        <text encoding="base64">ICAgIHVzZSBhbGxvYzo6Ym9ycm93OjpUb093bmVkOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">dXNlIHBwcm9mOjpQcm9maWxlckd1YXJkOwo=</text>
+        <text encoding="base64">ICAgIHVzZSBjcmF0ZTo6KjsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHVzZSBjcmF0ZTo6KjsK</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Zm4gcHJvZmlsZShuYW1lOiAmc3RyLCBndWFyZDogUHJvZmlsZXJHdWFyZCkgewogICAgICAgIGlmIGxldCBPayhyZXBvcnQpID0gZ3VhcmQucmVwb3J0KCkuYnVpbGQoKSB7CiAgICAgICAgICAgIGxldCBtdXQgZmlsZSA9IEZpbGU6OmNyZWF0ZShuYW1lKS51bndyYXAoKTsKICAgICAgICAgICAgbGV0IHByb2ZpbGUgPSByZXBvcnQucHByb2YoKS51bndyYXAoKTsKCiAgICAgICAgICAgIGxldCBtdXQgY29udGVudCA9IFZlYzo6bmV3KCk7CiAgICAgICAgICAgIHByb2ZpbGUuZW5jb2RlKCZtdXQgY29udGVudCkudW53cmFwKCk7CiAgICAgICAgICAgIGZpbGUud3JpdGVfYWxsKCZjb250ZW50KS51bndyYXAoKTsKICAgICAgICB9OwogICAgfQ==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIHVzZSBhbGxvYzo6dmVjOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHVzZSBieXRlczo6e0J5dGVzLCBCeXRlc011dH07Cg==</text>
       </register>
       <register name=":" type="4">
         <text>160</text>
