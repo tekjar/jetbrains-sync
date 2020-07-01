@@ -154,6 +154,11 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/Cargo.toml" timestamp="1593606726855">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="12" />
+        <mark key="." line="18" column="0" />
+      </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/vectored/Cargo.toml" timestamp="1593461603103">
         <mark key="[" line="21" column="21" />
         <mark key="]" line="21" column="48" />
@@ -177,17 +182,18 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/publish.rs" timestamp="1593605190349">
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/publish.rs" timestamp="1593607007990">
         <mark key="'" line="46" column="21" />
-        <mark key="[" line="90" column="0" />
-        <mark key="]" line="90" column="0" />
+        <mark key="[" line="72" column="0" />
+        <mark key="]" line="84" column="0" />
         <mark key="." line="90" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" timestamp="1593604770860">
-        <mark key="[" line="23" column="12" />
-        <mark key="]" line="23" column="12" />
-        <mark key="^" line="98" column="23" />
-        <mark key="." line="23" column="12" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" timestamp="1593607128339">
+        <mark key="'" line="143" column="38" />
+        <mark key="[" line="15" column="14" />
+        <mark key="]" line="15" column="14" />
+        <mark key="^" line="143" column="30" />
+        <mark key="." line="15" column="14" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packetbytes.rs" timestamp="1593603367176">
         <mark key="[" line="0" column="0" />
@@ -225,7 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="263" column="12" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
       <jump line="299" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
       <jump line="250" column="1" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
@@ -325,6 +330,7 @@
       <jump line="46" column="20" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" />
       <jump line="48" column="17" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" />
+      <jump line="143" column="38" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -332,44 +338,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIHVzZSBhbGxvYzo6Ym9ycm93OjpUb093bmVkOwo=</text>
+      <register name="*" type="4">
+        <text>}</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text>println</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">dXNlIGNyYXRlOjoqOwp1c2Ugc3VwZXI6Oio7Cg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">aW1wbCBmbXQ6OkRlYnVnIGZvciBQdWJsaXNoIHsKICAgIGZuIGZtdCgmc2VsZiwgZjogJm11dCBmbXQ6OkZvcm1hdHRlcjwnXz4pIC0+IGZtdDo6UmVzdWx0IHsKICAgICAgICB3cml0ZSEoCiAgICAgICAgICAgIGYsCiAgICAgICAgICAgICJUb3BpYyA9IHt9LCBRb3MgPSB7Oj99LCBSZXRhaW4gPSB7fSwgUGtpZCA9IHs6P30sIFBheWxvYWQgU2l6ZSA9IHt9IiwKICAgICAgICAgICAgc2VsZi50b3BpYywKICAgICAgICAgICAgc2VsZi5xb3MsCiAgICAgICAgICAgIHNlbGYucmV0YWluLAogICAgICAgICAgICBzZWxmLnBraWQsCiAgICAgICAgICAgIHNlbGYucGF5bG9hZC5sZW4oKQogICAgICAgICkKICAgIH0KfQ==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHVzZSBhbGxvYzo6Ym9ycm93OjpUb093bmVkOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi50b3BpYywK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHVzZSBhbGxvYzo6dmVjOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5wYXlsb2FkLmxlbigpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHVzZSBjcmF0ZTo6KjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5wa2lkLAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHVzZSBjcmF0ZTo6KjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5yZXRhaW4sCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHVzZSBhbGxvYzo6Ym9ycm93OjpUb093bmVkOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5xb3MsCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHVzZSBjcmF0ZTo6KjsK</text>
+        <text encoding="base64">cmFuZCA9ICIwLjciCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHVzZSBjcmF0ZTo6KjsK</text>
+        <text encoding="base64">Y2ZnLWlmID0gIjAuMSIK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHVzZSBhbGxvYzo6dmVjOwo=</text>
+        <text encoding="base64">dGhpc2Vycm9yID0geyB2ZXJzaW9uID0gIjEiLCBvcHRpb25hbCA9IHRydWUgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHVzZSBieXRlczo6e0J5dGVzLCBCeXRlc011dH07Cg==</text>
+        <text encoding="base64">dG9raW8tdXRpbCA9IHsgdmVyc2lvbiA9ICIwLjMiLCBmZWF0dXJlcyA9IFsiY29kZWMiXSwgb3B0aW9uYWwgPSB0cnVlIH0K</text>
       </register>
       <register name=":" type="4">
         <text>160</text>
