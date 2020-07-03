@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>new_topic_from_</entry>
         <entry>replicated_data_updates</entry>
         <entry>router_registers_and</entry>
         <entry>push</entry>
@@ -25,6 +24,7 @@
         <entry>some_outgoing_and_no_incoming_packets_should_trigger_pings_on_time</entry>
         <entry>flush</entry>
         <entry>println</entry>
+        <entry>dbg</entry>
       </history-search>
       <history-cmd>
         <entry>115</entry>
@@ -172,11 +172,12 @@
         <mark key="]" line="84" column="0" />
         <mark key="." line="90" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593760873228">
-        <mark key="[" line="95" column="51" />
-        <mark key="]" line="95" column="43" />
-        <mark key="." line="95" column="42" />
-        <mark key="^" line="95" column="43" />
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593761666499">
+        <mark key="'" line="120" column="0" />
+        <mark key="[" line="87" column="3" />
+        <mark key="]" line="101" column="21" />
+        <mark key="." line="28" column="0" />
+        <mark key="^" line="94" column="43" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" timestamp="1593607128339">
         <mark key="'" line="143" column="38" />
@@ -185,26 +186,22 @@
         <mark key="^" line="143" column="30" />
         <mark key="." line="15" column="14" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packetbytes.rs" timestamp="1593603367176">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/unsuback.rs" timestamp="1593604780828">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/lib.rs" timestamp="1593756235783">
-        <mark key="[" line="192" column="0" />
-        <mark key="]" line="192" column="0" />
-        <mark key="^" line="192" column="54" />
-        <mark key="." line="192" column="0" />
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/lib.rs" timestamp="1593761520379">
+        <mark key="'" line="192" column="2" />
+        <mark key="]" line="242" column="1" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/puback.rs" timestamp="1593605239028">
         <mark key="[" line="31" column="0" />
         <mark key="]" line="31" column="0" />
         <mark key="." line="31" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" timestamp="1593761695713">
+        <mark key="'" line="171" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/unsubscribe.rs" timestamp="1593604723684">
         <mark key="'" line="30" column="0" />
@@ -227,13 +224,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="250" column="1" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/src/lib.rs" />
-      <jump line="24" column="25" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/benches/benchmark.rs" />
-      <jump line="956" column="27" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="359" column="26" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="186" column="5" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
-      <jump line="699" column="9" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="623" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="641" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="679" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="725" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
@@ -327,6 +317,13 @@
       <jump line="143" column="38" filename="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" />
       <jump line="104" column="8" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/target/debug/build/pprof-091de892dcc50f67/out/perftools.profiles.rs" />
       <jump line="132" column="4" filename="$USER_HOME$/Workspace/numbers/minimqtt/basic/target/debug/build/pprof-091de892dcc50f67/out/perftools.profiles.rs" />
+      <jump line="95" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="119" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="120" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="80" column="44" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="111" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="192" column="2" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -335,43 +332,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLndyaXRlciA9IEJ1Zk11dDo6bmUK</text>
+        <text encoding="base64">ICAgICAgICBPazo6PF8sIGlvOjpFcnJvcj4oKCkpCg==</text>
       </register>
       <register name="-" type="4">
         <text>sent</text>
       </register>
       <register name="/" type="4">
-        <text>println</text>
+        <text>dbg</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoc2VudCk7Cg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">IGxldCBtdXQgY2xpZW50ID0gQ2xpZW50OjpuZXcoc3RyZWFtKTsKICAgIHRhc2s6OnNwYXduKGFzeW5jIG1vdmUgewogICAgICAgIGxvb3AgewogICAgICAgICAgICBsZXQgcGFja2V0ID0gY2xpZW50Lm5leHQoKS5hd2FpdD87CiAgICAgICAgICAgIG1hdGNoIHBhY2tldCB7CiAgICAgICAgICAgICAgICBQYWNrZXQ6OlB1Ymxpc2gocHVibGlzaCkgPT4gewogICAgICAgICAgICAgICAgICAgIGxldCBhY2sgPSBQYWNrZXQ6OlB1YkFjayhQdWJBY2sgeyBwa2lkOiBwdWJsaXNoLnBraWQgfSk7CiAgICAgICAgICAgICAgICAgICAgY2xpZW50LnNlbmQoYWNrKS5hd2FpdD87CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBQYWNrZXQ6OlB1YkFjayhfcHViYWNrKSA9PiB7fQogICAgICAgICAgICB9OwogICAgICAgIH0KCiAgICAgICAgT2s6OjxfLCBpbzo6RXJyb3I+KCgpKQogICAgfSkuYXdhaXQudW53cmFwKCk7</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLndyaXRlciA9IEJ1Zk11dDo6bmUK</text>
+        <text encoding="base64">ICAgICAgICBPazo6PF8sIGlvOjpFcnJvcj4oKCkpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludGxuISgie30iLCBhY2tlZCk7Cg==</text>
+        <text encoding="base64">ICAgIH0pLmF3YWl0LnVud3JhcCgpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIHRhc2s6OnNwYXduKGFzeW5jIG1vdmUgewo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICB9Owo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgUGFja2V0OjpQdWJBY2soX3B1YmFjaykgPT4gIHt9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBPazo6PCgpLCBpbzo6RXJyb3I+KCgpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgT2soTm9uZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZyYW1lcy5zZW5kKGFjaykuYXdhaXQudW53cmFwKCk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6ZXJyb3I6OkVycm9yOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBhY2sgPSBQYWNrZXQ6OlB1YkFjayhQdWJBY2sge3BraWQ6IHB1Ymxpc2gucGtpZCB9KTsK</text>
       </register>
       <register name=":" type="4">
         <text>91</text>
@@ -380,9 +377,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>println</last-search>
+      <last-search>dbg</last-search>
       <last-offset />
-      <last-pattern>println</last-pattern>
+      <last-pattern>dbg</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
