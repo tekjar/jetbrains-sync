@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>replicated_data_updates</entry>
         <entry>router_registers_and</entry>
         <entry>push</entry>
         <entry>pop</entry>
@@ -25,6 +24,7 @@
         <entry>flush</entry>
         <entry>println</entry>
         <entry>dbg</entry>
+        <entry>read</entry>
       </history-search>
       <history-cmd>
         <entry>43</entry>
@@ -174,12 +174,11 @@
         <mark key="]" line="31" column="0" />
         <mark key="." line="31" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" timestamp="1593763031919">
-        <mark key="'" line="168" column="0" />
-        <mark key="[" line="82" column="4" />
-        <mark key="]" line="82" column="4" />
-        <mark key="." line="82" column="4" />
-        <mark key="^" line="59" column="31" />
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" timestamp="1593764251574">
+        <mark key="'" line="58" column="20" />
+        <mark key="[" line="116" column="0" />
+        <mark key="]" line="116" column="0" />
+        <mark key="." line="116" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/pubrec.rs" timestamp="1593604797907">
         <mark key="'" line="20" column="18" />
@@ -228,14 +227,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="641" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="679" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="725" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="803" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="821" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="589" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="665" column="21" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="743" column="8" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="523" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="594" column="66" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="763" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
@@ -328,6 +319,14 @@
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
       <jump line="111" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
       <jump line="192" column="2" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/lib.rs" />
+      <jump line="113" column="42" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="145" column="18" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="147" column="10" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="7" column="16" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="9" column="50" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="49" column="23" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="55" column="26" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="58" column="20" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -336,45 +335,44 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text>}
-}</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
       </register>
       <register name="-" type="4">
-        <text>read_buf</text>
+        <text>decode</text>
       </register>
       <register name="/" type="4">
-        <text>dbg</text>
+        <text>read</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">IGxvb3AgewogICAgICAgIHNlbGVjdCEgewogICAgICAgICAgICAvLyBzZW50IC0gYWNrZWQgZ3VhcmQgcHJldmVudHMgYm91bmRlZCBxdWV1ZSBkZWFkbG9jayAoIGFzc3VtaW5nIDEwMCBwYWNrZXRzIGRvZXNuJ3QKICAgICAgICAgICAgLy8gY2F1c2UgZnJhbWVkLnNlbmQoKSB0byBibG9jayApCiAgICAgICAgICAgIFNvbWUocGFja2V0KSA9IHN0cmVhbS5uZXh0KCksIGlmIHNlbnQgLSBhY2tlZCA8IGNvbmZpZy5mbG93X2NvbnRyb2xfc2l6ZSA9PiB7CiAgICAgICAgICAgICAgICBmcmFtZXMuc2VuZChwYWNrZXQpLmF3YWl0PzsKICAgICAgICAgICAgICAgIHNlbnQgKz0gMTsKICAgICAgICAgICAgfQogICAgICAgICAgICBvID0gZnJhbWVzLm5leHQoKSA9PiBtYXRjaCBvLnVud3JhcCgpIHsKICAgICAgICAgICAgICAgIFBhY2tldDo6UHVibGlzaChfcHVibGlzaCkgPT4gKCksCiAgICAgICAgICAgICAgICBQYWNrZXQ6OlB1YkFjayhfYWNrKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgYWNrZWQgKz0gMTsKICAgICAgICAgICAgICAgICAgICBpZiBhY2tlZCA+PSBjb25maWcuY291bnQgewogICAgICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICB9LAogICAgICAgICAgICBlbHNlID0+IHsKICAgICAgICAgICAgICAgIHByaW50bG4hKCJBbGwgYnJhbmNoZXMgZGlzYWJsZWQiKTsKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cg==</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMuYnVmZmVyLmV4dGVuZF9mcm9tX3NsaWNlKCZidWZbLi5uXSk7Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoJmJ1ZiwgcmVhZCk7Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBtdXQgYnVmID0gJm11dCBzZWxmLmJ1ZmZlclsuLl07Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text>}
 }</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoJmJ1Zik7Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">dXNlIGZ1dHVyZXNfY29kZWM6OkZyYW1lZDsK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIE9rKCgpKQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIH0pLmF3YWl0LnVud3JhcCgpOwo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBPazo6PF8sIGlvOjpFcnJvcj4oKCkpCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHRhc2s6OnNwYXduKGFzeW5jIG1vdmUgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoJmJ1Zik7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>118</text>
@@ -383,9 +381,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>dbg</last-search>
+      <last-search>read</last-search>
       <last-offset />
-      <last-pattern>dbg</last-pattern>
+      <last-pattern>read</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
