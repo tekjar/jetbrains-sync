@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>push</entry>
-        <entry>pop</entry>
-        <entry>pretty_e</entry>
         <entry>WaterMark</entry>
         <entry>struct Watermarks</entry>
         <entry>handle_new_connection</entry>
@@ -25,6 +22,9 @@
         <entry>dbg</entry>
         <entry>read</entry>
         <entry>dbg!</entry>
+        <entry>10</entry>
+        <entry>sleep</entry>
+        <entry>delay</entry>
       </history-search>
       <history-cmd>
         <entry>43</entry>
@@ -129,12 +129,8 @@
         <mark key="]" line="84" column="0" />
         <mark key="." line="90" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593777852507">
-        <mark key="'" line="212" column="0" />
-        <mark key="[" line="102" column="5" />
-        <mark key="]" line="102" column="4" />
-        <mark key="." line="102" column="3" />
-        <mark key="^" line="102" column="4" />
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593779647294">
+        <mark key="'" line="185" column="17" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" timestamp="1593605224770">
         <mark key="'" line="49" column="17" />
@@ -231,15 +227,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="788" column="20" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="932" column="13" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="659" column="50" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="785" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="239" column="4" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
-      <jump line="87" column="38" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
-      <jump line="95" column="42" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
-      <jump line="103" column="40" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
-      <jump line="129" column="34" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
       <jump line="142" column="44" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
       <jump line="154" column="50" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
       <jump line="14" column="53" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
@@ -331,6 +318,15 @@
       <jump line="211" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
       <jump line="67" column="40" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
       <jump line="170" column="0" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/smol.rs" />
+      <jump line="200" column="40" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="23" column="43" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="40" column="48" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="41" column="48" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="146" column="77" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="176" column="39" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="20" column="43" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="171" column="8" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="185" column="17" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -345,7 +341,7 @@
         <text>required_bytes_count</text>
       </register>
       <register name="/" type="4">
-        <text>dbg!</text>
+        <text>delay</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGxldCBtdXQgc3RyZWFtID0gUmVhZGVyOjpuZXcocGFja2V0cyhjb25maWcucGF5bG9hZF9zaXplLCBjb25maWcuY291bnQpLmludG9faXRlcigpKTsK</text>
@@ -384,9 +380,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>dbg!</last-search>
+      <last-search>delay</last-search>
       <last-offset />
-      <last-pattern>dbg!</last-pattern>
+      <last-pattern>delay</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
