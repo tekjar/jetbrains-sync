@@ -129,12 +129,12 @@
         <mark key="]" line="84" column="0" />
         <mark key="." line="90" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593769102999">
-        <mark key="'" line="54" column="23" />
-        <mark key="[" line="83" column="54" />
-        <mark key="]" line="83" column="55" />
-        <mark key="^" line="83" column="55" />
-        <mark key="." line="83" column="54" />
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593773575319">
+        <mark key="'" line="56" column="23" />
+        <mark key="[" line="69" column="38" />
+        <mark key="]" line="69" column="36" />
+        <mark key="." line="69" column="35" />
+        <mark key="^" line="69" column="36" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" timestamp="1593605224770">
         <mark key="'" line="49" column="17" />
@@ -338,43 +338,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIC8vIHByaW50bG4hKCJpZCA9IHt9LCB3YW50ID0ge30sIGhhdmUgPSB7fSIsIGNvbnRyb2xfdHlwZSwgbGVuLCBzdHJlYW0ubGVuKCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZGJnIShvdXQubGVuKCkpOwo=</text>
       </register>
       <register name="-" type="4">
-        <text>decode</text>
+        <text>awiat</text>
       </register>
       <register name="/" type="4">
         <text>read</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZGJnIShvdXQubGVuKCkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vIHByaW50bG4hKCJpZCA9IHt9LCB3YW50ID0ge30sIGhhdmUgPSB7fSIsIGNvbnRyb2xfdHlwZSwgbGVuLCBzdHJlYW0ubGVuKCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZGIK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZyYW1lcy5mbHVzaCgpLmF3YWl0PzsK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">Ly8gSWYgdGhlIGN1cnJlbnQgY2FsbCBmYWlscyBkdWUgdG8gaW5zdWZmaWNpZW50IGJ5dGVzIGluIHRoZSBzdHJlYW0sIGFmdGVyIGNhbGN1bGF0aW5nCiAgICAvLyByZW1haW5pbmcgbGVuZ3RoLCB3ZSBleHRlbmQgdGhlIHN0cmVhbQogICAgaWYgc3RyZWFtLmxlbigpIDwgbGVuIHsKICAgICAgICByZXR1cm4gRXJyKEVycm9yOjpJbnN1ZmZpY2llbnQobGVuKSkKICAgIH0=</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
+        <text encoding="base64">ICAgIGNsaWVudC5mbHVzaCgpLmF3YWl0Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoIkFsbCBicmFuY2hlcyBkaXNhYmxlZCIpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMuYnVmZmVyLmV4dGVuZF9mcm9tX3NsaWNlKCZidWZbLi5uXSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbHNlID0+IHsK</text>
       </register>
       <register name=":" type="4">
         <text>118</text>
