@@ -27,7 +27,6 @@
         <entry>delay</entry>
       </history-search>
       <history-cmd>
-        <entry>43</entry>
         <entry>70</entry>
         <entry>26</entry>
         <entry>14</entry>
@@ -47,6 +46,7 @@
         <entry>101</entry>
         <entry>89</entry>
         <entry>118</entry>
+        <entry>149</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -129,12 +129,12 @@
         <mark key="]" line="84" column="0" />
         <mark key="." line="90" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593780757861">
+      <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593781871343">
         <mark key="'" line="12" column="4" />
-        <mark key="[" line="14" column="18" />
-        <mark key="]" line="15" column="19" />
-        <mark key="^" line="15" column="19" />
-        <mark key="." line="15" column="18" />
+        <mark key="[" line="105" column="0" />
+        <mark key="]" line="105" column="0" />
+        <mark key="^" line="152" column="25" />
+        <mark key="." line="105" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" timestamp="1593605224770">
         <mark key="'" line="49" column="17" />
@@ -333,10 +333,10 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">cHJvc3QgPSAiMC42IgpwcHJvZiA9IHsgdmVyc2lvbiA9ICIwLjMiLCBmZWF0dXJlcyA9IFsiZmxhbWVncmFwaCIsICJwcm90b2J1ZiJdIH0K</text>
+        <text encoding="base64">ICAgICovCg==</text>
       </register>
       <register name="-" type="4">
-        <text>required_bytes_count</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>delay</text>
@@ -345,34 +345,34 @@
         <text encoding="base64">ICAgIGxldCBtdXQgc3RyZWFtID0gUmVhZGVyOjpuZXcocGFja2V0cyhjb25maWcucGF5bG9hZF9zaXplLCBjb25maWcuY291bnQpLmludG9faXRlcigpKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">cHJvc3QgPSAiMC42IgpwcHJvZiA9IHsgdmVyc2lvbiA9ICIwLjMiLCBmZWF0dXJlcyA9IFsiZmxhbWVncmFwaCIsICJwcm90b2J1ZiJdIH0K</text>
+        <text encoding="base64">ICAgICovCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIC8qCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBjb3VudCA9IHBhY2tldHMubGVuKCk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">dXNlIGZ1dHVyZXNfdXRpbDo6U3RyZWFtRXh0Owo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZyYW1lcy5mbHVzaCgpLmF3YWl0LnVud3JhcCgpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">dXNlIGZ1dHVyZXNfdXRpbDo6c3RyZWFtOwo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIGxldCBtdXQgc3RyZWFtID0gc3RyZWFtOjppdGVyKHBhY2tldHMoY29uZmlnLnBheWxvYWRfc2l6ZSwgY29uZmlnLmNvdW50KSk7Cg==</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmcmFtZXMuc3RvcmUocGFja2V0KS51bndyYXAoKTsK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciBwYWNrZXQgaW4gcGFja2V0cyB7Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIH0K</text>
+      </register>
       <register name=":" type="4">
-        <text>118</text>
+        <text>149</text>
       </register>
     </registers>
   </component>
