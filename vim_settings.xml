@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>WaterMark</entry>
         <entry>struct Watermarks</entry>
         <entry>handle_new_connection</entry>
         <entry>Watermarks</entry>
@@ -19,15 +18,15 @@
         <entry>some_outgoing_and_no_incoming_packets_should_trigger_pings_on_time</entry>
         <entry>flush</entry>
         <entry>println</entry>
-        <entry>dbg</entry>
         <entry>read</entry>
         <entry>dbg!</entry>
         <entry>10</entry>
         <entry>sleep</entry>
         <entry>delay</entry>
+        <entry>dbg</entry>
+        <entry>detects</entry>
       </history-search>
       <history-cmd>
-        <entry>14</entry>
         <entry>40</entry>
         <entry>25</entry>
         <entry>75</entry>
@@ -47,6 +46,7 @@
         <entry>149</entry>
         <entry>558</entry>
         <entry>556</entry>
+        <entry>346</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -192,11 +192,12 @@
         <mark key="^" line="144" column="49" />
         <mark key="." line="149" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593852716426">
-        <mark key="[" line="142" column="0" />
-        <mark key="]" line="144" column="83" />
-        <mark key="." line="142" column="0" />
-        <mark key="^" line="163" column="27" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593853016417">
+        <mark key="'" line="711" column="4" />
+        <mark key="[" line="345" column="45" />
+        <mark key="]" line="345" column="45" />
+        <mark key="^" line="551" column="16" />
+        <mark key="." line="345" column="45" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/lib.rs" timestamp="1593768803357">
         <mark key="'" line="192" column="2" />
@@ -239,12 +240,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="11" column="19" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="282" column="38" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="378" column="7" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="637" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="655" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
-      <jump line="720" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="721" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="741" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="742" column="12" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
@@ -339,6 +334,12 @@
       <jump line="29" column="37" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/framed.rs" />
       <jump line="279" column="16" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
       <jump line="71" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/framed.rs" />
+      <jump line="104" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
+      <jump line="209" column="58" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
+      <jump line="431" column="16" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
+      <jump line="142" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
+      <jump line="162" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
+      <jump line="712" column="4" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -346,55 +347,55 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCk7Cg==</text>
+      <register name="*" type="4">
+        <text>,</text>
       </register>
       <register name="-" type="4">
-        <text>{</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
-        <text>delay</text>
+        <text>detects</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBkYmchKCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBtcXR0X3dyaXRlKHBhY2tldCwgJm11dCBzZWxmLndyaXRlKT87Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIE9rKF8pID0+IGFzc2VydF9lcSEoU29tZShPdXRnb2luZzo6UGluZ1JlcSksIG91dGdvaW5nKSwK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBtcXR0X3dyaXRlKHBhY2tldCwgJm11dCBzZWxmLndyaXRlKT87Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIEVycihlKSA9PiAsCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsZXQgRXJyKGUpID0gbXF0dF93cml0ZShwYWNrZXQsICZtdXQgc2VsZi53cml0ZSkgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWF0Y2ggZXZlbnRsb29wLnBvbGwoKS5hd2FpdCB7Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIEVycihpbzo6RXJyb3I6Om5ldyhpbzo6RXJyb3JLaW5kOjpJbnZhbGlkRGF0YSwgZS50b19zdHJpbmcoKSkpOwo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">bWF0Y2ggZSB7CiAgICAgICAgICAgICAgICAgICAgQ29ubmVjdGlvbkVycm9yOjpNcXR0U3RhdGUoU3RhdGVFcnJvcjo6QXdhaXRQaW5nUmVzcCkgPT4gYnJlYWssCiAgICAgICAgICAgICAgICAgICAgdiA9PiBwYW5pYyEoIkV4cGVjdGluZyAgcGluZ3Jlc3AgZXJyb3IuIEZvdW5kID0gezo/fSIsIHYpLAogICAgICAgICAgICAgICAgfQ==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5mcmFtZWQuZmx1c2goKS5hd2FpdC51bndyYXAoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYmchKCk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHVzZSBjcmF0ZTo6ZnJhbWVkOjpOCg==</text>
+        <text encoding="base64">ICAgICAgICBkYmchKCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHVzZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoZWxhcHNlZC5hc19taWxsaXMoKSk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHVzZSB0b2tpb191dGlsOjpjb2RlYzo6RnJhbWVkOwo=</text>
+        <text encoding="base64">ICAgICAgICBkYmcK</text>
       </register>
       <register name=":" type="4">
-        <text>556</text>
+        <text>346</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>delay</last-search>
+      <last-search>detects</last-search>
       <last-offset />
-      <last-pattern>delay</last-pattern>
+      <last-pattern>detects</last-pattern>
       <last-replace>Incoming</last-replace>
       <last-substitute>Notification</last-substitute>
       <last-dir>1</last-dir>
