@@ -108,6 +108,12 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed CLOSE_BRACKET</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed K</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
@@ -129,6 +135,12 @@
         <mark key="]" line="84" column="0" />
         <mark key="." line="90" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/framed.rs" timestamp="1593841666832">
+        <mark key="[" line="26" column="26" />
+        <mark key="]" line="26" column="25" />
+        <mark key="." line="26" column="25" />
+        <mark key="^" line="26" column="26" />
+      </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593781871343">
         <mark key="'" line="12" column="4" />
         <mark key="[" line="105" column="0" />
@@ -149,11 +161,18 @@
         <mark key="^" line="143" column="30" />
         <mark key="." line="15" column="14" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/mod.rs" timestamp="1593604627718">
-        <mark key="[" line="31" column="4" />
-        <mark key="]" line="31" column="0" />
-        <mark key="^" line="31" column="0" />
-        <mark key="." line="31" column="0" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593840521273">
+        <mark key="'" line="77" column="11" />
+        <mark key="[" line="340" column="0" />
+        <mark key="]" line="340" column="0" />
+        <mark key="^" line="242" column="34" />
+        <mark key="." line="340" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/tls.rs" timestamp="1593840163807">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="72" />
+        <mark key="." line="37" column="0" />
+        <mark key="^" line="37" column="62" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/unsuback.rs" timestamp="1593604780828">
         <mark key="[" line="1" column="0" />
@@ -195,11 +214,12 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/unsubscribe.rs" timestamp="1593604723684">
-        <mark key="'" line="30" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="1" column="13" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1593840397763">
+        <mark key="'" line="197" column="11" />
+        <mark key="[" line="86" column="8" />
+        <mark key="]" line="87" column="11" />
+        <mark key="^" line="87" column="11" />
+        <mark key="." line="87" column="10" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/target/debug/build/pprof-091de892dcc50f67/out/perftools.profiles.rs" timestamp="1593755294305">
         <mark key="'" line="132" column="4" />
@@ -211,13 +231,6 @@
         <mark key="^" line="2" column="13" />
         <mark key="." line="168" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/write.rs" timestamp="1593604328994">
-        <mark key="'" line="224" column="16" />
-        <mark key="[" line="5" column="32" />
-        <mark key="]" line="5" column="13" />
-        <mark key="^" line="5" column="13" />
-        <mark key="." line="5" column="12" />
-      </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/pubcomp.rs" timestamp="1593604794509">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
@@ -225,9 +238,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="154" column="50" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
-      <jump line="14" column="53" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
-      <jump line="606" column="32" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="13" column="11" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/tracker/mod.rs" />
       <jump line="698" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
       <jump line="57" column="34" filename="$USER_HOME$/Workspace/rumqtt/rumqttlog/src/router/router.rs" />
@@ -325,6 +335,9 @@
       <jump line="171" column="8" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
       <jump line="185" column="17" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
       <jump line="12" column="4" filename="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" />
+      <jump line="103" column="9" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
+      <jump line="77" column="11" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
+      <jump line="196" column="11" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -332,44 +345,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICovCg==</text>
+      <register name="*" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>delay</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGxldCBtdXQgc3RyZWFtID0gUmVhZGVyOjpuZXcocGFja2V0cyhjb25maWcucGF5bG9hZF9zaXplLCBjb25maWcuY291bnQpLmludG9faXRlcigpKTsK</text>
+      <register name="0" type="4">
+        <text>BufMut::with_capacity(10 * 1024)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICovCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC8qCg==</text>
+        <text encoding="base64">dXNlIHRva2lvOjppbzo6e0FzeW5jUmVhZCwgQXN5bmNXcml0ZX07Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBjb3VudCA9IHBhY2tldHMubGVuKCk7Cg==</text>
+        <text encoding="base64">dXNlIHRva2lvOjppbzo6e0FzeW5jUmVhZCwgQXN5bmNXcml0ZX07CnB1YiB0cmFpdCBOOiBBc3luY1JlYWQgKyBBc3luY1dyaXRlICsgU2VuZCArIFN5bmMgKyBVbnBpbiB7fQppbXBsPFQ+IE4gZm9yIFQgd2hlcmUgVDogQXN5bmNSZWFkICsgQXN5bmNXcml0ZSArIFVucGluICsgU2VuZCArIFN5bmMge30K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZyYW1lcy5mbHVzaCgpLmF3YWl0LnVud3JhcCgpOwo=</text>
+        <text encoding="base64">dXNlIHRva2lvOjppbzo6e0FzeW5jUmVhZCwgQXN5bmNXcml0ZX07Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmcmFtZXMuc3RvcmUocGFja2V0KS51bndyYXAoKTsK</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciBwYWNrZXQgaW4gcGFja2V0cyB7Cg==</text>
+        <text encoding="base64">ewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICArIFNlbmQK</text>
       </register>
       <register name=":" type="4">
         <text>149</text>
