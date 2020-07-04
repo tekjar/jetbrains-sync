@@ -156,12 +156,12 @@
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/target/debug/build/pprof-091de892dcc50f67/out/perftools.profiles.rs" timestamp="1593755294305">
         <mark key="'" line="132" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/state.rs" timestamp="1593868334394">
-        <mark key="'" line="267" column="7" />
-        <mark key="[" line="624" column="36" />
-        <mark key="]" line="624" column="43" />
-        <mark key="^" line="624" column="43" />
-        <mark key="." line="624" column="42" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/state.rs" timestamp="1593870263421">
+        <mark key="'" line="277" column="7" />
+        <mark key="[" line="255" column="65" />
+        <mark key="]" line="256" column="14" />
+        <mark key="." line="256" column="13" />
+        <mark key="^" line="256" column="14" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/pubrel.rs" timestamp="1593604932649">
         <mark key="[" line="1" column="0" />
@@ -194,12 +194,12 @@
         <mark key="^" line="144" column="49" />
         <mark key="." line="149" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593868278848">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593869412248">
         <mark key="'" line="715" column="4" />
-        <mark key="[" line="335" column="19" />
-        <mark key="]" line="335" column="48" />
-        <mark key="." line="335" column="47" />
-        <mark key="^" line="335" column="48" />
+        <mark key="[" line="308" column="51" />
+        <mark key="]" line="308" column="21" />
+        <mark key="." line="308" column="20" />
+        <mark key="^" line="308" column="21" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/lib.rs" timestamp="1593768803357">
         <mark key="'" line="192" column="2" />
@@ -220,12 +220,12 @@
         <mark key="^" line="107" column="4" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1593868159581">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1593869425363">
         <mark key="'" line="183" column="11" />
-        <mark key="[" line="122" column="71" />
-        <mark key="]" line="122" column="56" />
-        <mark key="^" line="122" column="56" />
-        <mark key="." line="122" column="55" />
+        <mark key="[" line="124" column="14" />
+        <mark key="]" line="124" column="21" />
+        <mark key="^" line="124" column="21" />
+        <mark key="." line="124" column="20" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/connect.rs" timestamp="1593605180526">
         <mark key="'" line="155" column="50" />
@@ -349,46 +349,44 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>Packet</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAqCg==</text>
       </register>
       <register name="-" type="4">
-        <text>Packet</text>
+        <text>u16</text>
       </register>
       <register name="/" type="4">
         <text>handle_outgoing</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGltZTo6ZGVsYXlfZm9yKHNlbGYucmVjb25uZWN0aW9uX2RlbGF5KS5hd2FpdDsKICAgICAgICAgICAgcmV0dXJuIEVycihlKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBfcHVibGlzaCA9IHNlbGYub3V0Z29pbmdfcHViLnJlbW92ZShpbmRleCkuZXhwZWN0KCJXcm9uZyBpbmRleCIpOwogICAgICAgICAgICAgICAgbGV0IHJlcXVlc3QgPSBOb25lOwogICAgICAgICAgICAgICAgbGV0IGluY29taW5nID0gU29tZShJbmNvbWluZzo6UHViQWNrKHB1YmFjaykpOwogICAgICAgICAgICAgICAgT2soKGluY29taW5nLCByZXF1ZXN0KSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgUmVxCg==</text>
+        <text encoding="base64">ICAgICAgICAqCg==</text>
       </register>
-      <register name="2" type="8">
-        <text>Packet
-Packet
-Packet</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgXyA9PiB1bmltcGxlbWVudGVkISgpLAo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIFJlY29ubmVjdChDb25uZWN0KSwK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgTm9uZSA9PiB7Cg==</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIEVycihlKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGltZTo6ZGVsYXlfZm9yKHNlbGYucmVjb25uZWN0aW9uX2RlbGF5KS5hd2FpdDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIE9rKChpbmNvbWluZywgcmVxdWVzdCkpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsZXQgRXJyKGUpID0gc2VsZi5tcXR0X2Nvbm5lY3QoKS5hd2FpdCB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBpbmNvbWluZyA9IFNvbWUoSW5jb21pbmc6OlB1YkFjayhwdWJhY2spKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCByZXF1ZXN0ID0gTm9uZTsK</text>
       </register>
       <register name=":" type="4">
         <text>346</text>
