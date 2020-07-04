@@ -194,12 +194,12 @@
         <mark key="^" line="144" column="49" />
         <mark key="." line="149" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593897236787">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593897449174">
         <mark key="'" line="115" column="0" />
-        <mark key="[" line="647" column="9" />
-        <mark key="]" line="648" column="8" />
-        <mark key="." line="648" column="7" />
-        <mark key="^" line="648" column="8" />
+        <mark key="[" line="649" column="49" />
+        <mark key="]" line="649" column="50" />
+        <mark key="." line="649" column="49" />
+        <mark key="^" line="649" column="50" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/lib.rs" timestamp="1593768803357">
         <mark key="'" line="192" column="2" />
@@ -350,10 +350,11 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="4">
-        <text>}</text>
+        <text>is behaving like a half-open connection 
+        // instead of cleanly closing the socket and returning error immediately</text>
       </register>
       <register name="-" type="4">
-        <text>}</text>
+        <text encoding="base64">d2l0aG91dCA=</text>
       </register>
       <register name="/" type="4">
         <text>println</text>
@@ -361,32 +362,33 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBhc3NlcnRfZXEhKG1xdHQuaW5mbGlnaHQsIDEpOwo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      <register name="1" type="4">
+        <text>is behaving like a half-open connection 
+        // instead of cleanly closing the socket and returning error immediately</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB7Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBkcm9wKGJyb2tlci5mcmFtZWQpOwo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
+        <text encoding="base64">ICAgICAgICB7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKCZzZWxmLnBlbmRpbmdfcHViKTsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBkYmchKCZwZW5kaW5nX3B1Yik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBkcm9wKGJyb2tlci5mcmFtZWQpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnRsbiEoInBhY2tldCA9IHs6P30iLCBwYWNrZXQpOwo=</text>
+        <text encoding="base64">ICAgICAgICBkYmchKCZzZWxmLnBlbmRpbmdfcHViKTsK</text>
       </register>
       <register name=":" type="4">
         <text>554</text>
