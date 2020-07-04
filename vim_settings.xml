@@ -153,6 +153,12 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/tests/smoke.rs" timestamp="1593849553649">
+        <mark key="[" line="77" column="52" />
+        <mark key="]" line="77" column="54" />
+        <mark key="^" line="77" column="54" />
+        <mark key="." line="77" column="53" />
+      </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/basic/target/debug/build/pprof-091de892dcc50f67/out/perftools.profiles.rs" timestamp="1593755294305">
         <mark key="'" line="132" column="4" />
       </file>
@@ -167,12 +173,12 @@
         <mark key="]" line="84" column="0" />
         <mark key="." line="90" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/framed.rs" timestamp="1593847740744">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/framed.rs" timestamp="1593849983276">
         <mark key="'" line="34" column="37" />
-        <mark key="[" line="44" column="98" />
-        <mark key="]" line="45" column="59" />
-        <mark key="." line="45" column="58" />
-        <mark key="^" line="45" column="59" />
+        <mark key="[" line="41" column="93" />
+        <mark key="]" line="41" column="91" />
+        <mark key="." line="41" column="90" />
+        <mark key="^" line="41" column="91" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593781871343">
         <mark key="'" line="12" column="4" />
@@ -181,12 +187,12 @@
         <mark key="^" line="152" column="25" />
         <mark key="." line="105" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" timestamp="1593848066869">
-        <mark key="'" line="143" column="38" />
-        <mark key="[" line="33" column="5" />
-        <mark key="]" line="33" column="27" />
-        <mark key="^" line="33" column="27" />
-        <mark key="." line="33" column="26" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" timestamp="1593849960156">
+        <mark key="'" line="145" column="38" />
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="44" />
+        <mark key="^" line="148" column="0" />
+        <mark key="." line="18" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593844045726">
         <mark key="[" line="25" column="23" />
@@ -227,11 +233,11 @@
         <mark key="^" line="2" column="13" />
         <mark key="." line="168" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/read.rs" timestamp="1593848146536">
-        <mark key="[" line="73" column="43" />
-        <mark key="]" line="73" column="45" />
-        <mark key="." line="73" column="44" />
-        <mark key="^" line="73" column="45" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/read.rs" timestamp="1593849359461">
+        <mark key="[" line="432" column="41" />
+        <mark key="]" line="432" column="42" />
+        <mark key="." line="432" column="41" />
+        <mark key="^" line="432" column="42" />
       </file>
     </filemarks>
     <jumps>
@@ -343,43 +349,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gRXJyKEVycm9yOjpJbnN1ZmZpY2llbnRCeXRlcyk7CiAgICB9Cg==</text>
+        <text encoding="base64">I1tkZXJpdmUoRGVidWcsIENsb25lLCBDb3B5LCBQYXJ0aWFsRXEsIEVxKV0K</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">PA==</text>
+        <text>stream</text>
       </register>
       <register name="/" type="4">
         <text>delay</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBhZGRyID0gc2VsZi5vcHRpb25zLmJyb2tlcl9hZGRyLmFzX3N0cigpOwogICAgICAgICAgICAgICAgbGV0IHBvcnQgPSBzZWxmLm9wdGlvbnMucG9ydDsK</text>
+        <text encoding="base64">I1tkZXJpdmUoRGVidWcsIENsb25lLCBDb3B5LCBQYXJ0aWFsRXEsIEVxKV0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gRXJyKEVycm9yOjpJbnN1ZmZpY2llbnRCeXRlcyk7CiAgICB9Cg==</text>
+        <text encoding="base64">I1tkZXJpdmUoRGVidWcsIENsb25lKV0K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJlYW0ucmVzZXJ2ZShyZW1haW5pbmdfbGVuICsgMik7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gRXJyKEVycm9yOjpJbnN1ZmZpY2llbnRCeXRlcyk7CiAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBzdHJlYW0ucmVzZXJ2ZShyZW1haW5pbmdfbGVuICsgMik7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiBvdXQubGVuKCkgPiAwIHsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7Cg==</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiBvdXQubGVuKCkgPiAwIHsK</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text encoding="base64">bWF0Y2ggbXF0dF9yZWFkKCZtdXQgc2VsZi5yZWFkKSB7CiAgICAgICAgICAgIE9rKHBhY2tldCkgPT4gT2socGFja2V0KQogICAgICAgICAgICBFcnIoRXJyb3I6Okluc3VmZmljaWVudChyZXF1aXJlZCkpID0+IHsKICAgICAgICAgICAgICAgIHNlbGYucGVuZGluZyA9IHJlcXVpcmVkOwogICAgICAgICAgICAgICAgaWYgb3V0LmxlbigpID4gMCB7CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKEVycm9yOjpJbyhlKSkgPT4gcmV0dXJuIEVycihlKSwKICAgICAgICB9CgoKICAgICAgICBsb29wIHsKICAgICAgICAgICAgbGV0IHJlYWQgPSBzZWxmLnN0cmVhbS5yZWFkX2J1ZigmbXV0IHNlbGYucmVhZCkuYXdhaXQ/OwogICAgICAgICAgICBpZiAwID09IHJlYWQgewogICAgICAgICAgICAgICAgcmV0dXJuIGlmIHNlbGYucmVhZC5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgICAgICBFcnIoaW86OkVycm9yOjpuZXcoaW86OkVycm9yS2luZDo6Q29ubmVjdGlvblJlc2V0LCAiY29ubmVjdGlvbiByZXNldCBieSBwZWVyIikpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIEVycihpbzo6RXJyb3I6Om5ldyhpbzo6RXJyb3JLaW5kOjpCcm9rZW5QaXBlLCAiY29ubmVjdGlvbiBicm9rZW4gYnkgcGVlciIpKQogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdG90YWxfcmVhZCArPSByZWFkOwogICAgICAgICAgICBpZiB0b3RhbF9yZWFkID49IHNlbGYucGVuZGluZyB7CiAgICAgICAgICAgICAgICBzZWxmLnBlbmRpbmcgPSAwOwogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICB9</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>149</text>
