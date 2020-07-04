@@ -173,12 +173,11 @@
         <mark key="]" line="84" column="0" />
         <mark key="." line="90" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/framed.rs" timestamp="1593849983276">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/framed.rs" timestamp="1593850884240">
         <mark key="'" line="34" column="37" />
-        <mark key="[" line="41" column="93" />
-        <mark key="]" line="41" column="91" />
-        <mark key="." line="41" column="90" />
-        <mark key="^" line="41" column="91" />
+        <mark key="[" line="71" column="0" />
+        <mark key="]" line="71" column="0" />
+        <mark key="." line="71" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/bin/tokio.rs" timestamp="1593781871343">
         <mark key="'" line="12" column="4" />
@@ -187,18 +186,17 @@
         <mark key="^" line="152" column="25" />
         <mark key="." line="105" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" timestamp="1593849960156">
-        <mark key="'" line="145" column="38" />
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="44" />
-        <mark key="^" line="148" column="0" />
-        <mark key="." line="18" column="0" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" timestamp="1593850164849">
+        <mark key="[" line="149" column="0" />
+        <mark key="]" line="149" column="0" />
+        <mark key="^" line="144" column="49" />
+        <mark key="." line="149" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593844045726">
-        <mark key="[" line="25" column="23" />
-        <mark key="]" line="25" column="15" />
-        <mark key="^" line="25" column="15" />
-        <mark key="." line="25" column="14" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593850690603">
+        <mark key="[" line="706" column="20" />
+        <mark key="]" line="706" column="20" />
+        <mark key="." line="706" column="20" />
+        <mark key="^" line="724" column="53" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/lib.rs" timestamp="1593768803357">
         <mark key="'" line="192" column="2" />
@@ -349,43 +347,43 @@
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">I1tkZXJpdmUoRGVidWcsIENsb25lLCBDb3B5LCBQYXJ0aWFsRXEsIEVxKV0K</text>
+        <text encoding="base64">ICAgICAgICBtcXR0X3dyaXRlKHBhY2tldCwgJm11dCBzZWxmLndyaXRlKT87Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>stream</text>
+        <text>{</text>
       </register>
       <register name="/" type="4">
         <text>delay</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">I1tkZXJpdmUoRGVidWcsIENsb25lLCBDb3B5LCBQYXJ0aWFsRXEsIEVxKV0K</text>
+      <register name="0" type="4">
+        <text encoding="base64">bXF0dF93cml0ZShwYWNrZXQsICZtdXQgc2VsZi53cml0ZSk=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">I1tkZXJpdmUoRGVidWcsIENsb25lKV0K</text>
+        <text encoding="base64">ICAgICAgICBtcXR0X3dyaXRlKHBhY2tldCwgJm11dCBzZWxmLndyaXRlKT87Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gRXJyKEVycm9yOjpJbnN1ZmZpY2llbnRCeXRlcyk7CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBtcXR0X3dyaXRlKHBhY2tldCwgJm11dCBzZWxmLndyaXRlKT87Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJlYW0ucmVzZXJ2ZShyZW1haW5pbmdfbGVuICsgMik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBsZXQgRXJyKGUpID0gbXF0dF93cml0ZShwYWNrZXQsICZtdXQgc2VsZi53cml0ZSkgewo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIEVycihpbzo6RXJyb3I6Om5ldyhpbzo6RXJyb3JLaW5kOjpJbnZhbGlkRGF0YSwgZS50b19zdHJpbmcoKSkpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5mcmFtZWQuZmx1c2goKS5hd2FpdC51bndyYXAoKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7Cg==</text>
+        <text encoding="base64">ICAgIHVzZSBjcmF0ZTo6ZnJhbWVkOjpOCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiBvdXQubGVuKCkgPiAwIHsK</text>
+        <text encoding="base64">ICAgIHVzZQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHVzZSB0b2tpb191dGlsOjpjb2RlYzo6RnJhbWVkOwo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">bWF0Y2ggbXF0dF9yZWFkKCZtdXQgc2VsZi5yZWFkKSB7CiAgICAgICAgICAgIE9rKHBhY2tldCkgPT4gT2socGFja2V0KQogICAgICAgICAgICBFcnIoRXJyb3I6Okluc3VmZmljaWVudChyZXF1aXJlZCkpID0+IHsKICAgICAgICAgICAgICAgIHNlbGYucGVuZGluZyA9IHJlcXVpcmVkOwogICAgICAgICAgICAgICAgaWYgb3V0LmxlbigpID4gMCB7CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKEVycm9yOjpJbyhlKSkgPT4gcmV0dXJuIEVycihlKSwKICAgICAgICB9CgoKICAgICAgICBsb29wIHsKICAgICAgICAgICAgbGV0IHJlYWQgPSBzZWxmLnN0cmVhbS5yZWFkX2J1ZigmbXV0IHNlbGYucmVhZCkuYXdhaXQ/OwogICAgICAgICAgICBpZiAwID09IHJlYWQgewogICAgICAgICAgICAgICAgcmV0dXJuIGlmIHNlbGYucmVhZC5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgICAgICBFcnIoaW86OkVycm9yOjpuZXcoaW86OkVycm9yS2luZDo6Q29ubmVjdGlvblJlc2V0LCAiY29ubmVjdGlvbiByZXNldCBieSBwZWVyIikpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIEVycihpbzo6RXJyb3I6Om5ldyhpbzo6RXJyb3JLaW5kOjpCcm9rZW5QaXBlLCAiY29ubmVjdGlvbiBicm9rZW4gYnkgcGVlciIpKQogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdG90YWxfcmVhZCArPSByZWFkOwogICAgICAgICAgICBpZiB0b3RhbF9yZWFkID49IHNlbGYucGVuZGluZyB7CiAgICAgICAgICAgICAgICBzZWxmLnBlbmRpbmcgPSAwOwogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICB9</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIHVzZSBmdXR1cmVzX3V0aWw6OnNpbms6OlNpbmtFeHQ7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>149</text>
