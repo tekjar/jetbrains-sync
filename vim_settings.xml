@@ -126,12 +126,12 @@
         <mark key="^" line="125" column="76" />
         <mark key="." line="125" column="75" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/publish.rs" timestamp="1593959001522">
-        <mark key="'" line="98" column="43" />
-        <mark key="[" line="75" column="0" />
-        <mark key="]" line="75" column="0" />
-        <mark key="." line="75" column="0" />
-        <mark key="^" line="77" column="11" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/publish.rs" timestamp="1593961344934">
+        <mark key="'" line="100" column="43" />
+        <mark key="[" line="77" column="58" />
+        <mark key="]" line="77" column="63" />
+        <mark key="." line="77" column="62" />
+        <mark key="^" line="77" column="63" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/Cargo.toml" timestamp="1593841771649">
         <mark key="[" line="12" column="48" />
@@ -172,11 +172,11 @@
         <mark key="." line="247" column="0" />
         <mark key="^" line="646" column="50" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/mod.rs" timestamp="1593957556421">
-        <mark key="[" line="46" column="0" />
-        <mark key="]" line="72" column="1" />
-        <mark key="^" line="46" column="0" />
-        <mark key="." line="46" column="0" />
+      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/mod.rs" timestamp="1593961086236">
+        <mark key="[" line="49" column="48" />
+        <mark key="]" line="50" column="20" />
+        <mark key="^" line="50" column="20" />
+        <mark key="." line="50" column="19" />
       </file>
       <file name="$USER_HOME$/Workspace/numbers/minimqtt/bulkio/src/lib.rs" timestamp="1593768803357">
         <mark key="'" line="192" column="2" />
