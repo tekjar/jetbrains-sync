@@ -119,12 +119,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/state.rs" timestamp="1593971872226">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/state.rs" timestamp="1593973156182">
         <mark key="'" line="265" column="37" />
-        <mark key="[" line="164" column="93" />
-        <mark key="]" line="164" column="100" />
-        <mark key="^" line="164" column="100" />
-        <mark key="." line="164" column="99" />
+        <mark key="[" line="406" column="15" />
+        <mark key="]" line="406" column="22" />
+        <mark key="^" line="406" column="22" />
+        <mark key="." line="406" column="21" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/pubrel.rs" timestamp="1593967094811">
         <mark key="[" line="30" column="24" />
@@ -146,12 +146,12 @@
         <mark key="." line="120" column="0" />
         <mark key="^" line="248" column="16" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/framed.rs" timestamp="1593972779388">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/framed.rs" timestamp="1593973548978">
         <mark key="'" line="131" column="24" />
-        <mark key="[" line="130" column="20" />
-        <mark key="]" line="130" column="20" />
-        <mark key="." line="130" column="19" />
-        <mark key="^" line="130" column="20" />
+        <mark key="[" line="164" column="0" />
+        <mark key="]" line="164" column="16" />
+        <mark key="." line="164" column="0" />
+        <mark key="^" line="166" column="31" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/subscribe.rs" timestamp="1593969037371">
         <mark key="'" line="49" column="17" />
@@ -166,12 +166,12 @@
         <mark key="^" line="38" column="16" />
         <mark key="." line="38" column="15" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593971980016">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593973545607">
         <mark key="'" line="247" column="0" />
-        <mark key="[" line="304" column="8" />
-        <mark key="]" line="304" column="15" />
-        <mark key="." line="304" column="8" />
-        <mark key="^" line="304" column="15" />
+        <mark key="[" line="693" column="0" />
+        <mark key="]" line="693" column="12" />
+        <mark key="." line="720" column="41" />
+        <mark key="^" line="720" column="42" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/mod.rs" timestamp="1593969848954">
         <mark key="[" line="27" column="0" />
@@ -210,11 +210,11 @@
         <mark key="^" line="40" column="25" />
         <mark key="." line="40" column="24" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1593972282535">
-        <mark key="[" line="129" column="20" />
-        <mark key="]" line="129" column="21" />
-        <mark key="^" line="129" column="21" />
-        <mark key="." line="129" column="20" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1593973254577">
+        <mark key="[" line="132" column="12" />
+        <mark key="]" line="132" column="13" />
+        <mark key="^" line="132" column="13" />
+        <mark key="." line="132" column="12" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/ping.rs" timestamp="1593969987026">
         <mark key="[" line="12" column="0" />
@@ -354,19 +354,34 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">cGFja2V0LndyaXRlKCZtdXQgc2VsZi53cml0ZSk=</text>
+      <register name="*" type="2">
+        <text encoding="base64">I1tjZmcodGVzdCldCg==</text>
       </register>
       <register name="-" type="4">
-        <text>k</text>
+        <text>packet</text>
       </register>
       <register name="/" type="4">
         <text>outgoing</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">cGFja2V0LndyaXRlKCZtdXQgc2VsZi53cml0ZSk=</text>
+      <register name="0" type="2">
+        <text encoding="base64">I1tjZmcodGVzdCldCg==</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgcGFja2V0ID0gUGFja2V0OjpDb25uQWNrKGNvbm5hY2spOwo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgUmVxdWVzdDo6UGluZ1Jlc3AgPT4ge30K</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICA7Cg==</text>
+      </register>
+      <register name="6" type="8">
         <text>Packet
 Packet
 Packet
@@ -376,7 +391,7 @@ Packet
 Packet
 Packet</text>
       </register>
-      <register name="2" type="8">
+      <register name="7" type="8">
         <text>P
 P
 P
@@ -386,26 +401,11 @@ P
 P
 P</text>
       </register>
-      <register name="3" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbGV0IG91dGdvaW5nID0gU29tZShvdXRnb2luZygmcGFja2V0KSk7Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICkgLT4gUmVzdWx0PFBhY2tldCwgU3RhdGVFcnJvcj4gewo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBPaygoKSkK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">dXNlIHRva2lvX3J1c3Rsczo6Q29ubmVjdDsK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBFcnIoaW86OkVycm9yOjpuZXcoaW86OkVycm9yS2luZDo6SW52YWxpZERhdGEsIGUudG9fc3RyaW5nKCkpKTsK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbGV0IEVycihlKSA9IG1xdHRfd3JpdGUocGFja2V0LCAmbXV0IHNlbGYud3JpdGUpIHsK</text>
+        <text encoding="base64">ICAgICkgLT4gUmVzdWx0PFBhY2tldCwgU3RhdGVFcnJvcj4gewo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/packet\./self\./gc</text>
