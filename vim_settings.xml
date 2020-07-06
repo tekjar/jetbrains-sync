@@ -171,12 +171,11 @@
         <mark key="^" line="38" column="16" />
         <mark key="." line="38" column="15" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1594024355921">
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1594025970948">
         <mark key="'" line="308" column="0" />
-        <mark key="[" line="159" column="28" />
-        <mark key="]" line="159" column="29" />
-        <mark key="." line="159" column="28" />
-        <mark key="^" line="159" column="29" />
+        <mark key="[" line="350" column="0" />
+        <mark key="]" line="351" column="24" />
+        <mark key="." line="350" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/mod.rs" timestamp="1593969848954">
         <mark key="[" line="27" column="0" />
@@ -353,8 +352,8 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text>)</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICBkYmchKG91dC5sZW4oKSk7Cg==</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -366,31 +365,31 @@
         <text encoding="base64">Ly8vIE5leHQgbm90aWZpY2F0aW9uIG9yIG91dGdvaW5nIHJlcXVlc3QKICAgIHB1YiBhc3luYyBmbiBwb2xsKCZtdXQgc2VsZikgLT4gUmVzdWx0PChPcHRpb248SW5jb21pbmc+LCBPcHRpb248T3V0Z29pbmc+KSwgQ29ubmVjdGlvbkVycm9yPiB7CiAgICAgICAgLy8gVGhpcyBtZXRob2QgdXNlZCB0byByZXR1cm4gb25seSBpbmNvbWluZyBuZXR3b3JrIG5vdGlmaWNhdGlvbiB3aGlsZSBzaWxlbnRseSBsb29waW5nIHRocm91Z2gKICAgICAgICAvLyBvdXRnb2luZyByZXF1ZXN0cy4gSW50ZXJuYWwgbG9vcHMgaW5zaWRlIGFzeW5jIGZ1bmN0aW9ucyBhcmUgcmlza3kuIEltYWdpbmUgdGhpcyBmdW5jdGlvbgogICAgICAgIC8vIHdpdGggMTAwIHJlcXVlc3RzIGFuZCAxIGluY29taW5nIHBhY2tldC4gSWYgdGhpcyBgU3RyZWFtYCAod2hpY2ggaW50ZXJuYWxseSBsb29wcykgaXMKICAgICAgICAvLyBzZWxlY3RlZCB3aXRoIG90aGVyIHN0cmVhbXMsIGNhbiBwb3RlbnRpYWxseSBkbyBtb3JlIGludGVybmFsIHBvbGxpbmcgKGlmIHRoZSBzb2NrZXQgaXMgcmVhZHkpCiAgICAgICAgaWYgc2VsZi5uZXR3b3JrLmlzX25vbmUoKXsKICAgICAgICAgICAgbGV0IGNvbm5hY2sgPSBzZWxmLmNvbm5lY3Rfb3JfY2FuY2VsKCkuYXdhaXQ/OwogICAgICAgICAgICByZXR1cm4gT2soKFNvbWUoY29ubmFjayksIE5vbmUpKQogICAgICAgIH0KCiAgICAgICAgbGV0IChpbmNvbWluZywgb3V0Z29pbmcpID0gbWF0Y2ggc2VsZi5zZWxlY3QoKS5hd2FpdCB7CiAgICAgICAgICAgIE9rKChpLCBvKSkgPT4gKGksIG8pLAogICAgICAgICAgICBFcnIoZSkgPT4gewogICAgICAgICAgICAgICAgc2VsZi5uZXR3b3JrID0gTm9uZTsKICAgICAgICAgICAgICAgIHJldHVybiBFcnIoZSkKICAgICAgICAgICAgfQogICAgICAgIH07CgogICAgICAgIE9rKChpbmNvbWluZywgb3V0Z29pbmcpKQogICAgfQ==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBkYmchKG91dC5sZW4oKSk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIE9rKFNvbWUob3V0KSkK</text>
+        <text encoding="base64">ICAgICAgICBkYmchKG91dC5sZW4oKSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBkYmchKG91dC5sZW4oKSk7CiAgICAgICAgbWF0Y2ggcmVxdWVzdHMubmV4dCgpLmF3YWl0IHsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIE9rKFNvbWUob3V0KSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0IC5wdXNoKHJlcXVlc3QpOyAKICAgICAgICAgICAgY29udGludWUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB9CiAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBicmVhawo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGxldCBtdXQgY291bnQgPSAwOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3V0IC5wdXNoKHJlcXVlc3QpOyAKICAgICAgICAgICAgY29udGludWUK</text>
       </register>
       <register name=":" type="4">
         <text>%s/packet\./self\./gc</text>
