@@ -159,18 +159,24 @@
         <mark key="." line="69" column="18" />
         <mark key="^" line="180" column="24" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/examples/syncpubsub.rs" timestamp="1594018556201">
+        <mark key="[" line="8" column="33" />
+        <mark key="]" line="8" column="34" />
+        <mark key="." line="8" column="33" />
+        <mark key="^" line="8" column="34" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/lib.rs" timestamp="1593972187449">
         <mark key="[" line="38" column="9" />
         <mark key="]" line="38" column="16" />
         <mark key="^" line="38" column="16" />
         <mark key="." line="38" column="15" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1593977366402">
-        <mark key="'" line="297" column="0" />
-        <mark key="[" line="181" column="28" />
-        <mark key="]" line="181" column="29" />
-        <mark key="." line="181" column="28" />
-        <mark key="^" line="181" column="29" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" timestamp="1594018628590">
+        <mark key="'" line="246" column="0" />
+        <mark key="[" line="393" column="0" />
+        <mark key="]" line="393" column="0" />
+        <mark key="^" line="7" column="47" />
+        <mark key="." line="393" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/mod.rs" timestamp="1593969848954">
         <mark key="[" line="27" column="0" />
@@ -190,18 +196,6 @@
         <mark key="." line="3" column="3" />
         <mark key="^" line="3" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/puback.rs" timestamp="1593962320585">
-        <mark key="[" line="30" column="23" />
-        <mark key="]" line="30" column="27" />
-        <mark key="^" line="30" column="27" />
-        <mark key="." line="30" column="26" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/pubrec.rs" timestamp="1593967085582">
-        <mark key="[" line="30" column="24" />
-        <mark key="]" line="30" column="28" />
-        <mark key="." line="30" column="27" />
-        <mark key="^" line="30" column="28" />
-      </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/unsubscribe.rs" timestamp="1593969916939">
         <mark key="'" line="31" column="51" />
         <mark key="[" line="0" column="0" />
@@ -209,11 +203,12 @@
         <mark key="^" line="40" column="25" />
         <mark key="." line="40" column="24" />
       </file>
-      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1593973254577">
-        <mark key="[" line="132" column="12" />
-        <mark key="]" line="132" column="13" />
-        <mark key="^" line="132" column="13" />
-        <mark key="." line="132" column="12" />
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" timestamp="1594018504795">
+        <mark key="'" line="347" column="4" />
+        <mark key="[" line="356" column="11" />
+        <mark key="]" line="356" column="19" />
+        <mark key="^" line="356" column="19" />
+        <mark key="." line="356" column="18" />
       </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/ping.rs" timestamp="1593969987026">
         <mark key="[" line="12" column="0" />
@@ -238,6 +233,11 @@
         <mark key="[" line="184" column="0" />
         <mark key="]" line="185" column="18" />
       </file>
+      <file name="$USER_HOME$/Workspace/rumqtt/rumqttc/examples/asyncpubsub.rs" timestamp="1594018601774">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
+      </file>
       <file name="$USER_HOME$/Workspace/rumqtt/mqtt4bytes/src/packets/pubcomp.rs" timestamp="1593967102832">
         <mark key="[" line="30" column="23" />
         <mark key="]" line="30" column="27" />
@@ -246,7 +246,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="436" column="16" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/eventloop.rs" />
       <jump line="381" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/state.rs" />
       <jump line="217" column="0" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/state.rs" />
       <jump line="228" column="34" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/state.rs" />
@@ -346,6 +345,7 @@
       <jump line="204" column="39" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/state.rs" />
       <jump line="265" column="37" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/state.rs" />
       <jump line="131" column="24" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/framed.rs" />
+      <jump line="350" column="4" filename="$USER_HOME$/Workspace/rumqtt/rumqttc/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -353,8 +353,8 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWF4X3NlZ21lbnRfc2l6ZSwK</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">Ly8vIFNlbGVjdCBvbiBuZXR3b3JrIGFuZCByZXF1ZXN0cyBhbmQgZ2VuZXJhdGUga2VlcGFsaXZlIHBpbmdzIHdoZW4gbmVjZXNzYXJ5CiAgICBhc3luYyBmbiBzZWxlY3QoJm11dCBzZWxmKSAtPiBSZXN1bHQ8KE9wdGlvbjxJbmNvbWluZz4sIE9wdGlvbjxPdXRnb2luZz4pLCBDb25uZWN0aW9uRXJyb3I+IHsKICAgICAgICBsZXQgbmV0d29yayA9ICZtdXQgc2VsZi5uZXR3b3JrLmFzX211dCgpLnVud3JhcCgpOwogICAgICAgIGxldCBpbmZsaWdodF9mdWxsID0gc2VsZi5zdGF0ZS5pbmZsaWdodCA+PSBzZWxmLm9wdGlvbnMuaW5mbGlnaHQ7CiAgICAgICAgbGV0IChpbmNvbWluZywgb3V0cGFja2V0KSA9IHNlbGVjdCEgewogICAgICAgICAgICAvLyBQdWxsIG5leHQgcGFja2V0IGZyb20gbmV0d29yawogICAgICAgICAgICBvID0gbmV0d29yay5yZWFkKCkgPT4gbWF0Y2ggbyB7CiAgICAgICAgICAgICAgICBPayhwYWNrZXQpID0+IHNlbGYuc3RhdGUuaGFuZGxlX2luY29taW5nX3BhY2tldChwYWNrZXQpPywKICAgICAgICAgICAgICAgIEVycihlKSA9PiByZXR1cm4gRXJyKENvbm5lY3Rpb25FcnJvcjo6SW8oZSkpCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIC8vIFB1bGwgbmV4dCByZXF1ZXN0IGZyb20gdXNlciByZXF1ZXN0cyBjaGFubmVsLgogICAgICAgICAgICAvLyB3ZSByZWFkIHVzZXIgcmVxdWVzdHMgb25seSB3aGVuIHdlIGFyZSBkb25lIHNlbmRpbmcgcGVuZGluZwogICAgICAgICAgICAvLyBwYWNrZXRzIGFuZCBpbmZsaWdodCBxdWV1ZSBoYXMgc3BhY2UgKGZvciBmbG93IGNvbnRyb2wpCiAgICAgICAgICAgIG8gPSBzZWxmLnJlcXVlc3RzLm5leHQoKSwgaWYgIWluZmxpZ2h0X2Z1bGwgJiYgIXNlbGYuaGFzX3BlbmRpbmcgPT4gbWF0Y2ggbyB7CiAgICAgICAgICAgICAgICBTb21lKHJlcXVlc3QpID0+IHNlbGYuc3RhdGUuaGFuZGxlX291dGdvaW5nX3BhY2tldChyZXF1ZXN0LmludG8oKSk/LAogICAgICAgICAgICAgICAgTm9uZSA9PiByZXR1cm4gRXJyKENvbm5lY3Rpb25FcnJvcjo6UmVxdWVzdHNEb25lKSwKICAgICAgICAgICAgfSwKICAgICAgICAgICAgLy8gSGFuZGxlIHRoZSBuZXh0IHBlbmRpbmcgcGFja2V0IGZyb20gcHJldmlvdXMgc2Vzc2lvbi4gRGlzYWJsZQogICAgICAgICAgICAvLyB0aGlzIGJyYW5jaCB3aGVuIGRvbmUgd2l0aCBhbGwgdGhlIHBlbmRpbmcgcGFja2V0cwogICAgICAgICAgICBvID0gbmV4dF9wZW5kaW5nKHNlbGYub3B0aW9ucy50aHJvdHRsZSwgJm11dCBzZWxmLnBlbmRpbmdfcHViLCAmbXV0IHNlbGYucGVuZGluZ19yZWwpLCBpZiBzZWxmLmhhc19wZW5kaW5nID0+IG1hdGNoIG8gewogICAgICAgICAgICAgICAgU29tZShyZXF1ZXN0KSA9PiBzZWxmLnN0YXRlLmhhbmRsZV9vdXRnb2luZ19wYWNrZXQocmVxdWVzdCk/LAogICAgICAgICAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgICAgICAgICAgc2VsZi5oYXNfcGVuZGluZyA9IGZhbHNlOwogICAgICAgICAgICAgICAgICAgIC8vIHRoaXMgaXMgdGhlIG9ubHkgcGxhY2Ugd2hlcmUgcG9sbCByZXR1cm5zIGEgc3B1cmlvdXMgKE5vbmUsIE5vbmUpCiAgICAgICAgICAgICAgICAgICAgKE5vbmUsIE5vbmUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIC8vIFdlIGdlbmVyYXRlIHBpbmdzIGlycmVzcGVjdGl2ZSBvZiBuZXR3b3JrIGFjdGl2aXR5LiBUaGlzIGtlZXBzIHRoZSBwaW5nIGxvZ2ljCiAgICAgICAgICAgIC8vIHNpbXBsZS4gV2UgY2FuIGNoYW5nZSB0aGlzIGJlaGF2aW9yIGluIGZ1dHVyZSBpZiBuZWNlc3NhcnkgKHRvIHByZXZlbnQgZXh0cmEgcGluZ3MpCiAgICAgICAgICAgIF8gPSAmbXV0IHNlbGYua2VlcGFsaXZlX3RpbWVvdXQgPT4gewogICAgICAgICAgICAgICAgc2VsZi5rZWVwYWxpdmVfdGltZW91dC5yZXNldChJbnN0YW50Ojpub3coKSArIHNlbGYub3B0aW9ucy5rZWVwX2FsaXZlKTsKICAgICAgICAgICAgICAgIHNlbGYuc3RhdGUuaGFuZGxlX291dGdvaW5nX3BhY2tldChSZXF1ZXN0OjpQaW5nUmVxKT87CiAgICAgICAgICAgICAgICAoTm9uZSwgU29tZShSZXF1ZXN0OjpQaW5nUmVxKSkKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyBjYW5jZWxsYXRpb24gcmVxdWVzdHMgdG8gc3RvcCB0aGUgcG9sbGluZwogICAgICAgICAgICBfID0gc2VsZi5jYW5jZWxfcngubmV4dCgpID0+IHsKICAgICAgICAgICAgICAgIHJldHVybiBFcnIoQ29ubmVjdGlvbkVycm9yOjpDYW5jZWwpCiAgICAgICAgICAgIH0KICAgICAgICB9OwoKICAgICAgICAvLyB3cml0ZSB0aGUgcmVwbHkgYmFjayB0byB0aGUgbmV0d29yay4gZmx1c2g/PwogICAgICAgIGlmIGxldCBTb21lKHBhY2tldCkgPSBvdXRwYWNrZXQgewogICAgICAgICAgICBsZXQgb3V0Z29pbmcgPSBTb21lKG91dGdvaW5nKCZwYWNrZXQpKTsKICAgICAgICAgICAgbmV0d29yay53cml0ZShwYWNrZXQpLmF3YWl0PzsKICAgICAgICAgICAgcmV0dXJuIE9rKChpbmNvbWluZywgb3V0Z29pbmcpKQogICAgICAgIH0KCiAgICAgICAgT2soKGluY29taW5nLCBOb25lKSkKICAgIH0=</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -366,45 +366,31 @@
         <text encoding="base64">Ly8vIFNlbGVjdCBvbiBuZXR3b3JrIGFuZCByZXF1ZXN0cyBhbmQgZ2VuZXJhdGUga2VlcGFsaXZlIHBpbmdzIHdoZW4gbmVjZXNzYXJ5CiAgICBhc3luYyBmbiBzZWxlY3QoJm11dCBzZWxmKSAtPiBSZXN1bHQ8KE9wdGlvbjxJbmNvbWluZz4sIE9wdGlvbjxPdXRnb2luZz4pLCBDb25uZWN0aW9uRXJyb3I+IHsKICAgICAgICBsZXQgbmV0d29yayA9ICZtdXQgc2VsZi5uZXR3b3JrLmFzX211dCgpLnVud3JhcCgpOwogICAgICAgIGxldCBpbmZsaWdodF9mdWxsID0gc2VsZi5zdGF0ZS5pbmZsaWdodCA+PSBzZWxmLm9wdGlvbnMuaW5mbGlnaHQ7CiAgICAgICAgbGV0IChpbmNvbWluZywgb3V0cGFja2V0KSA9IHNlbGVjdCEgewogICAgICAgICAgICAvLyBQdWxsIG5leHQgcGFja2V0IGZyb20gbmV0d29yawogICAgICAgICAgICBvID0gbmV0d29yay5yZWFkKCkgPT4gbWF0Y2ggbyB7CiAgICAgICAgICAgICAgICBPayhwYWNrZXQpID0+IHNlbGYuc3RhdGUuaGFuZGxlX2luY29taW5nX3BhY2tldChwYWNrZXQpPywKICAgICAgICAgICAgICAgIEVycihlKSA9PiByZXR1cm4gRXJyKENvbm5lY3Rpb25FcnJvcjo6SW8oZSkpCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIC8vIFB1bGwgbmV4dCByZXF1ZXN0IGZyb20gdXNlciByZXF1ZXN0cyBjaGFubmVsLgogICAgICAgICAgICAvLyB3ZSByZWFkIHVzZXIgcmVxdWVzdHMgb25seSB3aGVuIHdlIGFyZSBkb25lIHNlbmRpbmcgcGVuZGluZwogICAgICAgICAgICAvLyBwYWNrZXRzIGFuZCBpbmZsaWdodCBxdWV1ZSBoYXMgc3BhY2UgKGZvciBmbG93IGNvbnRyb2wpCiAgICAgICAgICAgIG8gPSBzZWxmLnJlcXVlc3RzLm5leHQoKSwgaWYgIWluZmxpZ2h0X2Z1bGwgJiYgIXNlbGYuaGFzX3BlbmRpbmcgPT4gbWF0Y2ggbyB7CiAgICAgICAgICAgICAgICBTb21lKHJlcXVlc3QpID0+IHNlbGYuc3RhdGUuaGFuZGxlX291dGdvaW5nX3BhY2tldChyZXF1ZXN0LmludG8oKSk/LAogICAgICAgICAgICAgICAgTm9uZSA9PiByZXR1cm4gRXJyKENvbm5lY3Rpb25FcnJvcjo6UmVxdWVzdHNEb25lKSwKICAgICAgICAgICAgfSwKICAgICAgICAgICAgLy8gSGFuZGxlIHRoZSBuZXh0IHBlbmRpbmcgcGFja2V0IGZyb20gcHJldmlvdXMgc2Vzc2lvbi4gRGlzYWJsZQogICAgICAgICAgICAvLyB0aGlzIGJyYW5jaCB3aGVuIGRvbmUgd2l0aCBhbGwgdGhlIHBlbmRpbmcgcGFja2V0cwogICAgICAgICAgICBvID0gbmV4dF9wZW5kaW5nKHNlbGYub3B0aW9ucy50aHJvdHRsZSwgJm11dCBzZWxmLnBlbmRpbmdfcHViLCAmbXV0IHNlbGYucGVuZGluZ19yZWwpLCBpZiBzZWxmLmhhc19wZW5kaW5nID0+IG1hdGNoIG8gewogICAgICAgICAgICAgICAgU29tZShyZXF1ZXN0KSA9PiBzZWxmLnN0YXRlLmhhbmRsZV9vdXRnb2luZ19wYWNrZXQocmVxdWVzdCk/LAogICAgICAgICAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgICAgICAgICAgc2VsZi5oYXNfcGVuZGluZyA9IGZhbHNlOwogICAgICAgICAgICAgICAgICAgIC8vIHRoaXMgaXMgdGhlIG9ubHkgcGxhY2Ugd2hlcmUgcG9sbCByZXR1cm5zIGEgc3B1cmlvdXMgKE5vbmUsIE5vbmUpCiAgICAgICAgICAgICAgICAgICAgKE5vbmUsIE5vbmUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIC8vIFdlIGdlbmVyYXRlIHBpbmdzIGlycmVzcGVjdGl2ZSBvZiBuZXR3b3JrIGFjdGl2aXR5LiBUaGlzIGtlZXBzIHRoZSBwaW5nIGxvZ2ljCiAgICAgICAgICAgIC8vIHNpbXBsZS4gV2UgY2FuIGNoYW5nZSB0aGlzIGJlaGF2aW9yIGluIGZ1dHVyZSBpZiBuZWNlc3NhcnkgKHRvIHByZXZlbnQgZXh0cmEgcGluZ3MpCiAgICAgICAgICAgIF8gPSAmbXV0IHNlbGYua2VlcGFsaXZlX3RpbWVvdXQgPT4gewogICAgICAgICAgICAgICAgc2VsZi5rZWVwYWxpdmVfdGltZW91dC5yZXNldChJbnN0YW50Ojpub3coKSArIHNlbGYub3B0aW9ucy5rZWVwX2FsaXZlKTsKICAgICAgICAgICAgICAgIHNlbGYuc3RhdGUuaGFuZGxlX291dGdvaW5nX3BhY2tldChSZXF1ZXN0OjpQaW5nUmVxKT87CiAgICAgICAgICAgICAgICAoTm9uZSwgU29tZShSZXF1ZXN0OjpQaW5nUmVxKSkKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyBjYW5jZWxsYXRpb24gcmVxdWVzdHMgdG8gc3RvcCB0aGUgcG9sbGluZwogICAgICAgICAgICBfID0gc2VsZi5jYW5jZWxfcngubmV4dCgpID0+IHsKICAgICAgICAgICAgICAgIHJldHVybiBFcnIoQ29ubmVjdGlvbkVycm9yOjpDYW5jZWwpCiAgICAgICAgICAgIH0KICAgICAgICB9OwoKICAgICAgICAvLyB3cml0ZSB0aGUgcmVwbHkgYmFjayB0byB0aGUgbmV0d29yay4gZmx1c2g/PwogICAgICAgIGlmIGxldCBTb21lKHBhY2tldCkgPSBvdXRwYWNrZXQgewogICAgICAgICAgICBsZXQgb3V0Z29pbmcgPSBTb21lKG91dGdvaW5nKCZwYWNrZXQpKTsKICAgICAgICAgICAgbmV0d29yay53cml0ZShwYWNrZXQpLmF3YWl0PzsKICAgICAgICAgICAgcmV0dXJuIE9rKChpbmNvbWluZywgb3V0Z29pbmcpKQogICAgICAgIH0KCiAgICAgICAgT2soKGluY29taW5nLCBOb25lKSkKICAgIH0=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgcGFja2V0ID0gUGFja2V0OjpDb25uQWNrKGNvbm5hY2spOwo=</text>
-      </register>
-      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIH0K</text>
+      </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgUmVxdWVzdDo6UGluZ1Jlc3AgPT4ge30K</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICA7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFzc2VydF9lcSEoZWxhcHNlZC5hc19zZWNzKCksIG9wdGlvbnMyLnBlbmRpbmdfdGhyb3R0bGUuYXNfc2VjcygpKQo=</text>
       </register>
-      <register name="6" type="8">
-        <text>Packet
-Packet
-Packet
-Packet
-Packet
-Packet
-Packet
-Packet</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRiZyEoZWxhcHNlZC5hc19taWxsaXMoKSk7Cg==</text>
       </register>
-      <register name="7" type="8">
-        <text>P
-P
-P
-P
-P
-P
-P
-P</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgaSA+IDAgewo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IG91dGdvaW5nID0gU29tZShvdXRnb2luZygmcGFja2V0KSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICkgLT4gUmVzdWx0PFBhY2tldCwgU3RhdGVFcnJvcj4gewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IGVsYXBzZWQgPSBzdGFydC5lbGFwc2VkKCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/packet\./self\./gc</text>
