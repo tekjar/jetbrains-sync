@@ -62,7 +62,7 @@
       <option name="RUST_FILE" value="true" />
     </context>
   </template>
-  <template name="criterioncargo" value="[dev-dependencies]&#10;criterion = &quot;0.3&quot;&#10;&#10;[[bench]]&#10;name = &quot;my_benchmark&quot;&#10;harness = false" description="Cargo configuration for criterion" toReformat="false" toShortenFQNames="true">
+  <template name="criterioncargo" value="[dev-dependencies]&#10;criterion = &quot;0.3&quot;&#10;&#10;[[bench]]&#10;name = &quot;bench&quot;&#10;harness = false" description="Cargo configuration for criterion" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CMAKE" value="false" />
       <option name="CSS" value="false" />
@@ -84,7 +84,7 @@
       <option name="objc" value="false" />
     </context>
   </template>
-  <template name="criterioninit" value="use criterion::{black_box, criterion_group, criterion_main, Criterion};&#10;use mycrate::fibonacci;&#10;&#10;pub fn criterion_benchmark(c: &amp;mut Criterion) {&#10;    c.bench_function(&quot;fib 20&quot;, |b| b.iter(|| fibonacci(black_box(20))));&#10;}&#10;&#10;criterion_group!(benches, criterion_benchmark);&#10;criterion_main!(benches);" description="New criterion benchmarks file initialization" toReformat="false" toShortenFQNames="true">
+  <template name="criterioninit" value="use criterion::{black_box, criterion_group, criterion_main, Criterion};&#10;&#10;fn fibonacci(n: u64) -&gt; u64 {&#10;    match n {&#10;        0 =&gt; 1,&#10;        1 =&gt; 1,&#10;        n =&gt; fibonacci(n-1) + fibonacci(n-2),&#10;    }&#10;}&#10;&#10;fn criterion_benchmark(c: &amp;mut Criterion) {&#10;    c.bench_function(&quot;fib 20&quot;, |b| b.iter(|| fibonacci(black_box(20))));&#10;}&#10;&#10;criterion_group!(benches, criterion_benchmark);&#10;criterion_main!(benches);" description="New criterion benchmarks file initialization" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="RUST_FILE" value="true" />
     </context>
