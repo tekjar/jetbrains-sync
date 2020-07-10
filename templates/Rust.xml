@@ -62,7 +62,7 @@
       <option name="RUST_FILE" value="true" />
     </context>
   </template>
-  <template name="criterioncargo" value="[dev-dependencies]&#10;criterion = &quot;0.3&quot;&#10;&#10;[[bench]]&#10;name = &quot;bench&quot;&#10;harness = false" description="Cargo configuration for criterion" toReformat="false" toShortenFQNames="true">
+  <template name="criterioncargo" value="[lib]&#10;bench = false&#10;&#10;[dev-dependencies]&#10;criterion = &quot;0.3&quot;&#10;&#10;[[bench]]&#10;name = &quot;bench&quot;&#10;harness = false" description="Cargo configuration for criterion" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CMAKE" value="false" />
       <option name="CSS" value="false" />
