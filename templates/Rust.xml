@@ -89,8 +89,12 @@
       <option name="RUST_FILE" value="true" />
     </context>
   </template>
-  <template name="criterionbfn" value="pub fn criterion_benchmark(c: &amp;mut Criterion) {&#10;    c.bench_function(&quot;fib 20&quot;, |b| b.iter(|| fibonacci(black_box(20))));&#10;}" description="New criterion bench function" toReformat="false" toShortenFQNames="true" />
-  <template name="criterionbbfn" value=" c.bench_function(&quot;encode 10, 1024&quot;, move |b| {&#10;        b.iter_batched(|| new_publish(10, 1024), |publish| {&#10;            encode(black_box(publish))&#10;        }, BatchSize::SmallInput)&#10;});" description="Criterion batched bench function" toReformat="false" toShortenFQNames="true">
+  <template name="criterionbfn" value="pub fn criterion_benchmark(c: &amp;mut Criterion) {&#10;    c.bench_function(&quot;fib 20&quot;, |b| b.iter(|| fibonacci(black_box(20))));&#10;}" description="New criterion bench function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
+  <template name="criterionbbfn" value="pub fn criterion_benchmark(c: &amp;mut Criterion) {&#10;    let mut group = c.benchmark_group(&quot;encode throughput&quot;);&#10;    group.throughput(Throughput::Bytes(1024));&#10;    group.bench_function(&quot;encode 10, 1024&quot;, move |b| {&#10;        b.iter_batched(|| new_publish(10, 1024), |publish| {&#10;            encode(black_box(publish))&#10;        }, BatchSize::LargeInput)&#10;    });&#10;}&#10;" description="Criterion batched bench function" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="RUST_FILE" value="true" />
     </context>
