@@ -1,6 +1,10 @@
 <keymap version="1" name="GNOME copy" parent="Default for GNOME">
   <action id="Console.TableResult.ColumnVisibility" />
   <action id="Console.TableResult.SelectRow" />
+  <action id="EditorMoveUpAndScroll">
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="GotoClass" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="space" second-keystroke="f" />
@@ -13,6 +17,7 @@
     <keyboard-shortcut first-keystroke="shift f2" />
     <keyboard-shortcut first-keystroke="shift space" second-keystroke="e" />
   </action>
+  <action id="SelectNextOccurrence" />
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="ctrl tab" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
