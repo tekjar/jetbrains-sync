@@ -1,4 +1,7 @@
 <keymap version="1" name="GNOME copy" parent="Default for GNOME">
+  <action id="Cargo.ToggleExternalLinterOnTheFlyAction">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="Console.TableResult.ColumnVisibility" />
   <action id="Console.TableResult.SelectRow" />
   <action id="EditorMoveUpAndScroll">
@@ -21,6 +24,10 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl alt n" />
     <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="SelectNextOccurrence" />
   <action id="ToggleZenMode">

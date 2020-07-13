@@ -99,4 +99,9 @@
       <option name="RUST_FILE" value="true" />
     </context>
   </template>
+  <template name="error" value="#[derive(Debug, thiserror::Error)]&#10;pub enum Error {&#10;    #[error(&quot;I/O&quot;)]&#10;    Io(#[from] io::Error),&#10; }" description="new error" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
 </templateSet>
