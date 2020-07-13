@@ -4,26 +4,26 @@
   <action id="EditorMoveUpAndScroll">
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
+  <action id="ExecuteInPyConsoleAction" />
   <action id="GotoClass" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
-    <keyboard-shortcut first-keystroke="space" second-keystroke="f" />
+    <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="f2" />
-    <keyboard-shortcut first-keystroke="space" second-keystroke="e" />
+    <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="shift f2" />
-    <keyboard-shortcut first-keystroke="shift space" second-keystroke="e" />
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift ctrl alt n" />
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="SelectNextOccurrence" />
-  <action id="Switcher">
-    <keyboard-shortcut first-keystroke="ctrl tab" />
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
-    <keyboard-shortcut first-keystroke="space" second-keystroke="space" />
-  </action>
   <action id="ToggleZenMode">
-    <keyboard-shortcut first-keystroke="space" second-keystroke="z" />
+    <keyboard-shortcut first-keystroke="altGraph z" />
   </action>
 </keymap>
